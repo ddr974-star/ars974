@@ -1,0 +1,20 @@
+{
+  "section": "Goutteur & outil montage",
+  "code_famille": "K09",
+  "famille": "Goutteur standard démontable NESTOS",
+  "caracteristiques_communes": {
+    "regime": "Turbulent",
+    "debit_nominal_a": "1 bar",
+    "demontable": true,
+    "tube_compatible": "4 x 6 mm",
+    "sortie": "Lisse"
+  },
+  "variantes": [
+    { "reference": "50NES2S000K", "designation": "NESTOS (x100)", "couleur": "Noir",   "debit_lh": 2,  "quantite": 100, "conditionnement": "Sachet",  "colisage": "1/50", "prix_ht": 28.87, "pu_ht": 0.2887 },
+    { "reference": "980108",      "designation": "NESTOS (x25)",  "couleur": "Noir",   "debit_lh": 2,  "quantite": 25,  "conditionnement": "Blister", "colisage": "1/10", "prix_ht": 10.55, "pu_ht": 0.4220, "code_option": "X02" },
+    { "reference": "50NES4S000K", "designation": "NESTOS (x100)", "couleur": "Vert",   "debit_lh": 4,  "quantite": 100, "conditionnement": "Sachet",  "colisage": "1/50", "prix_ht": 28.87, "pu_ht": 0.2887 },
+    { "reference": "980109",      "designation": "NESTOS (x25)",  "couleur": "Vert",   "debit_lh": 4,  "quantite": 25,  "conditionnement": "Blister", "colisage": "1/10", "prix_ht": 10.55, "pu_ht": 0.4220, "code_option": "X02" },
+    { "reference": "50NES8S000K", "designation": "NESTOS (x100)", "couleur": "Marron", "debit_lh": 8,  "quantite": 100, "conditionnement": "Sachet",  "colisage": "1/50", "prix_ht": 28.87, "pu_ht": 0.2887 },
+    { "reference": "50NES16S00K", "designation": "NESTOS (x100)", "couleur": "Violet", "debit_lh": 16, "quantite": 100, "conditionnement": "Sachet",  "colisage": "1/50", "prix_ht": 28.87, "pu_ht": 0.2887 }
+  ]
+}
