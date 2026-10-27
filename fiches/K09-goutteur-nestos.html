@@ -30,13 +30,17 @@
   .code strong { color: var(--vert-fonce); }
 
   .haut { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; align-items: start; }
-  .visuels { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .visuels { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
   .visuel {
-    aspect-ratio: 1; border: 1px dashed var(--bordure); border-radius: 8px;
-    display: flex; flex-direction: column; align-items: center; justify-content: center;
-    gap: 8px; color: var(--gris); font-size: .8rem; background: var(--fond-alt); text-align: center; padding: 8px;
+    margin: 0; border: 1px solid var(--bordure); border-radius: 8px; background: #fff;
+    overflow: hidden; text-align: center;
   }
-  .visuel .pastille { width: 48px; height: 48px; }
+  .visuel img { display: block; width: 100%; height: auto; }
+  .visuel figcaption {
+    display: flex; align-items: center; justify-content: center; gap: 6px;
+    font-size: .8rem; font-weight: 600; padding: 6px 4px; background: var(--fond-alt);
+  }
+  .visuel .pastille { width: 12px; height: 12px; }
 
   .accroche { font-size: 1.1rem; margin-top: 0; }
   ul.atouts { padding-left: 0; list-style: none; margin: 16px 0; }
@@ -84,11 +88,13 @@
   <p class="code">Code famille <strong>K09</strong> · Débits 2, 4, 8 et 16 l/h</p>
 
   <div class="haut">
-    <div class="visuels" aria-label="Visuels produit (à remplacer par les photos)">
-      <div class="visuel"><span class="pastille noir"></span>Photo goutteur noir – 2 l/h</div>
-      <div class="visuel"><span class="pastille vert"></span>Photo goutteur vert – 4 l/h</div>
-      <div class="visuel"><span class="pastille marron"></span>Photo goutteur marron – 8 l/h</div>
-      <div class="visuel"><span class="pastille violet"></span>Photo goutteur violet – 16 l/h</div>
+    <div class="visuels" aria-label="Visuels produit">
+      <figure class="visuel"><img src="images/nestos-2lh-noir.png" alt="Goutteur NESTOS noir 2 l/h"><figcaption><span class="pastille noir"></span> 2 l/h</figcaption></figure>
+      <figure class="visuel"><img src="images/nestos-4lh-vert.png" alt="Goutteur NESTOS vert 4 l/h"><figcaption><span class="pastille vert"></span> 4 l/h</figcaption></figure>
+      <figure class="visuel"><img src="images/nestos-8lh-marron.png" alt="Goutteur NESTOS marron 8 l/h"><figcaption><span class="pastille marron"></span> 8 l/h</figcaption></figure>
+      <figure class="visuel"><img src="images/nestos-16lh-violet.png" alt="Goutteur NESTOS violet 16 l/h"><figcaption><span class="pastille violet"></span> 16 l/h</figcaption></figure>
+      <figure class="visuel"><img src="images/nestos-blister-2lh.png" alt="Blister de 25 goutteurs NESTOS 2 l/h"><figcaption>Blister x25 · 2 l/h</figcaption></figure>
+      <figure class="visuel"><img src="images/nestos-blister-4lh.png" alt="Blister de 25 goutteurs NESTOS 4 l/h"><figcaption>Blister x25 · 4 l/h</figcaption></figure>
     </div>
 
     <div>
