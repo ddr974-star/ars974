@@ -56,6 +56,19 @@ h1, h2, h3, p { margin: 0; }
 .bt { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
 .slogan { font: italic 700 11.5px/1.1 var(--body); letter-spacing: 0; color: var(--accent); }
 .grow { flex: 1; }
+/* Bandeau défilant au-dessus de l'en-tête */
+.ticker { overflow: hidden; background: var(--accent); color: var(--accent-fg); font: 600 13px/1 var(--body); }
+.ttrack { display: flex; width: max-content; animation: ticker 22s linear infinite; }
+.ticker:hover .ttrack, .ticker:active .ttrack, .ticker:focus-within .ttrack { animation-play-state: paused; }
+.titem { display: flex; align-items: center; flex: none; gap: 16px; margin: 0; padding: 10px 16px 10px 0; white-space: nowrap; }
+.titem a { color: inherit; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+.tsep { opacity: 0.6; }
+@keyframes ticker { to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) {
+  .ttrack { animation: none; }
+  .titem[aria-hidden] { display: none; }
+  .titem { padding-left: 16px; }
+}
 .hcart { position: relative; display: grid; place-items: center; flex: none; width: 44px; height: 44px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--fg); }
 .hcart:active { transform: scale(0.94); }
 .hcart .badge { top: -7px; right: -7px; left: auto; }
@@ -294,6 +307,12 @@ h1, h2, h3, p { margin: 0; }
   </span>
 </div>
 <div id="app">
+  <div class="ticker" role="region" aria-label="Contact">
+    <div class="ttrack">
+      <p class="titem"><span>Une question ? Appelez-nous au <a href="tel:+262692249436">0692 24 94 36</a></span><span class="tsep" aria-hidden="true">•</span><span>Conseils en irrigation par téléphone</span><span class="tsep" aria-hidden="true">•</span><span>Livraison offerte dès 150 €</span><span class="tsep" aria-hidden="true">•</span></p>
+      <p class="titem" aria-hidden="true"><span>Une question ? Appelez-nous au <a href="tel:+262692249436" tabindex="-1">0692 24 94 36</a></span><span class="tsep">•</span><span>Conseils en irrigation par téléphone</span><span class="tsep">•</span><span>Livraison offerte dès 150 €</span><span class="tsep">•</span></p>
+    </div>
+  </div>
   <header class="top">
     <div class="wrap">
       <a class="brand" href="#" id="home" aria-label="Mon-arrosage.re, accueil"><span id="logo"></span><span class="bt"><span class="bn">Mon-arrosage<span class="tld">.re</span></span><span class="slogan">Le spécialiste de l'irrigation</span></span></a>
