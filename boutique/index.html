@@ -306,7 +306,7 @@ h1, h2, h3, p { margin: 0; }
           <button class="rnav prev" id="rprev" type="button" aria-label="Rubrique précédente" hidden></button>
           <button class="rnav next" id="rnext" type="button" aria-label="Rubrique suivante"></button>
         </div>
-        <div class="dotsrow"><div class="dots" id="dots"></div><button class="rplay" id="rplay" type="button"></button></div>
+        <div class="dotsrow"><div class="dots" id="dots"></div></div>
       </div>
       <label class="search">
         <span class="sr">Rechercher un article</span>
@@ -765,6 +765,7 @@ var NESTOS_IMG = {
   }
   function paintPlay() {
     var b = $('#rplay');
+    if (!b) return;
     b.innerHTML = ic(playing ? 'pause' : 'play', 12, 2.2);
     b.setAttribute('aria-label', playing ? 'Mettre en pause le défilement automatique' : 'Lancer le défilement automatique');
   }
@@ -785,7 +786,7 @@ var NESTOS_IMG = {
     ['pointerup', 'pointercancel'].forEach(function (n) {
       window.addEventListener(n, function () { if (touchF) { touchF = false; setHold(); } });
     });
-    $('#rplay').addEventListener('click', function () {
+    if ($('#rplay')) $('#rplay').addEventListener('click', function () {
       playing = !playing; paintPlay();
       if (playing) schedule(); else { clearTimeout(timer); $('#dots').classList.remove('auto', 'hold'); }
     });
