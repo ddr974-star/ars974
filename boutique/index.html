@@ -283,6 +283,20 @@ h1, h2, h3, p { margin: 0; }
 .dtile:has(.dimg) { background: #fff; border: 1px solid var(--line); }
 .dprice { letter-spacing: -0.02em; }
 .btn { border-radius: 14px; box-shadow: 0 8px 18px -10px color-mix(in srgb, var(--accent) 80%, transparent); }
+
+/* Photos : cadre aux proportions fixes, photo en position absolue à l'intérieur.
+   Safari sur iPhone calcule mal height: 100% dans un cadre défini par aspect-ratio : la photo débordait sur le texte. */
+.tile, .dtile, .timg { position: relative; overflow: hidden; }
+.tile > .pimg, .dtile > .pimg, .timg > img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; }
+.tile:has(.pimg) { padding: 0; }
+.tile > .pimg { padding: 4px; }
+.dtile > .pimg { padding: 10px; }
+.dtile { margin-top: 16px; }
+/* iOS 14 et antérieurs : pas d'aspect-ratio, on réserve la hauteur avec un padding en pourcentage */
+@supports not (aspect-ratio: 1 / 1) {
+  .card .tile, .timg { height: 0; padding-top: 100%; }
+  .dtile { height: 0; padding-top: 56.25%; }
+}
 </style>
 
 <div class="stage"><div class="phone"><div class="screen">
