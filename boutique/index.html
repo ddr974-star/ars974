@@ -90,6 +90,7 @@ h1, h2, h3, p { margin: 0; }
 .rub:has(.rimg) { display: grid; grid-template-columns: minmax(0, 1fr) 88px; grid-template-rows: 1fr auto; gap: 10px 12px; align-items: start; }
 .rub:has(.rimg) .rgo { grid-column: 1; grid-row: 2; margin-top: 0; }
 .rimg { grid-column: 2; grid-row: 1 / span 2; align-self: center; display: block; width: 88px; height: 88px; padding: 5px; border-radius: 12px; background: #fff; box-shadow: 0 1px 2px rgba(20,50,25,.08); }
+.rub:has(.rimg) .rtitle { font-size: 16.5px; white-space: nowrap; }
 .rimg img { display: block; width: 100%; height: 100%; object-fit: contain; }
 .rnav { display: none; position: absolute; top: 50%; z-index: 2; width: 38px; height: 38px; margin-top: -19px; place-items: center; border: 1px solid var(--line); border-radius: 50%; background: var(--surface); color: var(--fg); box-shadow: 0 2px 10px rgba(0, 0, 0, 0.14); }
 .rnav.prev { left: 22px; }
