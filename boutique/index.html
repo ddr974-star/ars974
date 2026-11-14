@@ -20,20 +20,8 @@
   --body: "Instrument Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
 }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #0D1510; --surface: #121C15; --soft: #19261D; --line: #25362A;
-    --fg: #E7EFE6; --muted: #94A898; --accent: #7CC98A; --accent-fg: #0A170E;
-    --accent-soft: #1A3322; --ok: #7CCB95; --warn: #E3A24F; --scrim: rgba(0, 0, 0, 0.6);
-    color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --bg: #0D1510; --surface: #121C15; --soft: #19261D; --line: #25362A;
-  --fg: #E7EFE6; --muted: #94A898; --accent: #7CC98A; --accent-fg: #0A170E;
-  --accent-soft: #1A3322; --ok: #7CCB95; --warn: #E3A24F; --scrim: rgba(0, 0, 0, 0.6);
-  color-scheme: dark;
-}
+/* Thème clair imposé : la boutique garde son fond clair même quand le téléphone est en mode sombre */
+:root { color-scheme: light; }
 * { box-sizing: border-box; }
 body { background: var(--soft); color: var(--fg); font: 400 15px/1.5 var(--body); -webkit-font-smoothing: antialiased; }
 #app { max-width: 480px; margin-inline: auto; min-height: 100vh; background: var(--bg); border-inline: 1px solid var(--line); }
