@@ -106,11 +106,7 @@ h1, h2, h3, p { margin: 0; }
 .rplay { display: grid; place-items: center; width: 28px; height: 28px; border: 1px solid var(--line); border-radius: 50%; background: var(--surface); color: var(--muted); }
 .dotb { padding: 8px 3px; border: 0; background: none; }
 .dot { position: relative; overflow: hidden; display: block; width: 6px; height: 6px; border-radius: 3px; background: var(--line); transition: width 0.2s ease, background 0.2s ease; }
-.dot.on { width: 26px; }
-.dot.on::after { content: ""; position: absolute; inset: 0; border-radius: 3px; background: var(--accent); transform-origin: left center; }
-.dots.auto .dot.on::after { transform: scaleX(0); animation: fill var(--ms, 4000ms) linear forwards; }
-.dots.auto.hold .dot.on::after { animation-play-state: paused; }
-@keyframes fill { to { transform: scaleX(1); } }
+.dot.on { background: var(--accent); }
 #cats { scroll-margin-top: 68px; }
 .chips { display: flex; gap: 8px; overflow-x: auto; padding-block: 4px 14px; scrollbar-width: none; }
 .chips::-webkit-scrollbar { display: none; }
