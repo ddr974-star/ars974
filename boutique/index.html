@@ -56,6 +56,9 @@ h1, h2, h3, p { margin: 0; }
 .bt { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
 .slogan { font: italic 700 11.5px/1.1 var(--body); letter-spacing: 0; color: var(--accent); }
 .grow { flex: 1; }
+.hcart { position: relative; display: grid; place-items: center; flex: none; width: 44px; height: 44px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--fg); }
+.hcart:active { transform: scale(0.94); }
+.hcart .badge { top: -7px; right: -7px; left: auto; }
 .badge { position: absolute; top: 0; left: calc(50% + 6px); min-width: 20px; height: 20px; padding-inline: 5px; display: grid; place-items: center; border-radius: 999px; background: var(--accent); color: var(--accent-fg); font: 500 11px/1 var(--mono); }
 
 /* Barre d'onglets */
@@ -294,6 +297,8 @@ h1, h2, h3, p { margin: 0; }
   <header class="top">
     <div class="wrap">
       <a class="brand" href="#" id="home" aria-label="Mon-arrosage.re, accueil"><span id="logo"></span><span class="bt"><span class="bn">Mon-arrosage<span class="tld">.re</span></span><span class="slogan">Le spécialiste de l'irrigation</span></span></a>
+      <span class="grow"></span>
+      <button class="hcart" type="button" id="topcart" aria-label="Ouvrir le panier"><span id="topcartic"></span><span class="badge" id="badge2" hidden>0</span></button>
     </div>
   </header>
 
@@ -544,6 +549,7 @@ var NESTOS_IMG = {
   /* Icônes statiques */
   $('#logo').innerHTML = ic('drop', 18, 2);
   $('#cartic').innerHTML = ic('cart', 22);
+  $('#topcartic').innerHTML = ic('cart', 22);
   $('#tabHomeIc').innerHTML = ic('grid', 22);
   $('#tabSearchIc').innerHTML = ic('search', 22);
   $('#searchic').innerHTML = ic('search', 18);
@@ -599,6 +605,9 @@ var NESTOS_IMG = {
     var t = totals();
     $('#badge').hidden = t.qty === 0;
     $('#badge').textContent = t.qty;
+    $('#badge2').hidden = t.qty === 0;
+    $('#badge2').textContent = t.qty;
+    $('#topcart').setAttribute('aria-label', 'Ouvrir le panier, ' + t.qty + ' article' + (t.qty > 1 ? 's' : ''));
     $('#cartbtn').setAttribute('aria-label', 'Ouvrir le panier, ' + t.qty + ' article' + (t.qty > 1 ? 's' : ''));
   }
   function stepper(id, q) {
@@ -877,6 +886,7 @@ var NESTOS_IMG = {
     renderChips(); renderGrid();
   }
   $('#cartbtn').addEventListener('click', openCart);
+  $('#topcart').addEventListener('click', openCart);
   function toTop() { window.scrollTo({ top: 0 }); $('#app').scrollTo({ top: 0 }); }
   $('#tabHome').addEventListener('click', toTop);
   $('#tabSearch').addEventListener('click', function () {
