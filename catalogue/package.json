@@ -1,0 +1,8 @@
+{
+  "name": "catalogue-mon-arrosage",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Exporte catalogue.xlsx vers boutique/produits.js",
+  "scripts": { "export": "node exporter.js" },
+  "dependencies": { "exceljs": "^4.4.0" }
+}

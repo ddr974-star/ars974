@@ -1,1 +1,4 @@
 .claude/settings.local.json
+catalogue/node_modules/
+catalogue/~$*.xlsx
+catalogue/.~lock.*
