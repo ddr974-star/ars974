@@ -1,6 +1,6 @@
 <!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <title>Mon-arrosage.re</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:ital,wght@0,400;0,500;0,600;1,700&display=swap">
 <style>
 /* Layout: boutique mobile d'abord, en-tête fixe, catalogue en grille de fiches sobres, panneaux latéraux (fiche, panier) */
 :root {
@@ -16,9 +16,9 @@
   --ok: #2E7D4F;
   --warn: #9A5A08;
   --scrim: rgba(5, 15, 18, 0.45);
-  --display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
-  --body: "Instrument Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
-  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --display: "Poppins", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --body: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --mono: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
 }
 /* Thème clair imposé : la boutique garde son fond clair même quand le téléphone est en mode sombre */
 :root { color-scheme: light; }
@@ -297,6 +297,70 @@ h1, h2, h3, p { margin: 0; }
   .card .tile, .timg { height: 0; padding-top: 100%; }
   .dtile { height: 0; padding-top: 56.25%; }
 }
+
+/* ── Lisibilité et confort tactile (cibles de 44 px, textes ≥ 11 px) ── */
+.card .add { width: 36px; height: 36px; }
+.step button { width: 44px; height: 44px; }
+.rm, .x { width: 44px; height: 44px; }
+.btn { height: 48px; }
+.sel { height: 44px; }
+.chk { min-height: 44px; }
+.chip { min-height: 40px; }
+.vchip { min-height: 44px; }
+.dotb { padding: 14px 4px; }
+.rplay { width: 36px; height: 36px; }
+.tab { font-size: 12px; }
+.from { font-size: 11px; }
+.kicker { font-size: 11px; }
+.dhint, .dht { font-size: 13px; }
+.card .name { font-size: 12.5px; }
+/* Liseret des produits : vert foncé */
+:root { --border-dark: #1F4D2B; }
+.card, .thumb:not([aria-pressed="true"]) { border-color: var(--border-dark); }
+/* Tous les liserets de l'application en vert (en-tête, champs, boutons, panneaux, séparateurs, onglets) */
+:root { --line: var(--border-dark); }
+.dot:not(.on) { background: #BCD3B8; }
+.card { border-color: var(--border-dark); }
+/* Images plus grandes */
+.dtile { aspect-ratio: 4 / 3; }
+.dtile > .pimg { padding: 4px; }
+.tile > .pimg { padding: 1px; }
+.rub:has(.rimg) { grid-template-columns: minmax(0, 1fr) 108px; }
+.rimg { width: 108px; height: 108px; padding: 4px; }
+@supports not (aspect-ratio: 1 / 1) {
+  .dtile { padding-top: 75%; }
+}
+/* Carrousel : titres, sous-titres, icône et lien centrés */
+.rub { align-items: center; text-align: center; }
+.rub:has(.rimg) .rtitle, .rub:has(.rimg) .rsub { text-align: center; }
+.rub:has(.rimg) .rgo { justify-self: center; }
+.search { scroll-margin-top: 66px; }
+/* Descriptions centrées */
+.dtext, .dhint, .dht, .dfam, .rsub, .hero p { text-align: center; }
+.card .spec, .card .name { text-align: center; }
+.card .meta { align-items: center; }
+/* Descriptions : plus grandes et plus foncées (moins de gris clair) */
+:root { --desc: #2B3D31; }
+.dtext { font-size: 16px; line-height: 1.6; color: var(--desc); }
+.dspec, .dhint, .dht, .dfam { color: var(--desc); }
+.dspec { font-size: 14px; }
+.dhint, .dht { font-size: 13.5px; }
+.rsub { font-size: 14px; color: var(--desc); }
+.card .spec { font-size: 11.5px; color: var(--desc); }
+.dl dt { color: var(--desc); }
+.dl dd { color: var(--fg); }
+.ship, .note, .hero p { color: var(--desc); }
+/* Fiche produit : titre de l'en-tête centré (la croix reste à droite) */
+#detail .phead, #cart .phead { position: relative; justify-content: flex-end; min-height: 60px; }
+#detail .phead h2, #cart .phead h2 { position: absolute; left: 64px; right: 64px; top: 50%; transform: translateY(-50%); text-align: center; text-transform: uppercase; letter-spacing: 0.04em; font-size: 18px; }
+/* Fiche produit : titre centré */
+.dname, .dspec { text-align: center; }
+.dname { text-transform: uppercase; font-size: 24px; line-height: 1.2; letter-spacing: 0.01em; }
+/* Hiérarchie : section de fiche plus marquée, prix plus lisible dans le panier */
+.dsec { margin-top: 32px; font-size: 19px; }
+.rtitle { font-size: 20px; }
+.rub:has(.rimg) .rtitle { font-size: 17.5px; }
+.sum .grand { font-size: 20px; }
 </style>
 
 <div class="stage"><div class="phone"><div class="screen">
@@ -337,7 +401,7 @@ h1, h2, h3, p { margin: 0; }
       <label class="search">
         <span class="sr">Rechercher un article</span>
         <span id="searchic"></span>
-        <input id="q" type="search" placeholder="Ø16, goutteur 4 L/h, électrovanne…" autocomplete="off" enterkeyhint="search">
+        <input id="q" type="search" placeholder="Goutteur, raccord, programmateur…" autocomplete="off" enterkeyhint="search">
       </label>
     </section>
 
@@ -419,7 +483,7 @@ h1, h2, h3, p { margin: 0; }
     return '<svg class="ic" width="' + size + '" height="' + size + '" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="' + (sw || 1.6) + '" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + ICONS[name] + '</svg>';
   }
   function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
-  function norm(s) { return s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); }
+  function norm(s) { return s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[øØ⌀]/g, ''); }
   var eur = new Intl.NumberFormat('fr-FR', { style: 'currency', currency: 'EUR' });
   var FREE_FROM = 150, SHIPPING = 6.9;
   var $ = function (s) { return document.querySelector(s); };
@@ -898,7 +962,11 @@ var NESTOS_IMG = {
     S.cat = b.getAttribute('data-cat'); renderChips(); renderGrid();
     var again = $('#chips [aria-pressed="true"]'); if (again) { again.scrollIntoView({ inline: 'center', block: 'nearest' }); }
   });
-  $('#q').addEventListener('input', function (e) { S.q = e.target.value; renderGrid(); });
+  $('#q').addEventListener('input', function (e) {
+    S.q = e.target.value; renderGrid();
+    /* Les résultats sont sous le carrousel : on remonte la recherche en haut de l'écran pour les voir */
+    if (S.q.trim()) { var sb = document.querySelector('.search'); if (sb && sb.scrollIntoView) sb.scrollIntoView({ block: 'start' }); }
+  });
   $('#sort').addEventListener('change', function (e) { S.sort = e.target.value; renderGrid(); });
   $('#stock').addEventListener('change', function (e) { S.stock = e.target.checked; renderGrid(); });
   function resetFilters() {
