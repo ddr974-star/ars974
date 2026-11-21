@@ -1,0 +1,909 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Caisse Mon-arrosage.re</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap">
+<style>
+:root {
+  --bg: #F6F8F3;
+  --surface: #FFFFFF;
+  --soft: #E8EFE3;
+  --line: #D9E2D3;
+  --fg: #14231A;
+  --muted: #566A5B;
+  --accent: #2F6B3A;
+  --accent-fg: #FFFFFF;
+  --accent-soft: #DDEBD8;
+  --danger: #B3261E;
+  --danger-soft: #FBE9E7;
+  --warn: #9A5A08;
+  --scrim: rgba(5, 15, 18, 0.45);
+  --display: "Poppins", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --body: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html, body { height: 100%; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 400 16px/1.45 var(--body); -webkit-font-smoothing: antialiased; }
+button, input, select { font: inherit; color: inherit; }
+button { cursor: pointer; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+h1, h2, h3, p { margin: 0; }
+.num { font-variant-numeric: tabular-nums; }
+.muted { color: var(--muted); }
+.ic { display: block; flex: none; }
+
+/* Structure */
+#app { display: grid; grid-template-rows: auto 1fr; height: 100dvh; }
+.top { display: flex; align-items: center; gap: 12px; padding: 8px 16px; padding-top: calc(8px + env(safe-area-inset-top, 0px)); background: var(--surface); border-bottom: 1px solid var(--line); }
+.brand { display: flex; align-items: center; gap: 10px; font: 700 18px/1 var(--display); letter-spacing: -0.02em; white-space: nowrap; }
+.logo { display: grid; place-items: center; width: 32px; height: 32px; border-radius: 9px; background: var(--accent); color: var(--accent-fg); }
+.brand small { font: 500 13px/1 var(--body); color: var(--muted); }
+.grow { flex: 1; }
+.nav { display: flex; gap: 4px; padding: 4px; border-radius: 12px; background: var(--soft); }
+.nav button { min-height: 40px; padding: 0 14px; border: 0; border-radius: 9px; background: none; color: var(--muted); font-weight: 600; font-size: 14px; }
+.nav button[aria-current="true"] { background: var(--surface); color: var(--fg); box-shadow: 0 1px 2px rgba(20,50,25,.12); }
+.clock { font: 500 14px/1 var(--body); color: var(--muted); white-space: nowrap; }
+
+.view { min-height: 0; }
+.view[hidden] { display: none !important; }
+
+/* Vente : catalogue + ticket */
+#v-vente { display: grid; grid-template-columns: minmax(0, 1fr) 400px; min-height: 0; }
+.cat { display: flex; flex-direction: column; min-height: 0; }
+.tools { display: flex; flex-direction: column; gap: 12px; padding: 16px 16px 8px; }
+.search { position: relative; }
+.search .ic { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--muted); pointer-events: none; }
+.search input { width: 100%; height: 48px; padding: 0 14px 0 44px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; font-size: 16px; }
+.search input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+.chips { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; }
+.chips::-webkit-scrollbar { display: none; }
+.chip { flex: none; min-height: 40px; padding: 0 16px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); font-size: 14px; font-weight: 600; color: var(--muted); }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-fg); }
+.grid { flex: 1; min-height: 0; overflow-y: auto; display: grid; grid-template-columns: repeat(auto-fill, minmax(168px, 1fr)); align-content: start; gap: 12px; padding: 8px 16px 24px; }
+.prod { display: flex; flex-direction: column; gap: 8px; min-width: 0; padding: 10px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); text-align: left; transition: transform .08s, border-color .15s; }
+.prod:hover { border-color: var(--accent); }
+.prod:active { transform: scale(.97); }
+.prod .ph { aspect-ratio: 4 / 3; display: grid; place-items: center; border-radius: 10px; background: var(--bg); overflow: hidden; }
+.prod .ph img { width: 100%; height: 100%; object-fit: contain; }
+.prod .ph .ini { font: 700 22px/1 var(--display); color: var(--accent); opacity: .5; }
+.prod .nm { font: 600 14px/1.25 var(--body); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 2.5em; }
+.prod .vr { display: flex; align-items: center; gap: 6px; font-size: 13px; color: var(--muted); min-height: 1.3em; }
+.dot { width: 12px; height: 12px; border-radius: 50%; border: 1px solid rgba(0,0,0,.15); flex: none; }
+.prod .ft { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; margin-top: auto; }
+.prod .pr { font: 700 17px/1 var(--display); color: var(--accent); white-space: nowrap; }
+.prod .rf { font-size: 11px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.prod.out { opacity: .55; }
+.empty { grid-column: 1 / -1; padding: 48px 16px; text-align: center; color: var(--muted); }
+
+.side { display: flex; flex-direction: column; min-height: 0; background: var(--surface); border-left: 1px solid var(--line); }
+.side-h { display: flex; align-items: center; gap: 8px; padding: 16px 16px 12px; border-bottom: 1px solid var(--line); }
+.side-h h2 { font: 700 18px/1.2 var(--display); }
+.side-h .close { display: none; }
+.lines { flex: 1; min-height: 0; overflow-y: auto; padding: 4px 16px; }
+.line { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 12px; padding: 12px 0; border-bottom: 1px solid var(--line); }
+.line .lt { font-weight: 600; font-size: 15px; line-height: 1.3; }
+.line .ls { font-size: 13px; color: var(--muted); }
+.line .lp { font: 700 16px/1.3 var(--display); text-align: right; }
+.qty { display: flex; align-items: center; gap: 4px; }
+.qty button { width: 40px; height: 40px; display: grid; place-items: center; border: 1px solid var(--line); border-radius: 10px; background: var(--bg); }
+.qty input { width: 56px; height: 40px; text-align: center; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+.qty .del { margin-left: 4px; color: var(--danger); border-color: transparent; background: none; }
+.line .lact { grid-column: 1 / -1; display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.cart-empty { padding: 48px 8px; text-align: center; color: var(--muted); }
+.cart-empty .ic { margin: 0 auto 12px; color: var(--line); }
+
+.sum { padding: 12px 16px 16px; padding-bottom: calc(16px + env(safe-area-inset-bottom, 0px)); border-top: 1px solid var(--line); background: var(--bg); display: flex; flex-direction: column; gap: 10px; }
+.row { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; font-size: 14px; }
+.row.big { font: 700 26px/1.1 var(--display); }
+.row.big span:first-child { font-size: 18px; }
+.actions { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
+.btn { min-height: 48px; padding: 0 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); font-weight: 600; font-size: 15px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; }
+.btn:active { transform: scale(.97); }
+.btn.sm { min-height: 40px; font-size: 14px; padding: 0 12px; }
+.btn.pri { background: var(--accent); border-color: var(--accent); color: var(--accent-fg); }
+.btn.pri:disabled { opacity: .4; cursor: not-allowed; }
+.btn.dng { color: var(--danger); }
+.btn.dngf { background: var(--danger); border-color: var(--danger); color: #fff; }
+.pay { min-height: 60px; font-size: 18px; }
+
+.fab { display: none; }
+
+/* Historique et clôture */
+.page { height: 100%; overflow-y: auto; padding: 24px 16px 48px; }
+.page-in { max-width: 960px; margin: 0 auto; display: flex; flex-direction: column; gap: 24px; }
+.page h1 { font: 700 26px/1.15 var(--display); letter-spacing: -0.02em; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px; }
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; }
+.kpi .k { font-size: 13px; color: var(--muted); font-weight: 500; }
+.kpi .v { font: 700 24px/1.2 var(--display); margin-top: 4px; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { text-align: left; padding: 10px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); font-weight: 600; }
+td.r, th.r { text-align: right; }
+tr.annule td { color: var(--muted); text-decoration: line-through; }
+tr.avoir td { color: var(--danger); }
+.tag { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 12px; font-weight: 600; background: var(--soft); color: var(--muted); text-decoration: none; }
+.tag.red { background: var(--danger-soft); color: var(--danger); }
+.tbl-wrap { overflow-x: auto; margin: 0 -16px; padding: 0 16px; }
+.bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.field { display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600; }
+.field input, .field select { height: 48px; padding: 0 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); font-weight: 400; font-size: 16px; }
+.field input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+.note { font-size: 13px; color: var(--muted); line-height: 1.5; }
+
+/* Fenêtres */
+.modal { position: fixed; inset: 0; z-index: 50; display: grid; place-items: center; padding: 16px; background: var(--scrim); }
+.modal[hidden] { display: none; }
+.dlg { width: 100%; max-width: 480px; max-height: calc(100dvh - 32px); overflow-y: auto; background: var(--surface); border-radius: 18px; padding: 20px; display: flex; flex-direction: column; gap: 16px; box-shadow: 0 20px 60px rgba(0,0,0,.25); }
+.dlg h2 { font: 700 20px/1.2 var(--display); }
+.dlg-h { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.x { width: 44px; height: 44px; display: grid; place-items: center; border: 0; border-radius: 10px; background: var(--bg); }
+.due { text-align: center; padding: 16px; border-radius: 14px; background: var(--accent-soft); }
+.due .k { font-size: 14px; font-weight: 600; color: var(--accent); }
+.due .v { font: 700 40px/1.1 var(--display); color: var(--fg); }
+.modes { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+.mode { min-height: 56px; border: 2px solid var(--line); border-radius: 12px; background: var(--surface); font-weight: 600; display: flex; align-items: center; justify-content: center; gap: 8px; }
+.mode[aria-pressed="true"] { border-color: var(--accent); background: var(--accent-soft); color: var(--accent); }
+.quick { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; }
+.quick button { min-height: 44px; border: 1px solid var(--line); border-radius: 10px; background: var(--bg); font-weight: 600; font-size: 14px; }
+.amount { height: 56px !important; font: 700 24px/1 var(--display) !important; text-align: right; }
+.paid-list { display: flex; flex-direction: column; gap: 6px; }
+.paid-list .row { padding: 8px 12px; background: var(--bg); border-radius: 10px; }
+.change { padding: 14px; border-radius: 12px; background: #FFF4E0; color: var(--warn); font: 700 20px/1.2 var(--display); text-align: center; }
+.vchoices { display: grid; grid-template-columns: 1fr; gap: 8px; }
+.vchoice { display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 8px 14px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); text-align: left; }
+.vchoice:hover { border-color: var(--accent); }
+.vchoice .t { flex: 1; min-width: 0; }
+.vchoice .t b { display: block; font-size: 15px; }
+.vchoice .t small { color: var(--muted); font-size: 13px; }
+.vchoice .p { font: 700 17px/1 var(--display); color: var(--accent); }
+.seg { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; padding: 4px; background: var(--soft); border-radius: 12px; }
+.seg button { min-height: 40px; border: 0; border-radius: 9px; background: none; font-weight: 600; color: var(--muted); }
+.seg button[aria-pressed="true"] { background: var(--surface); color: var(--fg); box-shadow: 0 1px 2px rgba(20,50,25,.12); }
+
+.toast { position: fixed; left: 50%; bottom: 24px; z-index: 60; transform: translateX(-50%); padding: 12px 18px; border-radius: 12px; background: var(--fg); color: #fff; font-weight: 600; font-size: 14px; box-shadow: 0 8px 24px rgba(0,0,0,.2); max-width: calc(100% - 32px); }
+.toast[hidden] { display: none; }
+
+/* Ticket imprimé */
+#print { display: none; }
+@media print {
+  @page { size: 80mm auto; margin: 4mm; }
+  body { background: #fff; }
+  #app, .modal, .toast { display: none !important; }
+  #print { display: block; width: 72mm; font: 400 11px/1.35 "Courier New", monospace; color: #000; }
+  #print h3 { font: 700 14px/1.2 Arial, sans-serif; text-align: center; }
+  #print .c { text-align: center; }
+  #print hr { border: 0; border-top: 1px dashed #000; margin: 6px 0; }
+  #print .pr { display: flex; justify-content: space-between; gap: 8px; }
+  #print .tot { font-weight: 700; font-size: 14px; }
+}
+
+/* Tablette en portrait et téléphone */
+@media (max-width: 860px) {
+  #v-vente { grid-template-columns: minmax(0, 1fr); }
+  .side { position: fixed; inset: 0; z-index: 40; border-left: 0; transform: translateY(100%); transition: transform .22s ease; }
+  .side.open { transform: none; }
+  .side-h { padding-top: calc(16px + env(safe-area-inset-top, 0px)); }
+  .side-h .close { display: grid; }
+  .fab { position: fixed; z-index: 30; left: 16px; right: 16px; bottom: calc(16px + env(safe-area-inset-bottom, 0px)); display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 60px; padding: 0 20px; border: 0; border-radius: 16px; background: var(--accent); color: var(--accent-fg); font-weight: 600; box-shadow: 0 8px 24px rgba(20,60,30,.3); }
+  .fab b { font: 700 20px/1 var(--display); }
+  .grid { padding-bottom: 100px; }
+  .toast { bottom: calc(92px + env(safe-area-inset-bottom, 0px)); }
+}
+@media (max-width: 600px) {
+  .top { flex-wrap: wrap; gap: 8px; }
+  .brand small, .clock { display: none; }
+  .nav { order: 3; width: 100%; }
+  .nav button { flex: 1; padding: 0 8px; }
+  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .prod { padding: 8px; }
+  .prod .rf { display: none; }
+  .quick { grid-template-columns: repeat(3, 1fr); }
+}
+@media (prefers-reduced-motion: reduce) { .side { transition: none; } }
+</style>
+</head>
+<body>
+<div id="app">
+  <header class="top">
+    <div class="brand">
+      <span class="logo" aria-hidden="true"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5s-6 6.6-6 11a6 6 0 0 0 12 0c0-4.4-6-11-6-11z"/></svg></span>
+      <span>Caisse <small>Mon-arrosage.re</small></span>
+    </div>
+    <div class="grow"></div>
+    <nav class="nav" aria-label="Sections">
+      <button data-view="vente" aria-current="true">Vente</button>
+      <button data-view="tickets">Tickets</button>
+      <button data-view="cloture">Clôture</button>
+    </nav>
+    <span class="clock num" id="clock"></span>
+  </header>
+
+  <!-- VENTE -->
+  <main class="view" id="v-vente">
+    <section class="cat" aria-label="Articles">
+      <div class="tools">
+        <label class="search">
+          <svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Rechercher un article ou scanner une référence</span>
+          <input id="q" type="search" placeholder="Nom ou référence (Entrée pour ajouter)" autocomplete="off" enterkeyhint="go">
+        </label>
+        <div class="chips" id="chips" role="group" aria-label="Catégories"></div>
+      </div>
+      <div class="grid" id="grid"></div>
+    </section>
+
+    <aside class="side" id="side" aria-label="Ticket en cours">
+      <div class="side-h">
+        <h2>Ticket en cours</h2>
+        <span class="grow"></span>
+        <button class="btn sm dng" id="clear" title="Vider le ticket">Vider</button>
+        <button class="x close" id="closeSide" aria-label="Fermer le ticket"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      </div>
+      <div class="lines" id="lines"></div>
+      <div class="sum">
+        <div class="row"><span class="muted">Sous-total</span><span class="num" id="sSub">0,00 €</span></div>
+        <div class="row" id="sRemRow" hidden><span class="muted" id="sRemLbl">Remise</span><span class="num" id="sRem"></span></div>
+        <div class="row"><span class="muted">dont TVA <span id="sTvaRate"></span></span><span class="num" id="sTva">0,00 €</span></div>
+        <div class="row big"><span>Total TTC</span><span class="num" id="sTot">0,00 €</span></div>
+        <div class="actions">
+          <button class="btn sm" id="bRemise">Remise</button>
+          <button class="btn sm" id="bLibre">Article libre</button>
+          <button class="btn sm" id="bAttente">En attente</button>
+        </div>
+        <button class="btn pri pay" id="bPay" disabled>Encaisser</button>
+      </div>
+    </aside>
+    <button class="fab" id="fab"><span id="fabN">Ticket vide</span><b class="num" id="fabT">0,00 €</b></button>
+  </main>
+
+  <!-- TICKETS -->
+  <main class="view" id="v-tickets" hidden>
+    <div class="page"><div class="page-in">
+      <div class="bar"><h1>Tickets</h1><span class="grow"></span>
+        <label class="field" style="flex-direction:row;align-items:center"><span>Jour</span><input type="date" id="tDay"></label>
+      </div>
+      <div class="card" id="waitCard" hidden>
+        <h2 style="font:700 17px/1.2 var(--display);margin-bottom:8px">Tickets en attente</h2>
+        <div id="waitList"></div>
+      </div>
+      <div class="card"><div class="tbl-wrap"><table>
+        <thead><tr><th>N°</th><th>Heure</th><th>Articles</th><th>Paiement</th><th class="r">Total TTC</th><th></th></tr></thead>
+        <tbody id="tBody"></tbody>
+      </table></div></div>
+    </div></div>
+  </main>
+
+  <!-- CLÔTURE -->
+  <main class="view" id="v-cloture" hidden>
+    <div class="page"><div class="page-in">
+      <div class="bar"><h1>Clôture de caisse</h1><span class="grow"></span>
+        <span class="muted" id="zSince"></span>
+      </div>
+      <div class="kpis" id="zKpis"></div>
+      <div class="card">
+        <h2 style="font:700 17px/1.2 var(--display);margin-bottom:12px">Par mode de paiement</h2>
+        <table><tbody id="zModes"></tbody></table>
+      </div>
+      <div class="card" style="display:flex;flex-direction:column;gap:16px">
+        <h2 style="font:700 17px/1.2 var(--display)">Comptage des espèces</h2>
+        <div class="kpis">
+          <label class="field">Fond de caisse au départ<input type="text" inputmode="decimal" id="zFond" placeholder="0,00"></label>
+          <label class="field">Espèces comptées dans le tiroir<input type="text" inputmode="decimal" id="zCompte" placeholder="0,00"></label>
+        </div>
+        <div class="row" style="font-size:16px"><span>Espèces attendues (fond + ventes)</span><b class="num" id="zAttendu"></b></div>
+        <div class="row" style="font-size:16px"><span>Écart</span><b class="num" id="zEcart">–</b></div>
+      </div>
+      <div class="bar">
+        <button class="btn pri" id="zClose">Clôturer la journée (ticket Z)</button>
+        <button class="btn" id="zCsv">Exporter les ventes (CSV)</button>
+        <button class="btn" id="zBackup">Sauvegarder les données</button>
+        <label class="btn" style="cursor:pointer">Restaurer<input type="file" id="zRestore" accept=".json,application/json" hidden></label>
+      </div>
+      <div class="card">
+        <h2 style="font:700 17px/1.2 var(--display);margin-bottom:8px">Clôtures précédentes</h2>
+        <div class="tbl-wrap"><table>
+          <thead><tr><th>Z n°</th><th>Date</th><th>Tickets</th><th class="r">CA TTC</th><th class="r">Écart espèces</th><th></th></tr></thead>
+          <tbody id="zHist"></tbody>
+        </table></div>
+      </div>
+      <p class="note">Les ventes sont enregistrées dans ce navigateur, sur cet appareil. Pensez à « Sauvegarder les données » régulièrement : vider l'historique du navigateur efface la caisse. Un ticket validé ne se supprime pas : on l'annule, ce qui crée un avoir numéroté.</p>
+    </div></div>
+  </main>
+</div>
+
+<!-- Choix de variante -->
+<div class="modal" id="mVar" hidden><div class="dlg" role="dialog" aria-modal="true" aria-labelledby="mVarT">
+  <div class="dlg-h"><h2 id="mVarT"></h2><button class="x" data-close aria-label="Fermer">✕</button></div>
+  <div class="vchoices" id="mVarList"></div>
+</div></div>
+
+<!-- Paiement -->
+<div class="modal" id="mPay" hidden><div class="dlg" role="dialog" aria-modal="true" aria-labelledby="mPayT">
+  <div class="dlg-h"><h2 id="mPayT">Encaissement</h2><button class="x" data-close aria-label="Fermer">✕</button></div>
+  <div class="due"><div class="k" id="pDueK">Reste à payer</div><div class="v num" id="pDue"></div></div>
+  <div class="paid-list" id="pPaid"></div>
+  <div class="modes" id="pModes"></div>
+  <label class="field">Montant reçu<input class="amount num" id="pAmt" type="text" inputmode="decimal" autocomplete="off"></label>
+  <div class="quick" id="pQuick"></div>
+  <div class="change" id="pChange" hidden></div>
+  <button class="btn" id="pAdd">Ajouter ce paiement</button>
+  <button class="btn pri pay" id="pOk" disabled>Valider la vente</button>
+</div></div>
+
+<!-- Remise -->
+<div class="modal" id="mRem" hidden><div class="dlg" role="dialog" aria-modal="true" aria-labelledby="mRemT">
+  <div class="dlg-h"><h2 id="mRemT">Remise sur le ticket</h2><button class="x" data-close aria-label="Fermer">✕</button></div>
+  <div class="seg" id="rType"><button data-t="pct" aria-pressed="true">En %</button><button data-t="eur" aria-pressed="false">En €</button></div>
+  <label class="field"><span id="rLbl">Pourcentage</span><input class="amount num" id="rVal" type="text" inputmode="decimal"></label>
+  <div class="quick" id="rQuick"></div>
+  <div class="bar"><button class="btn dng" id="rDel">Retirer la remise</button><span class="grow"></span><button class="btn pri" id="rOk">Appliquer</button></div>
+</div></div>
+
+<!-- Article libre -->
+<div class="modal" id="mLib" hidden><div class="dlg" role="dialog" aria-modal="true" aria-labelledby="mLibT">
+  <div class="dlg-h"><h2 id="mLibT">Article libre</h2><button class="x" data-close aria-label="Fermer">✕</button></div>
+  <label class="field">Désignation<input id="lName" type="text" placeholder="Ex. : main d'œuvre, pièce hors catalogue"></label>
+  <label class="field">Prix unitaire TTC<input class="amount num" id="lPrice" type="text" inputmode="decimal" placeholder="0,00"></label>
+  <label class="field">Quantité<input id="lQty" type="number" min="1" value="1"></label>
+  <button class="btn pri" id="lOk">Ajouter au ticket</button>
+</div></div>
+
+<!-- Ticket terminé / détail -->
+<div class="modal" id="mDone" hidden><div class="dlg" role="dialog" aria-modal="true" aria-labelledby="mDoneT">
+  <div class="dlg-h"><h2 id="mDoneT"></h2><button class="x" data-close aria-label="Fermer">✕</button></div>
+  <div id="dBody"></div>
+  <div class="bar" id="dBar"></div>
+</div></div>
+
+<!-- Confirmation -->
+<div class="modal" id="mAsk" hidden><div class="dlg" role="alertdialog" aria-modal="true" aria-labelledby="mAskT">
+  <h2 id="mAskT"></h2><p id="mAskP" class="muted"></p>
+  <div class="bar"><span class="grow"></span><button class="btn" data-close>Retour</button><button class="btn dngf" id="mAskOk">Confirmer</button></div>
+</div></div>
+
+<div class="toast" id="toast" role="status" hidden></div>
+<div id="print"></div>
+
+<script src="../boutique/produits.js"></script>
+<script>
+(function () {
+"use strict";
+
+/* ---------- Réglages ---------- */
+var SHOP = {
+  nom: "Mon-arrosage.re",
+  ligne1: "Matériel d'irrigation",
+  tel: "0692 24 94 36",
+  pied: "Merci de votre visite !"
+};
+var CAT = window.CATALOGUE || { reglages: { tva: 0.085 }, produits: [] };
+var TVA = (CAT.reglages && CAT.reglages.tva) || 0.085;
+var IMG = "../boutique/";
+var KEY = "ars974-caisse-v1";
+var MODES = [
+  { id: "esp", nom: "Espèces", ic: "M3 7h18v10H3zM12 10a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" },
+  { id: "cb", nom: "Carte bancaire", ic: "M3 6h18v12H3zM3 10h18" },
+  { id: "chq", nom: "Chèque", ic: "M4 17l3-1 10-10-2-2L5 14zM4 20h16" },
+  { id: "vir", nom: "Virement", ic: "M4 9h13l-3-3M20 15H7l3 3" }
+];
+var CATNOMS = { goutte: "Goutte-à-goutte", programmateurs: "Programmateurs", raccords: "Raccords" };
+
+/* ---------- Outils ---------- */
+function $(id) { return document.getElementById(id); }
+function r2(n) { return Math.round((n + Number.EPSILON) * 100) / 100; }
+function eur(n) { return (n < 0 ? "−" : "") + Math.abs(n).toLocaleString("fr-FR", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + " €"; }
+function parseNum(s) { s = String(s || "").replace(/\s/g, "").replace(",", "."); var n = parseFloat(s); return isFinite(n) ? n : NaN; }
+function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
+function norm(s) { return String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, ""); }
+function pad(n, l) { n = String(n); while (n.length < l) n = "0" + n; return n; }
+function dayKey(d) { d = new Date(d); return d.getFullYear() + "-" + pad(d.getMonth() + 1, 2) + "-" + pad(d.getDate(), 2); }
+function hm(d) { return new Date(d).toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" }); }
+function dfull(d) { return new Date(d).toLocaleString("fr-FR", { dateStyle: "short", timeStyle: "short" }); }
+function modeNom(id) { for (var i = 0; i < MODES.length; i++) if (MODES[i].id === id) return MODES[i].nom; return id; }
+var toastT;
+function toast(msg) { var t = $("toast"); t.textContent = msg; t.hidden = false; clearTimeout(toastT); toastT = setTimeout(function () { t.hidden = true; }, 2400); }
+
+/* ---------- Articles (catalogue aplati) ---------- */
+var ITEMS = [];   // cartes affichées
+var BYREF = {};   // référence -> article vendable
+CAT.produits.forEach(function (p, i) {
+  if (p.famille && p.variantes && p.variantes.length) {
+    var vs = p.variantes.map(function (v) {
+      var a = { ref: v.ref, nom: p.title, sous: [v.c1, v.c2].filter(Boolean).join(" · "), ttc: +v.price, hex: v.hex, img: v.img, stock: v.stock };
+      BYREF[norm(v.ref)] = a; return a;
+    });
+    var min = Math.min.apply(null, vs.map(function (v) { return v.ttc; }));
+    ITEMS.push({ id: "f" + i, cat: p.cat, nom: p.title, variantes: vs, ttc: min, img: (vs.filter(function (v) { return v.img; })[0] || {}).img, refs: vs.map(function (v) { return v.ref; }).join(" ") });
+  } else {
+    var a = { ref: p.ref, nom: p.name, sous: p.spec || "", ttc: +p.price, img: p.img, stock: p.stock };
+    BYREF[norm(p.ref)] = a;
+    ITEMS.push({ id: "p" + i, cat: p.cat, nom: p.name, sous: p.spec, ttc: a.ttc, img: p.img, refs: p.ref, article: a, stock: p.stock });
+  }
+});
+
+/* ---------- Données enregistrées ---------- */
+var DB = load();
+function load() {
+  var d = null;
+  try { d = JSON.parse(localStorage.getItem(KEY)); } catch (e) {}
+  d = d || {};
+  d.tickets = d.tickets || []; d.seq = d.seq || 0; d.zseq = d.zseq || 0; d.z = d.z || [];
+  d.attente = d.attente || []; d.fond = d.fond || 0; d.panier = d.panier || { lignes: [], remise: null };
+  return d;
+}
+function save() {
+  try { localStorage.setItem(KEY, JSON.stringify(DB)); }
+  catch (e) { toast("Enregistrement impossible sur cet appareil : sauvegardez vos données."); }
+}
+var cart = DB.panier;
+
+/* ---------- Calculs ---------- */
+function totals(lignes, remise) {
+  var sub = 0;
+  lignes.forEach(function (l) { sub += r2(l.pu * l.qte); });
+  sub = r2(sub);
+  var rem = 0;
+  if (remise) rem = remise.type === "pct" ? r2(sub * remise.val / 100) : Math.min(r2(remise.val), sub);
+  var ttc = r2(sub - rem);
+  var ht = r2(ttc / (1 + TVA));
+  return { sub: sub, rem: rem, ttc: ttc, ht: ht, tva: r2(ttc - ht) };
+}
+
+/* ---------- Catalogue ---------- */
+var curCat = "", query = "";
+function renderChips() {
+  var cats = [];
+  ITEMS.forEach(function (it) { if (cats.indexOf(it.cat) < 0) cats.push(it.cat); });
+  var h = '<button class="chip" data-c="" aria-pressed="' + (curCat === "") + '">Tout</button>';
+  cats.forEach(function (c) { h += '<button class="chip" data-c="' + esc(c) + '" aria-pressed="' + (curCat === c) + '">' + esc(CATNOMS[c] || c) + "</button>"; });
+  $("chips").innerHTML = h;
+}
+function renderGrid() {
+  var q = norm(query).trim(), words = q ? q.split(/\s+/) : [];
+  var list = ITEMS.filter(function (it) {
+    if (curCat && it.cat !== curCat) return false;
+    if (!words.length) return true;
+    var hay = norm(it.nom + " " + (it.sous || "") + " " + it.refs + " " + (it.variantes ? it.variantes.map(function (v) { return v.sous; }).join(" ") : ""));
+    return words.every(function (w) { return hay.indexOf(w) >= 0; });
+  });
+  if (!list.length) { $("grid").innerHTML = '<p class="empty">Aucun article ne correspond. Utilisez « Article libre » pour vendre un article hors catalogue.</p>'; return; }
+  $("grid").innerHTML = list.map(function (it) {
+    var ph = it.img ? '<img src="' + esc(IMG + it.img) + '" alt="" loading="lazy">' : '<span class="ini">' + esc((it.nom || "?").slice(0, 2).toUpperCase()) + "</span>";
+    var vr = it.variantes
+      ? it.variantes.slice(0, 6).map(function (v) { return '<span class="dot" style="background:' + esc(v.hex || "#ccc") + '"></span>'; }).join("") + "<span>" + it.variantes.length + " choix</span>"
+      : "<span>" + esc(it.sous || "") + "</span>";
+    var out = !it.variantes && it.stock && it.stock !== "in";
+    return '<button class="prod' + (out ? " out" : "") + '" data-id="' + it.id + '">' +
+      '<span class="ph">' + ph + "</span>" +
+      '<span class="nm">' + esc(it.nom) + "</span>" +
+      '<span class="vr">' + vr + "</span>" +
+      '<span class="ft"><span class="pr num">' + (it.variantes ? "dès " : "") + eur(it.ttc) + '</span><span class="rf">' + esc(it.variantes ? "" : it.refs) + "</span></span>" +
+      "</button>";
+  }).join("");
+}
+function findItem(id) { for (var i = 0; i < ITEMS.length; i++) if (ITEMS[i].id === id) return ITEMS[i]; }
+
+function pick(it) {
+  if (!it.variantes) { addLine(it.article); return; }
+  $("mVarT").textContent = it.nom;
+  $("mVarList").innerHTML = it.variantes.map(function (v, i) {
+    return '<button class="vchoice" data-i="' + i + '"><span class="dot" style="width:22px;height:22px;background:' + esc(v.hex || "#ccc") + '"></span>' +
+      '<span class="t"><b>' + esc(v.sous) + "</b><small>" + esc(v.ref) + (v.stock && v.stock !== "in" ? " · hors stock" : "") + '</small></span><span class="p num">' + eur(v.ttc) + "</span></button>";
+  }).join("");
+  $("mVarList").onclick = function (e) {
+    var b = e.target.closest(".vchoice"); if (!b) return;
+    addLine(it.variantes[+b.dataset.i]); close("mVar");
+  };
+  open("mVar");
+}
+
+/* ---------- Ticket en cours ---------- */
+function addLine(a, qte) {
+  qte = qte || 1;
+  var ex = null;
+  cart.lignes.forEach(function (l) { if (l.ref && l.ref === a.ref && l.pu === a.ttc) ex = l; });
+  if (ex) ex.qte += qte;
+  else cart.lignes.push({ ref: a.ref || "", nom: a.nom, sous: a.sous || "", pu: a.ttc, qte: qte });
+  save(); renderCart();
+  toast("Ajouté : " + a.nom + (a.sous ? " (" + a.sous + ")" : ""));
+}
+function renderCart() {
+  var L = cart.lignes;
+  if (!L.length) {
+    $("lines").innerHTML = '<div class="cart-empty"><svg class="ic" width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2h12v20l-3-2-3 2-3-2-3 2zM9 7h6M9 11h6M9 15h4"/></svg>Touchez un article pour l\'ajouter au ticket.</div>';
+  } else {
+    $("lines").innerHTML = L.map(function (l, i) {
+      return '<div class="line" data-i="' + i + '">' +
+        '<div><div class="lt">' + esc(l.nom) + '</div><div class="ls">' + esc([l.sous, l.ref].filter(Boolean).join(" · ")) + " · " + eur(l.pu) + " l'unité</div></div>" +
+        '<div class="lp num">' + eur(r2(l.pu * l.qte)) + "</div>" +
+        '<div class="lact"><div class="qty">' +
+          '<button data-a="m" aria-label="Retirer un">−</button>' +
+          '<input data-a="q" class="num" type="number" min="1" value="' + l.qte + '" aria-label="Quantité">' +
+          '<button data-a="p" aria-label="Ajouter un">+</button>' +
+          '<button data-a="d" class="del" aria-label="Supprimer la ligne"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3"/></svg></button>' +
+        "</div></div></div>";
+    }).join("");
+  }
+  var t = totals(L, cart.remise), n = 0;
+  L.forEach(function (l) { n += l.qte; });
+  $("sSub").textContent = eur(t.sub);
+  $("sRemRow").hidden = !t.rem;
+  $("sRemLbl").textContent = cart.remise ? "Remise" + (cart.remise.type === "pct" ? " " + String(cart.remise.val).replace(".", ",") + " %" : "") : "Remise";
+  $("sRem").textContent = eur(-t.rem);
+  $("sTvaRate").textContent = String(r2(TVA * 100)).replace(".", ",") + " %";
+  $("sTva").textContent = eur(t.tva);
+  $("sTot").textContent = eur(t.ttc);
+  $("bPay").disabled = !L.length;
+  $("bAttente").disabled = !L.length;
+  $("fabN").textContent = n ? n + " article" + (n > 1 ? "s" : "") + " · voir le ticket" : "Ticket vide";
+  $("fabT").textContent = eur(t.ttc);
+}
+$("lines").addEventListener("click", function (e) {
+  var b = e.target.closest("button[data-a]"); if (!b) return;
+  var i = +b.closest(".line").dataset.i, l = cart.lignes[i];
+  if (b.dataset.a === "p") l.qte++;
+  else if (b.dataset.a === "m") { if (l.qte > 1) l.qte--; else cart.lignes.splice(i, 1); }
+  else if (b.dataset.a === "d") cart.lignes.splice(i, 1);
+  save(); renderCart();
+});
+$("lines").addEventListener("change", function (e) {
+  if (e.target.dataset.a !== "q") return;
+  var i = +e.target.closest(".line").dataset.i, v = Math.floor(parseNum(e.target.value));
+  if (v >= 1) cart.lignes[i].qte = v; else cart.lignes.splice(i, 1);
+  save(); renderCart();
+});
+$("clear").onclick = function () {
+  if (!cart.lignes.length) return;
+  ask("Vider le ticket en cours ?", "Les articles du ticket en cours seront retirés. Aucune vente n'est enregistrée.", function () {
+    cart.lignes = []; cart.remise = null; save(); renderCart();
+  });
+};
+
+/* ---------- Remise ---------- */
+var remType = "pct";
+function setRemType(t) {
+  remType = t;
+  [].forEach.call($("rType").children, function (b) { b.setAttribute("aria-pressed", b.dataset.t === t); });
+  $("rLbl").textContent = t === "pct" ? "Pourcentage" : "Montant en euros";
+  var q = t === "pct" ? [5, 10, 15, 20, 25] : [1, 2, 5, 10, 20];
+  $("rQuick").innerHTML = q.map(function (v) { return '<button data-v="' + v + '">' + v + (t === "pct" ? " %" : " €") + "</button>"; }).join("");
+}
+$("bRemise").onclick = function () {
+  setRemType(cart.remise ? cart.remise.type : "pct");
+  $("rVal").value = cart.remise ? String(cart.remise.val).replace(".", ",") : "";
+  open("mRem"); $("rVal").focus();
+};
+$("rType").onclick = function (e) { var b = e.target.closest("button"); if (b) setRemType(b.dataset.t); };
+$("rQuick").onclick = function (e) { var b = e.target.closest("button"); if (b) { $("rVal").value = b.dataset.v; $("rOk").click(); } };
+$("rOk").onclick = function () {
+  var v = parseNum($("rVal").value);
+  if (!(v > 0) || (remType === "pct" && v > 100)) { toast("Saisissez une remise valide."); return; }
+  cart.remise = { type: remType, val: v }; save(); renderCart(); close("mRem");
+};
+$("rDel").onclick = function () { cart.remise = null; save(); renderCart(); close("mRem"); };
+
+/* ---------- Article libre ---------- */
+$("bLibre").onclick = function () { $("lName").value = ""; $("lPrice").value = ""; $("lQty").value = 1; open("mLib"); $("lName").focus(); };
+$("lOk").onclick = function () {
+  var nom = $("lName").value.trim() || "Article divers", p = parseNum($("lPrice").value), q = Math.floor(parseNum($("lQty").value)) || 1;
+  if (!(p > 0)) { toast("Saisissez un prix."); return; }
+  addLine({ ref: "", nom: nom, sous: "", ttc: r2(p) }, q); close("mLib");
+};
+
+/* ---------- Tickets en attente ---------- */
+$("bAttente").onclick = function () {
+  if (!cart.lignes.length) return;
+  DB.attente.push({ date: Date.now(), lignes: cart.lignes, remise: cart.remise });
+  DB.panier = cart = { lignes: [], remise: null }; save(); renderCart(); closeSide();
+  toast("Ticket mis en attente. Retrouvez-le dans « Tickets ».");
+};
+
+/* ---------- Paiement ---------- */
+var pay = null;
+$("bPay").onclick = function () {
+  var t = totals(cart.lignes, cart.remise);
+  pay = { total: t.ttc, lignes: [], mode: "esp" };
+  renderModes(); refreshPay(); open("mPay");
+};
+function paid() { var s = 0; pay.lignes.forEach(function (p) { s += p.montant; }); return r2(s); }
+function renderModes() {
+  $("pModes").innerHTML = MODES.map(function (m) {
+    return '<button class="mode" data-m="' + m.id + '" aria-pressed="' + (pay.mode === m.id) + '"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="' + m.ic + '"/></svg>' + m.nom + "</button>";
+  }).join("");
+}
+function refreshPay() {
+  var reste = r2(pay.total - paid());
+  $("pDueK").textContent = reste > 0 ? "Reste à payer" : "Payé";
+  $("pDue").textContent = eur(reste > 0 ? reste : pay.total);
+  $("pPaid").innerHTML = pay.lignes.map(function (p, i) {
+    return '<div class="row"><span>' + esc(modeNom(p.mode)) + '</span><span class="num">' + eur(p.montant) + ' <button class="btn sm dng" data-i="' + i + '" style="min-height:32px;margin-left:8px" aria-label="Retirer ce paiement">✕</button></span></div>';
+  }).join("");
+  $("pAmt").value = reste > 0 ? String(reste.toFixed(2)).replace(".", ",") : "";
+  var quick = [];
+  if (pay.mode === "esp" && reste > 0) {
+    quick.push(reste);
+    [5, 10, 20, 50, 100, 200].forEach(function (b) { if (b > reste && quick.length < 5) quick.push(b); });
+  }
+  $("pQuick").innerHTML = quick.map(function (v, i) { return '<button data-v="' + v + '">' + (i === 0 ? "Compte juste" : eur(v).replace(",00", "")) + "</button>"; }).join("");
+  $("pQuick").hidden = !quick.length;
+  $("pAdd").hidden = reste <= 0;
+  $("pAmt").closest("label").hidden = reste <= 0;
+  $("pModes").hidden = reste <= 0;
+  var rendu = r2(paid() - pay.total);
+  $("pChange").hidden = !(rendu > 0);
+  $("pChange").textContent = "À rendre : " + eur(rendu);
+  $("pOk").disabled = reste > 0;
+}
+function addPay(v) {
+  var reste = r2(pay.total - paid());
+  if (!(v > 0)) { toast("Saisissez un montant."); return; }
+  if (pay.mode !== "esp" && v > reste) { toast("Seules les espèces peuvent dépasser le montant dû."); return; }
+  pay.lignes.push({ mode: pay.mode, montant: r2(v) }); refreshPay();
+}
+$("pModes").onclick = function (e) { var b = e.target.closest(".mode"); if (!b) return; pay.mode = b.dataset.m; renderModes(); refreshPay(); };
+$("pQuick").onclick = function (e) { var b = e.target.closest("button"); if (b) addPay(+b.dataset.v); };
+$("pAdd").onclick = function () { addPay(parseNum($("pAmt").value)); };
+$("pAmt").addEventListener("keydown", function (e) { if (e.key === "Enter") { e.preventDefault(); $("pAdd").click(); } });
+$("pPaid").onclick = function (e) { var b = e.target.closest("button[data-i]"); if (b) { pay.lignes.splice(+b.dataset.i, 1); refreshPay(); } };
+$("pOk").onclick = function () {
+  var t = totals(cart.lignes, cart.remise), rendu = r2(paid() - t.ttc);
+  var tk = {
+    num: ++DB.seq, date: Date.now(), lignes: cart.lignes, remise: cart.remise,
+    sub: t.sub, rem: t.rem, ttc: t.ttc, ht: t.ht, tva: t.tva, tauxTva: TVA,
+    paiements: pay.lignes, rendu: rendu, z: null
+  };
+  DB.tickets.push(tk);
+  DB.panier = cart = { lignes: [], remise: null };
+  save(); renderCart(); close("mPay"); closeSide();
+  showTicket(tk, true);
+};
+
+/* ---------- Affichage / impression d'un ticket ---------- */
+function ticketText(tk) {
+  var h = '<h3>' + esc(SHOP.nom) + '</h3><div class="c">' + esc(SHOP.ligne1) + "<br>Tél. " + esc(SHOP.tel) + "</div><hr>";
+  h += '<div class="pr"><span>' + (tk.avoirDe ? "AVOIR" : "Ticket") + " n° " + pad(tk.num, 6) + "</span><span>" + dfull(tk.date) + "</span></div>";
+  if (tk.avoirDe) h += "<div>Annule le ticket n° " + pad(tk.avoirDe, 6) + "</div>";
+  h += "<hr>";
+  tk.lignes.forEach(function (l) {
+    h += "<div>" + esc(l.nom) + (l.sous ? " " + esc(l.sous) : "") + "</div>";
+    h += '<div class="pr"><span>  ' + l.qte + " × " + eur(l.pu) + "</span><span>" + eur(r2(l.pu * l.qte)) + "</span></div>";
+  });
+  h += "<hr>";
+  if (tk.rem) h += '<div class="pr"><span>Sous-total</span><span>' + eur(tk.sub) + '</span></div><div class="pr"><span>Remise</span><span>' + eur(-tk.rem) + "</span></div>";
+  h += '<div class="pr tot"><span>TOTAL TTC</span><span>' + eur(tk.ttc) + "</span></div>";
+  h += '<div class="pr"><span>Total HT</span><span>' + eur(tk.ht) + '</span></div><div class="pr"><span>TVA ' + String(r2(tk.tauxTva * 100)).replace(".", ",") + " %</span><span>" + eur(tk.tva) + "</span></div><hr>";
+  tk.paiements.forEach(function (p) { h += '<div class="pr"><span>' + esc(modeNom(p.mode)) + "</span><span>" + eur(p.montant) + "</span></div>"; });
+  if (tk.rendu > 0) h += '<div class="pr"><span>Rendu</span><span>' + eur(tk.rendu) + "</span></div>";
+  h += '<hr><div class="c">' + esc(SHOP.pied) + "</div>";
+  return h;
+}
+function printHtml(h) { $("print").innerHTML = h; window.print(); }
+function isAnnule(tk) { return DB.tickets.some(function (t) { return t.avoirDe === tk.num; }); }
+function showTicket(tk, fresh) {
+  $("mDoneT").textContent = fresh ? "Vente enregistrée" : (tk.avoirDe ? "Avoir" : "Ticket") + " n° " + pad(tk.num, 6);
+  var b = "";
+  if (fresh && tk.rendu > 0) b += '<div class="change" style="margin-bottom:12px">À rendre : ' + eur(tk.rendu) + "</div>";
+  if (fresh) b += '<div class="due" style="margin-bottom:12px"><div class="k">Ticket n° ' + pad(tk.num, 6) + '</div><div class="v num">' + eur(tk.ttc) + "</div></div>";
+  b += '<div class="card" style="font:400 13px/1.45 ui-monospace,Menlo,Consolas,monospace;background:var(--bg)">' +
+    ticketText(tk).replace(/<h3>/, '<div style="font:700 15px/1.2 var(--display);text-align:center">').replace("</h3>", "</div>")
+      .replace(/class="pr( tot)?"/g, function (m, t) { return 'style="display:flex;justify-content:space-between;gap:8px' + (t ? ';font-weight:700;font-size:15px' : "") + '"'; })
+      .replace(/class="c"/g, 'style="text-align:center"').replace(/<hr>/g, '<hr style="border:0;border-top:1px dashed var(--line);margin:8px 0">') + "</div>";
+  $("dBody").innerHTML = b;
+  var bar = '<button class="btn" id="dPrint">Imprimer</button>';
+  if (!fresh && !tk.avoirDe && !isAnnule(tk) && !tk.z) bar += '<button class="btn dng" id="dCancel">Annuler (avoir)</button>';
+  bar += '<span class="grow"></span><button class="btn pri" data-close>' + (fresh ? "Nouvelle vente" : "Fermer") + "</button>";
+  $("dBar").innerHTML = bar;
+  $("dPrint").onclick = function () { printHtml(ticketText(tk)); };
+  if ($("dCancel")) $("dCancel").onclick = function () {
+    ask("Annuler le ticket n° " + pad(tk.num, 6) + " ?", "Un avoir de " + eur(-tk.ttc) + " sera enregistré. Remboursez le client avec le même mode de paiement.", function () {
+      var av = {
+        num: ++DB.seq, date: Date.now(), avoirDe: tk.num,
+        lignes: tk.lignes.map(function (l) { return { ref: l.ref, nom: l.nom, sous: l.sous, pu: l.pu, qte: -l.qte }; }),
+        remise: tk.remise, sub: -tk.sub, rem: -tk.rem, ttc: -tk.ttc, ht: -tk.ht, tva: -tk.tva, tauxTva: tk.tauxTva,
+        paiements: tk.paiements.map(function (p) { return { mode: p.mode, montant: -p.montant }; }), rendu: -tk.rendu, z: null
+      };
+      // l'avoir rembourse le montant réellement encaissé, monnaie rendue déduite
+      DB.tickets.push(av); save(); renderTickets(); renderZ(); close("mDone"); showTicket(av, false);
+      toast("Avoir n° " + pad(av.num, 6) + " enregistré.");
+    });
+  };
+  open("mDone");
+}
+
+/* ---------- Historique ---------- */
+$("tDay").value = dayKey(Date.now());
+$("tDay").onchange = renderTickets;
+function renderTickets() {
+  var d = $("tDay").value;
+  var list = DB.tickets.filter(function (t) { return dayKey(t.date) === d; }).slice().reverse();
+  $("tBody").innerHTML = list.length ? list.map(function (t) {
+    var n = 0; t.lignes.forEach(function (l) { n += Math.abs(l.qte); });
+    var modes = t.paiements.map(function (p) { return modeNom(p.mode); }).filter(function (v, i, a) { return a.indexOf(v) === i; }).join(", ");
+    var cls = t.avoirDe ? "avoir" : (isAnnule(t) ? "annule" : "");
+    var tag = t.avoirDe ? ' <span class="tag red">avoir du n° ' + t.avoirDe + "</span>" : (isAnnule(t) ? ' <span class="tag">annulé</span>' : "");
+    return '<tr class="' + cls + '"><td class="num">' + pad(t.num, 6) + tag + '</td><td class="num">' + hm(t.date) + '</td><td class="num">' + n + "</td><td>" + esc(modes) + '</td><td class="r num"><b>' + eur(t.ttc) + '</b></td><td class="r"><button class="btn sm" data-n="' + t.num + '">Voir</button></td></tr>';
+  }).join("") : '<tr><td colspan="6" class="muted" style="padding:32px 8px;text-align:center">Aucun ticket ce jour-là.</td></tr>';
+
+  $("waitCard").hidden = !DB.attente.length;
+  $("waitList").innerHTML = DB.attente.map(function (w, i) {
+    var t = totals(w.lignes, w.remise);
+    return '<div class="row" style="padding:8px 0;border-bottom:1px solid var(--line);font-size:15px"><span>Mis en attente à ' + hm(w.date) + " · " + w.lignes.length + ' ligne(s)</span><span class="bar"><b class="num">' + eur(t.ttc) + '</b><button class="btn sm pri" data-w="' + i + '">Reprendre</button><button class="btn sm dng" data-wd="' + i + '">Supprimer</button></span></div>';
+  }).join("");
+}
+$("tBody").onclick = function (e) {
+  var b = e.target.closest("button[data-n]"); if (!b) return;
+  var tk = DB.tickets.filter(function (t) { return t.num === +b.dataset.n; })[0]; if (tk) showTicket(tk, false);
+};
+$("waitList").onclick = function (e) {
+  var b = e.target.closest("button"); if (!b) return;
+  if (b.dataset.wd != null) {
+    ask("Supprimer ce ticket en attente ?", "Il n'a pas été encaissé ; rien n'est enregistré dans les ventes.", function () { DB.attente.splice(+b.dataset.wd, 1); save(); renderTickets(); });
+    return;
+  }
+  var i = +b.dataset.w, w = DB.attente[i];
+  if (cart.lignes.length) DB.attente.push({ date: Date.now(), lignes: cart.lignes, remise: cart.remise });
+  DB.attente.splice(i, 1);
+  DB.panier = cart = { lignes: w.lignes, remise: w.remise };
+  save(); renderCart(); go("vente"); openSide();
+};
+
+/* ---------- Clôture (Z) ---------- */
+function openTickets() { return DB.tickets.filter(function (t) { return !t.z; }); }
+function stats(list) {
+  var s = { n: 0, nav: 0, ttc: 0, ht: 0, tva: 0, modes: {}, articles: 0 };
+  list.forEach(function (t) {
+    if (t.avoirDe) s.nav++; else s.n++;
+    s.ttc = r2(s.ttc + t.ttc); s.ht = r2(s.ht + t.ht); s.tva = r2(s.tva + t.tva);
+    t.lignes.forEach(function (l) { s.articles += l.qte; });
+    t.paiements.forEach(function (p) { s.modes[p.mode] = r2((s.modes[p.mode] || 0) + p.montant); });
+    if (t.rendu) s.modes.esp = r2((s.modes.esp || 0) - t.rendu);
+  });
+  return s;
+}
+function renderZ() {
+  var list = openTickets(), s = stats(list);
+  $("zSince").textContent = list.length ? "Depuis le " + dfull(list[0].date) : "Aucune vente depuis la dernière clôture";
+  var panier = s.n ? r2(s.ttc / s.n) : 0;
+  $("zKpis").innerHTML = [
+    ["Chiffre d'affaires TTC", eur(s.ttc)], ["Total HT", eur(s.ht)], ["TVA collectée", eur(s.tva)],
+    ["Tickets", s.n + (s.nav ? " (+" + s.nav + " avoir" + (s.nav > 1 ? "s" : "") + ")" : "")], ["Panier moyen", eur(panier)], ["Articles vendus", s.articles]
+  ].map(function (k) { return '<div class="card kpi"><div class="k">' + k[0] + '</div><div class="v num">' + k[1] + "</div></div>"; }).join("");
+  $("zModes").innerHTML = MODES.map(function (m) {
+    return '<tr><td>' + m.nom + '</td><td class="r num"><b>' + eur(s.modes[m.id] || 0) + "</b></td></tr>";
+  }).join("");
+  if (document.activeElement !== $("zFond")) $("zFond").value = DB.fond ? String(DB.fond.toFixed(2)).replace(".", ",") : "";
+  calcEcart();
+  $("zHist").innerHTML = DB.z.length ? DB.z.slice().reverse().map(function (z) {
+    return '<tr><td class="num">' + pad(z.num, 4) + '</td><td class="num">' + dfull(z.date) + '</td><td class="num">' + z.stats.n + '</td><td class="r num">' + eur(z.stats.ttc) + '</td><td class="r num">' + (z.ecart == null ? "–" : eur(z.ecart)) + '</td><td class="r"><button class="btn sm" data-z="' + z.num + '">Imprimer</button></td></tr>';
+  }).join("") : '<tr><td colspan="6" class="muted" style="padding:24px 8px;text-align:center">Aucune clôture pour l\'instant.</td></tr>';
+}
+function attendu() { var s = stats(openTickets()); return r2(DB.fond + (s.modes.esp || 0)); }
+function calcEcart() {
+  var a = attendu(), c = parseNum($("zCompte").value);
+  $("zAttendu").textContent = eur(a);
+  if (isFinite(c)) { var e = r2(c - a); $("zEcart").textContent = eur(e); $("zEcart").style.color = e === 0 ? "var(--accent)" : "var(--danger)"; }
+  else { $("zEcart").textContent = "–"; $("zEcart").style.color = ""; }
+}
+$("zFond").oninput = function () { var v = parseNum(this.value); DB.fond = isFinite(v) ? r2(v) : 0; save(); calcEcart(); };
+$("zCompte").oninput = calcEcart;
+function zText(z) {
+  var s = z.stats;
+  var h = "<h3>" + esc(SHOP.nom) + '</h3><div class="c">TICKET Z n° ' + pad(z.num, 4) + "<br>" + dfull(z.date) + "</div><hr>";
+  h += '<div class="pr"><span>Tickets n°</span><span>' + (z.de ? pad(z.de, 6) + " à " + pad(z.a, 6) : "–") + "</span></div>";
+  h += '<div class="pr"><span>Ventes</span><span>' + s.n + '</span></div><div class="pr"><span>Avoirs</span><span>' + s.nav + "</span></div><hr>";
+  h += '<div class="pr tot"><span>CA TTC</span><span>' + eur(s.ttc) + '</span></div><div class="pr"><span>Total HT</span><span>' + eur(s.ht) + '</span></div><div class="pr"><span>TVA</span><span>' + eur(s.tva) + "</span></div><hr>";
+  MODES.forEach(function (m) { h += '<div class="pr"><span>' + m.nom + "</span><span>" + eur(s.modes[m.id] || 0) + "</span></div>"; });
+  h += '<hr><div class="pr"><span>Fond de caisse</span><span>' + eur(z.fond) + '</span></div><div class="pr"><span>Espèces attendues</span><span>' + eur(z.attendu) + "</span></div>";
+  if (z.compte != null) h += '<div class="pr"><span>Espèces comptées</span><span>' + eur(z.compte) + '</span></div><div class="pr"><span>Écart</span><span>' + eur(z.ecart) + "</span></div>";
+  return h;
+}
+$("zClose").onclick = function () {
+  var list = openTickets();
+  if (!list.length) { toast("Aucune vente à clôturer."); return; }
+  var c = parseNum($("zCompte").value);
+  ask("Clôturer la journée ?", list.length + " ticket(s) seront clôturés dans le ticket Z n° " + pad(DB.zseq + 1, 4) + ". Ils ne pourront plus être annulés." + (isFinite(c) ? "" : " Les espèces n'ont pas été comptées."), function () {
+    var z = { num: ++DB.zseq, date: Date.now(), stats: stats(list), de: list[0].num, a: list[list.length - 1].num, fond: DB.fond, attendu: attendu(), compte: isFinite(c) ? r2(c) : null };
+    z.ecart = z.compte == null ? null : r2(z.compte - z.attendu);
+    list.forEach(function (t) { t.z = z.num; });
+    DB.z.push(z); DB.fond = 0; save();
+    $("zCompte").value = ""; renderZ(); renderTickets();
+    printHtml(zText(z));
+  });
+};
+$("zHist").onclick = function (e) {
+  var b = e.target.closest("button[data-z]"); if (!b) return;
+  var z = DB.z.filter(function (x) { return x.num === +b.dataset.z; })[0]; if (z) printHtml(zText(z));
+};
+function download(name, text, type) {
+  var a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([text], { type: type }));
+  a.download = name; document.body.appendChild(a); a.click();
+  setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 500);
+}
+$("zCsv").onclick = function () {
+  if (!DB.tickets.length) { toast("Aucune vente à exporter."); return; }
+  var q = function (v) { v = String(v == null ? "" : v); return /[;"\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; };
+  var n = function (v) { return String(r2(v).toFixed(2)).replace(".", ","); };
+  var rows = [["Ticket", "Date", "Heure", "Type", "Référence", "Article", "Variante", "Quantité", "PU TTC", "Total ligne TTC", "Remise ticket", "Total ticket TTC", "Total ticket HT", "TVA ticket", "Paiements", "Z"]];
+  DB.tickets.forEach(function (t) {
+    var pays = t.paiements.map(function (p) { return modeNom(p.mode) + " " + n(p.montant); }).join(" + ");
+    t.lignes.forEach(function (l, i) {
+      rows.push([pad(t.num, 6), dayKey(t.date), hm(t.date), t.avoirDe ? "Avoir du " + pad(t.avoirDe, 6) : "Vente", l.ref, l.nom, l.sous, l.qte, n(l.pu), n(l.pu * l.qte),
+        i ? "" : n(t.rem), i ? "" : n(t.ttc), i ? "" : n(t.ht), i ? "" : n(t.tva), i ? "" : pays, t.z || ""]);
+    });
+  });
+  download("ventes-" + dayKey(Date.now()) + ".csv", "﻿" + rows.map(function (r) { return r.map(q).join(";"); }).join("\r\n"), "text/csv;charset=utf-8");
+};
+$("zBackup").onclick = function () { download("caisse-sauvegarde-" + dayKey(Date.now()) + ".json", JSON.stringify(DB, null, 1), "application/json"); };
+$("zRestore").onchange = function () {
+  var f = this.files[0]; this.value = ""; if (!f) return;
+  var rd = new FileReader();
+  rd.onload = function () {
+    var d; try { d = JSON.parse(rd.result); } catch (e) {}
+    if (!d || !Array.isArray(d.tickets)) { toast("Ce fichier n'est pas une sauvegarde de la caisse."); return; }
+    ask("Restaurer cette sauvegarde ?", d.tickets.length + " ticket(s). Les données actuelles de cet appareil seront remplacées.", function () {
+      localStorage.setItem(KEY, JSON.stringify(d)); DB = load(); cart = DB.panier; renderAll(); toast("Sauvegarde restaurée.");
+    });
+  };
+  rd.readAsText(f);
+};
+
+/* ---------- Fenêtres, navigation ---------- */
+var lastFocus;
+function open(id) { lastFocus = document.activeElement; $(id).hidden = false; var f = $(id).querySelector("input, button:not(.x)"); if (f && id !== "mAsk") setTimeout(function () { try { f.focus(); } catch (e) {} }, 30); }
+function close(id) { $(id).hidden = true; if (lastFocus && lastFocus.focus) try { lastFocus.focus(); } catch (e) {} }
+document.addEventListener("click", function (e) {
+  var c = e.target.closest("[data-close]"); if (c) { close(c.closest(".modal").id); return; }
+  if (e.target.classList.contains("modal")) close(e.target.id);
+});
+document.addEventListener("keydown", function (e) {
+  if (e.key !== "Escape") return;
+  var m = [].filter.call(document.querySelectorAll(".modal"), function (x) { return !x.hidden; }).pop();
+  if (m) close(m.id); else closeSide();
+});
+var askCb;
+function ask(t, p, cb) { $("mAskT").textContent = t; $("mAskP").textContent = p; askCb = cb; open("mAsk"); $("mAskOk").focus(); }
+$("mAskOk").onclick = function () { close("mAsk"); if (askCb) askCb(); };
+
+function openSide() { $("side").classList.add("open"); }
+function closeSide() { $("side").classList.remove("open"); }
+$("fab").onclick = openSide;
+$("closeSide").onclick = closeSide;
+
+function go(v) {
+  [].forEach.call(document.querySelectorAll(".nav button"), function (b) { b.setAttribute("aria-current", b.dataset.view === v); });
+  ["vente", "tickets", "cloture"].forEach(function (x) { $("v-" + x).hidden = x !== v; });
+  if (v === "tickets") renderTickets();
+  if (v === "cloture") renderZ();
+}
+document.querySelector(".nav").onclick = function (e) { var b = e.target.closest("button"); if (b) go(b.dataset.view); };
+
+$("chips").onclick = function (e) { var b = e.target.closest(".chip"); if (!b) return; curCat = b.dataset.c; renderChips(); renderGrid(); };
+$("grid").onclick = function (e) { var b = e.target.closest(".prod"); if (b) pick(findItem(b.dataset.id)); };
+$("q").addEventListener("input", function () { query = this.value; renderGrid(); });
+$("q").addEventListener("keydown", function (e) {
+  if (e.key !== "Enter") return;
+  e.preventDefault();
+  var a = BYREF[norm(this.value.trim())];
+  if (a) { addLine(a); this.value = ""; query = ""; renderGrid(); return; }
+  var cards = $("grid").querySelectorAll(".prod");
+  if (cards.length === 1) { cards[0].click(); this.value = ""; query = ""; renderGrid(); }
+  else if (!cards.length) toast("Référence inconnue.");
+});
+
+function tick() { $("clock").textContent = new Date().toLocaleString("fr-FR", { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }); }
+setInterval(tick, 15000); tick();
+
+function renderAll() { renderChips(); renderGrid(); renderCart(); renderTickets(); renderZ(); }
+renderAll();
+if (!CAT.produits.length) toast("Catalogue introuvable : vérifiez le fichier boutique/produits.js.");
+})();
+</script>
+</body>
+</html>
