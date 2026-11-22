@@ -360,6 +360,7 @@ if __name__ == "__main__":
     p.add_argument("etape", choices=["collecte", "images", "export"])
     p.add_argument("--limite", type=int, default=0, help="nombre max de fiches (test)")
     p.add_argument("--delai", type=float, default=1.0, help="pause entre requêtes (s)")
+    p.add_argument("--taille", type=int, default=1200, help="taille max des photos (px)")
     p.add_argument("--categorie", default="goutte-a-goutte",
                    help="rubrique du site (ex. goutte-a-goutte) ; 'tout' = catalogue complet")
     a = p.parse_args()
@@ -368,6 +369,7 @@ if __name__ == "__main__":
     if a.etape == "collecte":
         collecte(a.limite, a.delai, cat)
     elif a.etape == "images":
+        TAILLE_MAX = a.taille
         images(a.delai)
     else:
         export(a.delai)
