@@ -29,6 +29,11 @@ ou récupérer les visuels auprès des fabricants / du grossiste.
 |---|---|---|---|
 | Goutte-à-goutte | `goutte-a-goutte` | 103 | `sortie/arrosage_distribution.xlsx` |
 | Turbines et tuyères | `arrroseurs-turbines-tuyeres` | 122 | `sortie/arrosage_distribution_arrroseurs-turbines-tuyeres.xlsx` |
+| Toutes les autres familles (166 sous-rubriques) | liste séparée par des virgules | 3 034 | `sortie/arrosage_distribution_autres_familles.xlsx` |
 
 (L'option reprend l'orthographe de l'adresse du site, « arrroseurs » avec 3 r.)
-Toutes les photos sont dans `sortie/images/` et copiées dans `boutique/images/`.
+Toutes les photos sont dans `sortie/images/` (1200 px pour les deux premières rubriques, 800 px pour les autres).
+Seules celles du goutte-à-goutte et des turbines sont copiées dans `boutique/images/`.
+
+Anti-doublon : la collecte ignore toute fiche déjà présente dans un fichier `.jsonl` de `sortie/`
+(même adresse ou même référence), et un produit listé dans plusieurs rubriques n'est pris qu'une fois.

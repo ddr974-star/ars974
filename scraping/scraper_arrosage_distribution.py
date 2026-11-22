@@ -342,8 +342,9 @@ def export(delai):
                     im = PILImage.open(chemin).convert("RGB")
                     im.thumbnail((96, 96))
                     tampon = io.BytesIO()
-                    im.save(tampon, "PNG")
+                    im.save(tampon, "JPEG", quality=70)
                     img = XLImage(tampon)
+                    img.format = "jpeg"
                     ws.add_image(img, f"A{n}")
                 except Exception:
                     pass
