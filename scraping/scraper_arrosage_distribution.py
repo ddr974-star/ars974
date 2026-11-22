@@ -39,6 +39,8 @@ EXCEL = SORTIE / "arrosage_distribution.xlsx"  # redéfini selon la rubrique
 def choisit_rubrique(categorie):
     """Un fichier de données et un classeur par rubrique."""
     global DONNEES, EXCEL
+    if "," in categorie:
+        categorie = "autres_familles"
     if categorie and categorie != "goutte-a-goutte":
         DONNEES = SORTIE / f"arrosage_distribution_{categorie}.jsonl"
         EXCEL = SORTIE / f"arrosage_distribution_{categorie}.xlsx"
@@ -176,23 +178,47 @@ def analyse(url, page):
 
 
 def collecte(limite, delai, categorie):
+    """categorie : une rubrique, plusieurs séparées par des virgules, ou "" (tout le site).
+
+    Anti-doublon : toute fiche déjà présente dans un fichier .jsonl de sortie/
+    (même adresse ou même référence) est ignorée.
+    """
     SORTIE.mkdir(exist_ok=True)
-    faites = set()
-    if DONNEES.exists():
-        for ligne in DONNEES.open(encoding="utf-8"):
-            faites.add(json.loads(ligne)["url"])
-    liste = urls_categorie(categorie, delai) if categorie else urls_sitemap()
-    urls = [u for u in liste if u not in faites]
+    faites, refs = set(), set()
+    for fichier in SORTIE.glob("*.jsonl"):
+        for ligne in fichier.open(encoding="utf-8"):
+            d = json.loads(ligne)
+            faites.add(d["url"])
+            refs.add(d["reference"])
+    liste = []  # (url, famille)
+    for cat in [c for c in categorie.split(",") if c] or [""]:
+        if cat:
+            print(f"Rubrique {cat} :", flush=True)
+            liste += [(u, cat) for u in urls_categorie(cat, delai)]
+        else:
+            liste += [(u, "") for u in urls_sitemap()]
+    vues, urls = set(), []
+    for u, fam in liste:  # un produit présent dans deux rubriques n'est pris qu'une fois
+        if u not in faites and u not in vues:
+            vues.add(u)
+            urls.append((u, fam))
     if limite:
         urls = urls[:limite]
     print(f"{len(faites)} fiches déjà récupérées, {len(urls)} à faire", flush=True)
+    doublons = 0
     with DONNEES.open("a", encoding="utf-8") as f:
-        for i, url in enumerate(urls, 1):
+        for i, (url, fam) in enumerate(urls, 1):
             r = get(url)
             if r is not None:
                 try:
-                    f.write(json.dumps(analyse(url, r.text), ensure_ascii=False) + "\n")
-                    f.flush()
+                    d = analyse(url, r.text)
+                    if d["reference"] and d["reference"] in refs:
+                        doublons += 1
+                    else:
+                        refs.add(d["reference"])
+                        d["famille"] = fam
+                        f.write(json.dumps(d, ensure_ascii=False) + "\n")
+                        f.flush()
                 except Exception as e:  # une fiche mal formée ne bloque pas le reste
                     print(f"  erreur sur {url} : {e}", flush=True)
             else:
@@ -200,6 +226,7 @@ def collecte(limite, delai, categorie):
             if i % 50 == 0:
                 print(f"{i}/{len(urls)}", flush=True)
             time.sleep(delai)
+    print(f"Terminé. {doublons} doublons de référence ignorés.", flush=True)
 
 
 def miniature(url_image, delai):
