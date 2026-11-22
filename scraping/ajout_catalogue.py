@@ -6,7 +6,9 @@
 - Photos : fichiers <référence>_1.jpg déjà copiés dans boutique/images.
 - Les références déjà présentes dans le catalogue sont ignorées (relance sans doublon).
 
-Usage : python3 ajout_catalogue.py sortie/fichier1.jsonl [sortie/fichier2.jsonl ...]
+Usage : python3 ajout_catalogue.py [--filtre TEXTE] [--categorie "Électrovannes"] sortie/fichier.jsonl [...]
+  --filtre     ne garde que les fiches dont la rubrique du site contient TEXTE (ex. lectrovanne)
+  --categorie  range toutes ces fiches dans cette catégorie de la boutique
 Ensuite : cd ../catalogue && npm run export   (ou double-clic sur exporter.bat)
 """
 import json
@@ -73,12 +75,17 @@ def choix(noms):
     return res if len(set(res)) == len(res) else noms
 
 
-def main(fichiers):
+def main(fichiers, filtre=None, forcee=None):
     fiches = {}
     for f in fichiers:
         for ligne in open(f, encoding="utf-8"):
             d = json.loads(ligne)
+            if filtre and filtre.lower() not in d["categorie"].lower():
+                continue
             fiches[d["reference"]] = d
+    global categorie
+    if forcee:
+        categorie = lambda d: forcee
 
     wb = openpyxl.load_workbook(CATALOGUE)
     ws = wb["Produits"]
@@ -147,6 +154,13 @@ def main(fichiers):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
+    args, opts = [], {}
+    it = iter(sys.argv[1:])
+    for a in it:
+        if a in ("--filtre", "--categorie"):
+            opts[a[2:]] = next(it)
+        else:
+            args.append(a)
+    if not args:
         sys.exit(__doc__)
-    main(sys.argv[1:])
+    main(args, opts.get("filtre"), opts.get("categorie"))

@@ -37,3 +37,13 @@ Seules celles du goutte-à-goutte et des turbines sont copiées dans `boutique/i
 
 Anti-doublon : la collecte ignore toute fiche déjà présente dans un fichier `.jsonl` de `sortie/`
 (même adresse ou même référence), et un produit listé dans plusieurs rubriques n'est pris qu'une fois.
+
+## Ajouter une famille à la boutique
+
+```
+python3 ajout_catalogue.py --filtre lectrovanne --categorie "Électrovannes" sortie/arrosage_distribution_autres_familles.jsonl
+python3 regroupe_catalogue.py            # aperçu des regroupements
+python3 regroupe_catalogue.py --ecrire   # enregistre dans catalogue.xlsx
+cd ../catalogue && npm run export        # ou exporter.bat
+```
+Copier d'abord les photos de la famille de `sortie/images/` vers `boutique/images/`.

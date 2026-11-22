@@ -35,10 +35,17 @@ NOMS = {
     "régulateur de pression pn25": "Régulateur de pression PN25 avec union",
     "tuyau goutteurs intégrés hydropc": "Tuyau goutteurs intégrés HydroPC 2,2 L/h Rivulis",
     "adaptateur acme": "Adaptateur ACME × BSP Rain Bird",
+    "câble multiconducteur 0,8mm x": "Câble multiconducteur 0,8 mm² – 75 m",
+    "câble multiconducteur 0,8mm²": "Câble multiconducteur 0,8 mm²",
+    "richdel": "Electrovanne Richdel Irritrol",
+    "pga": "Electrovanne PGA Rain Bird",
+    "pgv-1": "Electrovanne PGV Hunter",
+    "clarinette dura": "Clarinette DURA 1''",
 }
 
 MESURE = r"\d+(?:[.,]\d+)?(?:\s*(?:mm|m3/h|l/h|bars?|cm|m)(?![a-zà-ü]))?|[½¼¾]|''|\""
-UNITES = {"mm", "l/h", "m", "bar", "bars", "cm", "sorties", "sortie", "m3/h"}
+UNITES = {"mm", "l/h", "m", "bar", "bars", "cm", "sorties", "sortie", "m3/h", "conducteurs", "mètres",
+          "vannes", "stations", "voies"}
 mesure = lambda w: bool(re.search(r"\d|[½¼¾]", w))
 
 
@@ -62,6 +69,10 @@ def decoupe(noms):
     fraction = lambda w: bool(re.match(r"^(\d+/\d+|[½¼¾])", w))
     # le début commun ne coupe pas une mesure en deux (1" | 1/2…)
     while debut and mesure(m[0][debut - 1]) and any(len(x) > debut and fraction(x[debut]) for x in m):
+        debut -= 1
+    # un nom entièrement compris dans le début commun (« Mamelon 1" » / « Mamelon 1" x 3/4" ») :
+    # la dernière mesure redevient un choix
+    while debut and mesure(m[0][debut - 1]) and any(len(x) == debut for x in m):
         debut -= 1
     fin = 0
     while all(len(x) > debut + fin for x in m) and len({x[-1 - fin].lower() for x in m}) == 1:
@@ -130,7 +141,7 @@ def main(ecrire):
     for lignes in groupes:
         noms = [ws.cell(r, C_NOM).value for r in lignes]
         auto, _ = decoupe(noms)
-        nom_fam = next((v for k, v in NOMS.items() if noms[0].lower().startswith(k)), auto)
+        nom_fam = next((v for k, v in NOMS.items() if k in noms[0].lower()), auto)
         fusion.setdefault((ws.cell(lignes[0], C_CAT).value, nom_fam), []).extend(lignes)
 
     total = 0

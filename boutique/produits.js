@@ -8171,6 +8171,4344 @@ window.CATALOGUE = {
      "pieces": 0
     }
    ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Bouchon DURA 1'' femelle",
+   "spec": "",
+   "ref": "19.50003",
+   "ht": 1.21,
+   "price": 1.31,
+   "stock": "in",
+   "img": "images/19.50003_1.jpg",
+   "desc": "Collecteur union PVC DURA Raccords PVC à visser. Etanchéité par joint torique.",
+   "specs": [
+    [
+     "Marque",
+     "Dura"
+    ],
+    [
+     "Type de produit",
+     "Accessoires symétriques"
+    ],
+    [
+     "Type de raccord",
+     "Bouchon"
+    ],
+    [
+     "Modèle compression",
+     "50 - 1'' ½"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Bouchon laiton Femelle 1\"",
+   "spec": "",
+   "ref": "16.29016",
+   "ht": 3.67,
+   "price": 3.98,
+   "stock": "in",
+   "img": "images/16.29016_1.jpg",
+   "desc": "Bouchon Laiton Femelle (F) 1\" - Obturation de Conduite Le Bouchon laiton Femelle 1\" est un accessoire de plomberie simple et efficace, utilisé pour fermer de manière étanche et fiable une sortie ou une extrémité de tuyauterie filetée en mâle (M). Il est souvent utilisé pour condamner un piquage devenu inutile ou pour réaliser une obturation provisoire lors de travaux.",
+   "specs": [
+    [
+     "Dimensions",
+     "1''"
+    ],
+    [
+     "Type de produit",
+     "Accessoires symétriques"
+    ],
+    [
+     "Type de raccord",
+     "Bouchon"
+    ]
+   ]
+  },
+  {
+   "famille": true,
+   "cat": "vannes",
+   "title": "Clarinette DURA 1''",
+   "desc": "Disponible en 2 vannes, 3 vannes et 4 vannes. Collecteur union PVC DURA Raccords PVC à visser. Etanchéité par joint torique.",
+   "specs": [
+    [
+     "Marque",
+     "Dura"
+    ],
+    [
+     "Type de produit",
+     "Accessoires symétriques"
+    ],
+    [
+     "Modèle compression",
+     "50 - 1'' ½"
+    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "2 vannes",
+     "hex": "",
+     "c2": "",
+     "ref": "19.28016",
+     "ht": 11.08,
+     "price": 12.02,
+     "stock": "in",
+     "img": "images/19.28016_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "3 vannes",
+     "hex": "",
+     "c2": "",
+     "ref": "19.28015",
+     "ht": 16.67,
+     "price": 18.09,
+     "stock": "in",
+     "img": "images/19.28015_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "4 vannes",
+     "hex": "",
+     "c2": "",
+     "ref": "19.28017",
+     "ht": 22,
+     "price": 23.87,
+     "stock": "in",
+     "img": "images/19.28017_1.jpg",
+     "pieces": 0
+    }
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Clarinette laiton 1\" 2 voies",
+   "spec": "",
+   "ref": "16.29012",
+   "ht": 34.17,
+   "price": 37.07,
+   "stock": "in",
+   "img": "images/16.29012_1.jpg",
+   "desc": "Clarinette/Collecteur Laiton 2 Voies - Entrée 1\" (26x34) La Clarinette en laiton à 2 voies (souvent appelée collecteur ou nourrisse) est conçue pour organiser et simplifier l'installation de plusieurs lignes d'alimentation ou de distribution, notamment dans les systèmes d'arrosage automatique ou de plomberie sanitaire. Elle permet de partir d'une arrivée principale unique pour créer deux départs distincts.",
+   "specs": [
+    [
+     "Dimensions",
+     "1''"
+    ],
+    [
+     "Type de produit",
+     "Accessoires symétriques"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Clé de verrouillage 2en1 regard Rain Bird",
+   "spec": "",
+   "ref": "15.VBCLE",
+   "ht": 65.83,
+   "price": 71.43,
+   "stock": "in",
+   "img": "images/15.VBCLE_1.jpg",
+   "desc": "Clé de Verrouillage 2en1 Professionnelle pour Regards de Vannes - Rain Bird La Clé de Verrouillage 2en1 Rain Bird est un outil indispensable pour les professionnels et les propriétaires souhaitant sécuriser et entretenir leurs installations d'arrosage. Elle est spécifiquement conçue pour interagir avec les systèmes de verrouillage des regards de vannes Rain Bird. Clé de verrouillage 2en1 pour verrouiller/déverrouiller les vis de sécurité 5pans des regards de vannes Rainbird. Garantie : 2 ans",
+   "specs": [
+    [
+     "Marque",
+     "Rain Bird"
+    ],
+    [
+     "Type de produit",
+     "Regards"
+    ],
+    [
+     "Type de regard",
+     "Accessoires regards"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Coude DURA 1'' femelle femelle",
+   "spec": "",
+   "ref": "19.09014",
+   "ht": 5.33,
+   "price": 5.78,
+   "stock": "in",
+   "img": "images/19.09014_1.jpg",
+   "desc": "Collecteur union PVC DURA Raccords PVC à visser. Etanchéité par joint torique.",
+   "specs": [
+    [
+     "Marque",
+     "Dura"
+    ],
+    [
+     "Type de produit",
+     "Raccords union pour électrovannes"
+    ],
+    [
+     "Type de raccord",
+     "Collecteur union 1\" DURA"
+    ],
+    [
+     "Dimensions",
+     "1\""
+    ],
+    [
+     "Modèle compression",
+     "50 - 1'' ½"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Coude DURA 1'' mâle femelle",
+   "spec": "",
+   "ref": "19.09013",
+   "ht": 4.83,
+   "price": 5.24,
+   "stock": "in",
+   "img": "images/19.09013_1.jpg",
+   "desc": "Collecteur union PVC DURA Raccords PVC à visser. Etanchéité par joint torique.",
+   "specs": [
+    [
+     "Marque",
+     "Dura"
+    ],
+    [
+     "Type de produit",
+     "Raccords union pour électrovannes"
+    ],
+    [
+     "Type de raccord",
+     "Coude 90°"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Coude union laiton Male/Femelle 1\"",
+   "spec": "",
+   "ref": "16.29011",
+   "ht": 13.5,
+   "price": 14.65,
+   "stock": "in",
+   "img": "images/16.29011_1.jpg",
+   "desc": "Coude Union Laiton 90° Mâle-Femelle (MF) - Diamètre 1\" à Visser Le Coude Union en laiton Mâle-Femelle 1\" est un raccord de haute qualité conçu pour dévier votre tuyauterie à 90 degrés tout en offrant la commodité d'une union 3 pièces. Cette conception spécifique facilite grandement le montage, le démontage et la maintenance de votre installation sans avoir à faire pivoter l'intégralité des tubes ou des vannes.",
+   "specs": [
+    [
+     "Dimensions",
+     "1''"
+    ],
+    [
+     "Type de produit",
+     "Raccords union pour électrovannes"
+    ],
+    [
+     "Type de raccord",
+     "Coude 90°"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Coude union laiton laiton Male/Femelle 1\"1/2",
+   "spec": "",
+   "ref": "16.29019",
+   "ht": 40.25,
+   "price": 43.67,
+   "stock": "in",
+   "img": "images/16.29019_1.jpg",
+   "desc": "Coude Union Laiton Mâle/Femelle (M/F) 1\"1/2 - 90° Le Coude Union Laiton Mâle/Femelle 1\"1/2 est un raccord essentiel en plomberie et en systèmes de pompage. Il permet de créer un angle à 90 degrés dans une tuyauterie, tout en intégrant une fonction \"Union\" pour faciliter le montage, l'entretien et le démontage d'une partie de l'installation sans dévisser tout le circuit.",
+   "specs": [
+    [
+     "Dimensions",
+     "1''1/2"
+    ],
+    [
+     "Type de produit",
+     "Raccords union pour électrovannes"
+    ],
+    [
+     "Type de raccord",
+     "Té"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Coude union taraudé laiton 1\"",
+   "spec": "",
+   "ref": "16.29010",
+   "ht": 15.83,
+   "price": 17.18,
+   "stock": "in",
+   "img": "images/16.29010_1.jpg",
+   "desc": "Coude 90° Laiton Femelle-Femelle (FF) - Diamètre 1\" Ce coude 90° en laiton avec double filetage femelle est un raccord essentiel pour créer un changement de direction à angle droit (90 degrés) dans vos réseaux de plomberie et d'arrosage. Sa robustesse et sa composition en laiton en font une solution durable et fiable pour le transport de divers fluides sous pression.",
+   "specs": [
+    [
+     "Dimensions",
+     "1''"
+    ],
+    [
+     "Type de produit",
+     "Raccords union pour électrovannes"
+    ],
+    [
+     "Type de raccord",
+     "Coude 90°"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Couvercle pour regard JUMBO Irritec",
+   "spec": "",
+   "ref": "15.45300064",
+   "ht": 15,
+   "price": 16.27,
+   "stock": "in",
+   "img": "images/15.45300064_1.jpg",
+   "desc": "Couvercle pour Regard Rectangulaire JUMBO IRRITEC Ce couvercle de remplacement Irritec est l'élément supérieur conçu pour le grand regard de vanne rectangulaire JUMBO de la marque. Il est indispensable pour protéger efficacement les équipements d'arrosage enterrés (électrovannes, raccords, etc.) contre la terre, les débris et les accès non autorisés. Sa conception allie robustesse et discrétion, avec une couleur verte qui s'intègre harmonieusement dans les espaces verts, jardins et parcs.",
+   "specs": [
+    [
+     "Marque",
+     "Irritec"
+    ],
+    [
+     "Type de produit",
+     "Regards"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Couvercle pour regard JUMBO VB - Rain Bird",
+   "spec": "",
+   "ref": "15.VBJMBC",
+   "ht": 44.41,
+   "price": 48.18,
+   "stock": "in",
+   "img": "images/15.VBJMBC_1.jpg",
+   "desc": "Couvercle pour Regard JUMBO VB - Rain Bird Ce couvercle de remplacement JUMBO est conçu pour le grand regard de vanne rectangulaire de la série VB (Valve Box) de Rain Bird. Faisant partie de la gamme professionnelle renforcée, ce couvercle est essentiel pour sécuriser et protéger les installations d'arrosage enterrées, offrant une résistance supérieure aux charges légères et au trafic piétonnier. Sa fabrication en Polyéthylène Haute Densité (PEHD) garantit une durabilité maximale contre les UV et les chocs, assurant une longue durée de vie à votre regard de vannes. Garantie : 2 ans",
+   "specs": [
+    [
+     "Marque",
+     "Rain Bird"
+    ],
+    [
+     "Type de produit",
+     "Regards"
+    ],
+    [
+     "Type de regard",
+     "Accessoires regards"
+    ],
+    [
+     "Compatibilité",
+     "Regard arrosage rectangle JUMBO VB Rain Bird."
+    ],
+    [
+     "Dimensions couvercle",
+     "47.4 x 30.9 cm"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Couvercle pour regard rectangle 12\" Irritec",
+   "spec": "",
+   "ref": "15.45300056",
+   "ht": 8.54,
+   "price": 9.27,
+   "stock": "in",
+   "img": "images/15.45300056_1.jpg",
+   "desc": "Couvercle pour Regard de Vanne Rectangulaire 12\" IRRITEC (Remplacement) Ce couvercle de remplacement Irritec est conçu spécifiquement pour s'adapter sur les regards de vanne rectangulaires de format Standard 12\" de la marque. Il permet de remplacer un couvercle endommagé ou perdu, assurant ainsi la protection et la sécurité des électrovannes et autres équipements d'irrigation enterrés. Sa conception robuste et sa finition le rendent idéal pour une installation discrète et sécurisée dans les espaces verts, parcs, jardins et zones résidentielles.",
+   "specs": [
+    [
+     "Marque",
+     "Irritec"
+    ],
+    [
+     "Type de produit",
+     "Regards"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Couvercle pour regard standard 12\" VB - Rain Bird",
+   "spec": "",
+   "ref": "15.VBSTDC",
+   "ht": 25.29,
+   "price": 27.44,
+   "stock": "in",
+   "img": "images/15.VBSTDC_1.jpg",
+   "desc": "Couvercle pour Regard Standard 12\" VB - Rain Bird Ce couvercle de remplacement est spécifiquement conçu pour les regards de vanne rectangulaires de la série VB Standard 12\" de la marque leader Rain Bird. Il s'agit d'un accessoire essentiel pour garantir la sécurité et la propreté de vos équipements d'arrosage enterrés, tels que les électrovannes, les vannes manuelles ou les raccords. Fabriqué en Polyéthylène Haute Densité (PEHD), il assure une excellente résistance aux intempéries, aux chocs et aux UV, tout en offrant une intégration discrète dans les espaces verts grâce à sa couleur verte. Garantie : 2 ans",
+   "specs": [
+    [
+     "Marque",
+     "Rain Bird"
+    ],
+    [
+     "Type de produit",
+     "Regards"
+    ],
+    [
+     "Type de regard",
+     "Accessoires regards"
+    ],
+    [
+     "Compatibilité",
+     "Regard de vannes rectangle standard 12\" VBSTD Rain Bird."
+    ],
+    [
+     "Dimensions couvercle",
+     "36.8 x 23.9 cm"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Croix DURA 1'' mâle femelle femelle femelle",
+   "spec": "",
+   "ref": "19.18013",
+   "ht": 7.62,
+   "price": 8.27,
+   "stock": "in",
+   "img": "images/19.18013_1.jpg",
+   "desc": "Croix 1\" PVC Dura Raccords PVC à visser. Etanchéité par joint torique.",
+   "specs": [
+    [
+     "Marque",
+     "Dura"
+    ],
+    [
+     "Type de produit",
+     "Raccords union pour électrovannes"
+    ],
+    [
+     "Type de raccord",
+     "Croix"
+    ],
+    [
+     "Modèle compression",
+     "50 - 1'' ½"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Câble décodeur 2 x 2,5mm² 500m",
+   "spec": "",
+   "ref": "02.DECO500",
+   "ht": 1125,
+   "price": 1220.63,
+   "stock": "in",
+   "img": "images/02.DECO500_1.jpg",
+   "desc": "Câble décodeur 2 x 2,5mm² 500m Câble multiconducteur utilisé sur les décodeurs Rain Bird . Utilisés pour des espaces verts publics de grandes dimensions, des complexes sportifs et des chantiers réalisés par tranches. Ce câble multiconducteur à très basse tension est spécialement conçu pour les systèmes de gestion centralisée d'arrosage. Vendu en bobine de 500 mètres, il est le choix privilégié de Rain Bird pour assurer la communication fiable entre le contrôleur central et les décodeurs de terrain. Sa composition en laiton rigide de forte section (2,5 mm²) lui confère une excellente performance électrique sur de longues distances et une grande durabilité en milieu enterré.",
+   "specs": [
+    [
+     "Type de produit",
+     "Connexions et câbles"
+    ],
+    [
+     "Caractéristiques",
+     "Cable multiconducteur monobrin."
+    ],
+    [
+     "Section d’un conducteur",
+     "2,5 mm2."
+    ],
+    [
+     "Longueur",
+     "500 mètres."
+    ]
+   ]
+  },
+  {
+   "famille": true,
+   "cat": "vannes",
+   "title": "Câble multiconducteur 0,8 mm² – 75 m",
+   "desc": "Disponible en 3 conducteurs, 5 conducteurs, 7 conducteurs, 9 conducteurs et 13 conducteurs. Câble irrigation multiconducteur Câble multiconducteur très basse tension (< 30 V), idéal pour l’alimentation des vannes électriques à partir des borniers des programmateurs",
+   "specs": [
+    [
+     "Type de produit",
+     "Connexions et câbles"
+    ],
+    [
+     "Caractéristiques",
+     "Cable multiconducteur monobrin."
+    ],
+    [
+     "Conducteurs",
+     "3"
+    ],
+    [
+     "Distance maximum entre programmateur 24 V et Vanne",
+     "350 m (175 m si 2 vannes)."
+    ],
+    [
+     "Section d’un conducteur",
+     "0,8 mm2."
+    ],
+    [
+     "Longueur",
+     "75 mètres."
+    ],
+    [
+     "Modèle compression",
+     "50 - 1'' ½"
+    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "3 conducteurs",
+     "hex": "",
+     "c2": "",
+     "ref": "02.51013",
+     "ht": 68.33,
+     "price": 74.14,
+     "stock": "in",
+     "img": "images/02.51013_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "5 conducteurs",
+     "hex": "",
+     "c2": "",
+     "ref": "02.51015",
+     "ht": 115,
+     "price": 124.78,
+     "stock": "in",
+     "img": "images/02.51015_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "7 conducteurs",
+     "hex": "",
+     "c2": "",
+     "ref": "02.51017",
+     "ht": 157.5,
+     "price": 170.89,
+     "stock": "in",
+     "img": "images/02.51017_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "9 conducteurs",
+     "hex": "",
+     "c2": "",
+     "ref": "02.51019",
+     "ht": 201.67,
+     "price": 218.81,
+     "stock": "in",
+     "img": "images/02.51019_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "13 conducteurs",
+     "hex": "",
+     "c2": "",
+     "ref": "02.51113",
+     "ht": 290,
+     "price": 314.65,
+     "stock": "in",
+     "img": "images/02.51113_1.jpg",
+     "pieces": 0
+    }
+   ]
+  },
+  {
+   "famille": true,
+   "cat": "vannes",
+   "title": "Câble multiconducteur 0,8 mm²",
+   "desc": "Disponible en 3 conducteurs 150 mètres, 3 conducteurs 300 mètres, 5 conducteurs 150 mètres, 5 conducteurs 300 mètres, 7 conducteurs 150 mètres, 7 conducteurs 300 mètres, 9 conducteurs 150 mètres, 9 conducteurs 300 mètres, 13 conducteurs 150 mètres et 13 conducteurs 300 mètres. Câble irrigation multiconducteur Câble multiconducteur très basse tension (< 30 V), idéal pour l’alimentation des vannes électriques à partir des borniers des programmateurs.",
+   "specs": [
+    [
+     "Type de produit",
+     "Connexions et câbles"
+    ],
+    [
+     "Caractéristiques",
+     "Cable multiconducteur monobrin."
+    ],
+    [
+     "Conducteurs",
+     "3"
+    ],
+    [
+     "Distance maximum entre programmateur 24 V et Vanne",
+     "350 m (175 m si 2 vannes)."
+    ],
+    [
+     "Section d’un conducteur",
+     "0,8 mm2."
+    ],
+    [
+     "Longueur",
+     "150 mètres."
+    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "3 conducteurs 150 mètres",
+     "hex": "",
+     "c2": "",
+     "ref": "02.MULTI3150",
+     "ht": 136.67,
+     "price": 148.29,
+     "stock": "in",
+     "img": "images/02.MULTI3150_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "3 conducteurs 300 mètres",
+     "hex": "",
+     "c2": "",
+     "ref": "02.MULTI3300",
+     "ht": 290,
+     "price": 314.65,
+     "stock": "in",
+     "img": "images/02.MULTI3300_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "5 conducteurs 150 mètres",
+     "hex": "",
+     "c2": "",
+     "ref": "02.MULTI5150",
+     "ht": 229.17,
+     "price": 248.65,
+     "stock": "in",
+     "img": "images/02.MULTI5150_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "5 conducteurs 300 mètres",
+     "hex": "",
+     "c2": "",
+     "ref": "02.MULTI5300",
+     "ht": 486.67,
+     "price": 528.04,
+     "stock": "in",
+     "img": "images/02.MULTI5300_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "7 conducteurs 150 mètres",
+     "hex": "",
+     "c2": "",
+     "ref": "02.MULTI7150",
+     "ht": 315,
+     "price": 341.78,
+     "stock": "in",
+     "img": "images/02.MULTI7150_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "7 conducteurs 300 mètres",
+     "hex": "",
+     "c2": "",
+     "ref": "02.MULTI7300",
+     "ht": 669.17,
+     "price": 726.05,
+     "stock": "in",
+     "img": "images/02.MULTI7300_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "9 conducteurs 150 mètres",
+     "hex": "",
+     "c2": "",
+     "ref": "02.MULTI9150",
+     "ht": 404.17,
+     "price": 438.52,
+     "stock": "in",
+     "img": "images/02.MULTI9150_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "9 conducteurs 300 mètres",
+     "hex": "",
+     "c2": "",
+     "ref": "02.MULTI9300",
+     "ht": 860,
+     "price": 933.1,
+     "stock": "in",
+     "img": "images/02.MULTI9300_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "13 conducteurs 150 mètres",
+     "hex": "",
+     "c2": "",
+     "ref": "02.MULTI13150",
+     "ht": 579.17,
+     "price": 628.4,
+     "stock": "in",
+     "img": "images/02.MULTI13150_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "13 conducteurs 300 mètres",
+     "hex": "",
+     "c2": "",
+     "ref": "02.MULTI13300",
+     "ht": 1230.83,
+     "price": 1335.45,
+     "stock": "in",
+     "img": "images/02.MULTI13300_1.jpg",
+     "pieces": 0
+    }
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Electrovanne 100 DV 1'' F 24V Rain Bird",
+   "spec": "",
+   "ref": "02.100DV",
+   "ht": 21.25,
+   "price": 23.06,
+   "stock": "in",
+   "img": "images/02.100DV_1.jpg",
+   "desc": "Electrovanne d’arrosage automatique, 100 DV 1\"F (26/34) BSP avec double filtrage, modèle taraudé, du leader Rain Bird. De par son double filtrage au niveau de la membrane et du solénoïde, l' electrovanne Rain Bird DV 24V est dotée d'une excellente résistance en eau chargée. L’ electrovanne rain bird 24v est un produit de grande qualité, supérieur aux autres vannes présentes sur le marché. Elle offre des performances fiables et constantes. Ces électrovannes résidentielles fonctionnent avec n’importe quel programmateur d’arrosage.",
+   "specs": [
+    [
+     "Marque",
+     "Rain Bird"
+    ],
+    [
+     "Type de produit",
+     "Electrovannes 9V et 24V"
+    ],
+    [
+     "Type d'électrovanne",
+     "Série DV"
+    ],
+    [
+     "Caractéristiques",
+     "Vanne taraudée."
+    ],
+    [
+     "Débit",
+     "0,24 à 9,0 m3/h (pour un débit inférieur à 0,75 m3/h, utiliser un filtre RBY-075-200X en amont de la vanne.)"
+    ],
+    [
+     "Pression de service",
+     "1 à 10,4 bars à 23°C."
+    ],
+    [
+     "Température de l'eau",
+     "Jusqu'à 43°C"
+    ],
+    [
+     "Filetage",
+     "100 : 1’’ (26/34) BSP."
+    ],
+    [
+     "Raccord",
+     "Femelle x femelle"
+    ],
+    [
+     "Solénoïde",
+     "24 V - 50 Hz."
+    ],
+    [
+     "Intensité d'appel",
+     "0,30 A (7,2 VA)."
+    ],
+    [
+     "Intensité de maintien",
+     "0,19 A (4,6 VA)."
+    ],
+    [
+     "Longueur",
+     "11,1 cm"
+    ],
+    [
+     "Largeur",
+     "8,4 cm"
+    ],
+    [
+     "Hauteur",
+     "11,4 cm"
+    ],
+    [
+     "Tension",
+     "24V"
+    ]
+   ]
+  },
+  {
+   "famille": true,
+   "cat": "vannes",
+   "title": "Electrovanne 100 DV Rain Bird",
+   "desc": "Disponible en 1''M 9V et 1'' M 24V. Electrovanne à double filtrage avec solénoïde à impulsion 9V, 100 DV 1''M (26/34) BSP, de la marque Rain Bird. De par son double filtrage au niveau de la membrane et du solénoïde, l' electrovanne 100 DV 1 M 9V est dotée d'une excellente résistance en eau chargée. L’ électrovanne 9v est un produit de grande qualité, supérieur aux autres vannes présentes sur le marché. Elle offre des performances fiables et constantes. Ces électrovannes résidentielles fonctionnent avec n’importe quel programmateur d’arrosage.",
+   "specs": [
+    [
+     "Marque",
+     "Rain Bird"
+    ],
+    [
+     "Type de produit",
+     "Electrovannes 9V et 24V"
+    ],
+    [
+     "Type d'électrovanne",
+     "Série DV"
+    ],
+    [
+     "Caractéristiques",
+     "Vanne filetée avec solénoïde à impulsion"
+    ],
+    [
+     "Débit",
+     "0,24 à 9,0 m3/h (pour un débit inférieur à 0,75 m3/h, utiliser un filtre RBY-075-200X en amont de la vanne. La DV male x male n’est pas…"
+    ],
+    [
+     "Pression de service",
+     "1 à 10,4 bars à 23°C."
+    ],
+    [
+     "Température de l'eau",
+     "Jusqu'à 43°C"
+    ],
+    [
+     "Filetage",
+     "100 : 1’’ (26/34) BSP"
+    ],
+    [
+     "Raccord",
+     "Mâle x mâle"
+    ],
+    [
+     "Solénoïde",
+     "24 V - 50 Hz."
+    ],
+    [
+     "Intensité d'appel",
+     "0,30 A (7,2 VA)."
+    ],
+    [
+     "Intensité de maintien",
+     "0,19 A (4,6 VA)."
+    ],
+    [
+     "Longueur",
+     "13,6 cm"
+    ],
+    [
+     "Largeur",
+     "8,4 cm"
+    ],
+    [
+     "Hauteur",
+     "11,4 cm"
+    ],
+    [
+     "Tension",
+     "9V"
+    ],
+    [
+     "Modèle compression",
+     "50 - 1'' ½"
+    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "1''M 9V",
+     "hex": "",
+     "c2": "",
+     "ref": "02.1009VM",
+     "ht": 33.75,
+     "price": 36.62,
+     "stock": "in",
+     "img": "images/02.1009VM_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "1'' M 24V",
+     "hex": "",
+     "c2": "",
+     "ref": "02.100DM",
+     "ht": 21.25,
+     "price": 23.06,
+     "stock": "in",
+     "img": "images/02.100DM_1.jpg",
+     "pieces": 0
+    }
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Electrovanne 100 DVF 1'' F réducteur de débit 24V Rain Bird",
+   "spec": "",
+   "ref": "02.100REG",
+   "ht": 29.96,
+   "price": 32.51,
+   "stock": "in",
+   "img": "images/02.100REG_1.jpg",
+   "desc": "Electrovanne avec réducteur de débit 100 DVF 1'' F pour l’arrosage automatique de petites zones Rain Bird. De par son double filtrage au niveau de la membrane et du solénoïde, l' electrovanne 9v 100 DVF 1'' F réducteur de débit est dotée d'une excellente résistance en eau chargée. L’ electrovanne à reducteur de débit est un produit de grande qualité, supérieur aux autres vannes présentes sur le marché. Elle offre des performances fiables et constantes. Ces électrovannes résidentielles fonctionnent avec n’importe quel programmateur d’arrosage.",
+   "specs": [
+    [
+     "Marque",
+     "Rain Bird"
+    ],
+    [
+     "Type de produit",
+     "Electrovannes 9V et 24V"
+    ],
+    [
+     "Type d'électrovanne",
+     "Série DV"
+    ],
+    [
+     "Caractéristiques",
+     "Vanne taraudée, avec réducteur de débit"
+    ],
+    [
+     "Débit",
+     "0,24 à 9,0 m3/h (pour un débit inférieur à 0,75 m3/h, utiliser un filtre RBY-075-200X en amont de la vanne.)"
+    ],
+    [
+     "Pression de service",
+     "1 à 10,4 bars à 23°C."
+    ],
+    [
+     "Température de l'eau",
+     "Jusqu'à 43°C"
+    ],
+    [
+     "Filetage",
+     "100 : 1’’ (26/34) BSP"
+    ],
+    [
+     "Raccord",
+     "Femelle x femelle"
+    ],
+    [
+     "Solénoïde",
+     "24 V - 50 Hz."
+    ],
+    [
+     "Intensité d'appel",
+     "0,30 A (7,2 VA)."
+    ],
+    [
+     "Intensité de maintien",
+     "0,19 A (4,6 VA)."
+    ],
+    [
+     "Longueur",
+     "11,1 cm"
+    ],
+    [
+     "Largeur",
+     "8,4 cm"
+    ],
+    [
+     "Hauteur",
+     "14.2 cm"
+    ],
+    [
+     "Tension",
+     "24V"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Electrovanne 100 DVF 1''F 9V Rain Bird",
+   "spec": "",
+   "ref": "02.1009V",
+   "ht": 33.75,
+   "price": 36.62,
+   "stock": "in",
+   "img": "images/02.1009V_1.jpg",
+   "desc": "Electrovanne à double filtrage 100 DV 1''F (26/34) BSP 9V, solénoïde à impulsion Rain Bird. De par son double filtrage au niveau de la membrane et du solénoïde, l' electrovanne 9v 100 DVF 1'' F est dotée d'une excellente résistance en eau chargée. L’ electrovanne 9v de Rain Bird est un produit de grande qualité, supérieur aux autres vannes présentes sur le marché. Elle offre des performances fiables et constantes. Ces électrovannes résidentielles fonctionnent avec n’importe quel programmateur d’arrosage.",
+   "specs": [
+    [
+     "Marque",
+     "Rain Bird"
+    ],
+    [
+     "Type de produit",
+     "Electrovannes 9V et 24V"
+    ],
+    [
+     "Type d'électrovanne",
+     "Série DV"
+    ],
+    [
+     "Caractéristiques",
+     "Vanne taraudée avec solénoïde à impulsion."
+    ],
+    [
+     "Débit",
+     "0,24 à 9,0 m3/h (pour un débit inférieur à 0,75 m3/h, utiliser un filtre RBY-075-200X en amont de la vanne.)"
+    ],
+    [
+     "Pression de service",
+     "1 à 10,4 bars à 23°C."
+    ],
+    [
+     "Température de l'eau",
+     "Jusqu'à 43°C"
+    ],
+    [
+     "Filetage",
+     "100 : 1’’ (26/34) BSP"
+    ],
+    [
+     "Raccord",
+     "Femelle x femelle"
+    ],
+    [
+     "Solénoïde",
+     "24 V - 50 Hz."
+    ],
+    [
+     "Intensité d'appel",
+     "0,30 A (7,2 VA)."
+    ],
+    [
+     "Intensité de maintien",
+     "0,19 A (4,6 VA)."
+    ],
+    [
+     "Longueur",
+     "11,1 cm"
+    ],
+    [
+     "Largeur",
+     "8,4 cm"
+    ],
+    [
+     "Hauteur",
+     "14,2 cm"
+    ],
+    [
+     "Tension",
+     "9V"
+    ],
+    [
+     "Modèle compression",
+     "50 - 1'' ½"
+    ]
+   ]
+  },
+  {
+   "famille": true,
+   "cat": "vannes",
+   "title": "Electrovanne PEB 24V Rain Bird",
+   "desc": "Disponible en 100, 150 et 200. En effet son corps en nylon renforcé de fibre de verre asure longévité et fiabilité, ses vis en acier inoxydable intégrées dans le corps assurent une meilleure résistance du filetage. Fermeture lente pour éviter les coups de béliers et des dommages du système. De plus l'ensemble solénoïde/plongeur d’une seule pièce facilite la maintenance sans risque de perte de pièces. Garantie : 2 ans",
+   "specs": [
+    [
+     "Marque",
+     "Rain Bird"
+    ],
+    [
+     "Type de produit",
+     "Electrovannes 9V et 24V"
+    ],
+    [
+     "Caractéristiques",
+     "Vanne taraudée."
+    ],
+    [
+     "Débit",
+     "1,2 à 45 m3/h"
+    ],
+    [
+     "Pression",
+     "1,4 à 13,8 bars à 23° C"
+    ],
+    [
+     "Température de l'eau",
+     "Jusqu'à 66°C"
+    ],
+    [
+     "Raccord",
+     "Femelle x femelle"
+    ],
+    [
+     "Compatibilité",
+     "PRS-Dial : régulateur de pression ajustable de 1,0 à 6,9 bars / Solénoïde à impulsion TBOS™."
+    ],
+    [
+     "Solénoïde",
+     "Solénoïde 24 V - 50 Hz"
+    ],
+    [
+     "Intensité d'appel",
+     "0,41 A (9,9 VA)"
+    ],
+    [
+     "Intensité de maintien",
+     "0,23 A (5,5 VA)"
+    ],
+    [
+     "Longueur",
+     "10.2 cm"
+    ],
+    [
+     "Largeur",
+     "10.2 cm"
+    ],
+    [
+     "Hauteur",
+     "16.5 cm"
+    ],
+    [
+     "Tension",
+     "24V"
+    ],
+    [
+     "Modèle compression",
+     "50 - 1'' ½"
+    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "100",
+     "hex": "",
+     "c2": "",
+     "ref": "02.100PEB",
+     "ht": 77.67,
+     "price": 84.27,
+     "stock": "in",
+     "img": "images/02.100PEB_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "150",
+     "hex": "",
+     "c2": "",
+     "ref": "02.150PEB",
+     "ht": 103.33,
+     "price": 112.11,
+     "stock": "in",
+     "img": "images/02.150PEB_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "200",
+     "hex": "",
+     "c2": "",
+     "ref": "02.200PEB",
+     "ht": 152.92,
+     "price": 165.92,
+     "stock": "in",
+     "img": "images/02.200PEB_1.jpg",
+     "pieces": 0
+    }
+   ]
+  },
+  {
+   "famille": true,
+   "cat": "vannes",
+   "title": "Electrovanne PES-B Rain Bird",
+   "desc": "Disponible en 100, 150 et 200. En effet son corps en nylon renforcé de fibre de verre asure longévité et fiabilité, ses vis en acier inoxydable intégrées dans le corps assurent une meilleure résistance du filetage. Fermeture lente pour éviter les coups de béliers et des dommages du système. De plus l'ensemble solénoïde/plongeur d’une seule pièce facilite la maintenance sans risque de perte de pièces. Garantie : 2 ans",
+   "specs": [
+    [
+     "Marque",
+     "Rain Bird"
+    ],
+    [
+     "Type de produit",
+     "Electrovannes 9V et 24V"
+    ],
+    [
+     "Caractéristiques",
+     "Vanne taraudée avec dispositif épurateur."
+    ],
+    [
+     "Débit",
+     "1,2 à 45 m3/h."
+    ],
+    [
+     "Pression",
+     "1,4 à 13,8 bars à 23°C."
+    ],
+    [
+     "Température de l'eau",
+     "Jusqu'à 66°C"
+    ],
+    [
+     "Raccord",
+     "Femelle x femelle"
+    ],
+    [
+     "Compatibilité",
+     "PRS-Dial : régulateur de pression ajustable de 1,0 à 6,9 bars / Solénoïde à impulsion TBOS™."
+    ],
+    [
+     "Solénoïde",
+     "Solénoïde 24 V - 50 Hz."
+    ],
+    [
+     "Intensité d'appel",
+     "0,41 A (9,9 VA)."
+    ],
+    [
+     "Intensité de maintien",
+     "0,23 A (5,5 VA)."
+    ],
+    [
+     "Longueur",
+     "10,2 cm"
+    ],
+    [
+     "Largeur",
+     "10,2 cm"
+    ],
+    [
+     "Hauteur",
+     "16,5 cm"
+    ],
+    [
+     "Tension",
+     "24V"
+    ],
+    [
+     "Modèle compression",
+     "50 - 1'' ½"
+    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "100",
+     "hex": "",
+     "c2": "",
+     "ref": "02.100PESB",
+     "ht": 158,
+     "price": 171.43,
+     "stock": "in",
+     "img": "images/02.100PESB_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "150",
+     "hex": "",
+     "c2": "",
+     "ref": "02.150PESB",
+     "ht": 193.17,
+     "price": 209.59,
+     "stock": "in",
+     "img": "images/02.150PESB_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "200",
+     "hex": "",
+     "c2": "",
+     "ref": "02.200PESB",
+     "ht": 242.5,
+     "price": 263.11,
+     "stock": "in",
+     "img": "images/02.200PESB_1.jpg",
+     "pieces": 0
+    }
+   ]
+  },
+  {
+   "famille": true,
+   "cat": "vannes",
+   "title": "Electrovanne PGA Rain Bird",
+   "desc": "Disponible en 100 PGA 1\" 9V, 100 PGA 1\" 24V, 150 PGA 1''½ - 9V, 150 PGA 1'' ½ 24V, 200 PGA 2'' 9V et 200 PGA 2'' 24V. Electrovanne 100 PGA taraudée 1’’ (26x34) BSP, solénoïde à impulsion 9V, en utilisation pour les terrains sportifs, Rain Bird 100 PGA 9V : vanne taraudée 1’’ (26 x 34) BSP, Solénoïde à impulsion. Composées d'une membrane renforcée, les vannes PGA sont fiables, robustes et bénéficient d'une durée de vie prolongée. Les électrovannes Rain Bird 9v s'adaptent à tous types d'applications : espaces verts publics et terrains de sport. De plus l'ensemble solénoïde/plongeur d’une seule pièce facilite la maintenance sans risque de perte de pièces. Garantie : 2 ans",
+   "specs": [
+    [
+     "Marque",
+     "Rain Bird"
+    ],
+    [
+     "Type de produit",
+     "Electrovannes 9V et 24V"
+    ],
+    [
+     "Type d'électrovanne",
+     "Série PGA"
+    ],
+    [
+     "Caractéristiques",
+     "Vanne taraudée avec solénoïde à impulsion."
+    ],
+    [
+     "Débit",
+     "0,5 à 34,0 m3/h."
+    ],
+    [
+     "Pression",
+     "1,0 à 10,4 bars à 23°C."
+    ],
+    [
+     "Température de l'eau",
+     "Jusqu'à 43°C"
+    ],
+    [
+     "Filetage",
+     "1” (26/34) BSP"
+    ],
+    [
+     "Raccord",
+     "Femelle x femelle"
+    ],
+    [
+     "Compatibilité",
+     "avec PRS-Dial : régulateur de pression ajustable de 1,0 à 6,9 bars (option)."
+    ],
+    [
+     "Solénoïde",
+     "24 V - 50 Hz."
+    ],
+    [
+     "Intensité d'appel",
+     "0,41 A (9,9 VA)."
+    ],
+    [
+     "Intensité de maintien",
+     "0,23 A (5,5 VA)."
+    ],
+    [
+     "Longueur",
+     "14,0 cm"
+    ],
+    [
+     "Largeur",
+     "8,3 cm"
+    ],
+    [
+     "Hauteur",
+     "18,4 cm"
+    ],
+    [
+     "Tension",
+     "9V"
+    ],
+    [
+     "Modèle compression",
+     "50 - 1'' ½"
+    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "100 PGA 1\" 9V",
+     "hex": "",
+     "c2": "",
+     "ref": "02.PGA19",
+     "ht": 60.83,
+     "price": 66,
+     "stock": "in",
+     "img": "images/02.PGA19_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "100 PGA 1\" 24V",
+     "hex": "",
+     "c2": "",
+     "ref": "02.PGA1",
+     "ht": 41.25,
+     "price": 44.76,
+     "stock": "in",
+     "img": "images/02.PGA1_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "150 PGA 1''½ - 9V",
+     "hex": "",
+     "c2": "",
+     "ref": "02.PGA159",
+     "ht": 82.92,
+     "price": 89.97,
+     "stock": "in",
+     "img": "images/02.PGA159_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "150 PGA 1'' ½ 24V",
+     "hex": "",
+     "c2": "",
+     "ref": "02.PGA15",
+     "ht": 57.92,
+     "price": 62.84,
+     "stock": "in",
+     "img": "images/02.PGA15_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "200 PGA 2'' 9V",
+     "hex": "",
+     "c2": "",
+     "ref": "02.PGA109",
+     "ht": 102.5,
+     "price": 111.21,
+     "stock": "in",
+     "img": "images/02.PGA109_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "200 PGA 2'' 24V",
+     "hex": "",
+     "c2": "",
+     "ref": "02.PGA10",
+     "ht": 82.08,
+     "price": 89.06,
+     "stock": "in",
+     "img": "images/02.PGA10_1.jpg",
+     "pieces": 0
+    }
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Electrovanne 300 BPE-S Rain Bird",
+   "spec": "",
+   "ref": "02.300BPES",
+   "ht": 1326,
+   "price": 1438.71,
+   "stock": "in",
+   "img": "images/02.300BPES_1.jpg",
+   "desc": "Electrovanne taraudée 3” (80/90) 300 BPES avec dispositif épurateur, robuste et fiable, de la marque leader mondial Rain Bird. La vanne 300 BPES est robuste et fiable, son corps en bronze et son chapeau en nylon renforcé de fibres de verre lui permettent de résister aux conditions très difficiles (eaux chargées, colmatage et fortes surpressions). De plus ce modèle est équipé d'un dispositif épurateur, le tout pour une longévité optimale. Elle est idéale en applications pour les espaces verts publics et les terrains de sport. Garantie : 2 ans",
+   "specs": [
+    [
+     "Marque",
+     "Rain Bird"
+    ],
+    [
+     "Type de produit",
+     "Electrovannes 9V et 24V"
+    ],
+    [
+     "Caractéristiques",
+     "Vanne taraudée avec dispositif épurateur."
+    ],
+    [
+     "Débit",
+     "13,6 à 68,0 m3/h."
+    ],
+    [
+     "Pression",
+     "1,4 à 13,8 bars à 23°C."
+    ],
+    [
+     "Température de l'eau",
+     "Jusqu'à 43°C"
+    ],
+    [
+     "Filetage",
+     "3” (80/90) BSP"
+    ],
+    [
+     "Raccord",
+     "Femelle x femelle"
+    ],
+    [
+     "Compatibilité",
+     "PRS-Dial : régulateur de pression ajustable de 1,0 à 6,9 bars / Solénoïde à impulsion TBOS™"
+    ],
+    [
+     "Solénoïde",
+     "24 V - 50 Hz."
+    ],
+    [
+     "Intensité d'appel",
+     "0,41 A (9,9 VA)."
+    ],
+    [
+     "Intensité de maintien",
+     "0,28 A (6,7 VA)."
+    ],
+    [
+     "Longueur",
+     "20,32 cm"
+    ],
+    [
+     "Largeur",
+     "17,78 cm"
+    ],
+    [
+     "Hauteur",
+     "34,61 cm"
+    ],
+    [
+     "Tension",
+     "24V"
+    ],
+    [
+     "Modèle compression",
+     "50 - 1'' ½"
+    ]
+   ]
+  },
+  {
+   "famille": true,
+   "cat": "vannes",
+   "title": "Electrovanne 75 DV 3/4'' FF - Rain Bird",
+   "desc": "Disponible en 9V et 24V. Le modèle 75 DV possède une vanne taraudée standard 3 / 4” (20/27). Fiable et robuste, elle bénéficie d'une longévité accrue du fait de la pression équilibrée exercée sur la membrane. De plus, l'ensemble solénoïde / plongeur d’une seule pièce facilite la maintenance sans risquer de perdre des pièces.",
+   "specs": [
+    [
+     "Marque",
+     "Rain Bird"
+    ],
+    [
+     "Type d'électrovanne",
+     "Série DV"
+    ],
+    [
+     "Caractéristiques",
+     "Vanne taraudée avec solénoïde à impulsion."
+    ],
+    [
+     "Débit",
+     "0,24 à 9,0 m3/h (pour un débit inférieur à 0,75 m3/h, utiliser un filtre RBY-075-200X en amont de la vanne.)"
+    ],
+    [
+     "Pression de service",
+     "1 à 10,4 bars à 23°C."
+    ],
+    [
+     "Température de l'eau",
+     "Jusqu'à 43°C"
+    ],
+    [
+     "Filetage",
+     "075 : 3/4’’ (20/27)"
+    ],
+    [
+     "Raccord",
+     "Femelle x femelle"
+    ],
+    [
+     "Solénoïde",
+     "24 V - 50 Hz."
+    ],
+    [
+     "Intensité d'appel",
+     "0,30 A (7,2 VA)."
+    ],
+    [
+     "Intensité de maintien",
+     "0,19 A (4,6 VA)."
+    ],
+    [
+     "Longueur",
+     "11,1 cm"
+    ],
+    [
+     "Largeur",
+     "8,4 cm"
+    ],
+    [
+     "Hauteur",
+     "11,4 cm"
+    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "9V",
+     "hex": "",
+     "c2": "",
+     "ref": "02.AV1110",
+     "ht": 35,
+     "price": 37.98,
+     "stock": "in",
+     "img": "images/02.AV1110_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "24V",
+     "hex": "",
+     "c2": "",
+     "ref": "02.AV1100",
+     "ht": 21.29,
+     "price": 23.1,
+     "stock": "in",
+     "img": "images/02.AV1100_1.jpg",
+     "pieces": 0
+    }
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Electrovanne EZ-FLO PLUS 1\" F 24V TORO",
+   "spec": "",
+   "ref": "02.EZFLO24F",
+   "ht": 27.08,
+   "price": 29.38,
+   "stock": "in",
+   "img": "images/02.EZFLO24F_1.jpg",
+   "desc": "Electrovanne EZ-FLO PLUS 1\" F 24V TORO Faciles à installer et faciles à entretenir, ces vannes Toro® sont faciles à choisir. Parfaites pour les applications résidentielles, les vannes EZ-Flo Plus se déclinent en une vaste gamme de configurations, vous offrant toute la souplesse d’utilisation que vous recherchez. Les electrovannes de la série EZ-FLO sont conçues en PVC de qualité industrielle anti-corrosion, résistant aux UV et en polypropylène renforcé à la fibre de verre. L'électrovanne est munie d'une double membrane d'une étanchéité parfaite, résistante à la chloramine et à l'ozone, ainsi que de vis de purge externes et solénoïdes encapsulés.",
+   "specs": [
+    [
+     "Marque",
+     "Toro"
+    ],
+    [
+     "Type de produit",
+     "Electrovannes 9V et 24V"
+    ],
+    [
+     "Type d'électrovanne",
+     "SÉRIE EZ-FLO"
+    ],
+    [
+     "Matériaux",
+     "Polypropylène"
+    ],
+    [
+     "Débit",
+     "0,06 à 6,84 m3 /h"
+    ],
+    [
+     "Pression",
+     "0,7 à 10 bars"
+    ],
+    [
+     "Filetage",
+     "1\""
+    ],
+    [
+     "Raccord",
+     "Femelle x femelle"
+    ],
+    [
+     "Solénoïde",
+     "24V"
+    ],
+    [
+     "Longueur",
+     "11,2 cm"
+    ],
+    [
+     "Largeur",
+     "7,9 cm"
+    ],
+    [
+     "Hauteur",
+     "11,7 cm"
+    ],
+    [
+     "Tension",
+     "24V"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Electrovanne EZ-FLO PLUS 1\" M 24V TORO",
+   "spec": "",
+   "ref": "02.EZFLO24M",
+   "ht": 27.08,
+   "price": 29.38,
+   "stock": "in",
+   "img": "images/02.EZFLO24M_1.jpg",
+   "desc": "Electrovanne EZ-FLO PLUS 1\" M 24V TORO Faciles à installer et faciles à entretenir, ces vannes Toro® sont faciles à choisir. Parfaites pour les applications résidentielles, les vannes EZ-Flo Plus se déclinent en une vaste gamme de configurations, vous offrant toute la souplesse d’utilisation que vous recherchez. Les electrovannes de la série EZ-FLO sont conçues en PVC de qualité industrielle anti-corrosion, résistant aux UV et en polypropylène renforcé à la fibre de verre. L'électrovanne est munie d'une double membrane d'une étanchéité parfaite, résistante à la chloramine et à l'ozone, ainsi que de vis de purge externes et solénoïdes encapsulés.",
+   "specs": [
+    [
+     "Marque",
+     "Toro"
+    ],
+    [
+     "Type de produit",
+     "Electrovannes 9V et 24V"
+    ],
+    [
+     "Type d'électrovanne",
+     "SÉRIE EZ-FLO"
+    ],
+    [
+     "Matériaux",
+     "Polypropylène"
+    ],
+    [
+     "Débit",
+     "0,06 à 6,84 m3 /h"
+    ],
+    [
+     "Pression",
+     "0,7 à 10 bars"
+    ],
+    [
+     "Filetage",
+     "1\""
+    ],
+    [
+     "Raccord",
+     "Mâle x Mâle"
+    ],
+    [
+     "Solénoïde",
+     "24V"
+    ],
+    [
+     "Longueur",
+     "11,2 cm"
+    ],
+    [
+     "Largeur",
+     "7,9 cm"
+    ],
+    [
+     "Hauteur",
+     "11,7 cm"
+    ],
+    [
+     "Tension",
+     "24V"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Electrovanne EZYVALVE - 4 électrovannes 24V",
+   "spec": "",
+   "ref": "01.EZYVAL",
+   "ht": 108.33,
+   "price": 117.54,
+   "stock": "in",
+   "img": "images/01.EZYVAL_1.jpg",
+   "desc": "Coffret regard de 4 électrovannes 24V prémontées Ezyvalve, haute résistance aux UV pour arrosage automatique, de la marque ANTELCO. Le coffret EZYVALVE est composé de 4 électrovannes pré-montées intégrés dans un mini regard, de connexions étanches, d'un presse-étoupe pour câble programmateur. 1 Entrée / 4 Sorties : 3/4\" MM. 24V AC. Pression de service de 0,2 à 12,5 bars. L’avantage de ce mini-regard : inutile d’installer les électrovannes, elles sont déjà prêtes à être mises en marche, dès la réception ! Vous n’avez plus qu’à utiliser des raccords pour brancher les tuyaux d’irrigation et à les brancher électriquement.",
+   "specs": [
+    [
+     "Type de produit",
+     "Electrovannes 9V et 24V"
+    ],
+    [
+     "Type d'électrovanne",
+     "EZYVALVE"
+    ],
+    [
+     "Débit",
+     "de 1 L/min à 30 L/min"
+    ],
+    [
+     "Pression de service",
+     "de 0,2 à 12,5 bars (20 kPa à 1250 kPa)"
+    ],
+    [
+     "Filetage",
+     "1 Entrée / 4 Sorties: 3/4\""
+    ],
+    [
+     "Raccord",
+     "Mâle x mâle"
+    ],
+    [
+     "Installation",
+     "Au sol, enterré ou en fixation murale"
+    ],
+    [
+     "Longueur",
+     "15 cm"
+    ],
+    [
+     "Largeur",
+     "12 cm"
+    ],
+    [
+     "Hauteur",
+     "10.5 cm"
+    ],
+    [
+     "Poids",
+     "1075 g"
+    ],
+    [
+     "Inclus",
+     "Presse-étoupe pour passage de câble irrigation, connexions étanches fournies"
+    ],
+    [
+     "Tension",
+     "24V"
+    ]
+   ]
+  },
+  {
+   "famille": true,
+   "cat": "vannes",
+   "title": "Electrovanne HV 1\" F Rain Bird",
+   "desc": "Disponible en 9V et 24V. Fiable et simple d'entretien : Corps en polypropylène renforcé de fibre de verre, menbrane asymétrique pour une fermeture lente, Vis captives multi-usages. Garantie : 2 ans",
+   "specs": [
+    [
+     "Marque",
+     "Rain Bird"
+    ],
+    [
+     "Type d'électrovanne",
+     "Série HV"
+    ],
+    [
+     "Température ambiante",
+     "Jusqu'à 52°C"
+    ],
+    [
+     "Débit",
+     "0,05 à 6,82 m3 /h"
+    ],
+    [
+     "Pression",
+     "1,0 à 10,3 bar"
+    ],
+    [
+     "Température de l'eau",
+     "Jusqu'à 43°C"
+    ],
+    [
+     "Filetage",
+     "100 : 1\" (26/34)"
+    ],
+    [
+     "Raccord",
+     "Femelle x femelle"
+    ],
+    [
+     "Courant d’appel",
+     "maxi : 0,250 A - 60 Hz."
+    ],
+    [
+     "Courant de maintien",
+     "0,143 A - 60 Hz."
+    ],
+    [
+     "Résistance de bobine",
+     "52 à 55 Ohms."
+    ],
+    [
+     "Longueur",
+     "11,2 cm"
+    ],
+    [
+     "Largeur",
+     "7,9 cm"
+    ],
+    [
+     "Hauteur",
+     "11,7 cm"
+    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "9V",
+     "hex": "",
+     "c2": "",
+     "ref": "02.HV19FF",
+     "ht": 32.92,
+     "price": 35.72,
+     "stock": "in",
+     "img": "images/02.HV19FF_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "24V",
+     "hex": "",
+     "c2": "",
+     "ref": "02.HV1FF",
+     "ht": 14.5,
+     "price": 15.73,
+     "stock": "in",
+     "img": "images/02.HV1FF_1.jpg",
+     "pieces": 0
+    }
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Electrovanne HV 1\" MM 24V Rain Bird",
+   "spec": "",
+   "ref": "02.HV1MM",
+   "ht": 14.5,
+   "price": 15.73,
+   "stock": "in",
+   "img": "images/02.HV1MM_1.jpg",
+   "desc": "Electrovanne Rain Bird HV 1’’ MM (26/34) PSB filetée, entretien aisé et très fiable, conçu pour les applications à faible débit Les electrovannes Rain Bird série HV en 24 volts sont utilisées pour des applications d’arrosage automatique à faible débit ou de micro-irrigation. Rain Bird a créé des électrovannes d'excellente qualité, avec une grande longévité grâce à leur conception. Le corps en polypropylène renforcé de fibre de verre est très robuste. L' électrovanne Rain Bird HV est également simple d’entretien. Les vis captives multi-têtes offrent un accès facile et un retrait rapide du chapeau. Il ne contient que 4 vis pour un accès rapide à la membrane.",
+   "specs": [
+    [
+     "Marque",
+     "Rain Bird"
+    ],
+    [
+     "Type de produit",
+     "Electrovannes 9V et 24V"
+    ],
+    [
+     "Type d'électrovanne",
+     "Série HV"
+    ],
+    [
+     "Température ambiante",
+     "Jusqu'à 52°C"
+    ],
+    [
+     "Débit",
+     "0,05 à 6,82 m3 /h (pour les débits inférieurs à 0,68 m3 /h ou n’importe quelle application de micro-irrigation, utiliser le filtre RBY-100-200MX…"
+    ],
+    [
+     "Pression",
+     "1,0 à 10,3 bar"
+    ],
+    [
+     "Température de l'eau",
+     "Jusqu'à 43°C"
+    ],
+    [
+     "Filetage",
+     "100 : 1\" (26/34)"
+    ],
+    [
+     "Raccord",
+     "Mâle x mâle"
+    ],
+    [
+     "Solénoïde",
+     "24 VCA 50/60 HZ."
+    ],
+    [
+     "Courant d’appel",
+     "maxi : 0,250 A - 60 Hz."
+    ],
+    [
+     "Courant de maintien",
+     "0,143 A - 60 Hz."
+    ],
+    [
+     "Résistance de bobine",
+     "52 à 55 Ohms."
+    ],
+    [
+     "Longueur",
+     "11,2 cm"
+    ],
+    [
+     "Largeur",
+     "7,9 cm"
+    ],
+    [
+     "Hauteur",
+     "11,7 cm"
+    ],
+    [
+     "Tension",
+     "24V"
+    ]
+   ]
+  },
+  {
+   "famille": true,
+   "cat": "vannes",
+   "title": "Electrovanne HYFLOW S100 3\" BERMAD",
+   "desc": "Disponible en 9V et 24V. Elle combine une construction simple et fiable avec des hautes performances en étant en même temps libre de toutes les limitations associées aux vannes de contrôle standard. La vanne IR-100 HYflow est en nylon renforcé de fibres de verre de qualité industrielle, capable de supporter des conditions de service sévères La conception du corps de la vanne HYflow, forme en “Y” est à passage total, non obturé par supports, guides ou axes.",
+   "specs": [
+    [
+     "Marque",
+     "Bermad"
+    ],
+    [
+     "Applications",
+     "Usage résidentiel et collectif de grande envergure"
+    ],
+    [
+     "Matériaux",
+     "Nylon renforcé de fibre de verre"
+    ],
+    [
+     "Débit",
+     "10 à 100 m³/h"
+    ],
+    [
+     "Pression",
+     "0.5 à 10 bar"
+    ],
+    [
+     "Filetage",
+     "3\""
+    ],
+    [
+     "Raccord",
+     "Femelle x femelle"
+    ],
+    [
+     "Modèle compression",
+     "50 - 1'' ½"
+    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "9V",
+     "hex": "",
+     "c2": "",
+     "ref": "02.HYFLOW9",
+     "ht": 216.67,
+     "price": 235.09,
+     "stock": "in",
+     "img": "images/02.HYFLOW9_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "24V",
+     "hex": "",
+     "c2": "",
+     "ref": "02.HYFLOW24",
+     "ht": 221.25,
+     "price": 240.06,
+     "stock": "in",
+     "img": "images/02.HYFLOW24_1.jpg",
+     "pieces": 0
+    }
+   ]
+  },
+  {
+   "famille": true,
+   "cat": "vannes",
+   "title": "Electrovanne ICV FF 24V Hunter",
+   "desc": "Disponible en 1\", 1\" 1/2, 2\" et 3\". Capable de supporter des pressions allant jusqu'à 15 bars, elle est fabriquée avec des matériaux éprouvés pour garantir fiabilité et durabilité. Sa construction en nylon renforcé aux fibres de verre contribue à sa résistance. Cette électrovanne est équipée d'un siège et d'une membrane EPDM en tissu renforcé, et offre une fonction de contrôle du débit pour un réglage précis de l'irrigation. Elle dispose d'une purge manuelle externe et interne pour une activation rapide et facile.",
+   "specs": [
+    [
+     "Marque",
+     "Hunter"
+    ],
+    [
+     "Type d'électrovanne",
+     "Série ICV"
+    ],
+    [
+     "Raccord",
+     "Femelle x Femelle"
+    ],
+    [
+     "Tension",
+     "24V"
+    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "1\"",
+     "hex": "",
+     "c2": "",
+     "ref": "02.34766282",
+     "ht": 68.83,
+     "price": 74.68,
+     "stock": "in",
+     "img": "images/02.34766282_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "1\" 1/2",
+     "hex": "",
+     "c2": "",
+     "ref": "02.34766339",
+     "ht": 89.17,
+     "price": 96.75,
+     "stock": "in",
+     "img": "images/02.34766339_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "2\"",
+     "hex": "",
+     "c2": "",
+     "ref": "02.34766312",
+     "ht": 114.58,
+     "price": 124.32,
+     "stock": "in",
+     "img": "images/02.34766312_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "3\"",
+     "hex": "",
+     "c2": "",
+     "ref": "02.34766290",
+     "ht": 381.67,
+     "price": 414.11,
+     "stock": "in",
+     "img": "images/02.34766290_1.jpg",
+     "pieces": 0
+    }
+   ]
+  },
+  {
+   "famille": true,
+   "cat": "vannes",
+   "title": "Electrovanne P 252 F 24V TORO",
+   "desc": "Disponible en 1\"1/2 et 2\". Cette vanne durable est conçue pour répondre aux exigences des applications commerciales, aussi bien électriques qu'hydrauliques. Construite pour résister à l'encrassement, son fonctionnement dans les conditions les plus dures a été testé et éprouvé. La membrane en caoutchouc à armature textile offre une excellente tolérance aux déchirures et à l'étirement à long terme.",
+   "specs": [
+    [
+     "Marque",
+     "Toro"
+    ],
+    [
+     "Type de produit",
+     "Electrovannes 9V et 24V"
+    ],
+    [
+     "Applications",
+     "Usage résidentiel et collectif de grande envergure"
+    ],
+    [
+     "Matériaux",
+     "Nylon renforcé de fibre de verre"
+    ],
+    [
+     "Débit",
+     "5.67 à 15.89 m³/h"
+    ],
+    [
+     "Pression",
+     "1,4 à 10 bars"
+    ],
+    [
+     "Raccord",
+     "Femelle x femelle"
+    ],
+    [
+     "Solénoïde",
+     "24 Vac"
+    ],
+    [
+     "Dimensions",
+     "40–197 x 152mm"
+    ],
+    [
+     "Tension",
+     "24V"
+    ],
+    [
+     "Modèle compression",
+     "50 - 1'' ½"
+    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "1\"1/2",
+     "hex": "",
+     "c2": "",
+     "ref": "02.P25224112",
+     "ht": 193.58,
+     "price": 210.03,
+     "stock": "in",
+     "img": "images/02.P25224112_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "2\"",
+     "hex": "",
+     "c2": "",
+     "ref": "02.P252242",
+     "ht": 298.33,
+     "price": 323.69,
+     "stock": "in",
+     "img": "images/02.P252242_1.jpg",
+     "pieces": 0
+    }
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Electrovanne PGV 1\" F - 9V Hunter",
+   "spec": "",
+   "ref": "02.PGV9V1F",
+   "ht": 28.17,
+   "price": 30.56,
+   "stock": "in",
+   "img": "images/02.PGV9V1F_1.jpg",
+   "desc": "Electrovanne 9 V PGV 1\" F (26/34) PSB, fiable, simple et performante, de la marque Hunter Les électrovannes PGV sont fiables et résistantes, elles sont adaptées aux conditions difficiles des espaces résidentiels et municipaux. D'une conception durable de haute qualité et équipées d'une membrane robuste, les PGV offrent un fonctionnement optimal et une longue durée de vie. Aisées de maintenance grâce aux chapeaux à vis captives et plongeur de solénoïde, plus de pièces perdues. Simple d'utilisation, le réglage de débit se fait à l'aide d'une vis de réglage pour chaque zone. Purge manuelle interne et externe. Garantie : 2 ans",
+   "specs": [
+    [
+     "Marque",
+     "Hunter"
+    ],
+    [
+     "Type de produit",
+     "Electrovannes 9V et 24V"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Electrovanne PGV 1\" FF - 24V Hunter",
+   "spec": "",
+   "ref": "02.PGV1FF",
+   "ht": 16.5,
+   "price": 17.9,
+   "stock": "in",
+   "img": "images/02.PGV1FF_1.jpg",
+   "desc": "Electrovanne Hunter PGV taraudée 1’’ (26/34) PSB, adaptée aux conditions difficiles des espaces résidentiels et municipaux De la marque Hunter, les electrovannes PGV sont fiables et résistantes, elles sont adaptées aux conditions difficiles des espaces résidentiels et municipaux. D'une conception durable de haute qualité et équipées d'une membrane robuste, les électrovannes Hunter offrent un fonctionnement optimal et une longue durée de vie. L’ électrovanne Hunter PGV fait partie des électrovannes les plus performantes. Elle démarre facilement grâce à la vis de purge manuelle. La fonction bas débit permet d’utiliser les produits de micro-irrigation de la marque.",
+   "specs": [
+    [
+     "Marque",
+     "Hunter"
+    ],
+    [
+     "Type de produit",
+     "Electrovannes 9V et 24V"
+    ],
+    [
+     "Type d'électrovanne",
+     "Série PGV"
+    ],
+    [
+     "Caractéristiques",
+     "Électrovanne en ligne"
+    ],
+    [
+     "Débit",
+     "0,05 à 9 m3/h (0,7 à 150 l/min)"
+    ],
+    [
+     "Pression",
+     "1,5 à 10 bars (150 à 1 000 kPa)"
+    ],
+    [
+     "Filetage",
+     "1\" (26/34) PSB taraudée"
+    ],
+    [
+     "Raccord",
+     "Femelle x Femelle"
+    ],
+    [
+     "Solénoïde",
+     "robuste : 24 V c.a."
+    ],
+    [
+     "Courant d’appel",
+     "350 mA, 60 Hz // 370 mA, 50 Hz."
+    ],
+    [
+     "Courant de maintien",
+     "190 mA, 60 Hz // 210 mA, 50 Hz."
+    ],
+    [
+     "Longueur",
+     "11 cm"
+    ],
+    [
+     "Largeur",
+     "6 cm"
+    ],
+    [
+     "Hauteur",
+     "13 cm"
+    ],
+    [
+     "Tension",
+     "24V"
+    ]
+   ]
+  },
+  {
+   "famille": true,
+   "cat": "vannes",
+   "title": "Electrovanne PGV 1\" MM - Hunter",
+   "desc": "Disponible en 9V et 24V. Electrovanne 9 V PGV 1\" MM (26/34) PSB, fiable, simple et performante, de la marque Hunter Les électrovannes PGV sont fiables et résistantes, elles sont adaptées aux conditions difficiles des espaces résidentiels et municipaux. D'une conception durable de haute qualité et équipées d'une membrane robuste, les PGA offrent un fonctionnement optimal et une longue durée de vie. Aisées de maintenance grâce aux chapeaux à vis captives et plongeur de solénoïde, plus de pièces perdues. Simple d'utilisation, le réglage de débit se fait à l'aide d'une vis de réglage pour chaque zone. Purge manuelle interne et externe. Garantie : 2 ans",
+   "specs": [
+    [
+     "Marque",
+     "Hunter"
+    ],
+    [
+     "Type d'électrovanne",
+     "Série PGV"
+    ],
+    [
+     "Caractéristiques",
+     "Électrovanne en ligne"
+    ],
+    [
+     "Débit",
+     "0,05 à 9 m3/h (0,7 à 150 l/min)"
+    ],
+    [
+     "Pression",
+     "1,4 à 10 bars (150 à 1 000 kPa)"
+    ],
+    [
+     "Filetage",
+     "1\" (26/34) PSB taraudée"
+    ],
+    [
+     "Raccord",
+     "Mâle x mâle"
+    ],
+    [
+     "Courant d’appel",
+     "350 mA, 60 Hz // 370 mA, 50 Hz"
+    ],
+    [
+     "Courant de maintien",
+     "190 mA, 60 Hz // 210 mA, 50 Hz"
+    ],
+    [
+     "Longueur",
+     "11 cm"
+    ],
+    [
+     "Largeur",
+     "6 cm"
+    ],
+    [
+     "Hauteur",
+     "13 cm"
+    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "9V",
+     "hex": "",
+     "c2": "",
+     "ref": "02.PGV9V1MM",
+     "ht": 30.42,
+     "price": 33.01,
+     "stock": "in",
+     "img": "images/02.PGV9V1MM_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "24V",
+     "hex": "",
+     "c2": "",
+     "ref": "02.PGV1MM",
+     "ht": 16.5,
+     "price": 17.9,
+     "stock": "in",
+     "img": "images/02.PGV1MM_1.jpg",
+     "pieces": 0
+    }
+   ]
+  },
+  {
+   "famille": true,
+   "cat": "vannes",
+   "title": "Electrovanne PGV Hunter",
+   "desc": "Disponible en PGV-151 1\"½ 9V, PGV-151 1\"½ 24V, PGV-201 2\" 9V et PGV-201 2\" 24V. Électrovanne Hunter PGV-151- 1\"½ – 9 V pour réseaux d’irrigation résidentiels et municipaux L ’ électrovanne Hunter PGV-151 est conçue pour offrir une fiabilité exemplaire et une gestion précise de l’eau dans les installations d’irrigation résidentielles, collectives ou municipales . Grâce à son raccordement 1\"½ (40 mm), elle gère efficacement un débit de 5 à 27 m³/h (soit 75 à 450 l/min) et fonctionne sur une plage de pression de 1,5 à 10 bars (150 à 1000 kPa). Conçue pour durer, la PGV-151 intègre un solénoïde 9 V moulé avec plongeur indémontable, garantissant une longue durée de vie et une fiabilité constante.",
+   "specs": [
+    [
+     "Marque",
+     "Hunter"
+    ],
+    [
+     "Type de produit",
+     "Electrovannes 9V et 24V"
+    ],
+    [
+     "Type d'électrovanne",
+     "Série PGV"
+    ],
+    [
+     "Tension",
+     "9V"
+    ],
+    [
+     "Garantie",
+     "2 ans"
+    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "PGV-151 1\"½ 9V",
+     "hex": "",
+     "c2": "",
+     "ref": "02.57079274",
+     "ht": 78.75,
+     "price": 85.44,
+     "stock": "in",
+     "img": "images/02.57079274_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "PGV-151 1\"½ 24V",
+     "hex": "",
+     "c2": "",
+     "ref": "02.34766320",
+     "ht": 49.58,
+     "price": 53.79,
+     "stock": "in",
+     "img": "images/02.34766320_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "PGV-201 2\" 9V",
+     "hex": "",
+     "c2": "",
+     "ref": "02.57079266",
+     "ht": 94.83,
+     "price": 102.89,
+     "stock": "in",
+     "img": "images/02.57079266_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "PGV-201 2\" 24V",
+     "hex": "",
+     "c2": "",
+     "ref": "02.34766304",
+     "ht": 63.75,
+     "price": 69.17,
+     "stock": "in",
+     "img": "images/02.34766304_1.jpg",
+     "pieces": 0
+    }
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Electrovanne RAIN 1’’ F 24V",
+   "spec": "",
+   "ref": "02rain24",
+   "ht": 13.33,
+   "price": 14.46,
+   "stock": "in",
+   "img": "images/02rain24_1.jpg",
+   "desc": "Électrovanne RAIN 1\" Femelle, compatible tout programmateur 24V L électrovanne Rain RN 150 24Vac est la solution de référence pour l automatisation des réseaux d arrosage résidentiels et municipaux. Ce modèle avec raccordement femelle 1 pouce (26/34) allie une robustesse structurelle à une grande précision hydraulique, capable de supporter une pression de service allant jusqu à 12 bars. Sa fabrication en nylon renforcé de fibre de verre (PA 6 30%) garantit une résistance thermique optimale pour des eaux allant de 4°C à 70°C. Elle intègre une membrane monobloc co-imprimée pour une étanchéité absolue et une fermeture assistée, protégeant votre installation contre les coups de bélier.",
+   "specs": [
+    [
+     "Type de produit",
+     "Electrovannes 9V et 24V"
+    ],
+    [
+     "Température ambiante",
+     "Maximum 60 °C"
+    ],
+    [
+     "Débit",
+     "1,2 à 5,4 m³/h"
+    ],
+    [
+     "Pression",
+     "1,0 à 12 bar"
+    ],
+    [
+     "Filetage",
+     "1\" (26/34)"
+    ],
+    [
+     "Raccord",
+     "Femelle x femelle"
+    ],
+    [
+     "Solénoïde",
+     "24 VCA"
+    ],
+    [
+     "Tension",
+     "24V"
+    ]
+   ]
+  },
+  {
+   "famille": true,
+   "cat": "vannes",
+   "title": "Electrovanne Richdel Irritrol",
+   "desc": "Disponible en 200 1\"1/2 FF - 24V, 200 2\" FF 24V, 2400 1\" FF 9V et 2400 1\" FF - 24V. Electrovanne Richdel 200 1\"1/2 FF 24V avec réglage du débit d’eau, de la marque Irritrol. L'électrovanne Richdel 200 1''1/2 FF 24V à une structure ligne/angle avec réglage de débit. Corps en PVC. Pression de service entre 1.4 et 10 bars. Perte de charge de 0.1 mini. à 0.4 maxi. Idéale pour l'arrosage automatique des zones résidentielles et publiques. Garantie : 2 ans",
+   "specs": [
+    [
+     "Marque",
+     "Irritrol"
+    ],
+    [
+     "Type de produit",
+     "Electrovannes 9V et 24V"
+    ],
+    [
+     "Type d'électrovanne",
+     "Série RICHDEL"
+    ],
+    [
+     "Pression de fonctionnement",
+     "de 1,4 à 10 bars."
+    ],
+    [
+     "Filetage",
+     "1'' 1/2 BSP."
+    ],
+    [
+     "Raccord",
+     "Femelle x femelle"
+    ],
+    [
+     "Solénoïde",
+     "24 VAC / 50 Hz."
+    ],
+    [
+     "Courant d’appel",
+     "0,34 A."
+    ],
+    [
+     "Courant de maintien",
+     "0,20 A."
+    ],
+    [
+     "Tension",
+     "24V"
+    ],
+    [
+     "Modèle compression",
+     "50 - 1'' ½"
+    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "200 1\"1/2 FF - 24V",
+     "hex": "",
+     "c2": "",
+     "ref": "02.27910",
+     "ht": 80.88,
+     "price": 87.75,
+     "stock": "in",
+     "img": "images/02.27910_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "200 2\" FF 24V",
+     "hex": "",
+     "c2": "",
+     "ref": "02.27920",
+     "ht": 121.96,
+     "price": 132.33,
+     "stock": "in",
+     "img": "images/02.27920_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "2400 1\" FF 9V",
+     "hex": "",
+     "c2": "",
+     "ref": "02.2799V",
+     "ht": 34.58,
+     "price": 37.52,
+     "stock": "in",
+     "img": "images/02.2799V_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "2400 1\" FF - 24V",
+     "hex": "",
+     "c2": "",
+     "ref": "02.2790",
+     "ht": 18.08,
+     "price": 19.62,
+     "stock": "in",
+     "img": "images/02.2790_1.jpg",
+     "pieces": 0
+    }
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Electrovanne Richdel 2400 1\" MM - 24V Irritrol",
+   "spec": "",
+   "ref": "02.1206",
+   "ht": 18.08,
+   "price": 19.62,
+   "stock": "in",
+   "img": "images/02.1206_1.jpg",
+   "desc": "Electrovanne 24V Richdel 2400 1'' MM Irritrol, pour l’arrosage automatique des espaces verts La série 2400 de Irritrol comprend les électrovannes les plus populaires au monde. L' électrovanne Richdel 2400 1'' MM est munie d’un chapeau dévissable et d’un bouton d’ouverture manuelle. Vanne électrique 24 volts de 1’’ de diamètre. Pour une installation simple et un entretien facile, nous vous recommandons les electrovannes Irritrol série 2400 . Grâce à leur configuration en ligne et à leur fermeture avec bague de la partie supérieure, elles sont faciles à utiliser, même pour les débutants ! L’ électrovanne Richdel 2400 est spécialement conçue pour de petites installations.",
+   "specs": [
+    [
+     "Marque",
+     "Irritrol"
+    ],
+    [
+     "Type de produit",
+     "Electrovannes 9V et 24V"
+    ],
+    [
+     "Type d'électrovanne",
+     "Série RICHDEL"
+    ],
+    [
+     "Pression de fonctionnement",
+     "0,7 à 10 bars"
+    ],
+    [
+     "Filetage",
+     "BSP 1”"
+    ],
+    [
+     "Raccord",
+     "Mâle x mâle"
+    ],
+    [
+     "Solénoïde",
+     "24 VAC / 50 Hz"
+    ],
+    [
+     "Courant d’appel",
+     "0,34 A"
+    ],
+    [
+     "Courant de maintien",
+     "0,20 A"
+    ],
+    [
+     "Tension",
+     "24V"
+    ],
+    [
+     "Modèle compression",
+     "50 - 1'' ½"
+    ]
+   ]
+  },
+  {
+   "famille": true,
+   "cat": "vannes",
+   "title": "Electrovanne laiton 24V AC ODE",
+   "desc": "Disponible en 3/8\", 1/2\", 3/4\", 1\", 1\"1/4 et 1\"1/2. Electrovanne laiton 24V AC de la marque ODE Electrovanne à action directe pour les fluides compatibles avec les matériaux de construction. Il n’y a pas besoin d’une pression minimum de fonctionnement. Les matériaux utilisés sont approuvés et garantis pour leur fiabilité dans le temps. Garantie : 2 ans",
+   "specs": [
+    [
+     "Marque",
+     "Ode"
+    ],
+    [
+     "Type de produit",
+     "Electrovannes 9V et 24V"
+    ],
+    [
+     "Applications",
+     "fluides de type : Eau, air, gaz inerte, gasoil"
+    ],
+    [
+     "Pression",
+     "0 à 14 Bar"
+    ],
+    [
+     "Température de l'eau",
+     "Maximum 90°C"
+    ],
+    [
+     "Raccord",
+     "Femelle x femelle"
+    ],
+    [
+     "Solénoïde",
+     "24 Vac"
+    ],
+    [
+     "Tension",
+     "24V"
+    ],
+    [
+     "Modèle compression",
+     "50 - 1'' ½"
+    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "3/8\"",
+     "hex": "",
+     "c2": "",
+     "ref": "02.ODE2438",
+     "ht": 105,
+     "price": 113.93,
+     "stock": "in",
+     "img": "images/02.ODE2438_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "1/2\"",
+     "hex": "",
+     "c2": "",
+     "ref": "02.ODE2412",
+     "ht": 124.17,
+     "price": 134.72,
+     "stock": "in",
+     "img": "images/02.ODE2412_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "3/4\"",
+     "hex": "",
+     "c2": "",
+     "ref": "02.ODE2434",
+     "ht": 104.17,
+     "price": 113.02,
+     "stock": "in",
+     "img": "images/02.ODE2434_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "1\"",
+     "hex": "",
+     "c2": "",
+     "ref": "02.ODE241",
+     "ht": 196.67,
+     "price": 213.39,
+     "stock": "in",
+     "img": "images/02.ODE241_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "1\"1/4",
+     "hex": "",
+     "c2": "",
+     "ref": "02.ODE24114",
+     "ht": 395.83,
+     "price": 429.48,
+     "stock": "in",
+     "img": "images/02.ODE24114_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "1\"1/2",
+     "hex": "",
+     "c2": "",
+     "ref": "02.ODE24112",
+     "ht": 415.83,
+     "price": 451.18,
+     "stock": "in",
+     "img": "images/02.ODE24112_1.jpg",
+     "pieces": 0
+    }
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Electrovanne laiton 2 voies ESM 86 - 230V",
+   "spec": "",
+   "ref": "02.ESM230V",
+   "ht": 94.17,
+   "price": 102.17,
+   "stock": "order",
+   "img": "images/02.ESM230V_1.jpg",
+   "desc": "Électrovanne Laiton ESM 86 - 230V (1 pouce) Optez pour la robustesse et la fiabilité avec l' Électrovanne Laiton ESM 86 , spécialement conçue pour les installations exigeantes. Contrairement aux vannes résidentielles fonctionnant en basse tension (24V), ce modèle professionnel est équipé d'une bobine en 230V , permettant une connexion directe au réseau électrique. Son corps en laiton massif lui confère une résistance exceptionnelle à la pression et à la corrosion, ce qui en fait le choix idéal pour les réseaux d'eau principaux, les systèmes de pompage agricoles ou les applications industrielles.",
+   "specs": [
+    [
+     "Type de produit",
+     "Electrovannes 230V"
+    ],
+    [
+     "Types",
+     "ESM 86 230V - 1\", ESM 86 230V - 1\" + câble, ESM 86 230V - 1\"1/4, ESM 86 230V - 2\""
+    ],
+    [
+     "Type d'électrovanne",
+     "Série ESM 86"
+    ],
+    [
+     "Caractéristiques",
+     "Électrovanne laiton 2 voies"
+    ],
+    [
+     "Température ambiante",
+     "Maximum 80 °C"
+    ],
+    [
+     "Pression",
+     "maximum 10 bars"
+    ],
+    [
+     "Différentiel de pression",
+     "minimum : 0,3 bar / maximum : 10 bars"
+    ],
+    [
+     "Tension d'alimentation",
+     "230 V"
+    ],
+    [
+     "Fréquence",
+     "50 Hz"
+    ],
+    [
+     "Température de l'eau",
+     "Maximum 90°C"
+    ],
+    [
+     "Filetage",
+     "taraudés 1\" G,taraudés 1\" G,taraudés 1\"1/4 G,taraudés 2'' G"
+    ],
+    [
+     "Raccord",
+     "Femelle x femelle"
+    ],
+    [
+     "Installation",
+     "Montage toutes positions (position verticale tête en bas déconseillée, risque d'encrassement de l'orifice pilote)"
+    ],
+    [
+     "Bobine",
+     "protection IP 65 / 5 000 heures maxi,Protection IP 65 / 5 000 heures maxi"
+    ],
+    [
+     "Hauteur",
+     "106 mm,122 mm,145 mm"
+    ],
+    [
+     "Profondeur",
+     "100 mm,131 mm,174 mm"
+    ],
+    [
+     "Poids",
+     "1.1 Kg,2.5 Kg,4.6 Kg"
+    ],
+    [
+     "Inclus",
+     "Câble de 2 mètres et fiche normalisée."
+    ],
+    [
+     "Tension",
+     "230V"
+    ]
+   ]
+  },
+  {
+   "famille": true,
+   "cat": "vannes",
+   "title": "Gaine annelée TPC bleu 50m",
+   "desc": "Disponible en 50mm et 63mm. Gaine annelée TPC bleu Les gaines TPC et fourreaux annelés sont constitués d’une double paroi : surface intérieure lisse pour faciliter le tirage des câbles ou canalisations, et d'une paroi extérieur annelée qui assure la rigidité et la résistance mécanique. Le TPC possède un coefficient de frottement permettant d’améliorer le tirage des câbles.",
+   "specs": [
+    [
+     "Type de produit",
+     "Connexions et câbles"
+    ],
+    [
+     "Caractéristiques",
+     "Gaine annelée Ø50MM"
+    ],
+    [
+     "Matériaux",
+     "Polyéthylène"
+    ],
+    [
+     "Longueur",
+     "50 mètres."
+    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "50mm",
+     "hex": "",
+     "c2": "",
+     "ref": "02.TPCB5050",
+     "ht": 55,
+     "price": 59.68,
+     "stock": "in",
+     "img": "images/02.TPCB5050_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "63mm",
+     "hex": "",
+     "c2": "",
+     "ref": "02.TPCB6350",
+     "ht": 72.5,
+     "price": 78.66,
+     "stock": "in",
+     "img": "images/02.TPCB6350_1.jpg",
+     "pieces": 0
+    }
+   ]
+  },
+  {
+   "famille": true,
+   "cat": "vannes",
+   "title": "Gaine annelée TPC rouge 50m",
+   "desc": "Disponible en 40mm, 50mm et 63mm. Gaine annelée TPC rouge Les gaines TPC et fourreaux annelés sont constitués d’une double paroi : surface intérieure lisse pour faciliter le tirage des câbles ou canalisations, et d'une paroi extérieur annelée qui assure la rigidité et la résistance mécanique. Le TPC possède un coefficient de frottement permettant d’améliorer le tirage des câbles.",
+   "specs": [
+    [
+     "Type de produit",
+     "Connexions et câbles"
+    ],
+    [
+     "Caractéristiques",
+     "Gaine annelée Ø40MM"
+    ],
+    [
+     "Matériaux",
+     "Polyéthylène"
+    ],
+    [
+     "Longueur",
+     "50 mètres."
+    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "40mm",
+     "hex": "",
+     "c2": "",
+     "ref": "02.TPCR4050",
+     "ht": 45.83,
+     "price": 49.73,
+     "stock": "in",
+     "img": "images/02.TPCR4050_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "50mm",
+     "hex": "",
+     "c2": "",
+     "ref": "02.TPCR5050",
+     "ht": 57.5,
+     "price": 62.39,
+     "stock": "in",
+     "img": "images/02.TPCR5050_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "63mm",
+     "hex": "",
+     "c2": "",
+     "ref": "02.TPCR6350",
+     "ht": 72.5,
+     "price": 78.66,
+     "stock": "in",
+     "img": "images/02.TPCR6350_1.jpg",
+     "pieces": 0
+    }
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Grillage avertisseur 20cm - Bleu (100m)",
+   "spec": "",
+   "ref": "02.60001",
+   "ht": 17.08,
+   "price": 18.53,
+   "stock": "in",
+   "img": "images/02.60001_1.jpg",
+   "desc": "Grillage Avertisseur Bleu - Largeur 20 cm (Rouleau 100m) Le grillage avertisseur est un dispositif de sécurité indispensable dans les travaux de Voirie et Réseaux Divers (VRD). Positionné à une distance réglementaire au-dessus des canalisations et fourreaux enterrés, il a une double fonction : avertir la présence d'un réseau et identifier la nature de ce réseau grâce à son code couleur standardisé. Rôle et Positionnement Ce grillage est conçu pour être déroulé dans la tranchée, au moment du remblai, afin de prévenir de l'existence d'ouvrages souterrains.",
+   "specs": [
+    [
+     "Type de produit",
+     "Connexions et câbles"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Grillage avertisseur 20cm - Rouge (100m)",
+   "spec": "",
+   "ref": "02.60002",
+   "ht": 17.08,
+   "price": 18.53,
+   "stock": "in",
+   "img": "images/02.60002_1.jpg",
+   "desc": "Grillage Avertisseur Rouge - Largeur 20 cm (Rouleau 100m) Le grillage avertisseur est un dispositif de sécurité indispensable dans les travaux de Voirie et Réseaux Divers (VRD). Positionné à une distance réglementaire au-dessus des canalisations et fourreaux enterrés, il a une double fonction : avertir la présence d'un réseau et identifier la nature de ce réseau grâce à son code couleur standardisé. Rôle et Positionnement Ce grillage est conçu pour être déroulé dans la tranchée, au moment du remblai, afin de prévenir de l'existence d'ouvrages souterrains.",
+   "specs": [
+    [
+     "Type de produit",
+     "Connexions et câbles"
+    ]
+   ]
+  },
+  {
+   "famille": true,
+   "cat": "vannes",
+   "title": "Kit 2 brides pour HYFLOW S100",
+   "desc": "Disponible en DN80 et DN100.",
+   "specs": [
+    [
+     "Type de produit",
+     "Electrovannes 9V et 24V"
+    ],
+    [
+     "Matériaux",
+     "Métal plastique"
+    ],
+    [
+     "Pression",
+     "Pression maximale 10 bar"
+    ],
+    [
+     "Filetage",
+     "3\""
+    ],
+    [
+     "Modèle compression",
+     "50 - 1'' ½"
+    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "DN80",
+     "hex": "",
+     "c2": "",
+     "ref": "02.KITHYF80",
+     "ht": 105.84,
+     "price": 114.84,
+     "stock": "in",
+     "img": "images/02.KITHYF80_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "DN100",
+     "hex": "",
+     "c2": "",
+     "ref": "02.KITHYF100",
+     "ht": 180,
+     "price": 195.3,
+     "stock": "in",
+     "img": "images/02.KITHYF100_1.jpg",
+     "pieces": 0
+    }
+   ]
+  },
+  {
+   "famille": true,
+   "cat": "vannes",
+   "title": "Kit départ XCZ - Rain bird",
+   "desc": "Disponible en 75 - 3/4\" LFV - 9V, 75 - 3/4\" LFV - 24V, 100 - 1\" LFV - 9V et 100 - 1\" LFV - 24V. Kit départ XCZ 75 ¾\" LFV 9V comprend une vanne et un filtre RBY régulateur de pression, pour l’arrosage en goutte-à-goutte, par Rain Bird. Les kits de depart XCZ 75 Rain Bird se composent d'une vanne 9V et d'un filtre RBY régulateur de pression, éléments nécessaires à la régulation de la pression et du débit, ainsi que la filtration de l’eau. Utilisés pour l'arrosage automatique de zones goutte-à-goutte. Très fiables ils sont dotés d’un nombre réduit de raccordements filetés ce qui diminue le risque de fuites aussi bien lors de l’installation que sur toute la durée de vie du système. L’avantage du kit de départ XCZ 75 est qu’il est pré-monté : il est très facile à installer.",
+   "specs": [
+    [
+     "Marque",
+     "Rain Bird"
+    ],
+    [
+     "Type de produit",
+     "Kits départs électrovannes"
+    ],
+    [
+     "Type d'électrovanne",
+     "Série XCZ"
+    ],
+    [
+     "Caractéristiques",
+     "Vanne à faible débit + filtre RbY régulateur de pression"
+    ],
+    [
+     "Débit",
+     "45,4 à 1136 l/h (0,01 à 0,32 l/s)"
+    ],
+    [
+     "Pression",
+     "1,4 à 10,3 bars"
+    ],
+    [
+     "Pression régulée",
+     "2,0 bars."
+    ],
+    [
+     "Filetage",
+     "vanne et filtre : 3/4\""
+    ],
+    [
+     "Raccord",
+     "vanne : femelle x femelle / filtre : mâle x mâle."
+    ],
+    [
+     "Filtration",
+     "75 Microns"
+    ],
+    [
+     "Tension",
+     "9V"
+    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "75 - 3/4\" LFV - 9V",
+     "hex": "",
+     "c2": "",
+     "ref": "02.1192",
+     "ht": 55,
+     "price": 59.68,
+     "stock": "in",
+     "img": "images/02.1192_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "75 - 3/4\" LFV - 24V",
+     "hex": "",
+     "c2": "",
+     "ref": "02.1190",
+     "ht": 35.83,
+     "price": 38.88,
+     "stock": "in",
+     "img": "images/02.1190_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "100 - 1\" LFV - 9V",
+     "hex": "",
+     "c2": "",
+     "ref": "02.1193",
+     "ht": 52.5,
+     "price": 56.96,
+     "stock": "in",
+     "img": "images/02.1193_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "100 - 1\" LFV - 24V",
+     "hex": "",
+     "c2": "",
+     "ref": "02.1191",
+     "ht": 35,
+     "price": 37.98,
+     "stock": "in",
+     "img": "images/02.1191_1.jpg",
+     "pieces": 0
+    }
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Mamelon DURA 1'' mâle mâle",
+   "spec": "",
+   "ref": "19.28013",
+   "ht": 1.33,
+   "price": 1.44,
+   "stock": "in",
+   "img": "images/19.28013_1.jpg",
+   "desc": "Collecteur union PVC DURA Raccords PVC à visser. Etanchéité par joint torique.",
+   "specs": [
+    [
+     "Marque",
+     "Dura"
+    ],
+    [
+     "Type de produit",
+     "Raccords union pour électrovannes"
+    ],
+    [
+     "Type de raccord",
+     "Mamelon mâle"
+    ],
+    [
+     "Modèle compression",
+     "50 - 1'' ½"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Mamelon DURA réduit 1'' x 3/4\" mâle",
+   "spec": "",
+   "ref": "19.28020",
+   "ht": 1.5,
+   "price": 1.63,
+   "stock": "in",
+   "img": "images/19.28020_1.jpg",
+   "desc": "Collecteur union PVC DURA Raccords PVC à visser. Etanchéité par joint torique.",
+   "specs": [
+    [
+     "Marque",
+     "Dura"
+    ],
+    [
+     "Type de produit",
+     "Raccords union pour électrovannes"
+    ],
+    [
+     "Type de raccord",
+     "Mamelon mâle"
+    ],
+    [
+     "Dimensions",
+     "1\" - 34\""
+    ],
+    [
+     "Modèle compression",
+     "50 - 1'' ½"
+    ]
+   ]
+  },
+  {
+   "famille": true,
+   "cat": "vannes",
+   "title": "Mamelon laiton",
+   "desc": "Disponible en 1\" et 1\" x 3/4\". Également appelé \"double mâle\", il est caractérisé par son filetage mâle (M) de même diamètre à ses deux extrémités. Il sert principalement à connecter deux éléments ou raccords qui possèdent chacun un filetage femelle (F).",
+   "specs": [
+    [
+     "Dimensions",
+     "1''"
+    ],
+    [
+     "Type de produit",
+     "Raccords union pour électrovannes"
+    ],
+    [
+     "Type de raccord",
+     "Mamelon mâle"
+    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "1\"",
+     "hex": "",
+     "c2": "",
+     "ref": "16.29017",
+     "ht": 5.17,
+     "price": 5.61,
+     "stock": "in",
+     "img": "images/16.29017_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "1\" x 3/4\"",
+     "hex": "",
+     "c2": "",
+     "ref": "16.29015",
+     "ht": 5.17,
+     "price": 5.61,
+     "stock": "in",
+     "img": "images/16.29015_1.jpg",
+     "pieces": 0
+    }
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Membrane Vanne 100DV Rain Bird",
+   "spec": "",
+   "ref": "02.100MB",
+   "ht": 24.58,
+   "price": 26.67,
+   "stock": "in",
+   "img": "images/02.100MB_1.jpg",
+   "desc": "Membrane de Remplacement pour Électrovanne Rain Bird 100-DV La membrane est l'élément clé qui assure l'étanchéité et le contrôle hydraulique de votre électrovanne. Avec le temps ou en présence d'eau chargée, cette pièce peut s'user, entraînant des fuites ou un dysfonctionnement de la vanne (non-fermeture ou non-ouverture). Ce kit est la solution idéale pour la remise en état de vos vannes Rain Bird. Ce kit de membrane de rechange est spécialement conçu pour les électrovannes résidentielles Rain Bird 100-DV et 100-DVF. Remplacer la membrane permet de prolonger significativement la durée de vie de votre électrovanne à moindre coût, en restaurant sa performance et sa fiabilité d'origine.",
+   "specs": [
+    [
+     "Marque",
+     "Rain Bird"
+    ],
+    [
+     "Type de produit",
+     "Electrovannes 9V et 24V"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Membrane vanne Richdel 1\" Irritrol",
+   "spec": "",
+   "ref": "02.279MB",
+   "ht": 10.75,
+   "price": 11.66,
+   "stock": "in",
+   "img": "images/02.279MB_1.jpg",
+   "desc": "Membrane de Rechange pour Électrovanne Richdel / Irritrol Série 2400 (1\") Cette membrane de rechange est la pièce essentielle pour la maintenance et la réparation de vos électrovannes Richdel et Irritrol de la série 2400 (et modèles compatibles) avec un raccordement d'un pouce (1\"). La membrane est le composant clé qui assure l'étanchéité et le contrôle du débit dans l'électrovanne. Si votre vanne refuse de fermer complètement (fuite continue) ou ne s'ouvre pas correctement, un changement de membrane est souvent la solution la plus économique.",
+   "specs": [
+    [
+     "Marque",
+     "Irritrol"
+    ],
+    [
+     "Type de produit",
+     "Electrovannes 9V et 24V"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Regard arrosage JUMBO",
+   "spec": "",
+   "ref": "15.70400",
+   "ht": 33.17,
+   "price": 35.99,
+   "stock": "in",
+   "img": "images/15.70400_1.jpg",
+   "desc": "Regards de vannes rectangulaire Jumbo traité anti-UV et couvercle anti-glissement, de la marque Irritec Les regards de vannes Irritec sont résistants aux intempéries. De plus leurs corps et couvercle sont traités anti-UV. Ils sont équipés d'un couvercle anti-glissement. Légers et simples d'installation les regards Irritec assurent leur emploi dans les secteurs les plus diversifiés, des petites installations de type résidentielles aux espaces verts et aux installations sportives.",
+   "specs": [
+    [
+     "Marque",
+     "Irritec"
+    ],
+    [
+     "Type de produit",
+     "Regards"
+    ],
+    [
+     "Type de regard",
+     "Regards rectangles"
+    ],
+    [
+     "Matériaux",
+     "polypropylène"
+    ],
+    [
+     "Hauteur",
+     "30 cm"
+    ],
+    [
+     "Dimensions couvercle",
+     "50 x 35 cm"
+    ],
+    [
+     "Dimensions top",
+     "43 x 56 cm"
+    ],
+    [
+     "Dimensions base",
+     "50 x 64 cm"
+    ],
+    [
+     "Ouvertures",
+     "2 pré-ouvertures latérales à la base"
+    ],
+    [
+     "Inclus",
+     "Vis anti vandale"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Regard arrosage rectangle JUMBO VB - Rain Bird",
+   "spec": "",
+   "ref": "15.VBJMB",
+   "ht": 88.33,
+   "price": 95.84,
+   "stock": "in",
+   "img": "images/15.VBJMB_1.jpg",
+   "desc": "Regard d’arrosage automatique rectangle JUMBO VB-JMB en polyéthylène haute densité, avec côtés renforcés pour une protection accrue des vannes, marque Rain Bird Le regard de vanne Rain Bird VBJMB est en polyéthylène haute densité à structure alvéolaire et disposent de côtés renforcés pour une protection accrue des vannes. Facile à installer et à stocker, le regard Rain Bird est fabriqué avec deux grandes ouvertures prédécoupées au centre du regard pour un tuyau de diamètre 90mm. Garantie : 2 ans",
+   "specs": [
+    [
+     "Marque",
+     "Rain Bird"
+    ],
+    [
+     "Type de produit",
+     "Regards"
+    ],
+    [
+     "Type de regard",
+     "Regards rectangles"
+    ],
+    [
+     "Caractéristiques",
+     "VB-JMB-H: Regard Jumbo rectangulaire (corps noir et couvercle vert) avec boulon."
+    ],
+    [
+     "Matériaux",
+     "polyéthylène haute densité à structure alvéolaire"
+    ],
+    [
+     "Compatibilité",
+     "Rehausse de regard Jumbo VB, couvercle en fonte Jumbo VB anti-vandalisme, couvercle Jumbo VB."
+    ],
+    [
+     "Hauteur",
+     "30.7 cm"
+    ],
+    [
+     "Dimensions couvercle",
+     "47.4 x 30.9 cm"
+    ],
+    [
+     "Dimensions top",
+     "56.7 x 40.2 cm"
+    ],
+    [
+     "Dimensions base",
+     "70.1 x 53.3 cm"
+    ],
+    [
+     "Ouvertures",
+     "Deux grandes ouvertures prédécoupées au centre du regard pour un tuyau de diamètre 90 maximum."
+    ],
+    [
+     "Inclus",
+     "Corps, couvercles, boulon."
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Regard arrosage rectangle MAXI JUMBO VB - Rain Bird",
+   "spec": "",
+   "ref": "15.VBMAXH",
+   "ht": 559.17,
+   "price": 606.7,
+   "stock": "in",
+   "img": "images/15.VBMAXH_1.jpg",
+   "desc": "Regard de vanne pour l’arrosage automatique MAXI JUMBO VBMAXH, renforcé, Facile à installer et à stocker, de la marque Rain Bird Le regard de vanne Rain Bird VBMAXH est en polyéthylène haute densité à structure alvéolaire et disposent de côtés renforcés pour une protection accrue des vannes. Facile à installer et à stocker, le regard Rain Bird est fabriqué avec des ouvertures prédécoupées pour un tuyau de diamètre 75mm. Inclus deux boulons en acier inoxydable et deux clips pour un maintien efficace du couvercle sur le corps. Garantie : 2 ans",
+   "specs": [
+    [
+     "Marque",
+     "Rain Bird"
+    ],
+    [
+     "Type de produit",
+     "Regards"
+    ],
+    [
+     "Type de regard",
+     "Regards rectangles"
+    ],
+    [
+     "Caractéristiques",
+     "VB-MAX-H: Regard Jumbo rectangulaire (corps noir et couvercle vert) avec 2 boulons."
+    ],
+    [
+     "Matériaux",
+     "polyéthylène haute densité à structure alvéolaire"
+    ],
+    [
+     "Hauteur",
+     "45.7 cm"
+    ],
+    [
+     "Dimensions couvercle",
+     "74.7 x 41.7 cm"
+    ],
+    [
+     "Dimensions top",
+     "87.4 x 53.5 cm"
+    ],
+    [
+     "Dimensions base",
+     "102.5 x 68.9 cm"
+    ],
+    [
+     "Ouvertures",
+     "Ouvertures prédécoupées pour un tuyau de diamètre 75 maximum."
+    ],
+    [
+     "Inclus",
+     "Corps, couvercle, deux boulons en acier inoxydable et deux clips pour un maintien efficace du couvercle sur le corps."
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Regard arrosage rectangle SUPER JUMBO VB - Rain Bird",
+   "spec": "",
+   "ref": "15.VBSPRH",
+   "ht": 310,
+   "price": 336.35,
+   "stock": "in",
+   "img": "images/15.VBSPRH_1.jpg",
+   "desc": "Regard de vanne rectangle SUPER JUMB0 VB-SPRH, avec ouvertures prédécoupées pour un tuyau de diamètre 75mm, marque Rain Bird Le regard de vanne Rain Bird VBSPRH est en polyéthylène haute densité à structure alvéolaire et disposent de côtés renforcés pour une protection accrue des vannes. Facile à installer et à stocker, le regard Rain Bird est fabriqué avec des ouvertures prédécoupées pour un tuyau de diamètre 75mm. Inclus deux boulons en acier inoxydable et deux clips pour un maintien efficace du couvercle sur le corps. Garantie : 2 ans",
+   "specs": [
+    [
+     "Marque",
+     "Rain Bird"
+    ],
+    [
+     "Type de produit",
+     "Regards"
+    ],
+    [
+     "Type de regard",
+     "Regards rectangles"
+    ],
+    [
+     "Caractéristiques",
+     "VB-SPR-H : Regard Super Jumbo rectangulaire (corps noir et couvercle vert) avec 2 boulons."
+    ],
+    [
+     "Matériaux",
+     "polyéthylène haute densité à structure alvéolaire"
+    ],
+    [
+     "Hauteur",
+     "38.1 cm"
+    ],
+    [
+     "Dimensions couvercle",
+     "57.1 x 33 cm"
+    ],
+    [
+     "Dimensions top",
+     "69.1 x 45.2 cm"
+    ],
+    [
+     "Dimensions base",
+     "84.1 x 60.6 cm"
+    ],
+    [
+     "Ouvertures",
+     "Ouvertures prédécoupées pour un tuyau de diamètre 75 maximum."
+    ],
+    [
+     "Inclus",
+     "Corps, couvercle, deux boulons en acier inoxydable et deux clips pour un maintien efficace du couvercle sur le corps."
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Regard arrosage rectangle standard 12\" VB - Rain Bird",
+   "spec": "",
+   "ref": "15.VBSTD",
+   "ht": 57.5,
+   "price": 62.39,
+   "stock": "in",
+   "img": "images/15.VBSTD_1.jpg",
+   "desc": "Regard d’arrosage automatique rectangle standard 12’’ VB-STD, renforcé, facile à installer et à stocker, de la marque leader Rain Bird Le regard de vanne Rain Bird VBSTD est en polyéthylène haute densité à structure alvéolaire et disposent de côtés renforcés pour une protection accrue des vannes. Facile à installer et à stocker, le regard Rain Bird est fabriqué avec deux grandes ouvertures prédécoupées au centre du regard pour un tuyau de diamètre 75mm ainsi que onze ouvertures prédécoupées pour un tuyau de diamètre 40mm. Garantie : 2 ans",
+   "specs": [
+    [
+     "Marque",
+     "Rain Bird"
+    ],
+    [
+     "Type de produit",
+     "Regards"
+    ],
+    [
+     "Type de regard",
+     "Regards rectangles"
+    ],
+    [
+     "Caractéristiques",
+     "VB-STD-H : regard rectangulaire 12\" renforcé (corps noir et couvercle vert) avec boulon."
+    ],
+    [
+     "Matériaux",
+     "polyéthylène haute densité à structure alvéolaire"
+    ],
+    [
+     "Compatibilité",
+     "Rehausse de regard standard 12'', couvercle en fonte anti-vandalisme pour regard standard 12'', couvercle pour regard standard 12''."
+    ],
+    [
+     "Hauteur",
+     "30.7 cm"
+    ],
+    [
+     "Dimensions couvercle",
+     "36.8 x 23.9 cm"
+    ],
+    [
+     "Dimensions top",
+     "44.4 x 33.1 cm"
+    ],
+    [
+     "Dimensions base",
+     "59 x 49 cm"
+    ],
+    [
+     "Ouvertures",
+     "Deux grandes ouvertures prédécoupées au centre du regard pour un tuyau de diamètre 75 maximum, ainsi que onze ouvertures prédécoupées pour un…"
+    ],
+    [
+     "Inclus",
+     "Corps, couvercle, boulon."
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Regard arrosage rectangulaire 12''",
+   "spec": "",
+   "ref": "15.7030",
+   "ht": 18.33,
+   "price": 19.89,
+   "stock": "in",
+   "img": "images/15.7030_1.jpg",
+   "desc": "Regard de vanne rectangulaire 12\", corps et couvercle traités anti-UV, de la marque Irritec Les regards de vannes Irritec sont résistants aux intempéries. De plus leurs corps et couvercle sont traités anti-UV. Ils sont équipés d'un couvercle anti-glissement. Légers et simples d'installation les regards Irritec assurent leur emploi dans les secteurs les plus diversifiés, des petites installations de type résidentielles aux espaces verts et aux installations sportives.",
+   "specs": [
+    [
+     "Marque",
+     "Irritec"
+    ],
+    [
+     "Type de produit",
+     "Regards"
+    ],
+    [
+     "Type de regard",
+     "Regards rectangles"
+    ],
+    [
+     "Matériaux",
+     "polypropylène"
+    ],
+    [
+     "Hauteur",
+     "30 cm"
+    ],
+    [
+     "Dimensions couvercle",
+     "38.5 x 25 cm"
+    ],
+    [
+     "Dimensions top",
+     "31 x 45 cm"
+    ],
+    [
+     "Dimensions base",
+     "38 x 49.6 cm"
+    ],
+    [
+     "Ouvertures",
+     "2 pré-ouvertures latérales à la base"
+    ],
+    [
+     "Inclus",
+     "Vis anti vandale"
+    ]
+   ]
+  },
+  {
+   "famille": true,
+   "cat": "vannes",
+   "title": "Regard arrosage rond VB - Rain Bird",
+   "desc": "Disponible en 6\" et 10\". Regard de vanne rond 7’’ VB-7RND, en polyéthylène haute densité, doté de structure alvéolaire et de côtés renforcés, de la marque Rain Bird Le regard de vanne Rain Bird VB7RND est en polyéthylène haute densité à structure alvéolaire et dispose de côtés renforcés pour une protection accrue des vannes. Facile à installer et à stocker, le regard Rain Bird est fabriqué avec des ouvertures prédécoupées sur les côtés pour un tuyau de diamètre 40 mm maximum. Garantie : 2 ans",
+   "specs": [
+    [
+     "Marque",
+     "Rain Bird"
+    ],
+    [
+     "Type de produit",
+     "Regards"
+    ],
+    [
+     "Type de regard",
+     "Regards ronds"
+    ],
+    [
+     "Caractéristiques",
+     "VB-7RND : Regard circulaire 7\" Renforcé (corps noir et couvercle vert)."
+    ],
+    [
+     "Matériaux",
+     "polyéthylène haute densité à structure alvéolaire"
+    ],
+    [
+     "Hauteur",
+     "22.9 cm"
+    ],
+    [
+     "Diametre",
+     "Couvercle : Ø 18 cm"
+    ],
+    [
+     "Diamètre supérieur",
+     "Top : Ø 18 cm"
+    ],
+    [
+     "Diamètre inférieur",
+     "Base : Ø 25.2 cm"
+    ],
+    [
+     "Ouvertures",
+     "sur les côtés pour un tuyau de diamètre 40 mm maximum."
+    ],
+    [
+     "Inclus",
+     "Corps et couvercle."
+    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "6\"",
+     "hex": "",
+     "c2": "",
+     "ref": "15.VB7RND",
+     "ht": 22.08,
+     "price": 23.96,
+     "stock": "in",
+     "img": "images/15.VB7RND_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "10\"",
+     "hex": "",
+     "c2": "",
+     "ref": "15.VB10RND",
+     "ht": 31.67,
+     "price": 34.36,
+     "stock": "in",
+     "img": "images/15.VB10RND_1.jpg",
+     "pieces": 0
+    }
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Regard arrosage rond 10'' Ø 22.5",
+   "spec": "",
+   "ref": "15.70200",
+   "ht": 6.04,
+   "price": 6.55,
+   "stock": "in",
+   "img": "images/15.70200_1.jpg",
+   "desc": "Regards de vannes rond 10\" Ø 22.5, avec traitement anti UV et couvercle anti glissement, de la marque Irritec Les regards de vannes Irritec sont résistants aux intempéries gâce à leurs corps et couvercle traités anti-UV. Ils sont équipés d'un couvercle anti-glissement. Légers et simples d'installation les regards Irritec assurent leur emploi dans les secteurs les plus diversifiés, des petites installations de type résidentielles aux espaces verts et aux installations sportives.",
+   "specs": [
+    [
+     "Marque",
+     "Irritec"
+    ],
+    [
+     "Type de produit",
+     "Regards"
+    ],
+    [
+     "Type de regard",
+     "Regards ronds"
+    ],
+    [
+     "Matériaux",
+     "polypropylène"
+    ],
+    [
+     "Hauteur",
+     "Hauteur : 25 cm"
+    ],
+    [
+     "Diametre",
+     "Couvercle : Ø 22.5 cm"
+    ],
+    [
+     "Diamètre supérieur",
+     "Top : Ø 19 cm"
+    ],
+    [
+     "Diamètre inférieur",
+     "Base : Ø 32 cm"
+    ],
+    [
+     "Ouvertures",
+     "4 pré-ouvertures latérales à la base"
+    ],
+    [
+     "Inclus",
+     "Vis anti vandale"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Regard arrosage rond 6'' Ø16",
+   "spec": "",
+   "ref": "15.70100",
+   "ht": 3.29,
+   "price": 3.57,
+   "stock": "in",
+   "img": "images/15.70100_1.jpg",
+   "desc": "Regards de vannes rond 6\" Ø 16 en polypropylène noir avec couvercle vert, de la marque Irritec Les regards de vannes Irritec sont résistants aux intempéries gâce à leurs corps et couvercle traités anti-UV. Ils sont équipés d'un couvercle anti-glissement. Légers et simples d'installation, les regards Irritec assurent leur emploi dans les secteurs les plus diversifiés, des petites installations de type résidentielles aux espaces verts et aux installations sportives.",
+   "specs": [
+    [
+     "Marque",
+     "Irritec"
+    ],
+    [
+     "Type de produit",
+     "Regards"
+    ],
+    [
+     "Type de regard",
+     "Regards ronds"
+    ],
+    [
+     "Matériaux",
+     "polypropylène"
+    ],
+    [
+     "Hauteur",
+     "23 cm"
+    ],
+    [
+     "Diametre",
+     "Couvercle : Ø 16 cm"
+    ],
+    [
+     "Diamètre supérieur",
+     "Top : Ø 17 cm"
+    ],
+    [
+     "Diamètre inférieur",
+     "Base : Ø 20 cm"
+    ],
+    [
+     "Ouvertures",
+     "2 pré-ouvertures latérales à la base"
+    ],
+    [
+     "Inclus",
+     "Vis anti vandale"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Regard modulaire Fortress - Cubis",
+   "spec": "",
+   "ref": "15.644100",
+   "ht": 185.83,
+   "price": 201.63,
+   "stock": "order",
+   "img": "images/15.644100_1.jpg",
+   "desc": "Regard modulaire Fortress de la marque Cubis Fortress est une gamme de regards de visites à éléments modulaires thermoformés, aptes à des installations en zones piétonnières, et en sous chaussée. Chaque module Stakkabox Fortress est constitué de 4 pièces droites assemblés par simple clipsage. La combinaison de différentes longueurs permet de réaliser un large évantail de dimensions. Facilité, sécurité, et rapidité de construction des ouvrages grâce au poids des modules n'excédant pas 15Kg.",
+   "specs": [
+    [
+     "Marque",
+     "Cubis"
+    ],
+    [
+     "Type de produit",
+     "Regards"
+    ],
+    [
+     "Type de regard",
+     "Modulaire Fortress 915x915xH150, Couvercle Fortress 1,5T 915x915mm, Couvercle Fortress 12,5T 915x915mm, Modulaire Fortress 1220x915xH150,…"
+    ],
+    [
+     "Caractéristiques",
+     "Résistance à la charge des couvercles : 1,5T (PEHD) et 12,5T (composite),Résistance à la charge des couvercles : 12,5T (composite)"
+    ],
+    [
+     "Matériaux",
+     "Polyéthylène expansé / Composite,Composite"
+    ],
+    [
+     "Hauteur",
+     "15cm"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Regard monobloc Polyvault - Cubis",
+   "spec": "",
+   "ref": "15.64000",
+   "ht": 562.5,
+   "price": 610.31,
+   "stock": "order",
+   "img": "images/15.64000_1.jpg",
+   "desc": "Regard d'arrosage monobloc Polyvault de la marque Cubis POLYvault™ consiste en un assemblage de panneaux PEHD préformés permettant de réaliser de multiples tailles de chambres adaptées essentiellement à des poses sur emprises piétonnières. Regard grandes dimensions en polyéthylène expansé, utilisables en espace vert ou trottoir selon couvercle. Légers au transport, solides et rigides.",
+   "specs": [
+    [
+     "Marque",
+     "Cubis"
+    ],
+    [
+     "Type de produit",
+     "Regards"
+    ],
+    [
+     "Type de regard",
+     "Monobloc Polyvault 1200x600xH750, Couvercle Polyvault 1,5T 1200x600, Couvercle Polyvault 12,5T 1200x600, Monobloc Polyvault 1500x900xH750,…"
+    ],
+    [
+     "Caractéristiques",
+     "Résistance à la charge : 1,5T (PEHD) et 12,5T (fonte),Résistance à la charge : 12,5T (fonte),Résistance à la charge (Polyéthylène) :…"
+    ],
+    [
+     "Matériaux",
+     "Polyéthylène expansé / fonte,Fonte,Polyéthylène expansé"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Rehausse pour regard JUMBO VB - Rain Bird",
+   "spec": "",
+   "ref": "15.VBJM6EXTB",
+   "ht": 49,
+   "price": 53.17,
+   "stock": "in",
+   "img": "images/15.VBJM6EXTB_1.jpg",
+   "desc": "Réhausse rectangle renforcée pour regard de vanne JUMBO VB, 17 cm de hauteur, de la marque leader mondial Rain Bird Accessoires Rain Bird pour vos regards de vannes de la série VB Renforcé. Rehausse renforcée pour un regard de vanne JUMBO. Garantie : 2 ans",
+   "specs": [
+    [
+     "Marque",
+     "Rain Bird"
+    ],
+    [
+     "Type de produit",
+     "Regards"
+    ],
+    [
+     "Type de regard",
+     "Accessoires regards"
+    ],
+    [
+     "Caractéristiques",
+     "VB-JMB-6EXT-B : extension de regard jumbo rectangulaire 6’’."
+    ],
+    [
+     "Caractéristiques hydrauliques",
+     "CARACTERISTIQUES HYDRAULIQUE"
+    ],
+    [
+     "Compatibilité",
+     "Regard arrosage rectangle JUMBO VB Rain Bird."
+    ],
+    [
+     "Hauteur",
+     "17.1 cm"
+    ],
+    [
+     "Dimensions top",
+     "56.7 x 40.2 cm"
+    ],
+    [
+     "Dimensions base",
+     "62 x 45.5 cm"
+    ],
+    [
+     "Ouvertures",
+     "Extension sans ouvertures prédécoupées."
+    ],
+    [
+     "Inclus",
+     "Corps uniquement."
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Rehausse pour regard Jumbo Irritec",
+   "spec": "",
+   "ref": "15.REHJUM",
+   "ht": 22.33,
+   "price": 24.23,
+   "stock": "in",
+   "img": "images/15.REHJUM_1.jpg",
+   "desc": "Rehausse pour Regard JUMBO IRRITEC La Rehausse pour regard de vanne JUMBO Irritec est un accessoire essentiel pour les installations d'arrosage enterré qui nécessitent une profondeur supérieure. Elle est spécialement conçue pour s'adapter aux grands regards de vanne rectangulaires Irritec de format JUMBO, permettant d'abriter un nombre plus important d'électrovannes ou d'autres équipements volumineux. En s'emboîtant directement sur le corps du regard JUMBO, cette extension augmente la profondeur d'accès de 16,5 cm, assurant que le couvercle affleure correctement le niveau du sol final pour une finition esthétique et sécurisée. Garantie : 2 ans",
+   "specs": [
+    [
+     "Marque",
+     "Irritec"
+    ],
+    [
+     "Type de produit",
+     "Regards"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Rehausse pour regard standard 12\" Irritec",
+   "spec": "",
+   "ref": "15.REH7030",
+   "ht": 14.42,
+   "price": 15.65,
+   "stock": "in",
+   "img": "images/15.REH7030_1.jpg",
+   "desc": "Rehausse pour Regard de Vanne Standard 12\" IRRITEC Cette Rehausse pour regard de vanne Irritec Standard 12\" est l'élément idéal pour adapter la hauteur de votre regard de vanne à la surface de votre terrain. Que ce soit pour des installations particulièrement profondes, ou pour compenser le relèvement du niveau de sol (suite à l'ajout de terre ou d'aménagement paysager), cet accessoire vous garantit un accès aisé à vos vannes d'arrosage. Conçue pour s'emboîter sur le regard Irritec Standard 12\", elle prolonge la structure de protection souterraine, assurant la sécurité et la discrétion de vos électrovannes ou de votre plomberie. Garantie : 2 ans",
+   "specs": [
+    [
+     "Marque",
+     "Irritec"
+    ],
+    [
+     "Type de produit",
+     "Regards"
+    ],
+    [
+     "Type de regard",
+     "Accessoires regards"
+    ],
+    [
+     "Caractéristiques",
+     "extension de regard standard rectangulaire 12’’"
+    ],
+    [
+     "Matériaux",
+     "Polypropylène"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Rehausse pour regard standard 12\" VB - Rain Bird",
+   "spec": "",
+   "ref": "15.VBSTD6EXTB",
+   "ht": 33.17,
+   "price": 35.99,
+   "stock": "in",
+   "img": "images/15.VBSTD6EXTB_1.jpg",
+   "desc": "Réhausse renforcée pour regard de vanne d’arrosage automatique 12’’ de la série VB, de la marque leader mondial Rain Bird Accessoires Rain Bird pour vos regards de vannes de la série VB Renforcé. Rehausse renforcée pour un regard de vanne standard 12\". Garantie : 2 ans",
+   "specs": [
+    [
+     "Marque",
+     "Rain Bird"
+    ],
+    [
+     "Type de produit",
+     "Regards"
+    ],
+    [
+     "Type de regard",
+     "Accessoires regards"
+    ],
+    [
+     "Caractéristiques",
+     "VB-STD-6EXT-B: 6’’: extension de regard standard rectangulaire 12’’ renforcée."
+    ],
+    [
+     "Compatibilité",
+     "Regard de vannes rectangle standard 12\" VBSTD Rain Bird."
+    ],
+    [
+     "Hauteur",
+     "17.1 cm"
+    ],
+    [
+     "Dimensions top",
+     "44.3 x 30.8 cm"
+    ],
+    [
+     "Dimensions base",
+     "50.8 x 37.5 cm"
+    ],
+    [
+     "Ouvertures",
+     "Sans ouvertures prédécoupées."
+    ],
+    [
+     "Inclus",
+     "Corps uniquement."
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Solénoide 24V DV - Rain Bird",
+   "spec": "",
+   "ref": "02.SOLDV",
+   "ht": 22.17,
+   "price": 24.05,
+   "stock": "in",
+   "img": "images/02.SOLDV_1.jpg",
+   "desc": "Solénoïde 24V AC Standard pour Électrovannes Rain Bird Série DV, DVF et JTV Ce solénoïde 24V AC (Courant Alternatif) est la pièce de rechange officielle et essentielle pour assurer le bon fonctionnement électrique de vos électrovannes Rain Bird. Il est spécifiquement conçu pour les modèles résidentiels robustes de la marque, notamment les séries **DV, DVF et JTV**. Le solénoïde est la bobine électromagnétique qui, lorsqu'elle est alimentée par votre programmateur secteur (24V AC), permet l'ouverture et la fermeture de la vanne. En cas de non-déclenchement de votre électrovanne, le remplacement de ce solénoïde étanche et fiable est la première étape de diagnostic et de réparation.",
+   "specs": [
+    [
+     "Marque",
+     "Rain Bird"
+    ],
+    [
+     "Type de produit",
+     "Electrovannes 9V et 24V"
+    ],
+    [
+     "Accessoires",
+     "Solénoïde"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Solénoide PGA 24V - Rain Bird",
+   "spec": "",
+   "ref": "01.UN304",
+   "ht": 49.38,
+   "price": 53.58,
+   "stock": "in",
+   "img": "images/01.UN304_1.jpg",
+   "desc": "Solénoïde 24V AC pour Électrovannes Rain Bird PGA / PEB Le solénoïde 24V AC de remplacement est une pièce essentielle pour maintenir la performance et l'automatisation de vos électrovannes professionnelles Rain Bird des séries PGA et PEB. Ce composant est le cœur électrique de votre vanne, convertissant le signal basse tension (24V Courant Alternatif) envoyé par votre programmateur en une action mécanique pour ouvrir ou fermer le débit d'eau.",
+   "specs": [
+    [
+     "Marque",
+     "Rain Bird"
+    ],
+    [
+     "Type de produit",
+     "Electrovannes 9V et 24V"
+    ],
+    [
+     "Accessoires",
+     "Solénoïde"
+    ]
+   ]
+  },
+  {
+   "famille": true,
+   "cat": "vannes",
+   "title": "Solénoide PGV - HUNTER",
+   "desc": "Disponible en 9V et 24V. Il n'utilise de l'énergie que lors de l'ouverture et de la fermeture de la vanne, ce qui garantit une très faible consommation d'énergie et prolonge significativement la durée de vie des piles.",
+   "specs": [
+    [
+     "Marque",
+     "Hunter"
+    ],
+    [
+     "Accessoires",
+     "Solénoïde"
+    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "9V",
+     "hex": "",
+     "c2": "",
+     "ref": "02.SOL9HUNT",
+     "ht": 21.83,
+     "price": 23.69,
+     "stock": "in",
+     "img": "images/02.SOL9HUNT_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "24V",
+     "hex": "",
+     "c2": "",
+     "ref": "02.SOL24HUNT",
+     "ht": 15.17,
+     "price": 16.46,
+     "stock": "in",
+     "img": "images/02.SOL24HUNT_1.jpg",
+     "pieces": 0
+    }
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Solénoide Richdel - 24V DC (continu) Irritrol",
+   "spec": "",
+   "ref": "02.SOL24DCIRRI",
+   "ht": 16.25,
+   "price": 17.63,
+   "stock": "in",
+   "img": "images/02.SOL24DCIRRI_1.jpg",
+   "desc": "Solénoïde 24V DC (Courant Continu) Richdel / Irritrol Ce solénoïde 24V DC (Courant Continu) est la pièce de rechange conçue pour les électrovannes Richdel et Irritrol, notamment les séries populaires comme la 2400MT , lorsqu'elles sont utilisées avec des systèmes de programmation spécifiques nécessitant du courant continu à cette tension.",
+   "specs": [
+    [
+     "Marque",
+     "Irritrol"
+    ],
+    [
+     "Type de produit",
+     "Electrovannes 9V et 24V"
+    ],
+    [
+     "Accessoires",
+     "Solénoïde"
+    ],
+    [
+     "Tension",
+     "24V"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Solénoide Richdel - 24V Irritrol",
+   "spec": "",
+   "ref": "02.27901",
+   "ht": 16.96,
+   "price": 18.4,
+   "stock": "in",
+   "img": "images/02.27901_1.jpg",
+   "desc": "Solénoïde Standard 24V AC pour Électrovannes Richdel / Irritrol Ce solénoïde standard 24V AC (Courant Alternatif) est la pièce de rechange conçue pour vos électrovannes Richdel (désormais Irritrol) raccordées à un programmateur d'arrosage alimenté par le secteur (courant électrique domestique). Il est le composant électromagnétique qui actionne l'ouverture ou la fermeture de la vanne. Robuste et fiable, ce solénoïde est compatible avec la majorité des modèles de vannes Irritrol/Richdel utilisant une alimentation secteur 24V.",
+   "specs": [
+    [
+     "Marque",
+     "Irritrol"
+    ],
+    [
+     "Type de produit",
+     "Electrovannes 9V et 24V"
+    ],
+    [
+     "Accessoires",
+     "Solénoïde"
+    ],
+    [
+     "Tension",
+     "24V"
+    ]
+   ]
+  },
+  {
+   "famille": true,
+   "cat": "vannes",
+   "title": "Te union laiton MFF",
+   "desc": "Disponible en 1\" et 1\"1/2. Sa particularité est d'être un \"union\", ce qui signifie qu'il est démontable sans devoir couper ou dévisser l'ensemble du réseau, offrant une flexibilité précieuse pour la maintenance ou le remplacement d'éléments.",
+   "specs": [
+    [
+     "Dimensions",
+     "1''"
+    ],
+    [
+     "Type de produit",
+     "Raccords union pour électrovannes"
+    ],
+    [
+     "Type de raccord",
+     "Té"
+    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "1\"",
+     "hex": "",
+     "c2": "",
+     "ref": "16.29013",
+     "ht": 18.29,
+     "price": 19.84,
+     "stock": "in",
+     "img": "images/16.29013_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "1\"1/2",
+     "hex": "",
+     "c2": "",
+     "ref": "16.29018",
+     "ht": 62.25,
+     "price": 67.54,
+     "stock": "in",
+     "img": "images/16.29018_1.jpg",
+     "pieces": 0
+    }
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Té DURA 1'' mâle femelle",
+   "spec": "",
+   "ref": "19.13013",
+   "ht": 5.71,
+   "price": 6.2,
+   "stock": "in",
+   "img": "images/19.13013_1.jpg",
+   "desc": "Collecteur union PVC DURA Raccords PVC à visser. Etanchéité par joint torique.",
+   "specs": [
+    [
+     "Marque",
+     "Dura"
+    ],
+    [
+     "Type de produit",
+     "Raccords union pour électrovannes"
+    ],
+    [
+     "Type de raccord",
+     "Té"
+    ],
+    [
+     "Modèle compression",
+     "50 - 1'' ½"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Union droite DURA 1'' femelle femelle",
+   "spec": "",
+   "ref": "19.28012",
+   "ht": 4.04,
+   "price": 4.38,
+   "stock": "in",
+   "img": "images/19.28012_1.jpg",
+   "desc": "Collecteur union PVC DURA Raccords PVC à visser. Etanchéité par joint torique.",
+   "specs": [
+    [
+     "Marque",
+     "Dura"
+    ],
+    [
+     "Dimensions",
+     "1''"
+    ],
+    [
+     "Type de produit",
+     "Raccords union pour électrovannes"
+    ],
+    [
+     "Type de raccord",
+     "Union femelle"
+    ],
+    [
+     "Modèle compression",
+     "50 - 1'' ½"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Union droite DURA 1'' mâle femelle",
+   "spec": "",
+   "ref": "19.28011",
+   "ht": 3.67,
+   "price": 3.98,
+   "stock": "in",
+   "img": "images/19.28011_1.jpg",
+   "desc": "Collecteur union PVC DURA Raccords PVC à visser. Etanchéité par joint torique.",
+   "specs": [
+    [
+     "Marque",
+     "Dura"
+    ],
+    [
+     "Dimensions",
+     "1''"
+    ],
+    [
+     "Type de produit",
+     "Raccords union pour électrovannes"
+    ],
+    [
+     "Type de raccord",
+     "Union mâle / femelle"
+    ],
+    [
+     "Modèle compression",
+     "1''¼"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Union droite laiton femelle 1\"",
+   "spec": "",
+   "ref": "16.29014",
+   "ht": 12.25,
+   "price": 13.29,
+   "stock": "in",
+   "img": "images/16.29014_1.jpg",
+   "desc": "Union Droite Laiton Femelle/Femelle (FF) 1\" L'Union droite en laiton Femelle/Femelle 1\" est un raccord à trois pièces (deux extrémités et un écrou libre) conçu pour connecter deux conduites ou deux équipements en ligne. Sa fonction principale est de permettre le démontage facile d'une section du réseau (par exemple un compteur, un filtre ou une vanne) sans avoir à dévisser les conduites adjacentes.",
+   "specs": [
+    [
+     "Dimensions",
+     "1''"
+    ],
+    [
+     "Type de produit",
+     "Raccords union pour électrovannes"
+    ],
+    [
+     "Type de raccord",
+     "Union femelle"
+    ]
+   ]
+  },
+  {
+   "cat": "vannes",
+   "name": "Union laiton male/femelle 1\" 1/2",
+   "spec": "",
+   "ref": "16.29020",
+   "ht": 34.17,
+   "price": 37.07,
+   "stock": "in",
+   "img": "images/16.29020_1.jpg",
+   "desc": "Union Droit Laiton Mâle/Femelle (M/F) 1\"1/2 L'Union Droit Laiton Mâle/Femelle 1\"1/2 est un raccord essentiel, couramment appelé raccord trois pièces. Il est conçu pour créer une jonction droite au sein d'une canalisation, tout en permettant un démontage et remontage rapides de la section sans avoir à dévisser le reste de l'installation. Il est indispensable pour l'installation et la maintenance d'équipements (pompes, filtres, ballons) en plomberie, chauffage et pompage.",
+   "specs": [
+    [
+     "Dimensions",
+     "1''1/2"
+    ],
+    [
+     "Type de produit",
+     "Raccords union pour électrovannes"
+    ],
+    [
+     "Type de raccord",
+     "Union mâle / femelle"
+    ]
+   ]
   }
  ]
 };
