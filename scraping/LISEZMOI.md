@@ -22,3 +22,13 @@ autorisation préalable, et les photos proviennent des fabricants (Rain Bird,
 Palaplast, Rivulis, Netafim…). Ces données servent à la consultation interne ;
 pour publier les photos sur la boutique, obtenir l'accord d'Arrosage Distribution
 ou récupérer les visuels auprès des fabricants / du grossiste.
+
+## Rubriques déjà récupérées
+
+| Rubrique | Option `--categorie` | Fiches | Classeur |
+|---|---|---|---|
+| Goutte-à-goutte | `goutte-a-goutte` | 103 | `sortie/arrosage_distribution.xlsx` |
+| Turbines et tuyères | `arrroseurs-turbines-tuyeres` | 122 | `sortie/arrosage_distribution_arrroseurs-turbines-tuyeres.xlsx` |
+
+(L'option reprend l'orthographe de l'adresse du site, « arrroseurs » avec 3 r.)
+Toutes les photos sont dans `sortie/images/` et copiées dans `boutique/images/`.

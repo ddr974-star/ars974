@@ -29,11 +29,19 @@ BASE = "https://www.arrosage-distribution.fr"
 SITEMAP = BASE + "/sitemap/products.xml"
 ICI = Path(__file__).resolve().parent
 SORTIE = ICI / "sortie"
-DONNEES = SORTIE / "arrosage_distribution.jsonl"
+DONNEES = SORTIE / "arrosage_distribution.jsonl"  # redéfini selon la rubrique
 MINIATURES = SORTIE / "miniatures"
 IMAGES = SORTIE / "images"
 TAILLE_MAX = 1200  # px, côté le plus long des images enregistrées
-EXCEL = SORTIE / "arrosage_distribution.xlsx"
+EXCEL = SORTIE / "arrosage_distribution.xlsx"  # redéfini selon la rubrique
+
+
+def choisit_rubrique(categorie):
+    """Un fichier de données et un classeur par rubrique."""
+    global DONNEES, EXCEL
+    if categorie and categorie != "goutte-a-goutte":
+        DONNEES = SORTIE / f"arrosage_distribution_{categorie}.jsonl"
+        EXCEL = SORTIE / f"arrosage_distribution_{categorie}.xlsx"
 
 session = requests.Session()
 session.headers["User-Agent"] = (
@@ -329,6 +337,7 @@ if __name__ == "__main__":
                    help="rubrique du site (ex. goutte-a-goutte) ; 'tout' = catalogue complet")
     a = p.parse_args()
     cat = "" if a.categorie == "tout" else a.categorie
+    choisit_rubrique(cat or "tout")
     if a.etape == "collecte":
         collecte(a.limite, a.delai, cat)
     elif a.etape == "images":
