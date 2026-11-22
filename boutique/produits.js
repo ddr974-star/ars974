@@ -99,68 +99,10 @@ window.CATALOGUE = {
    ]
   },
   {
+   "famille": true,
    "cat": "programmateurs",
-   "name": "Programmateur Orbit Tap Timer 2S",
-   "spec": "",
-   "ref": "702ORT96782E",
-   "ht": 111.1,
-   "price": 120.54,
-   "stock": "in",
-   "img": "images/orbit-tap-timer-2s.jpg",
-   "desc": "Programmateur 2 sorties de la gamme Orbit Tap Timer. Fonctionne avec 2 piles LR6 de 1,5 V (non incluses). Écran digital. Il se visse directement sur le robinet : entrée 3/4\" F, sortie 3/4\" M.",
-   "specs": [
-    [
-     "Gamme",
-     "Orbit Tap Timer"
-    ],
-    [
-     "Code article",
-     "94247"
-    ],
-    [
-     "Nombre de voies",
-     "2"
-    ],
-    [
-     "Fréquence",
-     "1 h à 23 h / 1 j à 7 j"
-    ],
-    [
-     "Durée",
-     "1 à 360 min"
-    ],
-    [
-     "Entrée",
-     "3/4\" F"
-    ],
-    [
-     "Sortie",
-     "3/4\" M"
-    ],
-    [
-     "Pression de service",
-     "0,7 à 6,9 bar"
-    ],
-    [
-     "Alimentation",
-     "2 piles LR6 de 1,5 V (non incluses)"
-    ],
-    [
-     "Écran",
-     "Digital"
-    ]
-   ]
-  },
-  {
-   "cat": "programmateurs",
-   "name": "Programmateur Orbit Tap Timer 1S",
-   "spec": "",
-   "ref": "702ORT96781E",
-   "ht": 82.82,
-   "price": 89.86,
-   "stock": "in",
-   "img": "images/orbit-tap-timer-1s.jpg",
-   "desc": "Programmateur 1 sortie de la gamme Orbit Tap Timer. Fonctionne avec 2 piles LR6 de 1,5 V (non incluses). Écran digital. Il se visse directement sur le robinet : entrée 3/4\" F, sortie 3/4\" M.",
+   "title": "Programmateur Orbit Tap Timer",
+   "desc": "Disponible en 1S et 2S. Programmateur 1 sortie de la gamme Orbit Tap Timer. Fonctionne avec 2 piles LR6 de 1,5 V (non incluses). Écran digital. Il se visse directement sur le robinet : entrée 3/4\" F, sortie 3/4\" M.",
    "specs": [
     [
      "Gamme",
@@ -202,6 +144,31 @@ window.CATALOGUE = {
      "Écran",
      "Digital"
     ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "1S",
+     "hex": "",
+     "c2": "",
+     "ref": "702ORT96781E",
+     "ht": 82.82,
+     "price": 89.86,
+     "stock": "in",
+     "img": "images/orbit-tap-timer-1s.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "2S",
+     "hex": "",
+     "c2": "",
+     "ref": "702ORT96782E",
+     "ht": 111.1,
+     "price": 120.54,
+     "stock": "in",
+     "img": "images/orbit-tap-timer-2s.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
@@ -311,15 +278,10 @@ window.CATALOGUE = {
    ]
   },
   {
+   "famille": true,
    "cat": "raccords",
-   "name": "Nez de robinet 1/2 F Claber",
-   "spec": "",
-   "ref": "81RAC01000C",
-   "ht": 1.58,
-   "price": 1.71,
-   "stock": "in",
-   "img": "images/claber-nez-de-robinet.jpg",
-   "desc": "Raccord automatique Claber Quick-Click : nez de robinet. Plastique résistant aux chocs, aux agressions atmosphériques, aux rayons UV et aux fortes pressions. Compatible avec les raccords automatiques laiton.",
+   "title": "Nez de robinet femelle Claber",
+   "desc": "Disponible en 1/2, 3/4 et 1. Raccord automatique Claber Quick-Click : nez de robinet. Plastique résistant aux chocs, aux agressions atmosphériques, aux rayons UV et aux fortes pressions. Compatible avec les raccords automatiques laiton.",
    "specs": [
     [
      "Marque",
@@ -333,56 +295,42 @@ window.CATALOGUE = {
      "Famille",
      "Nez de robinet"
     ]
-   ]
-  },
-  {
-   "cat": "raccords",
-   "name": "Nez de robinet 3/4 F Claber",
-   "spec": "",
-   "ref": "81RAC02000C",
-   "ht": 1.58,
-   "price": 1.71,
-   "stock": "in",
-   "img": "images/claber-nez-de-robinet.jpg",
-   "desc": "Raccord automatique Claber Quick-Click : nez de robinet. Plastique résistant aux chocs, aux agressions atmosphériques, aux rayons UV et aux fortes pressions. Compatible avec les raccords automatiques laiton.",
-   "specs": [
-    [
-     "Marque",
-     "Claber"
-    ],
-    [
-     "Gamme",
-     "Quick-Click"
-    ],
-    [
-     "Famille",
-     "Nez de robinet"
-    ]
-   ]
-  },
-  {
-   "cat": "raccords",
-   "name": "Nez de robinet 1 F Claber",
-   "spec": "",
-   "ref": "81RAC03000C",
-   "ht": 1.63,
-   "price": 1.77,
-   "stock": "in",
-   "img": "images/claber-nez-de-robinet.jpg",
-   "desc": "Raccord automatique Claber Quick-Click : nez de robinet. Plastique résistant aux chocs, aux agressions atmosphériques, aux rayons UV et aux fortes pressions. Compatible avec les raccords automatiques laiton.",
-   "specs": [
-    [
-     "Marque",
-     "Claber"
-    ],
-    [
-     "Gamme",
-     "Quick-Click"
-    ],
-    [
-     "Famille",
-     "Nez de robinet"
-    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "1/2",
+     "hex": "",
+     "c2": "",
+     "ref": "81RAC01000C",
+     "ht": 1.58,
+     "price": 1.71,
+     "stock": "in",
+     "img": "images/claber-nez-de-robinet.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "3/4",
+     "hex": "",
+     "c2": "",
+     "ref": "81RAC02000C",
+     "ht": 1.58,
+     "price": 1.71,
+     "stock": "in",
+     "img": "images/claber-nez-de-robinet.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "1",
+     "hex": "",
+     "c2": "",
+     "ref": "81RAC03000C",
+     "ht": 1.63,
+     "price": 1.77,
+     "stock": "in",
+     "img": "images/claber-nez-de-robinet.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
@@ -536,15 +484,10 @@ window.CATALOGUE = {
    ]
   },
   {
+   "famille": true,
    "cat": "raccords",
-   "name": "Distributeur 2 sorties Claber",
-   "spec": "",
-   "ref": "81RAC11100C",
-   "ht": 26.27,
-   "price": 28.5,
-   "stock": "in",
-   "img": "images/claber-distributeur-2-sorties.jpg",
-   "desc": "Raccord automatique Claber Quick-Click : distributeur. Plastique résistant aux chocs, aux agressions atmosphériques, aux rayons UV et aux fortes pressions. Compatible avec les raccords automatiques laiton.",
+   "title": "Distributeur Claber",
+   "desc": "Disponible en 2 sorties et 4 sorties. Raccord automatique Claber Quick-Click : distributeur. Plastique résistant aux chocs, aux agressions atmosphériques, aux rayons UV et aux fortes pressions. Compatible avec les raccords automatiques laiton.",
    "specs": [
     [
      "Marque",
@@ -558,68 +501,38 @@ window.CATALOGUE = {
      "Famille",
      "Distributeur"
     ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "2 sorties",
+     "hex": "",
+     "c2": "",
+     "ref": "81RAC11100C",
+     "ht": 26.27,
+     "price": 28.5,
+     "stock": "in",
+     "img": "images/claber-distributeur-2-sorties.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "4 sorties",
+     "hex": "",
+     "c2": "",
+     "ref": "81RAC11200C",
+     "ht": 40.61,
+     "price": 44.06,
+     "stock": "in",
+     "img": "images/claber-distributeur-4-sorties.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
+   "famille": true,
    "cat": "raccords",
-   "name": "Distributeur 4 sorties Claber",
-   "spec": "",
-   "ref": "81RAC11200C",
-   "ht": 40.61,
-   "price": 44.06,
-   "stock": "in",
-   "img": "images/claber-distributeur-4-sorties.jpg",
-   "desc": "Raccord automatique Claber Quick-Click : distributeur. Plastique résistant aux chocs, aux agressions atmosphériques, aux rayons UV et aux fortes pressions. Compatible avec les raccords automatiques laiton.",
-   "specs": [
-    [
-     "Marque",
-     "Claber"
-    ],
-    [
-     "Gamme",
-     "Quick-Click"
-    ],
-    [
-     "Famille",
-     "Distributeur"
-    ]
-   ]
-  },
-  {
-   "cat": "raccords",
-   "name": "Raccord auto 15 sans clapet Claber",
-   "spec": "",
-   "ref": "81RAC08000C",
-   "ht": 2.54,
-   "price": 2.76,
-   "stock": "in",
-   "img": "images/claber-raccord-sans-clapet.jpg",
-   "desc": "Raccord automatique Claber Quick-Click : raccord automatique sans clapet. Plastique résistant aux chocs, aux agressions atmosphériques, aux rayons UV et aux fortes pressions. Compatible avec les raccords automatiques laiton.",
-   "specs": [
-    [
-     "Marque",
-     "Claber"
-    ],
-    [
-     "Gamme",
-     "Quick-Click"
-    ],
-    [
-     "Famille",
-     "Raccord automatique sans clapet"
-    ]
-   ]
-  },
-  {
-   "cat": "raccords",
-   "name": "Raccord auto 19 sans clapet Claber",
-   "spec": "",
-   "ref": "81RAC09000C",
-   "ht": 4.17,
-   "price": 4.52,
-   "stock": "in",
-   "img": "images/claber-raccord-sans-clapet.jpg",
-   "desc": "Raccord automatique Claber Quick-Click : raccord automatique sans clapet. Plastique résistant aux chocs, aux agressions atmosphériques, aux rayons UV et aux fortes pressions. Compatible avec les raccords automatiques laiton.",
+   "title": "Raccord auto sans clapet Claber",
+   "desc": "Disponible en 15 et 19. Raccord automatique Claber Quick-Click : raccord automatique sans clapet. Plastique résistant aux chocs, aux agressions atmosphériques, aux rayons UV et aux fortes pressions. Compatible avec les raccords automatiques laiton.",
    "specs": [
     [
      "Marque",
@@ -633,18 +546,38 @@ window.CATALOGUE = {
      "Famille",
      "Raccord automatique sans clapet"
     ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "15",
+     "hex": "",
+     "c2": "",
+     "ref": "81RAC08000C",
+     "ht": 2.54,
+     "price": 2.76,
+     "stock": "in",
+     "img": "images/claber-raccord-sans-clapet.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "19",
+     "hex": "",
+     "c2": "",
+     "ref": "81RAC09000C",
+     "ht": 4.17,
+     "price": 4.52,
+     "stock": "in",
+     "img": "images/claber-raccord-sans-clapet.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
+   "famille": true,
    "cat": "raccords",
-   "name": "Raccord auto Aquastop 15 Claber",
-   "spec": "",
-   "ref": "81RAC06000C",
-   "ht": 3.87,
-   "price": 4.2,
-   "stock": "in",
-   "img": "images/claber-raccord-aquastop.jpg",
-   "desc": "Raccord automatique Claber Quick-Click : raccord automatique Aquastop. Plastique résistant aux chocs, aux agressions atmosphériques, aux rayons UV et aux fortes pressions. Compatible avec les raccords automatiques laiton.",
+   "title": "Raccord auto Aquastop Claber",
+   "desc": "Disponible en 15 et 19. Raccord automatique Claber Quick-Click : raccord automatique Aquastop. Plastique résistant aux chocs, aux agressions atmosphériques, aux rayons UV et aux fortes pressions. Compatible avec les raccords automatiques laiton.",
    "specs": [
     [
      "Marque",
@@ -658,31 +591,31 @@ window.CATALOGUE = {
      "Famille",
      "Raccord automatique Aquastop"
     ]
-   ]
-  },
-  {
-   "cat": "raccords",
-   "name": "Raccord auto Aquastop 19 Claber",
-   "spec": "",
-   "ref": "81RAC07000C",
-   "ht": 4.65,
-   "price": 5.05,
-   "stock": "in",
-   "img": "images/claber-raccord-aquastop.jpg",
-   "desc": "Raccord automatique Claber Quick-Click : raccord automatique Aquastop. Plastique résistant aux chocs, aux agressions atmosphériques, aux rayons UV et aux fortes pressions. Compatible avec les raccords automatiques laiton.",
-   "specs": [
-    [
-     "Marque",
-     "Claber"
-    ],
-    [
-     "Gamme",
-     "Quick-Click"
-    ],
-    [
-     "Famille",
-     "Raccord automatique Aquastop"
-    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "15",
+     "hex": "",
+     "c2": "",
+     "ref": "81RAC06000C",
+     "ht": 3.87,
+     "price": 4.2,
+     "stock": "in",
+     "img": "images/claber-raccord-aquastop.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "19",
+     "hex": "",
+     "c2": "",
+     "ref": "81RAC07000C",
+     "ht": 4.65,
+     "price": 5.05,
+     "stock": "in",
+     "img": "images/claber-raccord-aquastop.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
@@ -711,15 +644,10 @@ window.CATALOGUE = {
    ]
   },
   {
+   "famille": true,
    "cat": "raccords",
-   "name": "Raccord réparateur 15 mm Claber",
-   "spec": "",
-   "ref": "81RAC12000C",
-   "ht": 2.24,
-   "price": 2.43,
-   "stock": "in",
-   "img": "images/claber-raccord-reparateur.jpg",
-   "desc": "Raccord automatique Claber Quick-Click : raccord réparateur. Plastique résistant aux chocs, aux agressions atmosphériques, aux rayons UV et aux fortes pressions. Compatible avec les raccords automatiques laiton.",
+   "title": "Raccord réparateur Claber",
+   "desc": "Disponible en 15 mm et 19 mm. Raccord automatique Claber Quick-Click : raccord réparateur. Plastique résistant aux chocs, aux agressions atmosphériques, aux rayons UV et aux fortes pressions. Compatible avec les raccords automatiques laiton.",
    "specs": [
     [
      "Marque",
@@ -733,31 +661,31 @@ window.CATALOGUE = {
      "Famille",
      "Raccord réparateur"
     ]
-   ]
-  },
-  {
-   "cat": "raccords",
-   "name": "Raccord réparateur 19 mm Claber",
-   "spec": "",
-   "ref": "81RAC13000C",
-   "ht": 4.54,
-   "price": 4.93,
-   "stock": "in",
-   "img": "images/claber-raccord-reparateur.jpg",
-   "desc": "Raccord automatique Claber Quick-Click : raccord réparateur. Plastique résistant aux chocs, aux agressions atmosphériques, aux rayons UV et aux fortes pressions. Compatible avec les raccords automatiques laiton.",
-   "specs": [
-    [
-     "Marque",
-     "Claber"
-    ],
-    [
-     "Gamme",
-     "Quick-Click"
-    ],
-    [
-     "Famille",
-     "Raccord réparateur"
-    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "15 mm",
+     "hex": "",
+     "c2": "",
+     "ref": "81RAC12000C",
+     "ht": 2.24,
+     "price": 2.43,
+     "stock": "in",
+     "img": "images/claber-raccord-reparateur.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "19 mm",
+     "hex": "",
+     "c2": "",
+     "ref": "81RAC13000C",
+     "ht": 4.54,
+     "price": 4.93,
+     "stock": "in",
+     "img": "images/claber-raccord-reparateur.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
@@ -1180,138 +1108,10 @@ window.CATALOGUE = {
    ]
   },
   {
+   "famille": true,
    "cat": "accessoires",
-   "name": "Adaptateur ACME M 1\" 1/2 x tar 1\" 1/2 BSP - Rain Bird",
-   "spec": "",
-   "ref": "10.A12B12",
-   "ht": 13.63,
-   "price": 14.79,
-   "stock": "in",
-   "img": "images/10.A12B12_1.jpg",
-   "desc": "Adaptateur ACME x BSP - Rain Bird Les adaptateurs ACME de Rain Bird sont conçus pour offrir une connexion fiable et durable entre les arroseurs et les systèmes d'irrigation sur les parcours de golf. Dotés d'une technologie de filetage ACME, ces adaptateurs garantissent une étanchéité optimale et une installation rapide sans outils complexes. Leur conception robuste permet de résister aux conditions d'utilisation intensives, offrant ainsi une solution idéale pour les terrains de golf nécessitant une performance élevée et une maintenance réduite.",
-   "specs": [
-    [
-     "Marque",
-     "Rain Bird"
-    ],
-    [
-     "Référence fabricant",
-     "71392627"
-    ],
-    [
-     "Type de produit",
-     "Accessoires"
-    ],
-    [
-     "Caractéristiques",
-     "Adaptateur ACME x BSP"
-    ],
-    [
-     "Matériaux",
-     "polypropylène"
-    ],
-    [
-     "Raccordement",
-     "BSP femelle x ACME mâle"
-    ],
-    [
-     "Modèle",
-     "Raccords ACME"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Adaptateur ACME M 1\" 1/4 x tar 1\" 1/4 BSP - Rain Bird",
-   "spec": "",
-   "ref": "10.A14B14",
-   "ht": 13.63,
-   "price": 14.79,
-   "stock": "in",
-   "img": "images/10.A14B14_1.jpg",
-   "desc": "Adaptateur ACME x BSP - Rain Bird Les adaptateurs ACME de Rain Bird sont conçus pour offrir une connexion fiable et durable entre les arroseurs et les systèmes d'irrigation sur les parcours de golf. Dotés d'une technologie de filetage ACME, ces adaptateurs garantissent une étanchéité optimale et une installation rapide sans outils complexes. Leur conception robuste permet de résister aux conditions d'utilisation intensives, offrant ainsi une solution idéale pour les terrains de golf nécessitant une performance élevée et une maintenance réduite.",
-   "specs": [
-    [
-     "Marque",
-     "Rain Bird"
-    ],
-    [
-     "Référence fabricant",
-     "71392619"
-    ],
-    [
-     "Type de produit",
-     "Accessoires"
-    ],
-    [
-     "Caractéristiques",
-     "Adaptateur ACME x BSP"
-    ],
-    [
-     "Matériaux",
-     "polypropylène"
-    ],
-    [
-     "Raccordement",
-     "BSP femelle x ACME mâle"
-    ],
-    [
-     "Modèle",
-     "Raccords ACME"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Adaptateur ACME M 1\" 1/4 x tar 1\" BSP - Rain Bird",
-   "spec": "",
-   "ref": "10.A14B1",
-   "ht": 16.33,
-   "price": 17.72,
-   "stock": "in",
-   "img": "images/10.A14B1_1.jpg",
-   "desc": "Adaptateur ACME x BSP - Rain Bird Les adaptateurs ACME de Rain Bird sont conçus pour offrir une connexion fiable et durable entre les arroseurs et les systèmes d'irrigation sur les parcours de golf. Dotés d'une technologie de filetage ACME, ces adaptateurs garantissent une étanchéité optimale et une installation rapide sans outils complexes. Leur conception robuste permet de résister aux conditions d'utilisation intensives, offrant ainsi une solution idéale pour les terrains de golf nécessitant une performance élevée et une maintenance réduite.",
-   "specs": [
-    [
-     "Marque",
-     "Rain Bird"
-    ],
-    [
-     "Référence fabricant",
-     "71392600"
-    ],
-    [
-     "Type de produit",
-     "Accessoires"
-    ],
-    [
-     "Caractéristiques",
-     "Adaptateur ACME x BSP"
-    ],
-    [
-     "Matériaux",
-     "polypropylène"
-    ],
-    [
-     "Raccordement",
-     "BSP femelle x ACME mâle"
-    ],
-    [
-     "Modèle",
-     "Raccords ACME"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Adaptateur ACME M 1\" x tar 1\" BSP - Rain Bird",
-   "spec": "",
-   "ref": "10.A1B1",
-   "ht": 12.46,
-   "price": 13.52,
-   "stock": "in",
-   "img": "images/10.A1B1_1.jpg",
-   "desc": "Adaptateur ACME x BSP - Rain Bird Les adaptateurs ACME de Rain Bird sont conçus pour offrir une connexion fiable et durable entre les arroseurs et les systèmes d'irrigation sur les parcours de golf. Dotés d'une technologie de filetage ACME, ces adaptateurs garantissent une étanchéité optimale et une installation rapide sans outils complexes. Leur conception robuste permet de résister aux conditions d'utilisation intensives, offrant ainsi une solution idéale pour les terrains de golf nécessitant une performance élevée et une maintenance réduite.",
+   "title": "Adaptateur ACME × BSP Rain Bird",
+   "desc": "Disponible en 1\" x tar 1\", 1\" 1/4 x tar 1\", 1\" 1/4 x tar 1\" 1/4 et 1\" 1/2 x tar 1\" 1/2. Adaptateur ACME x BSP - Rain Bird Les adaptateurs ACME de Rain Bird sont conçus pour offrir une connexion fiable et durable entre les arroseurs et les systèmes d'irrigation sur les parcours de golf. Dotés d'une technologie de filetage ACME, ces adaptateurs garantissent une étanchéité optimale et une installation rapide sans outils complexes. Leur conception robuste permet de résister aux conditions d'utilisation intensives, offrant ainsi une solution idéale pour les terrains de golf nécessitant une performance élevée et une maintenance réduite.",
    "specs": [
     [
      "Marque",
@@ -1341,18 +1141,60 @@ window.CATALOGUE = {
      "Modèle",
      "Raccords ACME"
     ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "1\" x tar 1\"",
+     "hex": "",
+     "c2": "",
+     "ref": "10.A1B1",
+     "ht": 12.46,
+     "price": 13.52,
+     "stock": "in",
+     "img": "images/10.A1B1_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "1\" 1/4 x tar 1\"",
+     "hex": "",
+     "c2": "",
+     "ref": "10.A14B1",
+     "ht": 16.33,
+     "price": 17.72,
+     "stock": "in",
+     "img": "images/10.A14B1_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "1\" 1/4 x tar 1\" 1/4",
+     "hex": "",
+     "c2": "",
+     "ref": "10.A14B14",
+     "ht": 13.63,
+     "price": 14.79,
+     "stock": "in",
+     "img": "images/10.A14B14_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "1\" 1/2 x tar 1\" 1/2",
+     "hex": "",
+     "c2": "",
+     "ref": "10.A12B12",
+     "ht": 13.63,
+     "price": 14.79,
+     "stock": "in",
+     "img": "images/10.A12B12_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
+   "famille": true,
    "cat": "accessoires",
-   "name": "Allonge ajustable ½'' x ½''",
-   "spec": "",
-   "ref": "15.30100",
-   "ht": 0.42,
-   "price": 0.46,
-   "stock": "in",
-   "img": "images/15.30100_1.jpg",
-   "desc": "Allonge ajustable ½'' x ½'' Montage sur arroseur ou tuyère. A découper à la longueur souhaitée. Hauteur maxi 15 cm",
+   "title": "Allonge ajustable",
+   "desc": "Disponible en ½'' x ½'', ¾'' x ½'' et ¾'' x ¾''. A découper à la longueur souhaitée. Hauteur maxi 15 cm",
    "specs": [
     [
      "Type de produit",
@@ -1362,60 +1204,49 @@ window.CATALOGUE = {
      "Modèle",
      "Allonges ajustables"
     ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "½'' x ½''",
+     "hex": "",
+     "c2": "",
+     "ref": "15.30100",
+     "ht": 0.42,
+     "price": 0.46,
+     "stock": "in",
+     "img": "images/15.30100_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "¾'' x ½''",
+     "hex": "",
+     "c2": "",
+     "ref": "15.30110",
+     "ht": 0.42,
+     "price": 0.46,
+     "stock": "in",
+     "img": "images/15.30110_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "¾'' x ¾''",
+     "hex": "",
+     "c2": "",
+     "ref": "15.30200",
+     "ht": 0.46,
+     "price": 0.5,
+     "stock": "in",
+     "img": "images/15.30200_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
+   "famille": true,
    "cat": "accessoires",
-   "name": "Allonge ajustable ¾'' x ½''",
-   "spec": "",
-   "ref": "15.30110",
-   "ht": 0.42,
-   "price": 0.46,
-   "stock": "in",
-   "img": "images/15.30110_1.jpg",
-   "desc": "Allonge ajustable ¾'' x ½'' Montage sur arroseur ou tuyère. A découper à la longueur souhaitée. Hauteur maxi 15 cm",
-   "specs": [
-    [
-     "Type de produit",
-     "Accessoires"
-    ],
-    [
-     "Modèle",
-     "Allonges ajustables"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Allonge ajustable ¾'' x ¾''",
-   "spec": "",
-   "ref": "15.30200",
-   "ht": 0.46,
-   "price": 0.5,
-   "stock": "in",
-   "img": "images/15.30200_1.jpg",
-   "desc": "Allonge ajustable ¾'' x ¾'' Montage sur arroseur ou tuyère. A découper à la longueur souhaitée. Hauteur maxi 15 cm",
-   "specs": [
-    [
-     "Type de produit",
-     "Accessoires"
-    ],
-    [
-     "Modèle",
-     "Allonges ajustables"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Clapet anti-vidange F/M ½''",
-   "spec": "",
-   "ref": "04.02117",
-   "ht": 7.92,
-   "price": 8.59,
-   "stock": "in",
-   "img": "images/04.02117_1.jpg",
-   "desc": "Clapet anti-vidange ½'' Le Clapet anti-vidange Femelle/Mâle 1/2'' (15x21) est un accessoire de raccordement compact et indispensable pour l'arrosage enterré sur terrains avec dénivelé ou reliefs. Il s'installe directement entre le raccord d'alimentation et l'arroseur (tuyère ou diffuseur) de diamètre 1/2''. Son mécanisme empêche la vidange du réseau par gravité au travers de l'arroseur le plus bas, une fois que la pression est coupée. Cette fonction permet de garantir que l'eau reste dans la tuyauterie, assurant une pression plus stable au démarrage du cycle suivant et surtout, éliminant le gaspillage d'eau et les problèmes d'érosion ou de flaques aux points bas de l'installation.",
+   "title": "Clapet anti-vidange F/M",
+   "desc": "Disponible en ½'' et ¾''. Il s'installe directement entre le raccord d'alimentation et l'arroseur (tuyère ou diffuseur) de diamètre 1/2''. Son mécanisme empêche la vidange du réseau par gravité au travers de l'arroseur le plus bas, une fois que la pression est coupée. Cette fonction permet de garantir que l'eau reste dans la tuyauterie, assurant une pression plus stable au démarrage du cycle suivant et surtout, éliminant le gaspillage d'eau et les problèmes d'érosion ou de flaques aux points bas de l'installation.",
    "specs": [
     [
      "Marque",
@@ -1429,43 +1260,38 @@ window.CATALOGUE = {
      "Modèle",
      "Clapet anti-vidange"
     ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "½''",
+     "hex": "",
+     "c2": "",
+     "ref": "04.02117",
+     "ht": 7.92,
+     "price": 8.59,
+     "stock": "in",
+     "img": "images/04.02117_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "¾''",
+     "hex": "",
+     "c2": "",
+     "ref": "04.02118",
+     "ht": 9,
+     "price": 9.77,
+     "stock": "in",
+     "img": "images/04.02118_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
+   "famille": true,
    "cat": "accessoires",
-   "name": "Clapet anti-vidange F/M ¾''",
-   "spec": "",
-   "ref": "04.02118",
-   "ht": 9,
-   "price": 9.77,
-   "stock": "in",
-   "img": "images/04.02118_1.jpg",
-   "desc": "Clapet anti-vidange ¾'' Le clapet anti vidange est un clapet de sécurité indispensable à installer au point de raccordement de votre arroseur (tuyère ou turbine) lorsque celui-ci est situé sur un point bas de votre réseau d'arrosage. Son rôle est d'empêcher la vidange gravitationnelle complète de la canalisation après l'arrêt du cycle d'arrosage. En maintenant l'eau dans le tuyau, il garantit un redémarrage instantané de tous les arroseurs lors du prochain cycle, améliore l'uniformité d'arrosage et, surtout, élimine le gaspillage d'eau et la formation de flaques aux points bas.",
-   "specs": [
-    [
-     "Marque",
-     "Hunter"
-    ],
-    [
-     "Type de produit",
-     "Accessoires"
-    ],
-    [
-     "Modèle",
-     "Clapet anti-vidange"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Collier de prise en charge Ø 20 Taraudé 1/2\" série pro",
-   "spec": "",
-   "ref": "15.19111",
-   "ht": 1.13,
-   "price": 1.23,
-   "stock": "in",
-   "img": "images/15.19111_1.jpg",
-   "desc": "Collier de prise en charge Le Collier de prise en charge Ø 20 Taraudé 1/2\" (série professionnelle) est l'accessoire indispensable pour réaliser une dérivation sécurisée et étanche sur votre réseau de tuyauterie en polyéthylène (PEHD) de diamètre extérieur 20 mm. Il permet de connecter rapidement un raccord fileté d'un demi-pouce (1/2\") à votre conduite, idéal pour l'installation d'électrovannes, de vannes ou d'autres accessoires d'arrosage. Fabriqué en polypropylène, il assure une excellente résistance aux chocs, aux UV et à la corrosion. Son système de fixation par boulons assure un serrage ferme sur le tube, tandis que le joint torique interne garantit une étanchéité fiable.",
+   "title": "Collier de prise en charge série pro",
+   "desc": "Disponible en 20 Taraudé 1/2\", 25 Taraudé 1/2\", 25 Taraudé 3/4\", 32 Taraudé 1/2\", 32 Taraudé 3/4\", 32 Taraudé 1\", 40 Taraudé 3/4\", 40 Taraudé 1\", 50 Taraudé 3/4\", 50 Taraudé 1\", 63 Taraudé 3/4\", 63 Taraudé 1\", 63 Taraudé 1\"1/4 et 63 Taraudé 1\"1/2. Il permet de connecter rapidement un raccord fileté d'un demi-pouce (1/2\") à votre conduite, idéal pour l'installation d'électrovannes, de vannes ou d'autres accessoires d'arrosage. Fabriqué en polypropylène, il assure une excellente résistance aux chocs, aux UV et à la corrosion. Son système de fixation par boulons assure un serrage ferme sur le tube, tandis que le joint torique interne garantit une étanchéité fiable.",
    "specs": [
     [
      "Marque",
@@ -1483,560 +1309,207 @@ window.CATALOGUE = {
      "Modèle",
      "Colliers de prise en charge"
     ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "20 Taraudé 1/2\"",
+     "hex": "",
+     "c2": "",
+     "ref": "15.19111",
+     "ht": 1.13,
+     "price": 1.23,
+     "stock": "in",
+     "img": "images/15.19111_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "25 Taraudé 1/2\"",
+     "hex": "",
+     "c2": "",
+     "ref": "15.9112",
+     "ht": 1.17,
+     "price": 1.27,
+     "stock": "in",
+     "img": "images/15.9112_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "25 Taraudé 3/4\"",
+     "hex": "",
+     "c2": "",
+     "ref": "15.9113",
+     "ht": 1.17,
+     "price": 1.27,
+     "stock": "in",
+     "img": "images/15.9113_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "32 Taraudé 1/2\"",
+     "hex": "",
+     "c2": "",
+     "ref": "15.9114",
+     "ht": 1.5,
+     "price": 1.63,
+     "stock": "in",
+     "img": "images/15.9114_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "32 Taraudé 3/4\"",
+     "hex": "",
+     "c2": "",
+     "ref": "15.9115",
+     "ht": 1.5,
+     "price": 1.63,
+     "stock": "in",
+     "img": "images/15.9115_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "32 Taraudé 1\"",
+     "hex": "",
+     "c2": "",
+     "ref": "15.9116",
+     "ht": 1.58,
+     "price": 1.71,
+     "stock": "in",
+     "img": "images/15.9116_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "40 Taraudé 3/4\"",
+     "hex": "",
+     "c2": "",
+     "ref": "15.9118",
+     "ht": 1.63,
+     "price": 1.77,
+     "stock": "in",
+     "img": "images/15.9118_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "40 Taraudé 1\"",
+     "hex": "",
+     "c2": "",
+     "ref": "15.9119",
+     "ht": 1.63,
+     "price": 1.77,
+     "stock": "in",
+     "img": "images/15.9119_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "50 Taraudé 3/4\"",
+     "hex": "",
+     "c2": "",
+     "ref": "15.9121",
+     "ht": 1.75,
+     "price": 1.9,
+     "stock": "in",
+     "img": "images/15.9121_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "50 Taraudé 1\"",
+     "hex": "",
+     "c2": "",
+     "ref": "15.9122",
+     "ht": 1.75,
+     "price": 1.9,
+     "stock": "in",
+     "img": "images/15.9122_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "63 Taraudé 3/4\"",
+     "hex": "",
+     "c2": "",
+     "ref": "15.9152",
+     "ht": 2.5,
+     "price": 2.71,
+     "stock": "in",
+     "img": "images/15.9152_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "63 Taraudé 1\"",
+     "hex": "",
+     "c2": "",
+     "ref": "15.9153",
+     "ht": 2.5,
+     "price": 2.71,
+     "stock": "in",
+     "img": "images/15.9153_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "63 Taraudé 1\"1/4",
+     "hex": "",
+     "c2": "",
+     "ref": "15.9154",
+     "ht": 2.67,
+     "price": 2.9,
+     "stock": "in",
+     "img": "images/15.9154_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "63 Taraudé 1\"1/2",
+     "hex": "",
+     "c2": "",
+     "ref": "15.9155",
+     "ht": 2.67,
+     "price": 2.9,
+     "stock": "in",
+     "img": "images/15.9155_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
+   "famille": true,
    "cat": "accessoires",
-   "name": "Collier de prise en charge Ø 25 Taraudé 1/2\" série pro",
-   "spec": "",
-   "ref": "15.9112",
-   "ht": 1.17,
-   "price": 1.27,
-   "stock": "in",
-   "img": "images/15.9112_1.jpg",
-   "desc": "Collier de prise en charge en PVC Ø 25 Le Collier de prise en charge Ø 25 Taraudé 1/2\" (série professionnelle) est l'accessoire idéal pour réaliser une dérivation filetée sur votre réseau principal en tube Polyéthylène (PEHD) de diamètre extérieur 25 mm. Il permet de connecter facilement et rapidement tout accessoire ou raccord fileté de 1/2 pouce (15x21) comme une vanne ou un départ d'arroseur. Fabriqué en polypropylène, ce collier assure une excellente résistance aux chocs, aux rayons UV et à la corrosion. Son installation est simple : il se fixe fermement autour du tube grâce à une boulonnerie en acier galvanisé. Le joint torique intégré garantit une étanchéité parfaite.",
-   "specs": [
-    [
-     "Marque",
-     "Irritec"
-    ],
-    [
-     "Type de produit",
-     "Accessoires"
-    ],
-    [
-     "Modèle",
-     "Colliers de prise en charge"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Collier de prise en charge Ø 25 Taraudé 3/4\" série pro",
-   "spec": "",
-   "ref": "15.9113",
-   "ht": 1.17,
-   "price": 1.27,
-   "stock": "in",
-   "img": "images/15.9113_1.jpg",
-   "desc": "Collier de prise en charge en PVC Ø 25 Le Collier de prise en charge Ø 25 Taraudé 3/4\" série pro (série professionnelle) est l'accessoire idéal pour réaliser une dérivation filetée sur votre réseau principal en tube Polyéthylène (PEHD) de diamètre extérieur 25 mm. Il permet de connecter facilement et rapidement tout accessoire ou raccord fileté de 1/2 pouce (15x21) comme une vanne ou un départ d'arroseur. Fabriqué en polypropylène, ce collier assure une excellente résistance aux chocs, aux rayons UV et à la corrosion. Son installation est simple : il se fixe fermement autour du tube grâce à une boulonnerie en acier galvanisé. Le joint torique intégré garantit une étanchéité parfaite.",
-   "specs": [
-    [
-     "Marque",
-     "Irritec"
-    ],
-    [
-     "Type de produit",
-     "Accessoires"
-    ],
-    [
-     "Modèle",
-     "Colliers de prise en charge"
-    ],
-    [
-     "Modèle compression",
-     "50 - 1'' ½"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Collier de prise en charge Ø 32 Taraudé 1\" série pro",
-   "spec": "",
-   "ref": "15.9116",
-   "ht": 1.58,
-   "price": 1.71,
-   "stock": "in",
-   "img": "images/15.9116_1.jpg",
-   "desc": "Collier de prise en charge en PVC Ø 32 Le Collier de prise en charge Ø 32 Taraudé 1\" (série professionnelle) est l'accessoire à utiliser lorsque vous devez créer une dérivation filetée de grand diamètre sur votre conduite principale en Polyéthylène Haute Densité (PEHD) de diamètre 32 mm. Il permet de raccorder facilement tout élément ou raccord fileté de 1 pouce (26x34), essentiel pour les raccords nécessitant un débit plus élevé comme les électrovannes ou certains types de vannes. Fabriqué en polypropylène, ce collier résiste parfaitement aux UV, à la corrosion et aux chocs. Il s'installe sans effort par serrage des boulons autour du tube.",
-   "specs": [
-    [
-     "Marque",
-     "Irritec"
-    ],
-    [
-     "Type de produit",
-     "Accessoires"
-    ],
-    [
-     "Diamètre",
-     "32"
-    ],
-    [
-     "Modèle",
-     "Colliers de prise en charge"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Collier de prise en charge Ø 32 Taraudé 1/2\" série pro",
-   "spec": "",
-   "ref": "15.9114",
-   "ht": 1.5,
-   "price": 1.63,
-   "stock": "in",
-   "img": "images/15.9114_1.jpg",
-   "desc": "Collier de prise en charge en PVC Ø 32 Le Collier de prise en charge Ø 32 Taraudé 1/2\" (série professionnelle) est l'accessoire idéal pour réaliser une dérivation filetée sur votre réseau principal en tube Polyéthylène (PEHD) de diamètre extérieur 32 mm. Il permet de connecter facilement et rapidement tout accessoire ou raccord fileté de 1/2 pouce (15x21) comme une vanne ou un départ d'arroseur. Fabriqué en polypropylène, ce collier assure une excellente résistance aux chocs, aux rayons UV et à la corrosion. Son installation est simple : il se fixe fermement autour du tube grâce à une boulonnerie en acier galvanisé. Le joint torique intégré garantit une étanchéité parfaite.",
-   "specs": [
-    [
-     "Marque",
-     "Irritec"
-    ],
-    [
-     "Type de produit",
-     "Accessoires"
-    ],
-    [
-     "Diamètre",
-     "32"
-    ],
-    [
-     "Modèle",
-     "Colliers de prise en charge"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Collier de prise en charge Ø 32 Taraudé 3/4\" série pro",
-   "spec": "",
-   "ref": "15.9115",
-   "ht": 1.5,
-   "price": 1.63,
-   "stock": "in",
-   "img": "images/15.9115_1.jpg",
-   "desc": "Collier de prise en charge en PVC Ø 32 Le Collier de prise en charge Ø 32 Taraudé 3/4\" (série professionnelle) est l'accessoire idéal pour créer une dérivation filetée plus large sur votre conduite principale en Polyéthylène Haute Densité (PEHD) de diamètre 32 mm. Il permet de raccorder facilement tout élément ou raccord fileté de 3/4 de pouce (20x27), tel qu'une électrovanne ou un raccord de diamètre supérieur, sans avoir à couper la tuyauterie. Fabriqué en polypropylène résistant, ce collier offre une excellente protection contre la corrosion, les UV et les chocs. Sa fixation est assurée par une boulonnerie électro-zinguée et son étanchéité est garantie par un joint torique de qualité.",
-   "specs": [
-    [
-     "Marque",
-     "Irritec"
-    ],
-    [
-     "Type de produit",
-     "Accessoires"
-    ],
-    [
-     "Diamètre",
-     "32"
-    ],
-    [
-     "Modèle",
-     "Colliers de prise en charge"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Collier de prise en charge Ø 40 Taraudé 1\" série pro",
-   "spec": "",
-   "ref": "15.9119",
-   "ht": 1.63,
-   "price": 1.77,
-   "stock": "in",
-   "img": "images/15.9119_1.jpg",
-   "desc": "Collier de prise en charge en PVC Ø 40 Le Collier de prise en charge Ø 40 Taraudé 1\" (série professionnelle) est l'élément essentiel pour réaliser une dérivation de grand diamètre sur une conduite en tube Polyéthylène Haute Densité (PEHD) de diamètre 40 mm. Il permet de raccorder tout accessoire ou raccord fileté de 1 pouce (26x34) comme une vanne ou une électrovanne, assurant un excellent débit à la dérivation. Fabriqué en polypropylène, ce collier professionnel offre une durabilité remarquable avec une haute résistance aux UV, aux chocs et à la corrosion. Son installation est facilitée par une boulonnerie électro-zinguée de qualité.",
-   "specs": [
-    [
-     "Marque",
-     "Irritec"
-    ],
-    [
-     "Type de produit",
-     "Accessoires"
-    ],
-    [
-     "Diamètre",
-     "40"
-    ],
-    [
-     "Modèle",
-     "Colliers de prise en charge"
-    ],
-    [
-     "Modèle compression",
-     "50 - 1'' ½"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Collier de prise en charge Ø 40 Taraudé 3/4\" série pro",
-   "spec": "",
-   "ref": "15.9118",
-   "ht": 1.63,
-   "price": 1.77,
-   "stock": "in",
-   "img": "images/15.9118_1.jpg",
-   "desc": "Collier de prise en charge en PVC Ø 40 Le Collier de prise en charge Ø 40 Taraudé 3/4\" (série professionnelle) est la solution pour créer une dérivation filetée robuste sur votre réseau principal en tube Polyéthylène Haute Densité (PEHD) de diamètre 40 mm. Il permet de connecter facilement tout raccord ou accessoire fileté de 3/4 de pouce (20x27), idéal pour les électrovannes, les vannes d'arrêt ou les départs d'arroseurs nécessitant un débit adapté. Fabriqué en polypropylène, ce collier assure une excellente résistance aux intempéries, aux UV et aux produits chimiques.",
-   "specs": [
-    [
-     "Marque",
-     "Irritec"
-    ],
-    [
-     "Type de produit",
-     "Accessoires"
-    ],
-    [
-     "Diamètre",
-     "40"
-    ],
-    [
-     "Modèle",
-     "Colliers de prise en charge"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Collier de prise en charge Ø 50 Taraudé 1\" série pro",
-   "spec": "",
-   "ref": "15.9122",
-   "ht": 1.75,
-   "price": 1.9,
-   "stock": "in",
-   "img": "images/15.9122_1.jpg",
-   "desc": "Collier de prise en charge en PVC Ø 50 Le Collier de prise en charge Ø 50 Taraudé 1\" (série professionnelle) est l'accessoire idéal pour réaliser une dérivation filetée de 1 pouce sur une conduite principale en tube Polyéthylène Haute Densité (PEHD) de diamètre 50 mm. Ce raccord permet d'intégrer des éléments de plomberie de grand diamètre comme des électrovannes ou des vannes manuelles. Fabriqué en polypropylène injecté, ce collier offre une robustesse et une résistance aux UV et à la corrosion essentielles pour toute installation extérieure.",
-   "specs": [
-    [
-     "Marque",
-     "Irritec"
-    ],
-    [
-     "Type de produit",
-     "Accessoires"
-    ],
-    [
-     "Diamètre",
-     "50"
-    ],
-    [
-     "Modèle",
-     "Colliers de prise en charge"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Collier de prise en charge Ø 50 Taraudé 3/4\" série pro",
-   "spec": "",
-   "ref": "15.9121",
-   "ht": 1.75,
-   "price": 1.9,
-   "stock": "in",
-   "img": "images/15.9121_1.jpg",
-   "desc": "Collier de prise en charge en PVC Ø 50 Le Collier de prise en charge Ø 50 Taraudé 3/4\" (série professionnelle) est conçu pour créer un point de prélèvement ou une dérivation filetée sur une conduite principale en tube Polyéthylène Haute Densité (PEHD) de diamètre 50 mm. Ce raccord permet d'installer tout composant fileté de 3/4 de pouce (20x27), tel qu'une vanne, un manomètre ou un départ d'arroseur, sans nécessiter la coupe de la conduite. Fabriqué en polypropylène, ce collier résiste durablement aux agressions extérieures comme les UV et les produits chimiques. Le montage est facilité par la boulonnerie électro-zinguée anti-corrosion avec têtes noyées.",
-   "specs": [
-    [
-     "Marque",
-     "Irritec"
-    ],
-    [
-     "Type de produit",
-     "Accessoires"
-    ],
-    [
-     "Diamètre",
-     "50"
-    ],
-    [
-     "Modèle",
-     "Colliers de prise en charge"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Collier de prise en charge Ø 63 Taraudé 1\" série pro",
-   "spec": "",
-   "ref": "15.9153",
-   "ht": 2.5,
-   "price": 2.71,
-   "stock": "in",
-   "img": "images/15.9153_1.jpg",
-   "desc": "Collier de prise en charge en PVC Ø 63 Le Collier de prise en charge Ø 63 Taraudé 1\" (série professionnelle) est un raccord essentiel pour réaliser une dérivation de fort diamètre (1 pouce) sur une canalisation principale en Polyéthylène Haute Densité (PEHD) de diamètre 63 mm. Il est particulièrement adapté aux circuits d'irrigation, aux réseaux d'eau potable et aux installations agricoles nécessitant une prise en charge fiable et rapide. Le collier, fabriqué en polypropylène, est traité anti-UV et résiste aux agents chimiques.",
-   "specs": [
-    [
-     "Marque",
-     "Irritec"
-    ],
-    [
-     "Type de produit",
-     "Accessoires"
-    ],
-    [
-     "Diamètre",
-     "63"
-    ],
-    [
-     "Modèle",
-     "Colliers de prise en charge"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Collier de prise en charge Ø 63 Taraudé 1\"1/2 série pro",
-   "spec": "",
-   "ref": "15.9155",
-   "ht": 2.67,
-   "price": 2.9,
-   "stock": "in",
-   "img": "images/15.9155_1.jpg",
-   "desc": "Collier de prise en charge en PVC Ø 63 Le Collier de prise en charge Ø 63 Taraudé 1\"1/2 (série professionnelle) permet de créer une très large dérivation (1 pouce 1/2, soit 40x49) sur une conduite principale en tube Polyéthylène (PEHD) de diamètre 63 mm. Cette grande dimension est essentielle pour raccorder des équipements à haut débit ou des accessoires volumineux. La conception professionnelle, qu'elle soit standard (PN10) ou renforcée (PN16) par 4 boulons ou bague en inox, assure une tenue parfaite sous pression.",
-   "specs": [
-    [
-     "Marque",
-     "Irritec"
-    ],
-    [
-     "Type de produit",
-     "Accessoires"
-    ],
-    [
-     "Diamètre",
-     "63"
-    ],
-    [
-     "Modèle",
-     "Colliers de prise en charge"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Collier de prise en charge Ø 63 Taraudé 1\"1/4 série pro",
-   "spec": "",
-   "ref": "15.9154",
-   "ht": 2.67,
-   "price": 2.9,
-   "stock": "in",
-   "img": "images/15.9154_1.jpg",
-   "desc": "Collier de prise en charge en PVC Ø 63 Le Collier de prise en charge Ø 63 Taraudé 1\"1/4 (série professionnelle) est conçu pour créer une dérivation de très grand diamètre (1 pouce 1/4, soit 33x42) sur une conduite principale en tube Polyéthylène Haute Densité (PEHD) de 63 mm. Il est parfait pour raccorder des vannes, des filtres ou des équipements nécessitant un débit important dans les réseaux d'irrigation agricoles, les installations industrielles ou les systèmes d'adduction d'eau. La version professionnelle, souvent renforcée (par exemple avec 4 boulons ou une bague en inox), garantit une résistance à des pressions jusqu'à 16 bars.",
-   "specs": [
-    [
-     "Marque",
-     "Irritec"
-    ],
-    [
-     "Type de produit",
-     "Accessoires"
-    ],
-    [
-     "Diamètre",
-     "63"
-    ],
-    [
-     "Modèle",
-     "Colliers de prise en charge"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Collier de prise en charge Ø 63 Taraudé 3/4\" série pro",
-   "spec": "",
-   "ref": "15.9152",
-   "ht": 2.5,
-   "price": 2.71,
-   "stock": "in",
-   "img": "images/15.9152_1.jpg",
-   "desc": "Collier de prise en charge en PVC Ø 63 Le Collier de prise en charge Ø 63 Taraudé 3/4\" (série professionnelle) est la solution pour créer un piquage sur une conduite principale en Polyéthylène Haute Densité (PEHD) de diamètre 63 mm. Il est idéal pour l'irrigation agricole et les réseaux d'adduction d'eau nécessitant une fiabilité maximale. Ce raccord permet de connecter un accessoire ou une vanne avec un filetage mâle 3/4 de pouce (20x27). Sa conception robuste, souvent avec un renfort, assure une résistance à des pressions élevées (jusqu'à 16 bars pour certains modèles renforcés).",
-   "specs": [
-    [
-     "Marque",
-     "Irritec"
-    ],
-    [
-     "Type de produit",
-     "Accessoires"
-    ],
-    [
-     "Diamètre",
-     "63"
-    ],
-    [
-     "Modèle",
-     "Colliers de prise en charge"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Coude Blu-Lock fileté ½''",
-   "spec": "",
-   "ref": "10.09211",
-   "ht": 0.79,
-   "price": 0.86,
-   "stock": "in",
-   "img": "images/10.09211_1.jpg",
-   "desc": "Raccords à emboîtement direct instantané par simple poussée. Permettent un démontage facile en tirant la bague de relâchement vers l’arrière. Tube extra-souple en polyéthylène basse densité. Ce système supporte de hautes pressions, utilisation maximum 14 bar, pression de service 10 bar. Pour le raccordement d’un arroseur sur un collier de prise ou un té taraudé, en dérivation de la tuyauterie principale, jusqu’à 2 m.",
+   "title": "Coude Blu-Lock fileté",
+   "desc": "Disponible en ½'' et ¾''. Raccords à emboîtement direct instantané par simple poussée. Permettent un démontage facile en tirant la bague de relâchement vers l’arrière. Tube extra-souple en polyéthylène basse densité. Ce système supporte de hautes pressions, utilisation maximum 14 bar, pression de service 10 bar. Pour le raccordement d’un arroseur sur un collier de prise ou un té taraudé, en dérivation de la tuyauterie principale, jusqu’à 2 m.",
    "specs": [
     [
      "Type de produit",
      "Accessoires"
     ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "½''",
+     "hex": "",
+     "c2": "",
+     "ref": "10.09211",
+     "ht": 0.79,
+     "price": 0.86,
+     "stock": "in",
+     "img": "images/10.09211_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "¾''",
+     "hex": "",
+     "c2": "",
+     "ref": "10.09202",
+     "ht": 0.79,
+     "price": 0.86,
+     "stock": "in",
+     "img": "images/10.09202_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
+   "famille": true,
    "cat": "accessoires",
-   "name": "Coude Blu-Lock fileté ¾''",
-   "spec": "",
-   "ref": "10.09202",
-   "ht": 0.79,
-   "price": 0.86,
-   "stock": "in",
-   "img": "images/10.09202_1.jpg",
-   "desc": "Raccords à emboîtement direct instantané par simple poussée. Permettent un démontage facile en tirant la bague de relâchement vers l’arrière. Tube extra-souple en polyéthylène basse densité. Ce système supporte de hautes pressions, utilisation maximum 14 bar, pression de service 10 bar. Pour le raccordement d’un arroseur sur un collier de prise ou un té taraudé, en dérivation de la tuyauterie principale, jusqu’à 2 m.",
-   "specs": [
-    [
-     "Type de produit",
-     "Accessoires"
-    ],
-    [
-     "Modèle",
-     "Raccords BLU LOCK"
-    ],
-    [
-     "Modèle compression",
-     "50 - 1'' ½"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Coude articulé ACME X BSP 1'' 1/2 5C - 30 cm",
-   "spec": "",
-   "ref": "10.AB30125",
-   "ht": 103.75,
-   "price": 112.57,
-   "stock": "in",
-   "img": "images/10.AB30125_1.jpg",
-   "desc": "Coude articulé ACME / BSP Rain Bird Les montages articulés Rain Bird sont conçus pour optimiser les systèmes d'irrigation sur les parcours de golf tout en réduisant les coûts liés aux pertes de pression et aux pannes structurelles. Grâce à un design innovant à coude balayant, ces montages offrent une réduction de plus de 50 % des pertes de pression par rapport aux montages traditionnels. De plus, la double protection par joint torique assure une étanchéité parfaite et facilite les ajustements. Disponibles en plusieurs configurations et tailles, ces montages s’adaptent parfaitement aux arroseurs Rain Bird, garantissant une performance optimale et une flexibilité maximale sur le terrain.",
-   "specs": [
-    [
-     "Marque",
-     "Rain Bird"
-    ],
-    [
-     "Référence fabricant",
-     "52972752"
-    ],
-    [
-     "Type de produit",
-     "Accessoires"
-    ],
-    [
-     "Caractéristiques",
-     "Coude articulé"
-    ],
-    [
-     "Raccordement",
-     "1\"1/2 x 1\"1/2"
-    ],
-    [
-     "Longueur",
-     "30 cm."
-    ],
-    [
-     "Modèle",
-     "Raccords ACME"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Coude articulé ACME X BSP 1'' 1/4 3C - 30 cm",
-   "spec": "",
-   "ref": "10.AB3014",
-   "ht": 48.75,
-   "price": 52.89,
-   "stock": "in",
-   "img": "images/10.AB3014_1.jpg",
-   "desc": "Coude articulé ACME / BSP Rain Bird Les montages articulés Rain Bird sont conçus pour optimiser les systèmes d'irrigation sur les parcours de golf tout en réduisant les coûts liés aux pertes de pression et aux pannes structurelles. Grâce à un design innovant à coude balayant, ces montages offrent une réduction de plus de 50 % des pertes de pression par rapport aux montages traditionnels. De plus, la double protection par joint torique assure une étanchéité parfaite et facilite les ajustements. Disponibles en plusieurs configurations et tailles, ces montages s’adaptent parfaitement aux arroseurs Rain Bird, garantissant une performance optimale et une flexibilité maximale sur le terrain.",
-   "specs": [
-    [
-     "Marque",
-     "Rain Bird"
-    ],
-    [
-     "Référence fabricant",
-     "52972779"
-    ],
-    [
-     "Type de produit",
-     "Accessoires"
-    ],
-    [
-     "Caractéristiques",
-     "Coude articulé"
-    ],
-    [
-     "Raccordement",
-     "1\"1/4 x 1\"1/4"
-    ],
-    [
-     "Longueur",
-     "30 cm."
-    ],
-    [
-     "Modèle",
-     "Raccords ACME"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Coude articulé ACME X BSP 1'' 1/4 4C - 30 cm",
-   "spec": "",
-   "ref": "10.AB30144",
-   "ht": 59.58,
-   "price": 64.64,
-   "stock": "in",
-   "img": "images/10.AB30144_1.jpg",
-   "desc": "Coude articulé ACME / BSP Rain Bird Les montages articulés Rain Bird sont conçus pour optimiser les systèmes d'irrigation sur les parcours de golf tout en réduisant les coûts liés aux pertes de pression et aux pannes structurelles. Grâce à un design innovant à coude balayant, ces montages offrent une réduction de plus de 50 % des pertes de pression par rapport aux montages traditionnels. De plus, la double protection par joint torique assure une étanchéité parfaite et facilite les ajustements. Disponibles en plusieurs configurations et tailles, ces montages s’adaptent parfaitement aux arroseurs Rain Bird, garantissant une performance optimale et une flexibilité maximale sur le terrain.",
-   "specs": [
-    [
-     "Marque",
-     "Rain Bird"
-    ],
-    [
-     "Référence fabricant",
-     "52972787"
-    ],
-    [
-     "Type de produit",
-     "Accessoires"
-    ],
-    [
-     "Caractéristiques",
-     "Coude articulé"
-    ],
-    [
-     "Raccordement",
-     "1\"1/4 x 1\"1/4"
-    ],
-    [
-     "Longueur",
-     "30 cm."
-    ],
-    [
-     "Modèle",
-     "Raccords ACME"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Coude articulé ACME X BSP 1'' 3C - 30 cm",
-   "spec": "",
-   "ref": "10.AB301",
-   "ht": 43.17,
-   "price": 46.84,
-   "stock": "in",
-   "img": "images/10.AB301_1.jpg",
-   "desc": "Coude articulé ACME / BSP Rain Bird Les montages articulés Rain Bird sont conçus pour optimiser les systèmes d'irrigation sur les parcours de golf tout en réduisant les coûts liés aux pertes de pression et aux pannes structurelles. Grâce à un design innovant à coude balayant, ces montages offrent une réduction de plus de 50 % des pertes de pression par rapport aux montages traditionnels. De plus, la double protection par joint torique assure une étanchéité parfaite et facilite les ajustements. Disponibles en plusieurs configurations et tailles, ces montages s’adaptent parfaitement aux arroseurs Rain Bird, garantissant une performance optimale et une flexibilité maximale sur le terrain.",
+   "title": "Coude articulé ACME × BSP (30 cm)",
+   "desc": "Disponible en 1'' 3C, 1'' 5C, 1'' 1/4 3C, 1'' 1/4 4C, 1''1/2 3C et 1'' 1/2 5C. Coude articulé ACME / BSP Rain Bird Les montages articulés Rain Bird sont conçus pour optimiser les systèmes d'irrigation sur les parcours de golf tout en réduisant les coûts liés aux pertes de pression et aux pannes structurelles. Grâce à un design innovant à coude balayant, ces montages offrent une réduction de plus de 50 % des pertes de pression par rapport aux montages traditionnels. De plus, la double protection par joint torique assure une étanchéité parfaite et facilite les ajustements. Disponibles en plusieurs configurations et tailles, ces montages s’adaptent parfaitement aux arroseurs Rain Bird, garantissant une performance optimale et une flexibilité maximale sur le terrain.",
    "specs": [
     [
      "Marque",
@@ -2066,92 +1539,75 @@ window.CATALOGUE = {
      "Modèle",
      "Raccords ACME"
     ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Coude articulé ACME X BSP 1'' 5C - 30 cm",
-   "spec": "",
-   "ref": "10.AB3015",
-   "ht": 45.75,
-   "price": 49.64,
-   "stock": "in",
-   "img": "images/10.AB3015_1.jpg",
-   "desc": "Coude articulé ACME / BSP Rain Bird Les montages articulés Rain Bird sont conçus pour optimiser les systèmes d'irrigation sur les parcours de golf tout en réduisant les coûts liés aux pertes de pression et aux pannes structurelles. Grâce à un design innovant à coude balayant, ces montages offrent une réduction de plus de 50 % des pertes de pression par rapport aux montages traditionnels. De plus, la double protection par joint torique assure une étanchéité parfaite et facilite les ajustements.",
-   "specs": [
-    [
-     "Marque",
-     "Rain Bird"
-    ],
-    [
-     "Référence fabricant",
-     "47566266"
-    ],
-    [
-     "Type de produit",
-     "Accessoires"
-    ],
-    [
-     "Caractéristiques",
-     "Coude articulé"
-    ],
-    [
-     "Raccordement",
-     "1\" x 1\""
-    ],
-    [
-     "Longueur",
-     "30 cm."
-    ],
-    [
-     "Modèle",
-     "Raccords ACME"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Coude articulé ACME X BSP 1''1/2 3C - 30 cm",
-   "spec": "",
-   "ref": "10.AB3012",
-   "ht": 56.08,
-   "price": 60.85,
-   "stock": "in",
-   "img": "images/10.AB3012_1.jpg",
-   "desc": "Coude articulé ACME / BSP Rain Bird Les montages articulés Rain Bird sont conçus pour optimiser les systèmes d'irrigation sur les parcours de golf tout en réduisant les coûts liés aux pertes de pression et aux pannes structurelles. Grâce à un design innovant à coude balayant, ces montages offrent une réduction de plus de 50 % des pertes de pression par rapport aux montages traditionnels. De plus, la double protection par joint torique assure une étanchéité parfaite et facilite les ajustements. Disponibles en plusieurs configurations et tailles, ces montages s’adaptent parfaitement aux arroseurs Rain Bird, garantissant une performance optimale et une flexibilité maximale sur le terrain.",
-   "specs": [
-    [
-     "Marque",
-     "Rain Bird"
-    ],
-    [
-     "Référence fabricant",
-     "52972744"
-    ],
-    [
-     "Type de produit",
-     "Accessoires"
-    ],
-    [
-     "Caractéristiques",
-     "Coude articulé."
-    ],
-    [
-     "Entrée",
-     "1\" 1/2 BSP."
-    ],
-    [
-     "Sortie",
-     "1\" 1/2 ACME."
-    ],
-    [
-     "Longueur",
-     "30 cm."
-    ],
-    [
-     "Modèle",
-     "Raccords ACME"
-    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "1'' 3C",
+     "hex": "",
+     "c2": "",
+     "ref": "10.AB301",
+     "ht": 43.17,
+     "price": 46.84,
+     "stock": "in",
+     "img": "images/10.AB301_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "1'' 5C",
+     "hex": "",
+     "c2": "",
+     "ref": "10.AB3015",
+     "ht": 45.75,
+     "price": 49.64,
+     "stock": "in",
+     "img": "images/10.AB3015_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "1'' 1/4 3C",
+     "hex": "",
+     "c2": "",
+     "ref": "10.AB3014",
+     "ht": 48.75,
+     "price": 52.89,
+     "stock": "in",
+     "img": "images/10.AB3014_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "1'' 1/4 4C",
+     "hex": "",
+     "c2": "",
+     "ref": "10.AB30144",
+     "ht": 59.58,
+     "price": 64.64,
+     "stock": "in",
+     "img": "images/10.AB30144_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "1''1/2 3C",
+     "hex": "",
+     "c2": "",
+     "ref": "10.AB3012",
+     "ht": 56.08,
+     "price": 60.85,
+     "stock": "in",
+     "img": "images/10.AB3012_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "1'' 1/2 5C",
+     "hex": "",
+     "c2": "",
+     "ref": "10.AB30125",
+     "ht": 103.75,
+     "price": 112.57,
+     "stock": "in",
+     "img": "images/10.AB30125_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
@@ -2196,15 +1652,10 @@ window.CATALOGUE = {
    ]
   },
   {
+   "famille": true,
    "cat": "accessoires",
-   "name": "Coude articulé pour montage d'arroseurs 1/2\" x 1/2\"",
-   "spec": "",
-   "ref": "10.A46195",
-   "ht": 3.08,
-   "price": 3.34,
-   "stock": "in",
-   "img": "images/10.A46195_1.jpg",
-   "desc": "Coude articulé pour montage d'arroseurs 1/2\" x 1/2\" L'Adaptateur ACME 1/2\" Mâle x BSP 1/2\" Femelle est une petite pièce de conversion essentielle pour les installations d'arrosage enterré. Il est conçu pour assurer la liaison entre un arroseur ou un raccord avec filetage ACME Mâle (souvent utilisé sur les coudes articulés ou les joints pivotants de marque, notamment pour le déport) et le filetage standard BSP Femelle (standard universel utilisé par la majorité des électrovannes et raccords de petite taille).",
+   "title": "Coude articulé pour montage d'arroseurs",
+   "desc": "Disponible en 1/2\" x 1/2\", 1/2\" x 3/4\" et 3/4\" x 3/4\". Il est conçu pour assurer la liaison entre un arroseur ou un raccord avec filetage ACME Mâle (souvent utilisé sur les coudes articulés ou les joints pivotants de marque, notamment pour le déport) et le filetage standard BSP Femelle (standard universel utilisé par la majorité des électrovannes et raccords de petite taille).",
    "specs": [
     [
      "Marque",
@@ -2214,105 +1665,49 @@ window.CATALOGUE = {
      "Type de produit",
      "Accessoires"
     ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "1/2\" x 1/2\"",
+     "hex": "",
+     "c2": "",
+     "ref": "10.A46195",
+     "ht": 3.08,
+     "price": 3.34,
+     "stock": "in",
+     "img": "images/10.A46195_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "1/2\" x 3/4\"",
+     "hex": "",
+     "c2": "",
+     "ref": "10.A46196",
+     "ht": 3.54,
+     "price": 3.84,
+     "stock": "in",
+     "img": "images/10.A46196_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "3/4\" x 3/4\"",
+     "hex": "",
+     "c2": "",
+     "ref": "10.A46199",
+     "ht": 3.54,
+     "price": 3.84,
+     "stock": "in",
+     "img": "images/10.A46199_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
+   "famille": true,
    "cat": "accessoires",
-   "name": "Coude articulé pour montage d'arroseurs 1/2\" x 3/4\"",
-   "spec": "",
-   "ref": "10.A46196",
-   "ht": 3.54,
-   "price": 3.84,
-   "stock": "in",
-   "img": "images/10.A46196_1.jpg",
-   "desc": "Coude articulé longueur 30cm, adapté à toutes les profondeurs et tailles d'arroseurs Le Coude articulé (ou « Swing Joint ») pour montage d'arroseurs 1/2\" x 3/4\" est un dispositif flexible, généralement composé de deux ou quatre coudes pivotants et d'une jambière, permettant de raccorder une tuyère ou un petit arroseur (filetage 1/2\" mâle ou femelle) à la conduite d'eau principale ou à un tube de déport . L'articulation multi-axiale absorbe les chocs et les efforts exercés sur l'arroseur par le passage d'une tondeuse ou le piétinement, prévenant ainsi la rupture de la canalisation.",
-   "specs": [
-    [
-     "Marque",
-     "Rain Bird"
-    ],
-    [
-     "Type de produit",
-     "Accessoires"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Coude articulé pour montage d'arroseurs 3/4\" x 3/4\"",
-   "spec": "",
-   "ref": "10.A46199",
-   "ht": 3.54,
-   "price": 3.84,
-   "stock": "in",
-   "img": "images/10.A46199_1.jpg",
-   "desc": "Coude articulé longueur 30cm adapté à toutes les profondeurs et tailles d'arroseurs Le Coude articulé (ou « Swing Joint ») pour montage d'arroseurs 3/4\" x 3/4\" est conçu pour raccorder des arroseurs de diamètre 3/4\" (20x27) à une canalisation principale ou à un tube de déport. Il est particulièrement adapté aux arroseurs de taille moyenne, comme certaines turbines résidentielles ou de petits espaces verts. Ce coude articulé de 30 cm de longueur est doté de plusieurs coudes pivotants qui permettent d'ajuster l'arroseur à la profondeur et à la position exactes, tout en absorbant les chocs extérieurs (chutes, tondeuse).",
-   "specs": [
-    [
-     "Marque",
-     "Rain Bird"
-    ],
-    [
-     "Type de produit",
-     "Accessoires"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Filtre régulateur de pression 1'' Rain Bird",
-   "spec": "",
-   "ref": "05.203RB",
-   "ht": 29.42,
-   "price": 31.92,
-   "stock": "in",
-   "img": "images/05.203RB_1.jpg",
-   "desc": "Filtre régulateur de pression 1'' Pour une bonne qualité d’eau potable ou à usage commercial / industriel, elle doit être traitée. C’est le rôle du filtre régulateur de pression ! En plus de filtrer l’eau, il maintient une pression faible pour assurer la longévité de votre système d’arrosage à faible débit. Le ﬁltre de pression est un rempart contre les résidus et les débris présents dans votre eau. Il protège votre installation contre les augmentations de pression et maintient un débit constant. Parfait comme filtre goutte à goutte , il contribue au bon fonctionnement de votre système d’arrosage.",
-   "specs": [
-    [
-     "Marque",
-     "Rain Bird"
-    ],
-    [
-     "Type de produit",
-     "Régulateur de pression"
-    ],
-    [
-     "Type de filtre",
-     "Filtre plastique"
-    ],
-    [
-     "Débit",
-     "681 à 3407 l/h."
-    ],
-    [
-     "Pression",
-     "1,4 à 10,3 bars."
-    ],
-    [
-     "Pression régulée",
-     "2,8 bar."
-    ],
-    [
-     "Raccord",
-     "1\"."
-    ],
-    [
-     "Filtration",
-     "75 Microns"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Filtre régulateur de pression ¾'' Rain Bird",
-   "spec": "",
-   "ref": "05.202RB",
-   "ht": 26.67,
-   "price": 28.94,
-   "stock": "in",
-   "img": "images/05.202RB_1.jpg",
-   "desc": "Filtre régulateur de pression ¾'' Pour une bonne qualité d’eau potable ou à usage commercial / industriel, elle doit être traitée. C’est le rôle du filtre régulateur de pression ! En plus de filtrer l’eau, il maintient une pression faible pour assurer la longévité de votre système d’arrosage à faible débit. Le ﬁltre régulateur de pression est un rempart contre les résidus et les débris présents dans votre eau. Il protège votre installation contre les augmentations de pression et maintient un débit constant. Ce système de filtration par surpression contribue au bon fonctionnement de votre système d’arrosage.",
+   "title": "Filtre régulateur de pression Rain Bird",
+   "desc": "Disponible en ¾'' et 1''. C’est le rôle du filtre régulateur de pression ! En plus de filtrer l’eau, il maintient une pression faible pour assurer la longévité de votre système d’arrosage à faible débit. Le ﬁltre régulateur de pression est un rempart contre les résidus et les débris présents dans votre eau. Il protège votre installation contre les augmentations de pression et maintient un débit constant. Ce système de filtration par surpression contribue au bon fonctionnement de votre système d’arrosage.",
    "specs": [
     [
      "Marque",
@@ -2346,6 +1741,31 @@ window.CATALOGUE = {
      "Filtration",
      "75 Microns"
     ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "¾''",
+     "hex": "",
+     "c2": "",
+     "ref": "05.202RB",
+     "ht": 26.67,
+     "price": 28.94,
+     "stock": "in",
+     "img": "images/05.202RB_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "1''",
+     "hex": "",
+     "c2": "",
+     "ref": "05.203RB",
+     "ht": 29.42,
+     "price": 31.92,
+     "stock": "in",
+     "img": "images/05.203RB_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
@@ -2445,15 +1865,10 @@ window.CATALOGUE = {
    ]
   },
   {
+   "famille": true,
    "cat": "accessoires",
-   "name": "Raccord SBE coudé cannelé 16 X 1/2'' M Rain Bird",
-   "spec": "",
-   "ref": "10.SBE12",
-   "ht": 0.32,
-   "price": 0.35,
-   "stock": "in",
-   "img": "images/10.SBE12_1.jpg",
-   "desc": "Raccord SBE coudé cannelé Le montage flexible est idéal pour les installations où risquent de passer véhicules ou engins et pour faire un déport dans une courbe, un décrochement ou près d’un mur.",
+   "title": "Raccord SBE coudé cannelé 16 X Rain Bird",
+   "desc": "Disponible en 1/2'' M et 3/4'' M. Raccord SBE coudé cannelé Le montage flexible est idéal pour les installations où risquent de passer véhicules ou engins et pour faire un déport dans une courbe, un décrochement ou près d’un mur.",
    "specs": [
     [
      "Marque",
@@ -2475,162 +1890,38 @@ window.CATALOGUE = {
      "Modèle",
      "Raccords SB"
     ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "1/2'' M",
+     "hex": "",
+     "c2": "",
+     "ref": "10.SBE12",
+     "ht": 0.32,
+     "price": 0.35,
+     "stock": "in",
+     "img": "images/10.SBE12_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "3/4'' M",
+     "hex": "",
+     "c2": "",
+     "ref": "10.SBE34",
+     "ht": 0.32,
+     "price": 0.35,
+     "stock": "in",
+     "img": "images/10.SBE34_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
+   "famille": true,
    "cat": "accessoires",
-   "name": "Raccord SBE coudé cannelé 16 X 3/4'' M Rain Bird",
-   "spec": "",
-   "ref": "10.SBE34",
-   "ht": 0.32,
-   "price": 0.35,
-   "stock": "in",
-   "img": "images/10.SBE34_1.jpg",
-   "desc": "Raccord SBE coudé cannelé Le montage flexible est idéal pour les installations où risquent de passer véhicules ou engins et pour faire un déport dans une courbe, un décrochement ou près d’un mur.",
-   "specs": [
-    [
-     "Marque",
-     "Rain Bird"
-    ],
-    [
-     "Type de produit",
-     "Accessoires"
-    ],
-    [
-     "Caractéristiques",
-     "Raccord coudé cannelé x 3/4\" (20/27) mâle."
-    ],
-    [
-     "Pression de fonctionnement",
-     "maximum 5,5 bar."
-    ],
-    [
-     "Modèle",
-     "Raccords SB"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Régulateur de pression 1\" DESBORDES",
-   "spec": "",
-   "ref": "08.DESBORDES1",
-   "ht": 321.83,
-   "price": 349.19,
-   "stock": "in",
-   "img": "images/08.DESBORDES1_1.jpg",
-   "desc": "Régulateur 1\" DESBORDES (Gamme 7 : DN 15 à 50 mm - 1/2\" à 2\") Desbordes est reconnu comme leader européen dans la fabrication de réducteurs de pression depuis plus de 80 ans. La qualité et la durabilité de ses produits sont reconnues par les professionnels. Tous les réducteurs sont testés et calibrés en usine. Ils sont particulièrement appréciés par les plombiers pour leur capacité à maîtriser efficacement la pression. La gamme de réducteurs Desbordes permet de couvrir tous les types de besoins allant des applications résidentielles, tertiaires ou encore industrielles. Les réducteurs de pression Desbordes 7 BIS sont équipés d’une cuve en bronze.",
-   "specs": [
-    [
-     "Type de produit",
-     "Régulateur de pression"
-    ],
-    [
-     "Applications",
-     "Bâtiments industriels et installations domestiques"
-    ],
-    [
-     "Matériaux",
-     "Bronze - laiton"
-    ],
-    [
-     "Sortie",
-     "FF 1\""
-    ],
-    [
-     "Diametre",
-     "1\" - DN25"
-    ],
-    [
-     "Poids",
-     "2,7kg"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Régulateur de pression 1\"1/2 DESBORDES",
-   "spec": "",
-   "ref": "08.DESBORDES112",
-   "ht": 831.67,
-   "price": 902.36,
-   "stock": "in",
-   "img": "images/08.DESBORDES112_1.jpg",
-   "desc": "Régulateur 1\" 1/2 DESBORDES (Gamme 7 : DN 15 à 50 mm - 1/2\" à 2\") Desbordes est reconnu comme leader européen dans la fabrication de réducteurs de pression depuis plus de 80 ans. La qualité et la durabilité de ses produits sont reconnues par les professionnels. Tous les réducteurs sont testés et calibrés en usine. Ils sont particulièrement appréciés par les plombiers pour leur capacité à maîtriser efficacement la pression. La gamme de réducteurs Desbordes permet de couvrir tous les types de besoins allant des applications résidentielles, tertiaires ou encore industrielles. Les réducteurs de pression Desbordes 7 BIS sont équipés d’une cuve en bronze.",
-   "specs": [
-    [
-     "Type de produit",
-     "Régulateur de pression"
-    ],
-    [
-     "Applications",
-     "Bâtiments industriels et installations domestiques"
-    ],
-    [
-     "Matériaux",
-     "Bronze - laiton"
-    ],
-    [
-     "Sortie",
-     "FF 1\" 1/2"
-    ],
-    [
-     "Diametre",
-     "1\" 1/2 - DN40"
-    ],
-    [
-     "Poids",
-     "6,50kg"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Régulateur de pression 1\"1/4 DESBORDES",
-   "spec": "",
-   "ref": "08.DESBORDES114",
-   "ht": 593.33,
-   "price": 643.76,
-   "stock": "in",
-   "img": "images/08.DESBORDES114_1.jpg",
-   "desc": "Régulateur 1\" 1/4 DESBORDES (Gamme 7 : DN 15 à 50 mm - 1/2\" à 2\") Desbordes est reconnu comme leader européen dans la fabrication de réducteurs de pression depuis plus de 80 ans. La qualité et la durabilité de ses produits sont reconnues par les professionnels. Tous les réducteurs sont testés et calibrés en usine. Ils sont particulièrement appréciés par les plombiers pour leur capacité à maîtriser efficacement la pression. La gamme de réducteurs Desbordes permet de couvrir tous les types de besoins allant des applications résidentielles, tertiaires ou encore industrielles. Les réducteurs de pression Desbordes 7 BIS sont équipés d’une cuve en bronze.",
-   "specs": [
-    [
-     "Type de produit",
-     "Régulateur de pression"
-    ],
-    [
-     "Applications",
-     "Bâtiments industriels et installations domestiques"
-    ],
-    [
-     "Matériaux",
-     "Bronze - laiton"
-    ],
-    [
-     "Sortie",
-     "FF 1\" 1/4"
-    ],
-    [
-     "Diametre",
-     "1\" 1/4 - DN32"
-    ],
-    [
-     "Poids",
-     "4,80kg"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Régulateur de pression 1/2\" DESBORDES",
-   "spec": "",
-   "ref": "08.DESBORDES12",
-   "ht": 78.58,
-   "price": 85.26,
-   "stock": "in",
-   "img": "images/08.DESBORDES12_1.jpg",
-   "desc": "Régulateur 1/2\" DESBORDES (Gamme 7 : DN 15 à 50 mm - 1/2\" à 2\") Desbordes est reconnu comme leader européen dans la fabrication de réducteurs de pression depuis plus de 80 ans. La qualité et la durabilité de ses produits sont reconnues par les professionnels. Tous les réducteurs sont testés et calibrés en usine. Ils sont particulièrement appréciés par les plombiers pour leur capacité à maîtriser efficacement la pression. La gamme de réducteurs Desbordes permet de couvrir tous les types de besoins allant des applications résidentielles, tertiaires ou encore industrielles. Les réducteurs de pression Desbordes 7 BIS sont équipés d’une cuve en bronze.",
+   "title": "Régulateur de pression DESBORDES",
+   "desc": "Disponible en 1/2\", 3/4\", 1\", 1\"1/4, 1\"1/2, 2\", 2\"1/2 et 3\". La qualité et la durabilité de ses produits sont reconnues par les professionnels. Tous les réducteurs sont testés et calibrés en usine. Ils sont particulièrement appréciés par les plombiers pour leur capacité à maîtriser efficacement la pression. La gamme de réducteurs Desbordes permet de couvrir tous les types de besoins allant des applications résidentielles, tertiaires ou encore industrielles. Les réducteurs de pression Desbordes 7 BIS sont équipés d’une cuve en bronze.",
    "specs": [
     [
      "Type de produit",
@@ -2643,264 +1934,194 @@ window.CATALOGUE = {
     [
      "Matériaux",
      "Bronze - laiton"
-    ],
-    [
-     "Sortie",
-     "FF 1/2\""
-    ],
-    [
-     "Diametre",
-     "1/2\" - DN15"
     ],
     [
      "Poids",
      "0,5kg"
     ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "1/2\"",
+     "hex": "",
+     "c2": "",
+     "ref": "08.DESBORDES12",
+     "ht": 78.58,
+     "price": 85.26,
+     "stock": "in",
+     "img": "images/08.DESBORDES12_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "3/4\"",
+     "hex": "",
+     "c2": "",
+     "ref": "08.DESBORDES34",
+     "ht": 90,
+     "price": 97.65,
+     "stock": "in",
+     "img": "images/08.DESBORDES34_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "1\"",
+     "hex": "",
+     "c2": "",
+     "ref": "08.DESBORDES1",
+     "ht": 321.83,
+     "price": 349.19,
+     "stock": "in",
+     "img": "images/08.DESBORDES1_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "1\"1/4",
+     "hex": "",
+     "c2": "",
+     "ref": "08.DESBORDES114",
+     "ht": 593.33,
+     "price": 643.76,
+     "stock": "in",
+     "img": "images/08.DESBORDES114_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "1\"1/2",
+     "hex": "",
+     "c2": "",
+     "ref": "08.DESBORDES112",
+     "ht": 831.67,
+     "price": 902.36,
+     "stock": "in",
+     "img": "images/08.DESBORDES112_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "2\"",
+     "hex": "",
+     "c2": "",
+     "ref": "08.DESBORDES2",
+     "ht": 1162.5,
+     "price": 1261.31,
+     "stock": "in",
+     "img": "images/08.DESBORDES2_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "2\"1/2",
+     "hex": "",
+     "c2": "",
+     "ref": "08.DESBORDES212",
+     "ht": 1927.5,
+     "price": 2091.34,
+     "stock": "in",
+     "img": "images/08.DESBORDES212_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "3\"",
+     "hex": "",
+     "c2": "",
+     "ref": "08.DESBORDES3",
+     "ht": 2535.83,
+     "price": 2751.38,
+     "stock": "in",
+     "img": "images/08.DESBORDES3_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
+   "famille": true,
    "cat": "accessoires",
-   "name": "Régulateur de pression 2\" DESBORDES",
-   "spec": "",
-   "ref": "08.DESBORDES2",
-   "ht": 1162.5,
-   "price": 1261.31,
-   "stock": "in",
-   "img": "images/08.DESBORDES2_1.jpg",
-   "desc": "Régulateur 2\" DESBORDES (Gamme 7 : DN 15 à 100 mm - 1/2\" à 4\") Desbordes est reconnu comme leader européen dans la fabrication de réducteurs de pression depuis plus de 80 ans. La qualité et la durabilité de ses produits sont reconnues par les professionnels. Tous les réducteurs sont testés et calibrés en usine. Ils sont particulièrement appréciés par les plombiers pour leur capacité à maîtriser efficacement la pression. La gamme de réducteurs Desbordes permet de couvrir tous les types de besoins allant des applications résidentielles, tertiaires ou encore industrielles. Les réducteurs de pression Desbordes 7 BIS sont équipés d’une cuve en bronze.",
-   "specs": [
-    [
-     "Type de produit",
-     "Régulateur de pression"
-    ],
-    [
-     "Applications",
-     "Bâtiments industriels et installations domestiques"
-    ],
-    [
-     "Matériaux",
-     "Bronze - laiton"
-    ],
-    [
-     "Sortie",
-     "FF 2\""
-    ],
-    [
-     "Diametre",
-     "2\" - DN50"
-    ],
-    [
-     "Poids",
-     "9,8kg"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Régulateur de pression 2\"1/2 DESBORDES",
-   "spec": "",
-   "ref": "08.DESBORDES212",
-   "ht": 1927.5,
-   "price": 2091.34,
-   "stock": "in",
-   "img": "images/08.DESBORDES212_1.jpg",
-   "desc": "Régulateur 2\" 1/2 DESBORDES (Gamme 7 : DN 15 à 100 mm - 1/2\" à 4\") Desbordes est reconnu comme leader européen dans la fabrication de réducteurs de pression depuis plus de 80 ans. La qualité et la durabilité de ses produits sont reconnues par les professionnels. Tous les réducteurs sont testés et calibrés en usine. Ils sont particulièrement appréciés par les plombiers pour leur capacité à maîtriser efficacement la pression. La gamme de réducteurs Desbordes permet de couvrir tous les types de besoins allant des applications résidentielles, tertiaires ou encore industrielles. Les réducteurs de pression Desbordes 7 BIS sont équipés d’une cuve en bronze.",
-   "specs": [
-    [
-     "Type de produit",
-     "Régulateur de pression"
-    ],
-    [
-     "Applications",
-     "Bâtiments industriels et installations domestiques"
-    ],
-    [
-     "Matériaux",
-     "Bronze - laiton"
-    ],
-    [
-     "Sortie",
-     "FF 2\" 1/2"
-    ],
-    [
-     "Diametre",
-     "2\" 1/2 - DN65"
-    ],
-    [
-     "Poids",
-     "13,5kg"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Régulateur de pression 3\" DESBORDES",
-   "spec": "",
-   "ref": "08.DESBORDES3",
-   "ht": 2535.83,
-   "price": 2751.38,
-   "stock": "in",
-   "img": "images/08.DESBORDES3_1.jpg",
-   "desc": "Régulateur 3\" DESBORDES (Gamme 7 : DN 15 à 100 mm - 1/2\" à 4\") Desbordes est reconnu comme leader européen dans la fabrication de réducteurs de pression depuis plus de 80 ans. La qualité et la durabilité de ses produits sont reconnues par les professionnels. Tous les réducteurs sont testés et calibrés en usine. Ils sont particulièrement appréciés par les plombiers pour leur capacité à maîtriser efficacement la pression. La gamme de réducteurs Desbordes permet de couvrir tous les types de besoins allant des applications résidentielles, tertiaires ou encore industrielles. Les réducteurs de pression Desbordes 7 BIS sont équipés d’une cuve en bronze.",
-   "specs": [
-    [
-     "Type de produit",
-     "Régulateur de pression"
-    ],
-    [
-     "Applications",
-     "Bâtiments industriels et installations domestiques"
-    ],
-    [
-     "Matériaux",
-     "Bronze - laiton"
-    ],
-    [
-     "Sortie",
-     "FF 3\""
-    ],
-    [
-     "Diametre",
-     "3\" - DN80"
-    ],
-    [
-     "Poids",
-     "17,9kg"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Régulateur de pression 3/4\" DESBORDES",
-   "spec": "",
-   "ref": "08.DESBORDES34",
-   "ht": 90,
-   "price": 97.65,
-   "stock": "in",
-   "img": "images/08.DESBORDES34_1.jpg",
-   "desc": "Régulateur 3/4\" DESBORDES (Gamme 7 : DN 15 à 50 mm - 1/2\" à 2\") Desbordes est reconnu comme leader européen dans la fabrication de réducteurs de pression depuis plus de 80 ans. La qualité et la durabilité de ses produits sont reconnues par les professionnels. Tous les réducteurs sont testés et calibrés en usine. Ils sont particulièrement appréciés par les plombiers pour leur capacité à maîtriser efficacement la pression. La gamme de réducteurs Desbordes permet de couvrir tous les types de besoins allant des applications résidentielles, tertiaires ou encore industrielles. Les réducteurs de pression Desbordes 7 BIS sont équipés d’une cuve en bronze.",
-   "specs": [
-    [
-     "Type de produit",
-     "Régulateur de pression"
-    ],
-    [
-     "Applications",
-     "domestique, résidentiel"
-    ],
-    [
-     "Matériaux",
-     "Bronze - laiton"
-    ],
-    [
-     "Sortie",
-     "FF 3/4\""
-    ],
-    [
-     "Diametre",
-     "3/4\" - DN20"
-    ],
-    [
-     "Poids",
-     "0,6kg"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Régulateur de pression PN15 ½''",
-   "spec": "",
-   "ref": "08.01100",
-   "ht": 21.25,
-   "price": 23.06,
-   "stock": "in",
-   "img": "images/08.01100_1.jpg",
-   "desc": "Régulateur de pression 1/2\" Le Régulateur de pression 1/2 pouce est un composant essentiel pour optimiser la performance et la durabilité des systèmes d'arrosage basse pression, notamment le goutte-à-goutte et la micro-aspersion. Il se monte directement sur la ligne principale (après le robinet ou la vanne) et a pour fonction de réduire et de stabiliser la pression de l'eau à une valeur optimale. Cette régulation est vitale car une pression trop élevée peut provoquer la déconnexion des raccords, l'éclatement des tuyaux ou un fonctionnement inefficace des goutteurs et asperseurs.",
+   "title": "Régulateur de pression PN15 / PN25",
+   "desc": "Disponible en PN15 ½'', PN15 ¾'' et PN25 1''. Régulateur de pression 1/2\" Le Régulateur de pression 1/2 pouce est un composant essentiel pour optimiser la performance et la durabilité des systèmes d'arrosage basse pression, notamment le goutte-à-goutte et la micro-aspersion. Il se monte directement sur la ligne principale (après le robinet ou la vanne) et a pour fonction de réduire et de stabiliser la pression de l'eau à une valeur optimale. Cette régulation est vitale car une pression trop élevée peut provoquer la déconnexion des raccords, l'éclatement des tuyaux ou un fonctionnement inefficace des goutteurs et asperseurs.",
    "specs": [
     [
      "Type de produit",
      "Régulateur de pression"
     ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "PN15 ½''",
+     "hex": "",
+     "c2": "",
+     "ref": "08.01100",
+     "ht": 21.25,
+     "price": 23.06,
+     "stock": "in",
+     "img": "images/08.01100_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "PN15 ¾''",
+     "hex": "",
+     "c2": "",
+     "ref": "08.01200",
+     "ht": 24.58,
+     "price": 26.67,
+     "stock": "in",
+     "img": "images/08.01200_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "PN25 1''",
+     "hex": "",
+     "c2": "",
+     "ref": "08.01300",
+     "ht": 66.58,
+     "price": 72.24,
+     "stock": "in",
+     "img": "images/08.01300_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
+   "famille": true,
    "cat": "accessoires",
-   "name": "Régulateur de pression PN15 ¾''",
-   "spec": "",
-   "ref": "08.01200",
-   "ht": 24.58,
-   "price": 26.67,
-   "stock": "in",
-   "img": "images/08.01200_1.jpg",
-   "desc": "Régulateur de pression PN15 ¾'' Le Régulateur de pression 1/2 pouce est un composant essentiel pour optimiser la performance et la durabilité des systèmes d'arrosage basse pression, notamment le goutte-à-goutte et la micro-aspersion. Il se monte directement sur la ligne principale (après le robinet ou la vanne) et a pour fonction de réduire et de stabiliser la pression de l'eau à une valeur optimale. Cette régulation est vitale car une pression trop élevée peut provoquer la déconnexion des raccords, l'éclatement des tuyaux ou un fonctionnement inefficace des goutteurs et asperseurs.",
+   "title": "Régulateur de pression PN25 avec union",
+   "desc": "Disponible en 1''¼ et 1''½. Il est principalement utilisé en micro-irrigation pour les systèmes de tuyaux capillaires et de bande goutte-à-goutte qui nécessitent une pression extrêmement précise et réduite pour fonctionner correctement. Ce régulateur prévient la surpression, qui pourrait entraîner la rupture des tubes les plus fins et un débit non uniforme. Il se monte en ligne après la filtration et avant le circuit d'arrosage.",
    "specs": [
     [
      "Type de produit",
      "Régulateur de pression"
     ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "1''¼",
+     "hex": "",
+     "c2": "",
+     "ref": "08.014",
+     "ht": 175,
+     "price": 189.88,
+     "stock": "in",
+     "img": "images/08.014_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "1''½",
+     "hex": "",
+     "c2": "",
+     "ref": "08.015",
+     "ht": 179.17,
+     "price": 194.4,
+     "stock": "in",
+     "img": "images/08.015_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
+   "famille": true,
    "cat": "accessoires",
-   "name": "Régulateur de pression PN25 1''",
-   "spec": "",
-   "ref": "08.01300",
-   "ht": 66.58,
-   "price": 72.24,
-   "stock": "in",
-   "img": "images/08.01300_1.jpg",
-   "desc": "Régulateur de pression 1 pouce Le Régulateur de pression 1 pouce est un composant de régulation essentiel pour les systèmes d'irrigation de moyenne à grande envergure. Il est conçu pour réduire et maintenir la pression de l'eau à une valeur constante et optimale pour l'alimentation des lignes de goutte-à-goutte, des asperseurs ou des électrovannes. La pression en amont peut varier fortement, mais ce régulateur assure une pression de sortie stable, garantissant l'uniformité de l'arrosage sur l'ensemble du réseau. L'utilisation de ce dispositif prévient les ruptures de tuyaux, les fuites aux raccords et les dommages aux équipements sensibles dus à une surpression.",
-   "specs": [
-    [
-     "Type de produit",
-     "Régulateur de pression"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Régulateur de pression PN25 1''¼ avec union",
-   "spec": "",
-   "ref": "08.014",
-   "ht": 175,
-   "price": 189.88,
-   "stock": "in",
-   "img": "images/08.014_1.jpg",
-   "desc": "Régulateur de pression PN25 1''¼ avec union Le Régulateur de pression est un dispositif compact et essentiel, conçu pour délivrer une pression de sortie très basse et constante. Il est principalement utilisé en micro-irrigation pour les systèmes de tuyaux capillaires et de bande goutte-à-goutte qui nécessitent une pression extrêmement précise et réduite pour fonctionner correctement. Ce régulateur prévient la surpression, qui pourrait entraîner la rupture des tubes les plus fins et un débit non uniforme. Il se monte en ligne après la filtration et avant le circuit d'arrosage.",
-   "specs": [
-    [
-     "Type de produit",
-     "Régulateur de pression"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Régulateur de pression PN25 1''½ avec union",
-   "spec": "",
-   "ref": "08.015",
-   "ht": 179.17,
-   "price": 194.4,
-   "stock": "in",
-   "img": "images/08.015_1.jpg",
-   "desc": "Régulateur de pression PN25 1''½ avec union Le Régulateur de pression est un dispositif compact et essentiel, conçu pour délivrer une pression de sortie très basse et constante. Il est principalement utilisé en micro-irrigation pour les systèmes de tuyaux capillaires et de bande goutte-à-goutte qui nécessitent une pression extrêmement précise et réduite pour fonctionner correctement. Ce régulateur prévient la surpression, qui pourrait entraîner la rupture des tubes les plus fins et un débit non uniforme. Il se monte en ligne après la filtration et avant le circuit d'arrosage.",
-   "specs": [
-    [
-     "Type de produit",
-     "Régulateur de pression"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Régulateur de pression pré-taré 3/4\" 1 Bar Rain Bird",
-   "spec": "",
-   "ref": "08.PRETARE1",
-   "ht": 16.04,
-   "price": 17.4,
-   "stock": "in",
-   "img": "images/08.PRETARE1_1.jpg",
-   "desc": "Régulateur de pression pré-taré 3/4\" 1 Bar, de la marque Rainbird Les régulateurs de pression permettent d'obtenir une pression constante adaptée aux installations de micro-irrigation. La pression de sortie est régulée à 1 bar, peut être installé au niveau du sol ou enterré. testé pour satisfaire aux exigences de qualité strictes de Rain Bird. La structure en ABS haute résistance et les ressorts en acier inoxydable fournissent une durabilité suffisante pour résister à toutes les tâches.",
+   "title": "Régulateur de pression pré-taré ¾'' Rain Bird",
+   "desc": "Disponible en 1 Bar, 1,8 Bars, 2,1 Bars, 2,8 Bars et 3,5 Bars. La pression de sortie est régulée à 1 bar, peut être installé au niveau du sol ou enterré. testé pour satisfaire aux exigences de qualité strictes de Rain Bird. La structure en ABS haute résistance et les ressorts en acier inoxydable fournissent une durabilité suffisante pour résister à toutes les tâches.",
    "specs": [
     [
      "Marque",
@@ -2922,6 +2143,64 @@ window.CATALOGUE = {
      "Raccordement",
      "Entrée et sortie : 3/4\" F"
     ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "1 Bar",
+     "hex": "",
+     "c2": "",
+     "ref": "08.PRETARE1",
+     "ht": 16.04,
+     "price": 17.4,
+     "stock": "in",
+     "img": "images/08.PRETARE1_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "1,8 Bars",
+     "hex": "",
+     "c2": "",
+     "ref": "08.PRETARE18",
+     "ht": 15.21,
+     "price": 16.5,
+     "stock": "in",
+     "img": "images/08.PRETARE18_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "2,1 Bars",
+     "hex": "",
+     "c2": "",
+     "ref": "08.PRETARE21",
+     "ht": 16.04,
+     "price": 17.4,
+     "stock": "in",
+     "img": "images/08.PRETARE21_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "2,8 Bars",
+     "hex": "",
+     "c2": "",
+     "ref": "08.PRETARE28",
+     "ht": 16.04,
+     "price": 17.4,
+     "stock": "in",
+     "img": "images/08.PRETARE28_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "3,5 Bars",
+     "hex": "",
+     "c2": "",
+     "ref": "08.PRETARE35",
+     "ht": 16.04,
+     "price": 17.4,
+     "stock": "in",
+     "img": "images/08.PRETARE35_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
@@ -2938,138 +2217,6 @@ window.CATALOGUE = {
     [
      "Type de produit",
      "Régulateur de pression"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Régulateur de pression pré-taré 3/4\" 1,8 Bars Rain Bird",
-   "spec": "",
-   "ref": "08.PRETARE18",
-   "ht": 15.21,
-   "price": 16.5,
-   "stock": "in",
-   "img": "images/08.PRETARE18_1.jpg",
-   "desc": "Régulateur de pression pré-taré 3/4\" 1,8 Bars, de la marque Rainbird Les régulateurs de pression permettent d'obtenir une pression constante adaptée aux installations de micro-irrigation. La pression de sortie est régulée à 1,8 bar, peut être installé au niveau du sol ou enterré. testé pour satisfaire aux exigences de qualité strictes de Rain Bird. La structure en ABS haute résistance et les ressorts en acier inoxydable fournissent une durabilité suffisante pour résister à toutes les tâches.",
-   "specs": [
-    [
-     "Marque",
-     "Rain Bird"
-    ],
-    [
-     "Type de produit",
-     "Régulateur de pression"
-    ],
-    [
-     "Débit",
-     "De 0,45 à 5 m3/h"
-    ],
-    [
-     "Pression",
-     "Pré-réglé 1,8 bar (PSI-M25)"
-    ],
-    [
-     "Raccordement",
-     "Entrée et sortie : 3/4\" F"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Régulateur de pression pré-taré 3/4\" 2,1 Bars Rain Bird",
-   "spec": "",
-   "ref": "08.PRETARE21",
-   "ht": 16.04,
-   "price": 17.4,
-   "stock": "in",
-   "img": "images/08.PRETARE21_1.jpg",
-   "desc": "Régulateur de pression pré-taré 3/4\" 2,1 Bars, de la marque Rainbird Les régulateurs de pression permettent d'obtenir une pression constante adaptée aux installations de micro-irrigation. La pression de sortie est régulée à 2,1 bar, peut être installé au niveau du sol ou enterré. testé pour satisfaire aux exigences de qualité strictes de Rain Bird. La structure en ABS haute résistance et les ressorts en acier inoxydable fournissent une durabilité suffisante pour résister à toutes les tâches.",
-   "specs": [
-    [
-     "Marque",
-     "Rain Bird"
-    ],
-    [
-     "Type de produit",
-     "Régulateur de pression"
-    ],
-    [
-     "Débit",
-     "De 0,45 à 5 m3/h"
-    ],
-    [
-     "Pression",
-     "Pré-réglé 2,1 bar (PSI-M30)"
-    ],
-    [
-     "Raccordement",
-     "Entrée et sortie : 3/4\" F"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Régulateur de pression pré-taré 3/4\" 2,8 Bars Rain Bird",
-   "spec": "",
-   "ref": "08.PRETARE28",
-   "ht": 16.04,
-   "price": 17.4,
-   "stock": "in",
-   "img": "images/08.PRETARE28_1.jpg",
-   "desc": "Régulateur de pression pré-taré 3/4\" 2,8 Bars, de la marque Rainbird Les régulateurs de pression permettent d'obtenir une pression constante adaptée aux installations de micro-irrigation. La pression de sortie est régulée à 2,8 bar, peut être installé au niveau du sol ou enterré. testé pour satisfaire aux exigences de qualité strictes de Rain Bird. La structure en ABS haute résistance et les ressorts en acier inoxydable fournissent une durabilité suffisante pour résister à toutes les tâches.",
-   "specs": [
-    [
-     "Marque",
-     "Rain Bird"
-    ],
-    [
-     "Type de produit",
-     "Régulateur de pression"
-    ],
-    [
-     "Débit",
-     "De 0,45 à 5 m3/h"
-    ],
-    [
-     "Pression",
-     "Pré-réglé 2,8 bar (PSI-M40)"
-    ],
-    [
-     "Raccordement",
-     "Entrée et sortie : 3/4\" F"
-    ]
-   ]
-  },
-  {
-   "cat": "accessoires",
-   "name": "Régulateur de pression pré-taré 3/4\" 3,5 Bars Rain Bird",
-   "spec": "",
-   "ref": "08.PRETARE35",
-   "ht": 16.04,
-   "price": 17.4,
-   "stock": "in",
-   "img": "images/08.PRETARE35_1.jpg",
-   "desc": "Régulateur de pression pré-taré 3/4\" 3,5 Bars, de la marque Rainbird Les régulateurs de pression permettent d'obtenir une pression constante adaptée aux installations de micro-irrigation. La pression de sortie est régulée à 3,5 bar, peut être installé au niveau du sol ou enterré. testé pour satisfaire aux exigences de qualité strictes de Rain Bird. La structure en ABS haute résistance et les ressorts en acier inoxydable fournissent une durabilité suffisante pour résister à toutes les tâches.",
-   "specs": [
-    [
-     "Marque",
-     "Rain Bird"
-    ],
-    [
-     "Type de produit",
-     "Régulateur de pression"
-    ],
-    [
-     "Débit",
-     "De 0,45 à 5 m3/h"
-    ],
-    [
-     "Pression",
-     "Pré-réglé 3,5 bar (PSI-M50)"
-    ],
-    [
-     "Raccordement",
-     "Entrée et sortie : 3/4\" F"
     ]
    ]
   },
@@ -6124,15 +5271,10 @@ window.CATALOGUE = {
    ]
   },
   {
+   "famille": true,
    "cat": "arroseurs",
-   "name": "Buses rotatives série MP1000 Hunter",
-   "spec": "",
-   "ref": "04.BuseMP",
-   "ht": 7.79,
-   "price": 8.45,
-   "stock": "order",
-   "img": "images/04.BuseMP_1.jpg",
-   "desc": "Buses rotatives série MP 1000 Hunter Découvrez la gamme de Buses rotatives série MP, une technologie d'irrigation de pointe conçue pour maximiser l'efficacité de l'arrosage tout en minimisant la consommation d'eau. Ces buses se montent sur n'importe quel corps de tuyère standard et diffusent l'eau sous forme de jets multiples et rotatifs, assurant une couverture exceptionnelle. Le principe innovant des buses MP consiste en une application lente et homogène (taux de précipitation de 10 à 11 mm/h en carré).",
+   "title": "Buses rotatives série Hunter",
+   "desc": "Disponible en MP1000, MP2000 et MP3000. Buses rotatives série MP 1000 Hunter Découvrez la gamme de Buses rotatives série MP, une technologie d'irrigation de pointe conçue pour maximiser l'efficacité de l'arrosage tout en minimisant la consommation d'eau. Ces buses se montent sur n'importe quel corps de tuyère standard et diffusent l'eau sous forme de jets multiples et rotatifs, assurant une couverture exceptionnelle. Le principe innovant des buses MP consiste en une application lente et homogène (taux de précipitation de 10 à 11 mm/h en carré).",
    "specs": [
     [
      "Marque",
@@ -6142,48 +5284,42 @@ window.CATALOGUE = {
      "Type de produit",
      "Accessoires"
     ]
-   ]
-  },
-  {
-   "cat": "arroseurs",
-   "name": "Buses rotatives série MP2000 Hunter",
-   "spec": "",
-   "ref": "04.BuseMP2",
-   "ht": 7.79,
-   "price": 8.45,
-   "stock": "order",
-   "img": "images/04.BuseMP2_1.jpg",
-   "desc": "Buses rotatives série MP2000 Hunter La Buse rotative MP2000 est l'élément central pour l'arrosage de vos surfaces moyennes, offrant une performance exceptionnelle et une grande efficacité hydrique. Ces buses se montent facilement sur tout corps de tuyère standard et diffusent l'eau par des jets multiples et rotatifs, assurant une couverture uniforme de votre gazon. Le modèle MP2000 est spécifiquement conçu pour couvrir des portées moyennes. Selon la variante choisie, elle peut atteindre des portées allant de 4,0 mètres à 6,4 mètres. La buse permet un réglage précis du secteur d'arrosage de 90° à 210°, vous assurant de cibler parfaitement la zone à irriguer sans déborder.",
-   "specs": [
-    [
-     "Marque",
-     "Hunter"
-    ],
-    [
-     "Type de produit",
-     "Buse"
-    ]
-   ]
-  },
-  {
-   "cat": "arroseurs",
-   "name": "Buses rotatives série MP3000 Hunter",
-   "spec": "",
-   "ref": "04.BuseMP3",
-   "ht": 7.79,
-   "price": 8.45,
-   "stock": "order",
-   "img": "images/04.BuseMP3_1.jpg",
-   "desc": "Buses rotatives série MP3000 Hunter La Buse rotative MP3000 est l'outil indispensable pour l'arrosage efficace des grandes surfaces. Conçue pour offrir la plus longue portée de la gamme standard, cette buse se monte sur tout corps de tuyère classique et utilise des jets rotatifs multiples pour garantir une couverture uniforme de votre gazon et de vos vastes massifs. Le modèle MP3000 est optimisé pour les longs rayons, avec une portée réglable de 6,7 mètres à 9,1 mètres, et peut même atteindre jusqu'à 10,7 mètres selon la variante choisie. Son secteur d'arrosage est entièrement personnalisable de 90° à 210°, permettant de tracer avec précision les limites d'arrosage sur les grands terrains.",
-   "specs": [
-    [
-     "Marque",
-     "Hunter"
-    ],
-    [
-     "Type de produit",
-     "Buse"
-    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "MP1000",
+     "hex": "",
+     "c2": "",
+     "ref": "04.BuseMP",
+     "ht": 7.79,
+     "price": 8.45,
+     "stock": "order",
+     "img": "images/04.BuseMP_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "MP2000",
+     "hex": "",
+     "c2": "",
+     "ref": "04.BuseMP2",
+     "ht": 7.79,
+     "price": 8.45,
+     "stock": "order",
+     "img": "images/04.BuseMP2_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "MP3000",
+     "hex": "",
+     "c2": "",
+     "ref": "04.BuseMP3",
+     "ht": 7.79,
+     "price": 8.45,
+     "stock": "order",
+     "img": "images/04.BuseMP3_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
@@ -6658,15 +5794,10 @@ window.CATALOGUE = {
    ]
   },
   {
+   "famille": true,
    "cat": "arroseurs",
-   "name": "Turbine I-40 -04 ON ULTRA inox Hunter",
-   "spec": "",
-   "ref": "0145316343",
-   "ht": 109.17,
-   "price": 118.45,
-   "stock": "in",
-   "img": "images/0145316343_1.jpg",
-   "desc": "Turbine Hunter I-40-04-SS-ON Ultra Inox La turbine Hunter I-40 est la référence mondiale pour l arrosage des terrains de sport, des parcs et des grands espaces publics. Ce modèle haute performance se distingue par son piston en acier inoxydable ultra-robuste, conçu pour résister aux environnements les plus exigeants. Sa technologie exclusive à buses opposées (modèle ON) assure une distribution d eau d une uniformité parfaite, même à proximité immédiate de l arroseur. Équipée du rétablissement automatique du secteur et d un mécanisme d entraînement indémontable, cette turbine est protégée contre le vandalisme et les manipulations accidentelles.",
+   "title": "Turbine I-40 ON ULTRA inox Hunter",
+   "desc": "Disponible en 04 et 06. Ce modèle haute performance se distingue par son piston en acier inoxydable ultra-robuste, conçu pour résister aux environnements les plus exigeants. Sa technologie exclusive à buses opposées (modèle ON) assure une distribution d eau d une uniformité parfaite, même à proximité immédiate de l arroseur. Équipée du rétablissement automatique du secteur et d un mécanisme d entraînement indémontable, cette turbine est protégée contre le vandalisme et les manipulations accidentelles.",
    "specs": [
     [
      "Marque",
@@ -6688,39 +5819,31 @@ window.CATALOGUE = {
      "Angle de trajectoire",
      "25°"
     ]
-   ]
-  },
-  {
-   "cat": "arroseurs",
-   "name": "Turbine I-40 -06 ON ULTRA inox Hunter",
-   "spec": "",
-   "ref": "0148656056",
-   "ht": 140.83,
-   "price": 152.8,
-   "stock": "in",
-   "img": "images/0148656056_1.jpg",
-   "desc": "Turbine Hunter I-40-06-SS-ON-B Ultra Inox La turbine Hunter I-40 en version escamotable de 15 cm est spécifiquement conçue pour les terrains de sport où la hauteur du gazon peut varier, comme les terrains de rugby ou les espaces verts municipaux denses. Ce modèle se distingue par son piston en acier inoxydable qui offre une résistance inégalée contre les sols abrasifs et les impuretés. Grâce à sa configuration ON (buses opposées), cet arroseur assure un cercle plein avec une uniformité de distribution exceptionnelle, arrosant simultanément les zones lointaines et les zones proches.",
-   "specs": [
-    [
-     "Marque",
-     "Hunter"
-    ],
-    [
-     "Type de produit",
-     "Turbines"
-    ],
-    [
-     "Raccordement",
-     "femelle 1\" (taraudé)"
-    ],
-    [
-     "Portée",
-     "13,4 à 23,2 mètres"
-    ],
-    [
-     "Angle de trajectoire",
-     "25°"
-    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "04",
+     "hex": "",
+     "c2": "",
+     "ref": "0145316343",
+     "ht": 109.17,
+     "price": 118.45,
+     "stock": "in",
+     "img": "images/0145316343_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "06",
+     "hex": "",
+     "c2": "",
+     "ref": "0148656056",
+     "ht": 140.83,
+     "price": 152.8,
+     "stock": "in",
+     "img": "images/0148656056_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
@@ -6793,15 +5916,10 @@ window.CATALOGUE = {
    ]
   },
   {
+   "famille": true,
    "cat": "arroseurs",
-   "name": "Tuyère ECO ROTATOR MP1000 - HUNTER",
-   "spec": "",
-   "ref": "04.47566002",
-   "ht": 9.58,
-   "price": 10.39,
-   "stock": "in",
-   "img": "images/04.47566002_1.jpg",
-   "desc": "Tuyère ECO ROTATOR MP1000 de la marque HUNTER Découvrez la Tuyère ECO ROTATOR, l'innovation qui révolutionne l'arrosage de vos espaces verts. Conçue pour offrir une efficacité maximale et une économie d'eau significative, cette buse rotative se monte sur un corps de tuyère standard de 4 pouces (hauteur totale 19 cm, hauteur de soulèvement 10 cm). Le modèle MP2000 est spécialement conçu pour couvrir des portées moyennes à longues, avec une portée réglable de 4,0 à 6,4 mètres. Son angle d'arrosage peut être ajusté de 90° à 210°, vous permettant de cibler précisément les zones à irriguer et d'éviter les débordements sur les allées ou bâtiments.",
+   "title": "Tuyère ECO ROTATOR - HUNTER",
+   "desc": "Disponible en MP1000, MP2000 et MP3000. Conçue pour offrir une efficacité maximale et une économie d'eau significative, cette buse rotative se monte sur un corps de tuyère standard de 4 pouces (hauteur totale 19 cm, hauteur de soulèvement 10 cm). Son angle d'arrosage peut être ajusté de 90° à 210°, vous permettant de cibler précisément les zones à irriguer et d'éviter les débordements sur les allées ou bâtiments.",
    "specs": [
     [
      "Marque",
@@ -6815,96 +5933,42 @@ window.CATALOGUE = {
      "Type de tuyère",
      "Eco Rotator"
     ]
-   ]
-  },
-  {
-   "cat": "arroseurs",
-   "name": "Tuyère ECO ROTATOR MP2000 - HUNTER",
-   "spec": "",
-   "ref": "04.607MP",
-   "ht": 9.58,
-   "price": 10.39,
-   "stock": "in",
-   "img": "images/04.607MP_1.jpg",
-   "desc": "Tuyère ECO ROTATOR MP2000 de la marque HUNTER La buse rotative MP Rotator MP2000 de Hunter transforme l'efficacité de vos tuyères statiques en systèmes d'arrosage dynamiques et ultra-économes. Elle délivre plusieurs jets rotatifs qui assurent une couverture d'eau uniforme et une application lente et régulière, ce qui permet à l'eau de pénétrer le sol efficacement sans ruissellement. La MP2000, avec sa portée intermédiaire, est idéale pour remplacer les buses traditionnelles sur les corps de tuyères (série 1800, PS Ultra, etc.) afin d'améliorer l'uniformité et de réduire drastiquement la consommation d'eau.",
-   "specs": [
-    [
-     "Marque",
-     "Hunter"
-    ],
-    [
-     "Type de produit",
-     "Tuyères"
-    ],
-    [
-     "Types",
-     "MP2000"
-    ],
-    [
-     "Caractéristiques",
-     "Tuyère avec joint racleur d’étanchéité solidaire du couvercle."
-    ],
-    [
-     "Pression",
-     "1,0 à 2,1 bars."
-    ],
-    [
-     "Entrée",
-     "taraudée : 1/2” (15/21)."
-    ],
-    [
-     "Portée",
-     "0,6 à 5,5 m."
-    ],
-    [
-     "Effet de «flush»",
-     "0 m3/h à 0,6 bar ou plus; 0,02m3/h inférieur à 0,6 bar."
-    ],
-    [
-     "Hauteur du corps",
-     "15,0 cm."
-    ],
-    [
-     "Hauteur de soulèvement",
-     "10,0 cm."
-    ],
-    [
-     "Option",
-     "Adaptateur PA-8S // Allonge 1800-EXT // Adaptateur XbA-1800 // SXb et XS."
-    ],
-    [
-     "Diametre",
-     "exposé : 5,7 cm."
-    ],
-    [
-     "Inclus",
-     "Buse réglable 90°-210°"
-    ]
-   ]
-  },
-  {
-   "cat": "arroseurs",
-   "name": "Tuyère ECO ROTATOR MP3000 - HUNTER",
-   "spec": "",
-   "ref": "04.47565995",
-   "ht": 9.58,
-   "price": 10.39,
-   "stock": "in",
-   "img": "images/04.47565995_1.jpg",
-   "desc": "Tuyère ECO ROTATOR MP3000 de la marque HUNTER Découvrez la puissance de la Tuyère ECO ROTATOR MP3000, conçue pour l'irrigation des grandes surfaces nécessitant une longue portée. Montée sur un corps de tuyère de 4 pouces, cette buse rotative est la solution idéale pour couvrir les grandes pelouses ou les espaces verts étendus tout en maximisant l'économie d'eau. Le modèle MP3000 excelle sur les longues distances, offrant une portée réglable de 6,7 à 9,1 mètres. Son secteur d'arrosage est ajustable de 90° à 210°, vous permettant de dessiner avec précision la zone à arroser, même sur des tracés complexes ou le long de limites étendues.",
-   "specs": [
-    [
-     "Marque",
-     "Hunter"
-    ],
-    [
-     "Type de produit",
-     "Tuyères"
-    ],
-    [
-     "Type de tuyère",
-     "Eco Rotator"
-    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "MP1000",
+     "hex": "",
+     "c2": "",
+     "ref": "04.47566002",
+     "ht": 9.58,
+     "price": 10.39,
+     "stock": "in",
+     "img": "images/04.47566002_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "MP2000",
+     "hex": "",
+     "c2": "",
+     "ref": "04.607MP",
+     "ht": 9.58,
+     "price": 10.39,
+     "stock": "in",
+     "img": "images/04.607MP_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "MP3000",
+     "hex": "",
+     "c2": "",
+     "ref": "04.47565995",
+     "ht": 9.58,
+     "price": 10.39,
+     "stock": "in",
+     "img": "images/04.47565995_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
@@ -7204,41 +6268,40 @@ window.CATALOGUE = {
    ]
   },
   {
+   "famille": true,
    "cat": "goutte",
-   "name": "Crochet de suspension 16mm",
-   "spec": "",
-   "ref": "05.9201",
-   "ht": 0.12,
-   "price": 0.13,
-   "stock": "in",
-   "img": "images/05.9201_1.jpg",
-   "desc": "Crochet de suspension pour tuyau Ø16, pour le maintien des tuyaux goutteurs Crochet de suspension 16mm permettant de maintenir des goutteurs sur le palissage fil de fer . En plastique très résistant, il assure fiabilité et longévité. Il offre une installation simple et rapide. Colisage : 100 Tarif à l'unité - quantité mini : 100 unités",
+   "title": "Crochet de suspension",
+   "desc": "Disponible en 16mm et 20mm. En plastique très résistant, il assure fiabilité et longévité. Il offre une installation simple et rapide. Colisage : 100 Tarif à l'unité - quantité mini : 100 unités",
    "specs": [
     [
      "Type de produit",
      "Micro-tubes et piques de maintien"
     ]
-   ]
-  },
-  {
-   "cat": "goutte",
-   "name": "Crochet de suspension 20mm",
-   "spec": "",
-   "ref": "05.9202",
-   "ht": 0.12,
-   "price": 0.13,
-   "stock": "in",
-   "img": "images/05.9202_1.jpg",
-   "desc": "Crochet de suspension pour tuyau Ø20, pour le maintien des tuyaux goutteurs Crochet de suspension 20mm permettant de maintenir des goutteurs sur le palissage fil de fer . En plastique très résistant, il assure fiabilité et longévité. Il offre une installation simple et rapide. (Colisage : 100) Tarif à l'unité - quantité mini : 100 unités",
-   "specs": [
-    [
-     "Type de produit",
-     "Micro-tubes et piques de maintien"
-    ],
-    [
-     "Diametre",
-     "20mm"
-    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "16mm",
+     "hex": "",
+     "c2": "",
+     "ref": "05.9201",
+     "ht": 0.12,
+     "price": 0.13,
+     "stock": "in",
+     "img": "images/05.9201_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "20mm",
+     "hex": "",
+     "c2": "",
+     "ref": "05.9202",
+     "ht": 0.12,
+     "price": 0.13,
+     "stock": "in",
+     "img": "images/05.9202_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
@@ -7267,76 +6330,10 @@ window.CATALOGUE = {
    ]
   },
   {
+   "famille": true,
    "cat": "goutte",
-   "name": "Goutteur 0,33 en ligne Dripline Ø16 100m noir",
-   "spec": "",
-   "ref": "05.34318824",
-   "ht": 37.92,
-   "price": 41.14,
-   "stock": "in",
-   "img": "images/05.34318824_1.jpg",
-   "desc": "Tuyau goutteur prépercé Ø 16, 100 m, écartement 33 cm, flexible et fiable, ne s’entortille pas. Le tuyau goutte a goutte pré percé Dripline est très souple, il permet des courbes plus serrées limitant le nombre de coudes, pour une installation rapide et facile. Le tuyau dripline est le meilleur choix pour l’arrosage goutte à goutte des petites surfaces telles que les potagers, les haies, les massifs ou les jardinières. Le tuyau goutte à goutte est très robuste grâce à sa composition tuyau double couche. Il résiste aux produits chimiques, aux U.V. et au colmatage d'algues. Auto-régulant, le tuyau avec goutteurs intégrés assure un débit régulier sur toute sa longueur.",
-   "specs": [
-    [
-     "Type de produit",
-     "Goutteurs"
-    ],
-    [
-     "Caractéristiques",
-     "Écartement : 33 cm"
-    ],
-    [
-     "Température ambiante",
-     "Jusqu'à 52°C"
-    ],
-    [
-     "Débit",
-     "2 l/h"
-    ],
-    [
-     "Pression",
-     "1 à 3 bars"
-    ],
-    [
-     "Température de fonctionnement",
-     "Jusqu'à 38 °C."
-    ],
-    [
-     "Longueur de tube",
-     "100"
-    ],
-    [
-     "Filtration requise",
-     "125 microns."
-    ],
-    [
-     "Diamètre",
-     "16"
-    ],
-    [
-     "Diametre",
-     "extérieur : 16,1 mm / intérieur : 13,6 mm."
-    ],
-    [
-     "Épaisseur",
-     "de la paroi : 1,14 mm."
-    ],
-    [
-     "Type de tuyau",
-     "Goutte à Goutte"
-    ]
-   ]
-  },
-  {
-   "cat": "goutte",
-   "name": "Goutteur 0,33 en ligne Dripline Ø16 25m noir",
-   "spec": "",
-   "ref": "05.32209939",
-   "ht": 13.92,
-   "price": 15.1,
-   "stock": "in",
-   "img": "images/05.32209939_1.jpg",
-   "desc": "Tuyau goutteur prépercé Ø 16, 25 m, écartement 33 cm, flexible et fiable, ne s’entortille pas. Le tuyau goutte a goutte pré percé Dripline est très souple, il permet des courbes plus serrées limitant le nombre de coudes, pour une installation rapide et facile. Le tuyau dripline est le meilleur choix pour l’arrosage goutte à goutte des petites surfaces telles que les potagers, les haies, les massifs ou les jardinières. Le tuyau goutte à goutte est très robuste grâce à sa composition tuyau double couche. Il résiste aux produits chimiques, aux U.V. et au colmatage d'algues. Auto-régulant, le tuyau avec goutteurs intégrés assure un débit régulier sur toute sa longueur.",
+   "title": "Goutteur 0,33 L/h en ligne Dripline Ø16 noir",
+   "desc": "Disponible en 25m, 50m et 100m. Tuyau goutteur prépercé Ø 16, 25 m, écartement 33 cm, flexible et fiable, ne s’entortille pas. Le tuyau goutte a goutte pré percé Dripline est très souple, il permet des courbes plus serrées limitant le nombre de coudes, pour une installation rapide et facile. Le tuyau dripline est le meilleur choix pour l’arrosage goutte à goutte des petites surfaces telles que les potagers, les haies, les massifs ou les jardinières. Le tuyau goutte à goutte est très robuste grâce à sa composition tuyau double couche. Il résiste aux produits chimiques, aux U.V. et au colmatage d'algues. Auto-régulant, le tuyau avec goutteurs intégrés assure un débit régulier sur toute sa longueur.",
    "specs": [
     [
      "Type de produit",
@@ -7386,140 +6383,49 @@ window.CATALOGUE = {
      "Type de tuyau",
      "Goutte à Goutte"
     ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "25m",
+     "hex": "",
+     "c2": "",
+     "ref": "05.32209939",
+     "ht": 13.92,
+     "price": 15.1,
+     "stock": "in",
+     "img": "images/05.32209939_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "50m",
+     "hex": "",
+     "c2": "",
+     "ref": "05.32209920",
+     "ht": 22.92,
+     "price": 24.87,
+     "stock": "in",
+     "img": "images/05.32209920_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "100m",
+     "hex": "",
+     "c2": "",
+     "ref": "05.34318824",
+     "ht": 37.92,
+     "price": 41.14,
+     "stock": "in",
+     "img": "images/05.34318824_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
+   "famille": true,
    "cat": "goutte",
-   "name": "Goutteur 0,33 en ligne Dripline Ø16 50m noir",
-   "spec": "",
-   "ref": "05.32209920",
-   "ht": 22.92,
-   "price": 24.87,
-   "stock": "in",
-   "img": "images/05.32209920_1.jpg",
-   "desc": "Tuyau goutteur prépercé Ø 16, 50 m, écartement 33 cm, flexible et fiable, ne s’entortille pas. Le tuyau goutte a goutte pré percé Dripline est très souple, il permet des courbes plus serrées limitant le nombre de coudes, pour une installation rapide et facile. Le tuyau dripline est le meilleur choix pour l’arrosage goutte à goutte des petites surfaces telles que les potagers, les haies, les massifs ou les jardinières. Le tuyau goutte à goutte est très robuste grâce à sa composition tuyau double couche. Il résiste aux produits chimiques, aux U.V. et au colmatage d'algues. Auto-régulant, le tuyau avec goutteurs intégrés assure un débit régulier sur toute sa longueur.",
-   "specs": [
-    [
-     "Type de produit",
-     "Goutteurs"
-    ],
-    [
-     "Caractéristiques",
-     "Écartement : 33 cm"
-    ],
-    [
-     "Température ambiante",
-     "Jusqu'à 52°C"
-    ],
-    [
-     "Débit",
-     "2 l/h"
-    ],
-    [
-     "Pression",
-     "1 à 3 bars"
-    ],
-    [
-     "Température de fonctionnement",
-     "Jusqu'à 38 °C."
-    ],
-    [
-     "Longueur de tube",
-     "50"
-    ],
-    [
-     "Filtration requise",
-     "125 microns."
-    ],
-    [
-     "Diamètre",
-     "16"
-    ],
-    [
-     "Diametre",
-     "extérieur : 16,1 mm / intérieur : 13,6 mm."
-    ],
-    [
-     "Épaisseur",
-     "de la paroi : 1,14 mm."
-    ],
-    [
-     "Type de tuyau",
-     "Goutte à Goutte"
-    ]
-   ]
-  },
-  {
-   "cat": "goutte",
-   "name": "Goutteur 0.33 en ligne Dripline Ø 16 100m marron",
-   "spec": "",
-   "ref": "05.11034",
-   "ht": 47.83,
-   "price": 51.9,
-   "stock": "in",
-   "img": "images/05.11034_1.jpg",
-   "desc": "Tuyau Dripline prépercé Ø 16, 100 m, écartement 33 cm, flexible et fiable, ne s’entortille pas. Le tuyau goutte a goutte pré percé Dripline est très souple, il permet des courbes plus serrées limitant le nombre de coudes, pour une installation rapide et facile. Le tuyau Dripline est le meilleur choix pour l’arrosage goutte à goutte des petites surfaces telles que les potagers, les haies, les massifs ou les jardinières. Le tuyau goutte à goutte est très robuste grâce à sa composition tuyau double couche. Il résiste aux produits chimiques, aux U.V. et au colmatage d'algues. Auto-régulant, le tuyau avec goutteurs intégrés Dripline assure un débit régulier sur toute sa longueur.",
-   "specs": [
-    [
-     "Type de produit",
-     "Goutteurs"
-    ],
-    [
-     "Caractéristiques",
-     "Écartement : 33 cm"
-    ],
-    [
-     "Température ambiante",
-     "Jusqu'à 52°C"
-    ],
-    [
-     "Débit",
-     "1,6 l/h"
-    ],
-    [
-     "Pression",
-     "0.5 à 3.5 bars"
-    ],
-    [
-     "Température de fonctionnement",
-     "Jusqu'à 38 °C."
-    ],
-    [
-     "Longueur de tube",
-     "100"
-    ],
-    [
-     "Filtration requise",
-     "125 microns."
-    ],
-    [
-     "Diamètre",
-     "16"
-    ],
-    [
-     "Diametre",
-     "extérieur : 16,1 mm / intérieur : 13,6 mm."
-    ],
-    [
-     "Épaisseur",
-     "de la paroi : 1,2 mm."
-    ],
-    [
-     "Type de tuyau",
-     "Goutte à Goutte"
-    ]
-   ]
-  },
-  {
-   "cat": "goutte",
-   "name": "Goutteur 0.33 en ligne Dripline Ø 16 50m marron",
-   "spec": "",
-   "ref": "05.11033",
-   "ht": 25.5,
-   "price": 27.67,
-   "stock": "in",
-   "img": "images/05.11033_1.jpg",
-   "desc": "Tuyau Dripline prépercé Ø 16, 50 m, écartement 33 cm, flexible et fiable, ne s’entortille pas. Le tuyau goutte a goutte pré percé Dripline est très souple, il permet des courbes plus serrées limitant le nombre de coudes, pour une installation rapide et facile. Le tuyau Dripline est le meilleur choix pour l’arrosage goutte à goutte des petites surfaces telles que les potagers, les haies, les massifs ou les jardinières. Le tuyau goutte à goutte est très robuste grâce à sa composition tuyau double couche. Il résiste aux produits chimiques, aux U.V. et au colmatage d'algues. Auto-régulant, le tuyau avec goutteurs intégrés Dripline assure un débit régulier sur toute sa longueur.",
+   "title": "Goutteur 0,33 L/h en ligne Dripline Ø16 marron",
+   "desc": "Disponible en 50m et 100m. Tuyau Dripline prépercé Ø 16, 50 m, écartement 33 cm, flexible et fiable, ne s’entortille pas. Le tuyau goutte a goutte pré percé Dripline est très souple, il permet des courbes plus serrées limitant le nombre de coudes, pour une installation rapide et facile. Le tuyau Dripline est le meilleur choix pour l’arrosage goutte à goutte des petites surfaces telles que les potagers, les haies, les massifs ou les jardinières. Le tuyau goutte à goutte est très robuste grâce à sa composition tuyau double couche. Il résiste aux produits chimiques, aux U.V. et au colmatage d'algues. Auto-régulant, le tuyau avec goutteurs intégrés Dripline assure un débit régulier sur toute sa longueur.",
    "specs": [
     [
      "Type de produit",
@@ -7569,6 +6475,31 @@ window.CATALOGUE = {
      "Type de tuyau",
      "Goutte à Goutte"
     ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "50m",
+     "hex": "",
+     "c2": "",
+     "ref": "05.11033",
+     "ht": 25.5,
+     "price": 27.67,
+     "stock": "in",
+     "img": "images/05.11033_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "100m",
+     "hex": "",
+     "c2": "",
+     "ref": "05.11034",
+     "ht": 47.83,
+     "price": 51.9,
+     "stock": "in",
+     "img": "images/05.11034_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
@@ -7633,15 +6564,10 @@ window.CATALOGUE = {
    ]
   },
   {
+   "famille": true,
    "cat": "goutte",
-   "name": "Goutteur autorégulant 2l/h Rain Bird",
-   "spec": "",
-   "ref": "05.10810",
-   "ht": 0.25,
-   "price": 0.27,
-   "stock": "in",
-   "img": "images/05.10810_1.jpg",
-   "desc": "Goutteur autorégulant Rain Bird 2l/h XB-05PC, idéal pour l'arrosage de plantation en pente Le goutteur autorégulant XB-05PC délivre une quantité d’eau appropriée à vos besoins, aux pieds des plantes. Il est idéal pour l’arrosage de toutes les haies, arbres, arbustes, plantes en pots. Pour un arrosage goutte à goutte, c’est le goutteur que nous vous recommandons ! Son excellente régulation le rend particulièrement apte à l’arrosage de plantations en pente, contrairement à d’autres systèmes d’arrosage. Comment différencier le goutteur 2L / h des autres débits ? Grâce à sa couleur ! En effet, le goutteur Rain Bird bleu est très facile à reconnaître. Ne vous trompez plus de débit !",
+   "title": "Goutteur autorégulant Rain Bird",
+   "desc": "Disponible en 2l/h, 4L/h et 8L/h. Il est idéal pour l’arrosage de toutes les haies, arbres, arbustes, plantes en pots. Pour un arrosage goutte à goutte, c’est le goutteur que nous vous recommandons ! Son excellente régulation le rend particulièrement apte à l’arrosage de plantations en pente, contrairement à d’autres systèmes d’arrosage. Comment différencier le goutteur 2L / h des autres débits ? Grâce à sa couleur ! En effet, le goutteur Rain Bird bleu est très facile à reconnaître. Ne vous trompez plus de débit !",
    "specs": [
     [
      "Marque",
@@ -7663,72 +6589,42 @@ window.CATALOGUE = {
      "Pression",
      "1 à 3.5 bars."
     ]
-   ]
-  },
-  {
-   "cat": "goutte",
-   "name": "Goutteur autorégulant 4L/h Rain Bird",
-   "spec": "",
-   "ref": "05.10820",
-   "ht": 0.25,
-   "price": 0.27,
-   "stock": "in",
-   "img": "images/05.10820_1.jpg",
-   "desc": "Goutteur autorégulant 4l / h XB-10PC, arrosage de toutes les haies, arbres, arbustes, plantes en pots, de la marque Rain Bird Le goutteur XB-10PC délivre une quantité d’eau appropriée à vos besoins, aux pieds des plantes. Il est idéal pour l’arrosage de toutes les haies, arbres, arbustes, plantes en pots. Pour un arrosage goutte à goutte, c’est le goutteur que nous vous recommandons ! Son excellente régulation le rend particulièrement apte à l’arrosage de plantations en pente, contrairement à d’autres systèmes d’arrosage. Comment différencier le goutteur 4L / h des autres débits ? Grâce à sa couleur ! En effet, le goutteur Rain Bird noir est très facile à reconnaître.",
-   "specs": [
-    [
-     "Marque",
-     "Rain Bird"
-    ],
-    [
-     "Type de produit",
-     "Goutteurs"
-    ],
-    [
-     "Caractéristiques",
-     "Goutteur auto-régulant et auto-perçant."
-    ],
-    [
-     "Débit",
-     "1.33 à 7.2 l/h."
-    ],
-    [
-     "Pression",
-     "1 à 3.5 bars."
-    ]
-   ]
-  },
-  {
-   "cat": "goutte",
-   "name": "Goutteur autorégulant 8L/h Rain Bird",
-   "spec": "",
-   "ref": "05.10830",
-   "ht": 0.25,
-   "price": 0.27,
-   "stock": "in",
-   "img": "images/05.10830_1.jpg",
-   "desc": "Goutteur autorégulant Rain Bird 8l / h XB-20PC, arrosage haies, arbres, arbustes, plantes en pots, installations en pente Le goutteur autorégulant XB-PC délivre une quantité d’eau appropriée à vos besoins, aux pieds des plantes. Il est idéal pour l’arrosage de toutes les haies, arbres, arbustes, plantes en pots. Pour un arrosage goutte à goutte, c’est le goutteur que nous vous recommandons ! Son excellente régulation le rend particulièrement apte à l’arrosage de plantations en pente, contrairement à d’autres systèmes d’arrosage. Comment différencier le goutteur 8L / h des autres débits ? Grâce à sa couleur ! En effet, le goutteur Rain Bird rouge est très facile à reconnaître.",
-   "specs": [
-    [
-     "Marque",
-     "Rain Bird"
-    ],
-    [
-     "Type de produit",
-     "Goutteurs"
-    ],
-    [
-     "Caractéristiques",
-     "Goutteur auto-régulant et auto-perçant."
-    ],
-    [
-     "Débit",
-     "1.33 à 7.2 l/h."
-    ],
-    [
-     "Pression",
-     "1 à 3.5 bars."
-    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "2l/h",
+     "hex": "",
+     "c2": "",
+     "ref": "05.10810",
+     "ht": 0.25,
+     "price": 0.27,
+     "stock": "in",
+     "img": "images/05.10810_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "4L/h",
+     "hex": "",
+     "c2": "",
+     "ref": "05.10820",
+     "ht": 0.25,
+     "price": 0.27,
+     "stock": "in",
+     "img": "images/05.10820_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "8L/h",
+     "hex": "",
+     "c2": "",
+     "ref": "05.10830",
+     "ht": 0.25,
+     "price": 0.27,
+     "stock": "in",
+     "img": "images/05.10830_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
@@ -7830,73 +6726,10 @@ window.CATALOGUE = {
    ]
   },
   {
+   "famille": true,
    "cat": "goutte",
-   "name": "Micro asperseur 180°",
-   "spec": "",
-   "ref": "06.01302",
-   "ht": 0.29,
-   "price": 0.31,
-   "stock": "in",
-   "img": "images/06.01302_1.jpg",
-   "desc": "Micro asperseur 180° Le Micro asperseur 180° est un émetteur de micro-irrigation conçu pour l'arrosage en demi-cercle (demi-lune). Il est parfait pour une installation en bordure de jardin, le long d'un chemin, d'une haie ou d'un mur, garantissant que l'eau est distribuée uniquement là où elle est nécessaire. Fonctionnant de manière optimale à une pression de 1,5 bar, il offre un débit de 43 litres par heure et une portée de 1,20 mètre. Ces caractéristiques en font un choix excellent pour les massifs, les arbustes ou les parterres qui exigent un apport d'eau régulier, sans éclaboussures sur les zones non végétalisées.",
-   "specs": [
-    [
-     "Type de produit",
-     "Micro-asperseurs"
-    ],
-    [
-     "Débit",
-     "43 l/h"
-    ],
-    [
-     "Pression",
-     "1.5 bars"
-    ],
-    [
-     "Portée",
-     "1.20 m"
-    ]
-   ]
-  },
-  {
-   "cat": "goutte",
-   "name": "Micro asperseur 360°",
-   "spec": "",
-   "ref": "06.01300",
-   "ht": 0.29,
-   "price": 0.31,
-   "stock": "in",
-   "img": "images/06.01300_1.jpg",
-   "desc": "Micro asperseur 360° Le Micro asperseur 90° est un élément de micro-irrigation conçu spécifiquement pour l'arrosage des zones d'angle, des plates-bandes étroites ou des coins de jardin qui ne nécessitent pas une couverture complète à 360°. Son jet quart de cercle assure une distribution précise de l'eau. Avec une faible pression de fonctionnement optimale (1,5 bar), un débit modéré (43 l/h) et une portée limitée (1,70 m), ce micro-asperseur est parfait pour les cultures délicates, les arbustes ou les massifs de fleurs qui exigent un apport d'eau doux et ciblé, minimisant les pertes par ruissellement ou par vent.",
-   "specs": [
-    [
-     "Type de produit",
-     "Micro-asperseurs"
-    ],
-    [
-     "Débit",
-     "43 l/h"
-    ],
-    [
-     "Pression",
-     "1.5 bars"
-    ],
-    [
-     "Portée",
-     "1.20 m"
-    ]
-   ]
-  },
-  {
-   "cat": "goutte",
-   "name": "Micro asperseur 90°",
-   "spec": "",
-   "ref": "06.01301",
-   "ht": 0.29,
-   "price": 0.31,
-   "stock": "in",
-   "img": "images/06.01301_1.jpg",
-   "desc": "Micro-asperseur 90° Le Micro asperseur 90° est un élément de micro-irrigation conçu spécifiquement pour l'arrosage des zones d'angle, des plates-bandes étroites ou des coins de jardin qui ne nécessitent pas une couverture complète à 360°. Son jet quart de cercle assure une distribution précise de l'eau. Avec une faible pression de fonctionnement optimale (1,5 bar), un débit modéré (43 l/h) et une portée limitée (1,70 m), ce micro-asperseur est parfait pour les cultures délicates, les arbustes ou les massifs de fleurs qui exigent un apport d'eau doux et ciblé, minimisant les pertes par ruissellement ou par vent.",
+   "title": "Micro asperseur",
+   "desc": "Disponible en 90°, 180° et 360°. Son jet quart de cercle assure une distribution précise de l'eau. Avec une faible pression de fonctionnement optimale (1,5 bar), un débit modéré (43 l/h) et une portée limitée (1,70 m), ce micro-asperseur est parfait pour les cultures délicates, les arbustes ou les massifs de fleurs qui exigent un apport d'eau doux et ciblé, minimisant les pertes par ruissellement ou par vent.",
    "specs": [
     [
      "Type de produit",
@@ -7914,18 +6747,49 @@ window.CATALOGUE = {
      "Portée",
      "1.70 m"
     ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "90°",
+     "hex": "",
+     "c2": "",
+     "ref": "06.01301",
+     "ht": 0.29,
+     "price": 0.31,
+     "stock": "in",
+     "img": "images/06.01301_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "180°",
+     "hex": "",
+     "c2": "",
+     "ref": "06.01302",
+     "ht": 0.29,
+     "price": 0.31,
+     "stock": "in",
+     "img": "images/06.01302_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "360°",
+     "hex": "",
+     "c2": "",
+     "ref": "06.01300",
+     "ht": 0.29,
+     "price": 0.31,
+     "stock": "in",
+     "img": "images/06.01300_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
+   "famille": true,
    "cat": "goutte",
-   "name": "Micro asperseur Rotor spray 40 l/h 360°",
-   "spec": "",
-   "ref": "06.04102",
-   "ht": 1.13,
-   "price": 1.23,
-   "stock": "in",
-   "img": "images/06.04102_1.jpg",
-   "desc": "Micro-asperseur Rotor spray 4mm, bas débit à rotation rapide, Microjets 4mm Micro asperseur Rotor spray à rotation rapide et bas débit, microjets 4mm.",
+   "title": "Micro asperseur Rotor spray 360°",
+   "desc": "Disponible en 40 l/h et 85 l/h. Micro-asperseur Rotor spray 4mm, bas débit à rotation rapide, Microjets 4mm Micro asperseur Rotor spray à rotation rapide et bas débit, microjets 4mm.",
    "specs": [
     [
      "Type de produit",
@@ -7943,39 +6807,31 @@ window.CATALOGUE = {
      "Portée",
      "2.70 m"
     ]
-   ]
-  },
-  {
-   "cat": "goutte",
-   "name": "Micro asperseur Rotor spray 85 l/h 360°",
-   "spec": "",
-   "ref": "06.04103",
-   "ht": 1.13,
-   "price": 1.23,
-   "stock": "in",
-   "img": "images/06.04103_1.jpg",
-   "desc": "Micro asperseur Rotor spray 85l/h microjets 4mm, rotation rapide et bas débit Micro asperseur Rotor spray à rotation rapide et bas débit, microjets 4 mm.",
-   "specs": [
-    [
-     "Type de produit",
-     "Micro-asperseurs"
-    ],
-    [
-     "Caractéristiques",
-     "Micro-asperseur à rotation rapide et bas débit."
-    ],
-    [
-     "Débit",
-     "105 l/h"
-    ],
-    [
-     "Pression",
-     "1.5 bars"
-    ],
-    [
-     "Portée",
-     "3.70 m"
-    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "40 l/h",
+     "hex": "",
+     "c2": "",
+     "ref": "06.04102",
+     "ht": 1.13,
+     "price": 1.23,
+     "stock": "in",
+     "img": "images/06.04102_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "85 l/h",
+     "hex": "",
+     "c2": "",
+     "ref": "06.04103",
+     "ht": 1.13,
+     "price": 1.23,
+     "stock": "in",
+     "img": "images/06.04103_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
@@ -8020,89 +6876,14 @@ window.CATALOGUE = {
    ]
   },
   {
+   "famille": true,
    "cat": "goutte",
-   "name": "Micro asperseur réglable 180°",
-   "spec": "",
-   "ref": "06.VARIJ2",
-   "ht": 1.13,
-   "price": 1.23,
-   "stock": "in",
-   "img": "images/06.VARIJ2_1.jpg",
-   "desc": "Micro-asperseur 180° avec débit et portée réglables grace à une vannette incorporée Le Micro asperseur réglable 180° est la solution idéale pour l'arrosage des bordures, des massifs ou des parterres qui nécessitent un apport d'eau ajustable en fonction de la saison ou du type de culture. Ce modèle permet de couvrir un secteur fixe en demi-cercle (180°). Sa caractéristique principale est l'intégration d'une vannette incorporée qui offre un contrôle total sur l'arrosage. Vous pouvez ajuster le débit de 0 à 130 litres par heure et, par conséquent, moduler la portée de 0 à 3,4 mètres.",
+   "title": "Micro asperseur réglable",
+   "desc": "Disponible en 90°, 180° et 360°. Sa caractéristique principale est l'intégration d'une vannette incorporée qui offre un contrôle total sur l'arrosage. Vous pouvez ajuster le débit de 0 à 130 litres par heure et, par conséquent, moduler la portée de 0 à 3,3 mètres.",
    "specs": [
     [
      "Type de produit",
      "Micro-asperseurs"
-    ],
-    [
-     "Caractéristiques",
-     "Micro-asperseur réglable 180°"
-    ],
-    [
-     "Débit",
-     "Réglable de 0 à 130 l/ h"
-    ],
-    [
-     "Pression",
-     "0,5 à 2,5 bar"
-    ],
-    [
-     "Portée",
-     "Réglable de 0 à 3,4 m"
-    ]
-   ]
-  },
-  {
-   "cat": "goutte",
-   "name": "Micro asperseur réglable 360°",
-   "spec": "",
-   "ref": "06.VARIJ",
-   "ht": 1.13,
-   "price": 1.23,
-   "stock": "in",
-   "img": "images/06.VARIJ_1.jpg",
-   "desc": "Micro-asperseur 360° avec débit et portée réglables grace à une vannette incorporée Le Micro asperseur réglable 360° est l'émetteur de micro-irrigation le plus polyvalent pour l'arrosage de zones circulaires complètes (360°), telles que les massifs isolés, les arbres fruitiers ou les petites pelouses. Sa principale force réside dans son système de réglage précis, assuré par une vannette incorporée. Cette fonctionnalité permet à l'utilisateur de moduler manuellement l'arrosage, offrant une plage de débit allant de 0 à 130 litres par heure, ce qui influence directement la portée, de 0 à 4,1 mètres.",
-   "specs": [
-    [
-     "Type de produit",
-     "Micro-asperseurs"
-    ],
-    [
-     "Caractéristiques",
-     "Micro-asperseur réglable 360°"
-    ],
-    [
-     "Débit",
-     "Réglable de 0 à 130 l/ h"
-    ],
-    [
-     "Pression",
-     "0,5 à 2,5 bar"
-    ],
-    [
-     "Portée",
-     "Réglable de 0 à 4,1 m"
-    ]
-   ]
-  },
-  {
-   "cat": "goutte",
-   "name": "Micro asperseur réglable 90°",
-   "spec": "",
-   "ref": "06.VARIJ3",
-   "ht": 1.13,
-   "price": 1.23,
-   "stock": "in",
-   "img": "images/06.VARIJ3_1.jpg",
-   "desc": "Micro-asperseur avec débit et portée réglables grace à une vannette incorporée, 90° Le Micro asperseur réglable 90° est la solution idéale pour l'arrosage des bordures, des massifs ou des parterres qui nécessitent un apport d'eau ajustable en fonction de la saison ou du type de culture. Ce modèle permet de couvrir un secteur fixe en angle de 90°. Sa caractéristique principale est l'intégration d'une vannette incorporée qui offre un contrôle total sur l'arrosage. Vous pouvez ajuster le débit de 0 à 130 litres par heure et, par conséquent, moduler la portée de 0 à 3,3 mètres.",
-   "specs": [
-    [
-     "Type de produit",
-     "Micro-asperseurs"
-    ],
-    [
-     "Caractéristiques",
-     "Micro-asperseur réglable 90°"
     ],
     [
      "Débit",
@@ -8116,59 +6897,49 @@ window.CATALOGUE = {
      "Portée",
      "Réglable de 0 à 3,3 m"
     ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "90°",
+     "hex": "",
+     "c2": "",
+     "ref": "06.VARIJ3",
+     "ht": 1.13,
+     "price": 1.23,
+     "stock": "in",
+     "img": "images/06.VARIJ3_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "180°",
+     "hex": "",
+     "c2": "",
+     "ref": "06.VARIJ2",
+     "ht": 1.13,
+     "price": 1.23,
+     "stock": "in",
+     "img": "images/06.VARIJ2_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "360°",
+     "hex": "",
+     "c2": "",
+     "ref": "06.VARIJ",
+     "ht": 1.13,
+     "price": 1.23,
+     "stock": "in",
+     "img": "images/06.VARIJ_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
+   "famille": true,
    "cat": "goutte",
-   "name": "Micro asperseur réglable sur pique 180°",
-   "spec": "",
-   "ref": "05.KL101",
-   "ht": 4,
-   "price": 4.34,
-   "stock": "in",
-   "img": "images/05.KL101_1.jpg",
-   "desc": "Micro-asperseur 180°, portée réglable livré prêt-à-installer, pour les massifs de fleurs, couverts végétaux, plantes en pots Micro-asperseur 180° à portée réglable de 0 à 4.2 m, livré prêt-à-installer. Tube de connexion 4/6 mm en PVC flexible pré-monté ( longueur 50cm ). Idéal pour les massifs de fleurs, couverts végétaux, plantes en pots.",
-   "specs": [
-    [
-     "Type de produit",
-     "Micro-asperseurs"
-    ],
-    [
-     "Caractéristiques",
-     "Micro asperseur 180° sur pique de 31 cm"
-    ],
-    [
-     "Matériaux",
-     "Émetteur en acétal, pique en polyéthylène et allonge en HDPE"
-    ],
-    [
-     "Débit",
-     "0 à 130 l/h"
-    ],
-    [
-     "Pression",
-     "0,5 à 2,5 bar"
-    ],
-    [
-     "Portée",
-     "réglable de 0 à 4,2 m"
-    ],
-    [
-     "Hauteur",
-     "Allonge de 20 cm / Hauteur totale pique + allonge : 51 cm"
-    ]
-   ]
-  },
-  {
-   "cat": "goutte",
-   "name": "Micro asperseur réglable sur pique 360°",
-   "spec": "",
-   "ref": "05.KL102",
-   "ht": 4,
-   "price": 4.34,
-   "stock": "in",
-   "img": "images/05.KL102_1.jpg",
-   "desc": "Micro-asperseur 360°, portée réglable livré prêt-à-installer, pour les massifs de fleues, couverts, végétaux, plantes en pots Micro-asperseur 360° à portée réglable de 0 à 4.2 m, livré prêt-à-installer. Tube de connexion 4/6 mm en PVC flexible pré-monté ( longueur 50cm ). Idéal pour les massifs de fleurs, couverts végétaux, plantes en pots.",
+   "title": "Micro asperseur réglable sur pique",
+   "desc": "Disponible en 90°, 180° et 360°. Tube de connexion 4/6 mm en PVC flexible pré-monté ( longueur 50cm ). Idéal pour les massifs de fleurs, couverts végétaux, plantes en pots.",
    "specs": [
     [
      "Type de produit",
@@ -8194,47 +6965,42 @@ window.CATALOGUE = {
      "Hauteur",
      "Allonge de 20 cm / Hauteur totale pique + allonge : 51 cm"
     ]
-   ]
-  },
-  {
-   "cat": "goutte",
-   "name": "Micro asperseur réglable sur pique 90°",
-   "spec": "",
-   "ref": "05.KL100",
-   "ht": 4,
-   "price": 4.34,
-   "stock": "in",
-   "img": "images/05.KL100_1.jpg",
-   "desc": "Micro-asperseur réglable 90°, prêt à l'installation Micro-asperseur 90° à portée réglable de 0 à 4.2 m, livré prêt-à-installer. Tube de connexion 4/6 mm en PVC flexible pré-monté ( longueur 50cm ). Idéal pour les massifs de fleurs, couverts végétaux, plantes en pots.",
-   "specs": [
-    [
-     "Type de produit",
-     "Micro-asperseurs"
-    ],
-    [
-     "Caractéristiques",
-     "Micro asperseur 90° sur pique de 31 cm"
-    ],
-    [
-     "Matériaux",
-     "Émetteur en acétal, pique en polyéthylène et allonge en HDPE"
-    ],
-    [
-     "Débit",
-     "0 à 130 l/h"
-    ],
-    [
-     "Pression",
-     "0,5 à 2,5 bar"
-    ],
-    [
-     "Portée",
-     "réglable de 0 à 4,2 m"
-    ],
-    [
-     "Hauteur",
-     "Allonge de 20 cm / Hauteur totale pique + allonge : 51 cm"
-    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "90°",
+     "hex": "",
+     "c2": "",
+     "ref": "05.KL100",
+     "ht": 4,
+     "price": 4.34,
+     "stock": "in",
+     "img": "images/05.KL100_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "180°",
+     "hex": "",
+     "c2": "",
+     "ref": "05.KL101",
+     "ht": 4,
+     "price": 4.34,
+     "stock": "in",
+     "img": "images/05.KL101_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "360°",
+     "hex": "",
+     "c2": "",
+     "ref": "05.KL102",
+     "ht": 4,
+     "price": 4.34,
+     "stock": "in",
+     "img": "images/05.KL102_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
@@ -8517,15 +7283,10 @@ window.CATALOGUE = {
    ]
   },
   {
+   "famille": true,
    "cat": "goutte",
-   "name": "Tuyau goutteurs intégrés HydroPC - 300m - 2,2L/h - Ø20 - Rivulis",
-   "spec": "",
-   "ref": "05.17410",
-   "ht": 150,
-   "price": 162.75,
-   "stock": "order",
-   "img": "images/05.17410_1.jpg",
-   "desc": "Goutteur intégré HydroPC autorégulant - 20mm - 300m - 2,2L/h de la marque Rivulis. Goutteur intégré auto-régulé grandes longueurs spécial vigne à paroi épaisse. Un goutteur cylindre très robuste : Durable et simple d’emploi. 2 entrées et 2 sorties dans chaque goutteur : Une assurance d'efficacité supplémentaire. Munis de goutteurs cylindriques robustes qui supportent des environnements hostiles. Une large gamme répondant à vos besoins : Diamètre de 20 mm. Polyvalent : Idéal pour l’agriculture, les espaces verts.",
+   "title": "Tuyau goutteurs intégrés HydroPC 2,2 L/h Rivulis",
+   "desc": "Disponible en 300m - 2,2L/h - Ø20 et 400m - 2,2L/h - Ø16. Goutteur intégré HydroPC autorégulant - 20mm - 300m - 2,2L/h de la marque Rivulis. Goutteur intégré auto-régulé grandes longueurs spécial vigne à paroi épaisse. Un goutteur cylindre très robuste : Durable et simple d’emploi. 2 entrées et 2 sorties dans chaque goutteur : Une assurance d'efficacité supplémentaire. Munis de goutteurs cylindriques robustes qui supportent des environnements hostiles. Une large gamme répondant à vos besoins : Diamètre de 20 mm. Polyvalent : Idéal pour l’agriculture, les espaces verts.",
    "specs": [
     [
      "Marque",
@@ -8547,51 +7308,38 @@ window.CATALOGUE = {
      "Débit",
      "2,2L/h"
     ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "300m - 2,2L/h - Ø20",
+     "hex": "",
+     "c2": "",
+     "ref": "05.17410",
+     "ht": 150,
+     "price": 162.75,
+     "stock": "order",
+     "img": "images/05.17410_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "400m - 2,2L/h - Ø16",
+     "hex": "",
+     "c2": "",
+     "ref": "05.17310",
+     "ht": 154.17,
+     "price": 167.27,
+     "stock": "order",
+     "img": "images/05.17310_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
-   "cat": "goutte",
-   "name": "Tuyau goutteurs intégrés HydroPC - 400m - 2,2L/h - Ø16 - Rivulis",
-   "spec": "",
-   "ref": "05.17310",
-   "ht": 154.17,
-   "price": 167.27,
-   "stock": "order",
-   "img": "images/05.17310_1.jpg",
-   "desc": "Goutteur intégré HydroPC autorégulant - 16mm - 400m - 2,2L/h de la marque Rivulis. Goutteur intégré auto-régulé grandes longueurs à paroi épaisse. Un goutteur cylindre très robuste : Durable et simple d’emploi. 2 entrées et 2 sorties dans chaque goutteur : Une assurance d'efficacité supplémentaire. Munis de goutteurs cylindriques robustes qui supportent des environnements hostiles. Une large gamme répondant à vos besoins : Diamètre de 16 mm. Polyvalent : Idéal pour l’agriculture, les espaces verts.",
-   "specs": [
-    [
-     "Marque",
-     "Rivulis"
-    ],
-    [
-     "Type de produit",
-     "Goutteurs"
-    ],
-    [
-     "Types",
-     "Espacement 0.33m, Espacement 1,00m, Espacement 0.50m"
-    ],
-    [
-     "Caractéristiques",
-     "Goutteurs intégrés autorégulant 16mm"
-    ],
-    [
-     "Débit",
-     "2,2L/h"
-    ]
-   ]
-  },
-  {
+   "famille": true,
    "cat": "raccords",
-   "name": "Bouchon Palaplast 16",
-   "spec": "",
-   "ref": "21.50210",
-   "ht": 0.67,
-   "price": 0.73,
-   "stock": "in",
-   "img": "images/21.50210_1.jpg",
-   "desc": "Bouchon Palaplast 16 pour fermer les tuyaux et dripline de Ø16mm Bouchon Palaplast 16 utilisé pour fermer un tuyau et/ou dripline de Ø16mm dans une application d'arrosage localisé.",
+   "title": "Bouchon Palaplast",
+   "desc": "Disponible en 16 et 20.",
    "specs": [
     [
      "Marque",
@@ -8606,58 +7354,41 @@ window.CATALOGUE = {
      "Palaplast"
     ],
     [
-     "Diamètre",
-     "16"
-    ],
-    [
      "Modèle Raccord",
      "bouchon"
     ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "16",
+     "hex": "",
+     "c2": "",
+     "ref": "21.50210",
+     "ht": 0.67,
+     "price": 0.73,
+     "stock": "in",
+     "img": "images/21.50210_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "20",
+     "hex": "",
+     "c2": "",
+     "ref": "21.50211",
+     "ht": 0.79,
+     "price": 0.86,
+     "stock": "in",
+     "img": "images/21.50211_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
+   "famille": true,
    "cat": "raccords",
-   "name": "Bouchon Palaplast 20",
-   "spec": "",
-   "ref": "21.50211",
-   "ht": 0.79,
-   "price": 0.86,
-   "stock": "in",
-   "img": "images/21.50211_1.jpg",
-   "desc": "Bouchon Palaplast 20 pour fermer les tuyaux et dripline de Ø20mm Bouchon Palaplast 20 utilisé pour fermer un tuyau et/ou dripline de Ø20mm dans une application d'arrosage localisé.",
-   "specs": [
-    [
-     "Marque",
-     "Palaplast"
-    ],
-    [
-     "Type de produit",
-     "Raccords"
-    ],
-    [
-     "Type de raccord",
-     "Palaplast"
-    ],
-    [
-     "Diamètre",
-     "20"
-    ],
-    [
-     "Modèle Raccord",
-     "bouchon"
-    ]
-   ]
-  },
-  {
-   "cat": "raccords",
-   "name": "Bouchon cannelé 16",
-   "spec": "",
-   "ref": "12.29005",
-   "ht": 0.17,
-   "price": 0.18,
-   "stock": "in",
-   "img": "images/12.29005_1.jpg",
-   "desc": "Bouchon cannelé 16 pour fermer les tuyaux et dripline de Ø16mm Bouchon cannelé 16 utilisée pour fermer un tuyau et/ou dripline de Ø16mm dans une application d'arrosage localisé.",
+   "title": "Bouchon cannelé",
+   "desc": "Disponible en 16 et 20.",
    "specs": [
     [
      "Type de produit",
@@ -8668,42 +7399,34 @@ window.CATALOGUE = {
      "Cannelé"
     ],
     [
-     "Diamètre",
-     "16"
-    ],
-    [
      "Modèle Raccord",
      "bouchon"
     ]
-   ]
-  },
-  {
-   "cat": "raccords",
-   "name": "Bouchon cannelé 20",
-   "spec": "",
-   "ref": "12.29010",
-   "ht": 0.21,
-   "price": 0.23,
-   "stock": "in",
-   "img": "images/12.29010_1.jpg",
-   "desc": "Bouchon cannelé 20 pour fermer les tuyaux et dripline de Ø20mm Bouchon cannelé 20 utilisée pour fermer un tuyau et/ou dripline de Ø20mm dans une application d'arrosage localisé.",
-   "specs": [
-    [
-     "Type de produit",
-     "Raccords"
-    ],
-    [
-     "Type de raccord",
-     "Cannelé"
-    ],
-    [
-     "Diamètre",
-     "20"
-    ],
-    [
-     "Modèle Raccord",
-     "bouchon"
-    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "16",
+     "hex": "",
+     "c2": "",
+     "ref": "12.29005",
+     "ht": 0.17,
+     "price": 0.18,
+     "stock": "in",
+     "img": "images/12.29005_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "20",
+     "hex": "",
+     "c2": "",
+     "ref": "12.29010",
+     "ht": 0.21,
+     "price": 0.23,
+     "stock": "in",
+     "img": "images/12.29010_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
@@ -8728,15 +7451,10 @@ window.CATALOGUE = {
    ]
   },
   {
+   "famille": true,
    "cat": "raccords",
-   "name": "Collier de serrage 16mm",
-   "spec": "",
-   "ref": "05.6711",
-   "ht": 0.21,
-   "price": 0.23,
-   "stock": "in",
-   "img": "images/05.6711_1.jpg",
-   "desc": "Collier de serrage de Ø16mm Collier de serrage de 16mm cranté utilisé pour sertir le tuyau sur les raccords cannelés. A utiliser pour assurer un meilleur maintien du tuyau Ø16 (polyéthylène) sur la cannelure des raccords pour un arrosage goutte à goutte.",
+   "title": "Collier de serrage",
+   "desc": "Disponible en 16mm et 20mm. A utiliser pour assurer un meilleur maintien du tuyau Ø16 (polyéthylène) sur la cannelure des raccords pour un arrosage goutte à goutte.",
    "specs": [
     [
      "Type de produit",
@@ -8754,47 +7472,38 @@ window.CATALOGUE = {
      "Modèle Raccord",
      "Vanne"
     ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "16mm",
+     "hex": "",
+     "c2": "",
+     "ref": "05.6711",
+     "ht": 0.21,
+     "price": 0.23,
+     "stock": "in",
+     "img": "images/05.6711_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "20mm",
+     "hex": "",
+     "c2": "",
+     "ref": "05.6712",
+     "ht": 0.38,
+     "price": 0.41,
+     "stock": "in",
+     "img": "images/05.6712_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
+   "famille": true,
    "cat": "raccords",
-   "name": "Collier de serrage 20mm",
-   "spec": "",
-   "ref": "05.6712",
-   "ht": 0.38,
-   "price": 0.41,
-   "stock": "in",
-   "img": "images/05.6712_1.jpg",
-   "desc": "Collier de serrage de Ø20mm Collier de serrage de 20mm cranté utilisé pour sertir le tuyau sur les raccords cannelés. A utiliser pour assurer un meilleur maintien du tuyau Ø20 (polyéthylène) sur la cannelure des raccords pour un arrosage goutte à goutte.",
-   "specs": [
-    [
-     "Type de produit",
-     "Raccords"
-    ],
-    [
-     "Type de raccord",
-     "Cannelé"
-    ],
-    [
-     "Diamètre",
-     "16"
-    ],
-    [
-     "Modèle Raccord",
-     "Vanne"
-    ]
-   ]
-  },
-  {
-   "cat": "raccords",
-   "name": "Coude Palaplast 16x16",
-   "spec": "",
-   "ref": "21.70505",
-   "ht": 1.17,
-   "price": 1.27,
-   "stock": "in",
-   "img": "images/21.70505_1.jpg",
-   "desc": "Coude Palaplast 16x16 pour le raccordement de tuyaux de Ø16mm Coude Palaplast 16x16 utilisé pour raccorder deux tuyaux et/ou dripline de Ø16mm dans une application d'arrosage localisée.",
+   "title": "Coude Palaplast",
+   "desc": "Disponible en 16x16 et 20x20.",
    "specs": [
     [
      "Marque",
@@ -8816,51 +7525,38 @@ window.CATALOGUE = {
      "Modèle Raccord",
      "coude"
     ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "16x16",
+     "hex": "",
+     "c2": "",
+     "ref": "21.70505",
+     "ht": 1.17,
+     "price": 1.27,
+     "stock": "in",
+     "img": "images/21.70505_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "20x20",
+     "hex": "",
+     "c2": "",
+     "ref": "21.70510",
+     "ht": 1.54,
+     "price": 1.67,
+     "stock": "in",
+     "img": "images/21.70510_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
+   "famille": true,
    "cat": "raccords",
-   "name": "Coude Palaplast 20x20",
-   "spec": "",
-   "ref": "21.70510",
-   "ht": 1.54,
-   "price": 1.67,
-   "stock": "in",
-   "img": "images/21.70510_1.jpg",
-   "desc": "Coude Palaplast 20x20 pour le raccordement de tuyaux de Ø20mm Coude Palaplast 20x20 utilisé pour raccorder deux tuyaux et/ou dripline de Ø20mm dans une application d'arrosage localisé.",
-   "specs": [
-    [
-     "Marque",
-     "Palaplast"
-    ],
-    [
-     "Type de produit",
-     "Raccords"
-    ],
-    [
-     "Type de raccord",
-     "Palaplast"
-    ],
-    [
-     "Diamètre",
-     "20"
-    ],
-    [
-     "Modèle Raccord",
-     "coude"
-    ]
-   ]
-  },
-  {
-   "cat": "raccords",
-   "name": "Coude cannelé 16x16",
-   "spec": "",
-   "ref": "12.50050",
-   "ht": 0.29,
-   "price": 0.31,
-   "stock": "in",
-   "img": "images/12.50050_1.jpg",
-   "desc": "Coude cannelé 16x16 pour le raccordement de tuyaux de Ø16mm Coude cannelé 16x16 utilisé pour raccorder deux tuyaux et/ou dripline de Ø16mm dans une application d'arrosage localisé.",
+   "title": "Coude cannelé",
+   "desc": "Disponible en 16x16 et 20x20.",
    "specs": [
     [
      "Type de produit",
@@ -8878,47 +7574,38 @@ window.CATALOGUE = {
      "Modèle Raccord",
      "coude"
     ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "16x16",
+     "hex": "",
+     "c2": "",
+     "ref": "12.50050",
+     "ht": 0.29,
+     "price": 0.31,
+     "stock": "in",
+     "img": "images/12.50050_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "20x20",
+     "hex": "",
+     "c2": "",
+     "ref": "12.50010",
+     "ht": 0.33,
+     "price": 0.36,
+     "stock": "in",
+     "img": "images/12.50010_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
+   "famille": true,
    "cat": "raccords",
-   "name": "Coude cannelé 20x20",
-   "spec": "",
-   "ref": "12.50010",
-   "ht": 0.33,
-   "price": 0.36,
-   "stock": "in",
-   "img": "images/12.50010_1.jpg",
-   "desc": "Coude cannelé 20x20 pour le raccordement de tuyaux de Ø20mm Coude cannelé 20x20 utilisé pour raccorder deux tuyaux et/ou dripline de Ø20mm dans une application d'arrosage localisé.",
-   "specs": [
-    [
-     "Type de produit",
-     "Raccords"
-    ],
-    [
-     "Type de raccord",
-     "Cannelé"
-    ],
-    [
-     "Diamètre",
-     "20"
-    ],
-    [
-     "Modèle Raccord",
-     "coude"
-    ]
-   ]
-  },
-  {
-   "cat": "raccords",
-   "name": "Jonction Palaplast 16x16",
-   "spec": "",
-   "ref": "21.70105",
-   "ht": 0.83,
-   "price": 0.9,
-   "stock": "in",
-   "img": "images/21.70105_1.jpg",
-   "desc": "Jonction Palaplast 16x16 pour le raccordement de tuyaux de Ø16mm Jonction Palaplast 16x16 utilisée pour raccorder deux tuyaux et/ou dripline de Ø16mm dans une application d'arrosage localisé.",
+   "title": "Jonction Palaplast",
+   "desc": "Disponible en 16x16, 20x16 et 20x20.",
    "specs": [
     [
      "Marque",
@@ -8940,84 +7627,49 @@ window.CATALOGUE = {
      "Modèle Raccord",
      "jonction"
     ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "16x16",
+     "hex": "",
+     "c2": "",
+     "ref": "21.70105",
+     "ht": 0.83,
+     "price": 0.9,
+     "stock": "in",
+     "img": "images/21.70105_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "20x16",
+     "hex": "",
+     "c2": "",
+     "ref": "21.71110",
+     "ht": 1.67,
+     "price": 1.81,
+     "stock": "in",
+     "img": "images/21.71110_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "20x20",
+     "hex": "",
+     "c2": "",
+     "ref": "21.70110",
+     "ht": 1.21,
+     "price": 1.31,
+     "stock": "in",
+     "img": "images/21.70110_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
+   "famille": true,
    "cat": "raccords",
-   "name": "Jonction Palaplast 20x16",
-   "spec": "",
-   "ref": "21.71110",
-   "ht": 1.67,
-   "price": 1.81,
-   "stock": "in",
-   "img": "images/21.71110_1.jpg",
-   "desc": "Jonctions Palaplast 20x16 pour le raccordement de tuyaux de Ø16mm et de Ø20mm Jonction Palaplast 20x16 utilisée pour raccorder un tuyaux et/ou dripline de Ø20mm et un de Ø16mm dans une application d'arrosage localisé.",
-   "specs": [
-    [
-     "Marque",
-     "Palaplast"
-    ],
-    [
-     "Type de produit",
-     "Raccords"
-    ],
-    [
-     "Type de raccord",
-     "Palaplast"
-    ],
-    [
-     "Diamètre",
-     "20"
-    ],
-    [
-     "Modèle Raccord",
-     "jonction"
-    ]
-   ]
-  },
-  {
-   "cat": "raccords",
-   "name": "Jonction Palaplast 20x20",
-   "spec": "",
-   "ref": "21.70110",
-   "ht": 1.21,
-   "price": 1.31,
-   "stock": "in",
-   "img": "images/21.70110_1.jpg",
-   "desc": "Jonction Palaplast 20x20 pour le raccordement de tuyaux de Ø20mm Jonction Palaplast 20x20 utilisée pour raccorder deux tuyaux et/ou dripline de Ø20mm dans une application d'arrosage localisé.",
-   "specs": [
-    [
-     "Marque",
-     "Palaplast"
-    ],
-    [
-     "Type de produit",
-     "Raccords"
-    ],
-    [
-     "Type de raccord",
-     "Palaplast"
-    ],
-    [
-     "Diamètre",
-     "20"
-    ],
-    [
-     "Modèle Raccord",
-     "jonction"
-    ]
-   ]
-  },
-  {
-   "cat": "raccords",
-   "name": "Jonction cannelée 16x16",
-   "spec": "",
-   "ref": "12.30050",
-   "ht": 0.1,
-   "price": 0.11,
-   "stock": "in",
-   "img": "images/12.30050_1.jpg",
-   "desc": "Jonction cannelée 16 pour le raccordement de tuyaux de Ø16mm Jonction cannelée 16 utilisée pour raccorder deux tuyaux et/ou dripline de Ø16mm dans une application d'arrosage localisé.",
+   "title": "Jonction cannelée",
+   "desc": "Disponible en 16x16, 20x16 et 20x20. Jonction cannelée 16 pour le raccordement de tuyaux de Ø16mm Jonction cannelée 16 utilisée pour raccorder deux tuyaux et/ou dripline de Ø16mm dans une application d'arrosage localisé.",
    "specs": [
     [
      "Type de produit",
@@ -9035,76 +7687,49 @@ window.CATALOGUE = {
      "Modèle Raccord",
      "jonction"
     ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "16x16",
+     "hex": "",
+     "c2": "",
+     "ref": "12.30050",
+     "ht": 0.1,
+     "price": 0.11,
+     "stock": "in",
+     "img": "images/12.30050_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "20x16",
+     "hex": "",
+     "c2": "",
+     "ref": "12.31100",
+     "ht": 0.21,
+     "price": 0.23,
+     "stock": "in",
+     "img": "images/12.31100_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "20x20",
+     "hex": "",
+     "c2": "",
+     "ref": "12.30010",
+     "ht": 0.1,
+     "price": 0.11,
+     "stock": "in",
+     "img": "images/12.30010_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
+   "famille": true,
    "cat": "raccords",
-   "name": "Jonction cannelée 20x16",
-   "spec": "",
-   "ref": "12.31100",
-   "ht": 0.21,
-   "price": 0.23,
-   "stock": "in",
-   "img": "images/12.31100_1.jpg",
-   "desc": "Jonction cannelée 20x16 pour le raccordement de tuyaux de Ø16mm et de Ø20mm Jonction cannelée 20x16 utilisée pour raccorder un tuyau et/ou dripline de Ø16mm et un de 20mm, dans une application d'arrosage localisé.",
-   "specs": [
-    [
-     "Type de produit",
-     "Raccords"
-    ],
-    [
-     "Type de raccord",
-     "Cannelé"
-    ],
-    [
-     "Diamètre",
-     "20"
-    ],
-    [
-     "Modèle Raccord",
-     "jonction"
-    ]
-   ]
-  },
-  {
-   "cat": "raccords",
-   "name": "Jonction cannelée 20x20",
-   "spec": "",
-   "ref": "12.30010",
-   "ht": 0.1,
-   "price": 0.11,
-   "stock": "in",
-   "img": "images/12.30010_1.jpg",
-   "desc": "Jonction cannelée 20x20 pour le raccordement de tuyaux de Ø20mm Jonction cannelée 20x20 utilisée pour raccorder deux tuyaux et/ou dripline de Ø20mm dans une application d'arrosage localisé.",
-   "specs": [
-    [
-     "Type de produit",
-     "Raccords"
-    ],
-    [
-     "Type de raccord",
-     "Cannelé"
-    ],
-    [
-     "Diamètre",
-     "20"
-    ],
-    [
-     "Modèle Raccord",
-     "jonction"
-    ]
-   ]
-  },
-  {
-   "cat": "raccords",
-   "name": "Raccord Palaplast 16 F 3/4\"",
-   "spec": "",
-   "ref": "21.47568544",
-   "ht": 1.5,
-   "price": 1.63,
-   "stock": "in",
-   "img": "images/21.47568544_1.jpg",
-   "desc": "Raccord Palaplast 16 taraudé 3/4\" Ce raccord à bague LOCK vous permet de raccorder facilement et de manière sécurisée votre tuyau de 16 mm à un élément fileté 3/4\". Son système de serrage extérieur de type Lock assure un montage rapide et fiable, sans nécessiter de collier supplémentaire. Démontable à volonté, cet embout cannelé taraudé avec écrou tournant est idéal pour vos installations d'arrosage dans les parcs et jardins. Fabriqué en polypropylène robuste, il garantit une excellente durabilité.",
+   "title": "Raccord Palaplast F 3/4\"",
+   "desc": "Disponible en 16 et 20. Son système de serrage extérieur de type Lock assure un montage rapide et fiable, sans nécessiter de collier supplémentaire. Démontable à volonté, cet embout cannelé taraudé avec écrou tournant est idéal pour vos installations d'arrosage dans les parcs et jardins. Fabriqué en polypropylène robuste, il garantit une excellente durabilité.",
    "specs": [
     [
      "Marque",
@@ -9113,23 +7738,39 @@ window.CATALOGUE = {
     [
      "Type de produit",
      "Raccords"
-    ],
-    [
-     "Diamètre",
-     "20"
     ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "16",
+     "hex": "",
+     "c2": "",
+     "ref": "21.47568544",
+     "ht": 1.5,
+     "price": 1.63,
+     "stock": "in",
+     "img": "images/21.47568544_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "20",
+     "hex": "",
+     "c2": "",
+     "ref": "21.47568552",
+     "ht": 1.33,
+     "price": 1.44,
+     "stock": "in",
+     "img": "images/21.47568552_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
+   "famille": true,
    "cat": "raccords",
-   "name": "Raccord Palaplast 16 M 3/4''",
-   "spec": "",
-   "ref": "21.6352",
-   "ht": 0.75,
-   "price": 0.81,
-   "stock": "in",
-   "img": "images/21.6352_1.jpg",
-   "desc": "Embout mâle Palaplast 16 ¾'' Raccord Palaplast utilisé pour raccorder deux tuyaux et/ou dripline de Ø16mm dans une application d'arrosage localisée.",
+   "title": "Raccord Palaplast",
+   "desc": "Disponible en 16 M ½'', 16 M 3/4'', 20 M ½'' et 20 M 3/4''. Embout mâle Palaplast 16 ½'' Utilisé pour raccorder deux tuyaux et/ou dripline de Ø16mm dans une application d'arrosage localisée.",
    "specs": [
     [
      "Marque",
@@ -9151,130 +7792,53 @@ window.CATALOGUE = {
      "Modèle Raccord",
      "raccord"
     ]
-   ]
-  },
-  {
-   "cat": "raccords",
-   "name": "Raccord Palaplast 16 M ½''",
-   "spec": "",
-   "ref": "21.70205",
-   "ht": 0.88,
-   "price": 0.95,
-   "stock": "in",
-   "img": "images/21.70205_1.jpg",
-   "desc": "Embout mâle Palaplast 16 ½'' Utilisé pour raccorder deux tuyaux et/ou dripline de Ø16mm dans une application d'arrosage localisée.",
-   "specs": [
-    [
-     "Marque",
-     "Palaplast"
-    ],
-    [
-     "Type de produit",
-     "Raccords"
-    ],
-    [
-     "Type de raccord",
-     "Palaplast"
-    ],
-    [
-     "Diamètre",
-     "16"
-    ],
-    [
-     "Modèle Raccord",
-     "raccord"
-    ]
-   ]
-  },
-  {
-   "cat": "raccords",
-   "name": "Raccord Palaplast 20 F 3/4\"",
-   "spec": "",
-   "ref": "21.47568552",
-   "ht": 1.33,
-   "price": 1.44,
-   "stock": "in",
-   "img": "images/21.47568552_1.jpg",
-   "desc": "Raccord Palaplast 20 taraudé 3/4\" Ce raccord à bague LOCK vous permet de raccorder facilement et de manière sécurisée votre tuyau de 20 mm à un élément fileté 3/4\". Son système de serrage extérieur de type Lock assure un montage rapide et fiable, sans nécessiter de collier supplémentaire. Démontable à volonté, cet embout cannelé taraudé avec écrou tournant est idéal pour vos installations d'arrosage dans les parcs et jardins. Fabriqué en polypropylène robuste, il garantit une excellente durabilité.",
-   "specs": [
-    [
-     "Marque",
-     "Palaplast"
-    ],
-    [
-     "Type de produit",
-     "Raccords"
-    ],
-    [
-     "Diamètre",
-     "20"
-    ]
-   ]
-  },
-  {
-   "cat": "raccords",
-   "name": "Raccord Palaplast 20 M 3/4''",
-   "spec": "",
-   "ref": "21.6354",
-   "ht": 0.96,
-   "price": 1.04,
-   "stock": "in",
-   "img": "images/21.6354_1.jpg",
-   "desc": "Embout mâle Palaplast 20 ¾'' Raccord Palaplast utilisé pour raccorder deux tuyaux et/ou dripline de Ø16mm dans une application d'arrosage localisée.",
-   "specs": [
-    [
-     "Marque",
-     "Palaplast"
-    ],
-    [
-     "Type de produit",
-     "Raccords"
-    ],
-    [
-     "Type de raccord",
-     "Palaplast"
-    ],
-    [
-     "Diamètre",
-     "20"
-    ],
-    [
-     "Modèle Raccord",
-     "raccord"
-    ]
-   ]
-  },
-  {
-   "cat": "raccords",
-   "name": "Raccord Palaplast 20 M ½''",
-   "spec": "",
-   "ref": "21.70210",
-   "ht": 0.96,
-   "price": 1.04,
-   "stock": "in",
-   "img": "images/21.70210_1.jpg",
-   "desc": "Embout mâle Palaplast 20 ½'' Utilisé pour raccorder deux tuyaux et/ou dripline de Ø16mm dans une application d'arrosage localisée.",
-   "specs": [
-    [
-     "Marque",
-     "Palaplast"
-    ],
-    [
-     "Type de produit",
-     "Raccords"
-    ],
-    [
-     "Type de raccord",
-     "Palaplast"
-    ],
-    [
-     "Diamètre",
-     "20"
-    ],
-    [
-     "Modèle Raccord",
-     "raccord"
-    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "16 M ½''",
+     "hex": "",
+     "c2": "",
+     "ref": "21.70205",
+     "ht": 0.88,
+     "price": 0.95,
+     "stock": "in",
+     "img": "images/21.70205_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "16 M 3/4''",
+     "hex": "",
+     "c2": "",
+     "ref": "21.6352",
+     "ht": 0.75,
+     "price": 0.81,
+     "stock": "in",
+     "img": "images/21.6352_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "20 M ½''",
+     "hex": "",
+     "c2": "",
+     "ref": "21.70210",
+     "ht": 0.96,
+     "price": 1.04,
+     "stock": "in",
+     "img": "images/21.70210_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "20 M 3/4''",
+     "hex": "",
+     "c2": "",
+     "ref": "21.6354",
+     "ht": 0.96,
+     "price": 1.04,
+     "stock": "in",
+     "img": "images/21.6354_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
@@ -9362,15 +7926,10 @@ window.CATALOGUE = {
    ]
   },
   {
+   "famille": true,
    "cat": "raccords",
-   "name": "Té Palaplast 16x16x16",
-   "spec": "",
-   "ref": "21.70405",
-   "ht": 1.54,
-   "price": 1.67,
-   "stock": "in",
-   "img": "images/21.70405_1.jpg",
-   "desc": "Raccord Té Palaplast 16x16x16 pour le raccordement de tuyaux de Ø16mm Té Palaplast 16x16x16 utilisé pour raccorder trois tuyaux et/ou dripline de Ø16mm dans une application d'arrosage localisé.",
+   "title": "Té Palaplast",
+   "desc": "Disponible en 16x16x16, 20x16x20 et 20x20x20.",
    "specs": [
     [
      "Marque",
@@ -9392,72 +7951,42 @@ window.CATALOGUE = {
      "Modèle Raccord",
      "té"
     ]
-   ]
-  },
-  {
-   "cat": "raccords",
-   "name": "Té Palaplast 20x16x20",
-   "spec": "",
-   "ref": "21.71410",
-   "ht": 2.67,
-   "price": 2.9,
-   "stock": "in",
-   "img": "images/21.71410_1.jpg",
-   "desc": "Té Palaplast 20x16x20 pour raccorder deux tuyaux de Ø20mm et un de Ø16mm Té Palaplast 20x16x20 utilisé pour raccorder deux tuyaux et/ou dripline de Ø20mm et un de Ø16mm dans une application d'arrosage localisé.",
-   "specs": [
-    [
-     "Marque",
-     "Palaplast"
-    ],
-    [
-     "Type de produit",
-     "Raccords"
-    ],
-    [
-     "Type de raccord",
-     "Palaplast"
-    ],
-    [
-     "Diamètre",
-     "20"
-    ],
-    [
-     "Modèle Raccord",
-     "té"
-    ]
-   ]
-  },
-  {
-   "cat": "raccords",
-   "name": "Té Palaplast 20x20x20",
-   "spec": "",
-   "ref": "21.70410",
-   "ht": 2,
-   "price": 2.17,
-   "stock": "in",
-   "img": "images/21.70410_1.jpg",
-   "desc": "Té Palaplast 20x20x20 pour le raccordement de tuyaux de Ø20mm Té Palaplast 20x20x20 utilisé pour raccorder trois tuyaux et/ou dripline de Ø20mm dans une application d'arrosage localisé.",
-   "specs": [
-    [
-     "Marque",
-     "Palaplast"
-    ],
-    [
-     "Type de produit",
-     "Raccords"
-    ],
-    [
-     "Type de raccord",
-     "Palaplast"
-    ],
-    [
-     "Diamètre",
-     "20"
-    ],
-    [
-     "Modèle Raccord",
-     "té"
-    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "16x16x16",
+     "hex": "",
+     "c2": "",
+     "ref": "21.70405",
+     "ht": 1.54,
+     "price": 1.67,
+     "stock": "in",
+     "img": "images/21.70405_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "20x16x20",
+     "hex": "",
+     "c2": "",
+     "ref": "21.71410",
+     "ht": 2.67,
+     "price": 2.9,
+     "stock": "in",
+     "img": "images/21.71410_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "20x20x20",
+     "hex": "",
+     "c2": "",
+     "ref": "21.70410",
+     "ht": 2,
+     "price": 2.17,
+     "stock": "in",
+     "img": "images/21.70410_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
@@ -9486,15 +8015,10 @@ window.CATALOGUE = {
    ]
   },
   {
+   "famille": true,
    "cat": "raccords",
-   "name": "Té cannelé 16x16x16",
-   "spec": "",
-   "ref": "12.40050",
-   "ht": 0.29,
-   "price": 0.31,
-   "stock": "in",
-   "img": "images/12.40050_1.jpg",
-   "desc": "Té cannelé 16x16x16 pour raccorder 3 tuyaux de Ø16mm Té cannelé 16x16x16 utilisé pour raccorder trois tuyaux et/ou dripline de Ø16mm dans une application d'arrosage localisé.",
+   "title": "Té cannelé",
+   "desc": "Disponible en 16x16x16, 20x16x20 et 20x20x20.",
    "specs": [
     [
      "Type de produit",
@@ -9512,18 +8036,49 @@ window.CATALOGUE = {
      "Modèle Raccord",
      "té"
     ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "16x16x16",
+     "hex": "",
+     "c2": "",
+     "ref": "12.40050",
+     "ht": 0.29,
+     "price": 0.31,
+     "stock": "in",
+     "img": "images/12.40050_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "20x16x20",
+     "hex": "",
+     "c2": "",
+     "ref": "12.41100",
+     "ht": 0.42,
+     "price": 0.46,
+     "stock": "in",
+     "img": "images/12.41100_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "20x20x20",
+     "hex": "",
+     "c2": "",
+     "ref": "12.31101",
+     "ht": 0.33,
+     "price": 0.36,
+     "stock": "in",
+     "img": "images/12.31101_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
+   "famille": true,
    "cat": "raccords",
-   "name": "Té cannelé 20x16x20",
-   "spec": "",
-   "ref": "12.41100",
-   "ht": 0.42,
-   "price": 0.46,
-   "stock": "in",
-   "img": "images/12.41100_1.jpg",
-   "desc": "Té cannelé 20x16x20 pour raccorder deux tuyaux et/ou dripline de Ø20mm et un de Ø16mm Té cannelé 20x16x20 utilisé pour raccorder deux tuyaux et/ou dripline de Ø20mm et un de Ø16mm dans une application d'arrosage localisé.",
+   "title": "Vanne cannelée",
+   "desc": "Disponible en 16 et 20.",
    "specs": [
     [
      "Type de produit",
@@ -9532,114 +8087,43 @@ window.CATALOGUE = {
     [
      "Type de raccord",
      "Cannelé"
-    ],
-    [
-     "Diamètre",
-     "20"
-    ],
-    [
-     "Modèle Raccord",
-     "té"
-    ]
-   ]
-  },
-  {
-   "cat": "raccords",
-   "name": "Té cannelé 20x20x20",
-   "spec": "",
-   "ref": "12.31101",
-   "ht": 0.33,
-   "price": 0.36,
-   "stock": "in",
-   "img": "images/12.31101_1.jpg",
-   "desc": "Té cannelé 20x20x20 pour raccorder 3 tuyaux de Ø20mm Té cannelé 20x20x20 utilisé pour raccorder trois tuyaux et/ou dripline de Ø20mm dans une application d'arrosage localisé.",
-   "specs": [
-    [
-     "Type de produit",
-     "Raccords"
-    ],
-    [
-     "Type de raccord",
-     "Cannelé"
-    ],
-    [
-     "Diamètre",
-     "20"
-    ],
-    [
-     "Modèle Raccord",
-     "té"
-    ]
-   ]
-  },
-  {
-   "cat": "raccords",
-   "name": "Vanne cannelée 16",
-   "spec": "",
-   "ref": "21.13005",
-   "ht": 1.21,
-   "price": 1.31,
-   "stock": "in",
-   "img": "images/21.13005_1.jpg",
-   "desc": "Vanne cannelée 16 pour le raccordement de tuyaux de Ø16mm Vanne cannelée 16 utilisée pour raccorder tuyaux et dripline de Ø16mm dans une application d' arrosage localisé.",
-   "specs": [
-    [
-     "Type de produit",
-     "Raccords"
-    ],
-    [
-     "Type de raccord",
-     "Cannelé"
-    ],
-    [
-     "Diamètre",
-     "16"
     ],
     [
      "Modèle Raccord",
      "Vanne"
     ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "16",
+     "hex": "",
+     "c2": "",
+     "ref": "21.13005",
+     "ht": 1.21,
+     "price": 1.31,
+     "stock": "in",
+     "img": "images/21.13005_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "20",
+     "hex": "",
+     "c2": "",
+     "ref": "21.13010",
+     "ht": 1.33,
+     "price": 1.44,
+     "stock": "in",
+     "img": "images/21.13010_1.jpg",
+     "pieces": 0
+    }
    ]
   },
   {
+   "famille": true,
    "cat": "raccords",
-   "name": "Vanne cannelée 20",
-   "spec": "",
-   "ref": "21.13010",
-   "ht": 1.33,
-   "price": 1.44,
-   "stock": "in",
-   "img": "images/21.13010_1.jpg",
-   "desc": "Vanne cannelée 20 pour le raccordement de tuyaux de Ø20mm Vanne cannelée 20 utilisée pour raccorder tuyaux et dripline de Ø20mm dans une application d' arrosage localisé.",
-   "specs": [
-    [
-     "Type de produit",
-     "Raccords"
-    ],
-    [
-     "Type de raccord",
-     "Cannelé"
-    ],
-    [
-     "Diamètre",
-     "20"
-    ],
-    [
-     "Modèle Raccord",
-     "Vanne"
-    ]
-   ]
-  },
-  {
-   "cat": "raccords",
-   "name": "vanne palaplast 16x16",
-   "spec": "",
-   "ref": "21.6631",
-   "ht": 2.42,
-   "price": 2.63,
-   "stock": "in",
-   "img": "images/21.6631_1.jpg",
-   "desc": "vanne palaplast 16x16 Vannette palaplast utilisée pour raccorder deux tuyaux et/ou goutteurs dripline de Ø16mm dans une application d'arrosage localisé.",
+   "title": "Vanne palaplast",
+   "desc": "Disponible en 16x16 et 20x20.",
    "specs": [
     [
      "Marque",
@@ -9661,39 +8145,31 @@ window.CATALOGUE = {
      "Modèle Raccord",
      "Vanne"
     ]
-   ]
-  },
-  {
-   "cat": "raccords",
-   "name": "vanne palaplast 20x20",
-   "spec": "",
-   "ref": "21.6632",
-   "ht": 2.42,
-   "price": 2.63,
-   "stock": "in",
-   "img": "images/21.6632_1.jpg",
-   "desc": "Vanne palaplast 20x20 Vannette palaplast utilisée pour raccorder deux tuyaux et/ou goutteurs dripline de Ø20mm dans une application d'arrosage localisé.",
-   "specs": [
-    [
-     "Marque",
-     "Palaplast"
-    ],
-    [
-     "Type de produit",
-     "Raccords"
-    ],
-    [
-     "Type de raccord",
-     "Palaplast"
-    ],
-    [
-     "Diamètre",
-     "20"
-    ],
-    [
-     "Modèle Raccord",
-     "Vanne"
-    ]
+   ],
+   "points": [],
+   "variantes": [
+    {
+     "c1": "16x16",
+     "hex": "",
+     "c2": "",
+     "ref": "21.6631",
+     "ht": 2.42,
+     "price": 2.63,
+     "stock": "in",
+     "img": "images/21.6631_1.jpg",
+     "pieces": 0
+    },
+    {
+     "c1": "20x20",
+     "hex": "",
+     "c2": "",
+     "ref": "21.6632",
+     "ht": 2.42,
+     "price": 2.63,
+     "stock": "in",
+     "img": "images/21.6632_1.jpg",
+     "pieces": 0
+    }
    ]
   }
  ]
