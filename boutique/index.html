@@ -614,7 +614,7 @@ h1, h2, h3, p { margin: 0; }
   function card(p) {
     var c = CAT[p.cat];
     return '<article class="card"><button class="open" type="button" data-open="' + p.id + '" aria-label="' + esc('Voir ' + p.name + ', ' + p.spec) + '">' +
-      '<span class="tile">' + (p.img ? '<img class="pimg" src="' + p.img + '" alt="">' : ic(c.icon, 30, 1.4)) + '</span>' +
+      '<span class="tile">' + (p.img ? '<img class="pimg" src="' + p.img + '" alt="" loading="lazy" decoding="async">' : ic(c.icon, 30, 1.4)) + '</span>' +
       '<span class="meta"><span class="kicker">' + esc(c.label) + '</span><span class="name">' + esc(p.name) + '</span><span class="spec">' + esc(p.spec) + '</span></span></button>' +
       '<div class="buy">' + (p.unit ? '<span class="price pfrom"><span>' + eur.format(p.price) + '</span><small class="from">' + (p.lot ? 'dès, le lot' : 'à partir de') + '</small></span>' : '<span class="price">' + eur.format(p.price) + '</span>') +
       '<button class="add" type="button" data-add="' + p.id + '" aria-label="' + esc('Ajouter au panier : ' + p.name + ', ' + p.spec) + '">' + ic('plus', 16, 2) + '</button></div></article>';
@@ -748,6 +748,8 @@ h1, h2, h3, p { margin: 0; }
 
   /* Carrousel de rubriques */
   var RUBS = [
+    ['vannes', 'Rain Bird, Hunter, Toro en 9V et 24V', 'images/02.PGA19_1.jpg'],
+    ['arroseurs', 'Turbines et tuyères Rain Bird, Hunter', 'images/04.2171_1.jpg'],
     ['goutte', 'Goutteurs NESTOS de 2 à 16 L/h', 'images/nestos-4lh-vert-sachet.jpg'],
     ['programmateurs', 'Orbit Buddy et Tap Timer', 'images/orbit-buddy-1.jpg'],
     ['raccords', 'Raccords automatiques Claber Quick-Click', 'images/claber-raccord-aquastop.jpg']
