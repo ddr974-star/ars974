@@ -2,3 +2,4 @@
 catalogue/node_modules/
 catalogue/~$*.xlsx
 catalogue/.~lock.*
+scraping/sortie/*.zip
