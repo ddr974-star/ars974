@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Programmateur Bluetooth SOLEM BL-IP – ARS974</title>
+<meta name="description" content="Programmateur d'arrosage Bluetooth à pile 9V SOLEM BL-IP, étanche IP68, pour électrovannes 9V à impulsion. 1, 2, 4 ou 6 stations. Jusqu'à 5 ans d'autonomie.">
+<style>
+  :root {
+    --vert: #4c9a2a;
+    --vert-fonce: #2f6b17;
+    --vert-clair: #eaf4e4;
+    --texte: #1d241c;
+    --gris: #5f685f;
+    --fond: #ffffff;
+    --fond-alt: #f4f6f3;
+    --bordure: #dfe4de;
+    color-scheme: light;
+  }
+  * { box-sizing: border-box; }
+  html, body { background: var(--fond); }
+  body { margin: 0; font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 16px; color: var(--texte); line-height: 1.55; }
+  a { color: inherit; text-decoration: none; }
+  img { max-width: 100%; height: auto; }
+  .conteneur { max-width: 1180px; margin: 0 auto; padding: 0 16px; }
+
+  /* Bandeau + en-tête */
+  .bandeau { background: var(--vert-fonce); color: #fff; font-size: .875rem; text-align: center; padding: 8px 16px; }
+  header { border-bottom: 1px solid var(--bordure); }
+  .entete { display: flex; align-items: center; gap: 24px; padding: 16px; }
+  .logo { font-weight: 800; font-size: 1.6rem; letter-spacing: -.02em; }
+  .logo span { color: var(--vert); }
+  .recherche { flex: 1; display: flex; border: 2px solid var(--vert); border-radius: 999px; overflow: hidden; }
+  .recherche input { flex: 1; border: 0; padding: 10px 16px; font: inherit; outline: none; min-width: 0; }
+  .recherche button { border: 0; background: var(--vert); color: #fff; padding: 0 20px; font: inherit; font-weight: 600; min-height: 44px; }
+  .actions { display: flex; gap: 24px; font-size: .85rem; color: var(--gris); }
+  .actions div { display: flex; flex-direction: column; align-items: center; }
+  .actions svg { width: 24px; height: 24px; stroke: var(--texte); }
+  .panier { position: relative; }
+  .panier b { position: absolute; top: -6px; right: -4px; background: var(--vert); color: #fff; font-size: .7rem; border-radius: 999px; padding: 0 6px; }
+  nav.menu { display: flex; gap: 24px; padding: 0 16px 8px; font-weight: 600; font-size: .95rem; overflow-x: auto; white-space: nowrap; }
+  nav.menu a { padding: 8px 0; }
+  nav.menu a.actif { color: var(--vert); border-bottom: 2px solid var(--vert); }
+
+  .ariane { font-size: .875rem; color: var(--gris); padding: 16px 0 24px; }
+
+  /* Produit */
+  .produit { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: 48px; align-items: start; }
+  .principale { position: relative; border: 1px solid var(--bordure); border-radius: 12px; overflow: hidden; background: #fff; aspect-ratio: 1 / 1; }
+  .principale img { display: block; width: 100%; height: 100%; object-fit: contain; }
+  .badges { position: absolute; top: 16px; left: 16px; display: flex; flex-wrap: wrap; gap: 8px; }
+  .badge { background: var(--vert); color: #fff; font-size: .8rem; font-weight: 700; padding: 4px 12px; border-radius: 999px; }
+  .badge.bleu { background: #1565c0; }
+
+  .icones { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 16px; }
+  .icones div { background: var(--fond-alt); border-radius: 10px; padding: 12px 8px; text-align: center; font-size: .8rem; color: var(--gris); }
+  .icones strong { display: block; font-size: 1.05rem; color: var(--texte); }
+
+  .marque { color: var(--vert); font-weight: 700; font-size: .875rem; text-transform: uppercase; letter-spacing: .06em; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 8px 0; }
+  .ref { font-size: .9rem; color: var(--gris); }
+  .ref code { font-family: Consolas, monospace; color: var(--texte); }
+  .resume { margin: 16px 0 24px; }
+
+  .prix { display: flex; align-items: baseline; flex-wrap: wrap; gap: 8px 16px; margin: 0 0 4px; }
+  .prix .montant { font-size: 2.2rem; font-weight: 800; }
+  .prix .ttc { font-size: .95rem; font-weight: 600; }
+  .sous-prix { font-size: .9rem; color: var(--gris); margin-bottom: 8px; }
+  .stock { display: inline-flex; align-items: center; gap: 8px; font-size: .9rem; font-weight: 600; color: var(--vert-fonce); }
+  .stock::before { content: ""; width: 10px; height: 10px; border-radius: 50%; background: var(--vert); }
+
+  .option { margin: 24px 0; }
+  .option > p { margin: 0 0 8px; font-weight: 600; }
+  .option > p span { font-weight: 400; color: var(--gris); }
+  .choix { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+  .choix button {
+    border: 2px solid var(--bordure); background: #fff; border-radius: 8px; padding: 8px 4px; min-height: 56px;
+    font: inherit; cursor: pointer; display: flex; flex-direction: column; align-items: center; justify-content: center; line-height: 1.2;
+  }
+  .choix button b { font-size: 1.1rem; }
+  .choix button small { font-size: .75rem; color: var(--gris); }
+  .choix button.actif { border-color: var(--vert); background: var(--vert-clair); }
+
+  .achat { display: flex; gap: 16px; margin: 24px 0 16px; }
+  .quantite { display: flex; border: 2px solid var(--bordure); border-radius: 8px; }
+  .quantite button { width: 44px; min-height: 48px; border: 0; background: none; font-size: 1.2rem; cursor: pointer; }
+  .quantite input { width: 48px; border: 0; text-align: center; font: inherit; font-weight: 600; }
+  .ajouter { flex: 1; border: 0; border-radius: 8px; background: var(--vert); color: #fff; font: inherit; font-weight: 700; font-size: 1.05rem; padding: 14px; cursor: pointer; min-height: 52px; }
+  .ajouter:hover { background: var(--vert-fonce); }
+
+  .reassurance { list-style: none; padding: 16px; margin: 0; background: var(--fond-alt); border-radius: 10px; display: grid; gap: 8px; font-size: .95rem; }
+  .reassurance li::before { content: "✔"; color: var(--vert); font-weight: 700; margin-right: 8px; }
+
+  /* Atouts */
+  h2 { font-size: 1.4rem; margin: 0 0 24px; }
+  .atouts { margin: 64px 0 0; }
+  .grille-atouts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .atout { border: 1px solid var(--bordure); border-radius: 12px; padding: 24px; }
+  .atout svg { width: 32px; height: 32px; stroke: var(--vert); margin-bottom: 8px; }
+  .atout h3 { font-size: 1.05rem; margin: 0 0 8px; }
+  .atout p { margin: 0; color: var(--gris); font-size: .95rem; }
+
+  /* Onglets */
+  .onglets { margin: 64px 0; }
+  .onglets-tetes { display: flex; gap: 4px; border-bottom: 2px solid var(--bordure); overflow-x: auto; }
+  .onglets-tetes button { border: 0; background: none; font: inherit; font-weight: 600; padding: 12px 20px; min-height: 48px; cursor: pointer; color: var(--gris); border-bottom: 3px solid transparent; margin-bottom: -2px; white-space: nowrap; }
+  .onglets-tetes button.actif { color: var(--vert); border-bottom-color: var(--vert); }
+  .panneau { padding: 24px 0; display: none; }
+  .panneau.actif { display: block; }
+  .panneau ul, .panneau ol { padding-left: 20px; }
+  .panneau li { margin-bottom: 8px; }
+  dl.specs { display: grid; grid-template-columns: max-content 1fr; margin: 0 0 24px; max-width: 680px; }
+  dl.specs dt, dl.specs dd { padding: 10px 16px; border-bottom: 1px solid var(--bordure); margin: 0; }
+  dl.specs dt { color: var(--gris); background: var(--fond-alt); }
+  dl.specs dd { font-weight: 600; }
+  h3.groupe { font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; color: var(--vert-fonce); margin: 0 0 8px; }
+  .encart { background: var(--vert-clair); border-left: 4px solid var(--vert); padding: 16px; border-radius: 0 8px 8px 0; max-width: 680px; }
+  .table-scroll { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: .95rem; }
+  th, td { padding: 12px; text-align: left; border-bottom: 1px solid var(--bordure); }
+  th { background: var(--fond-alt); font-size: .78rem; text-transform: uppercase; color: var(--gris); }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  td code { font-family: Consolas, monospace; }
+  .note { font-size: .85rem; color: var(--gris); }
+
+  footer { background: var(--texte); color: #cfd6ce; font-size: .875rem; padding: 32px 0; }
+
+  @media (max-width: 860px) {
+    .produit { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+    .grille-atouts { grid-template-columns: 1fr 1fr; }
+    .actions div span { display: none; }
+    .entete { gap: 16px; flex-wrap: wrap; }
+    .recherche { order: 3; flex-basis: 100%; }
+    .actions { margin-left: auto; }
+  }
+  @media (max-width: 480px) {
+    h1 { font-size: 1.5rem; }
+    .prix .montant { font-size: 1.9rem; }
+    .grille-atouts { grid-template-columns: 1fr; }
+    .icones { grid-template-columns: 1fr 1fr; }
+    .achat { flex-direction: column; }
+    .quantite { align-self: flex-start; }
+    dl.specs { grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); }
+  }
+</style>
+</head>
+<body>
+<div class="bandeau">Retrait en magasin · Conseils d'experts en arrosage</div>
+<header>
+  <div class="conteneur">
+    <div class="entete">
+      <a class="logo" href="#">ARS<span>974</span></a>
+      <form class="recherche" onsubmit="return false">
+        <input type="search" placeholder="Rechercher un produit, une référence…" aria-label="Recherche">
+        <button>Rechercher</button>
+      </form>
+      <div class="actions">
+        <div><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg><span>Mon compte</span></div>
+        <div class="panier"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M3 4h2l2.5 11h11L21 7H6.2"/><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/></svg><b id="nb-panier">0</b><span>Panier</span></div>
+      </div>
+    </div>
+    <nav class="menu">
+      <a href="#">Arrosage goutte à goutte</a>
+      <a href="#">Tuyaux &amp; raccords</a>
+      <a href="#" class="actif">Programmateurs</a>
+      <a href="#">Pompes</a>
+      <a href="#">Filtration</a>
+      <a href="#">Outillage</a>
+    </nav>
+  </div>
+</header>
+
+<main class="conteneur">
+  <div class="ariane"><a href="#">Accueil</a> › <a href="#">Programmateurs</a> › <a href="#">Programmateurs à piles 9V</a> › SOLEM BL-IP</div>
+
+  <section class="produit">
+    <div>
+      <div class="principale">
+        <div class="badges"><span class="badge">Étanche IP68</span><span class="badge bleu">Bluetooth</span></div>
+        <img src="../images/solem-bl-ip.jpg" alt="Programmateur SOLEM BL-IP" width="800" height="800">
+      </div>
+      <div class="icones">
+        <div><strong>9V</strong>pile alcaline</div>
+        <div><strong>5 ans</strong>d'autonomie max.</div>
+        <div><strong>IP68</strong>étanche</div>
+        <div><strong>3 ans</strong>de garantie</div>
+      </div>
+    </div>
+
+    <div>
+      <div class="marque">SOLEM</div>
+      <h1>Programmateur d'arrosage Bluetooth à pile BL-IP</h1>
+      <div class="ref">Réf. <code id="ref">702SOBLIP1N</code></div>
+
+      <p class="resume">Programmateur étanche à pile 9V, pensé pour les installations enterrées : il pilote vos électrovannes 9V depuis votre smartphone, sans ouvrir le regard.</p>
+
+      <div class="prix"><span class="montant" id="prix-ttc">122,02 €</span><span class="ttc">TTC</span></div>
+      <div class="sous-prix" id="prix-ht">112,46 € HT</div>
+      <div class="stock">En stock</div>
+
+      <div class="option">
+        <p>Nombre de stations : <span id="stations-libelle">1 station</span></p>
+        <div class="choix" id="choix-stations"></div>
+      </div>
+
+      <div class="achat">
+        <div class="quantite">
+          <button type="button" id="moins" aria-label="Diminuer">−</button>
+          <input id="qte" value="1" inputmode="numeric" aria-label="Quantité">
+          <button type="button" id="plus" aria-label="Augmenter">+</button>
+        </div>
+        <button class="ajouter" id="ajouter">Ajouter au panier</button>
+      </div>
+
+      <ul class="reassurance">
+        <li>Programmation depuis l'app MySOLEM (iOS et Android)</li>
+        <li>Pour électrovannes 9V à solénoïde à impulsion</li>
+        <li>Conseil et aide à la programmation en magasin</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="atouts">
+    <h2>Pourquoi choisir le BL-IP</h2>
+    <div class="grille-atouts">
+      <div class="atout">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><rect x="2" y="7" width="18" height="10" rx="2"/><path d="M22 11v2M6 11v2M10 11v2"/></svg>
+        <h3>Jusqu'à 5 ans d'autonomie</h3>
+        <p>L'Eco Mode, à activer en hiver comme en saison, prolonge la durée de vie de la pile 9V.</p>
+      </div>
+      <div class="atout">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg>
+        <h3>Robuste et étanche</h3>
+        <p>Classé IP68 : il résiste à l'eau et à la poussière, même au fond d'un regard inondé.</p>
+      </div>
+      <div class="atout">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg>
+        <h3>Installation en quelques minutes</h3>
+        <p>Approchez le téléphone (NFC), c'est connecté. On programme ensuite en Bluetooth jusqu'à 10 m.</p>
+      </div>
+      <div class="atout">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M12 3c3 4 6 7 6 11a6 6 0 0 1-12 0c0-4 3-7 6-11z"/></svg>
+        <h3>Suivi de la consommation</h3>
+        <p>Raccordé à un compteur d'eau, il mesure votre consommation, consultable à proximité (10 m).</p>
+      </div>
+      <div class="atout">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+        <h3>Water budget mensuel</h3>
+        <p>Ajustez l'arrosage de 0 à 200 % selon le mois : moins en saison des pluies, plus en saison sèche.</p>
+      </div>
+      <div class="atout">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+        <h3>Programmation à distance</h3>
+        <p>Préparez vos programmes sur MySOLEM.com, puis transférez-les au programmateur en Bluetooth.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="onglets">
+    <div class="onglets-tetes" role="tablist">
+      <button class="actif" data-onglet="description">Description</button>
+      <button data-onglet="caracteristiques">Caractéristiques</button>
+      <button data-onglet="installation">Installation</button>
+      <button data-onglet="references">Toutes les références</button>
+    </div>
+
+    <div class="panneau actif" id="description">
+      <p>Le BL-IP est un programmateur d'arrosage Bluetooth étanche, alimenté par une simple pile 9V. Il commande en séquentiel jusqu'à 6 électrovannes 9V. Il se pose directement dans le regard, à côté des vannes : plus besoin de l'ouvrir pour modifier un programme, tout se fait depuis l'application MySOLEM.</p>
+      <p>Idéal pour arroser un jardin, une pelouse ou des massifs là où il n'y a pas de prise électrique.</p>
+      <ul>
+        <li><strong>Sans électricité</strong> : une pile 9V alcaline suffit, jusqu'à 5 ans en Eco Mode.</li>
+        <li><strong>Toujours à l'abri</strong> : boîtier IP68, programmation sauvegardée en permanence.</li>
+        <li><strong>Connecté</strong> : sonde de pluie, compteur d'eau et vanne maîtresse se raccordent directement.</li>
+      </ul>
+    </div>
+
+    <div class="panneau" id="caracteristiques">
+      <h3 class="groupe">Fonctionnement</h3>
+      <dl class="specs">
+        <dt>Stations</dt><dd>1, 2, 4 ou 6 selon modèle</dd>
+        <dt>Mode de commande</dt><dd>Séquentiel</dd>
+        <dt>Alimentation</dt><dd>Pile alcaline 9V (6AM6 ou 6LR61)</dd>
+        <dt>Autonomie</dt><dd>Jusqu'à 5 ans (Eco Mode)</dd>
+        <dt>Connexion</dt><dd>Bluetooth Smart 4.0 Low Energy + NFC</dd>
+        <dt>Portée de contrôle</dt><dd>Proximité, 10 m</dd>
+        <dt>Application</dt><dd>MySOLEM (smartphone) et MySOLEM.com</dd>
+        <dt>Water budget</dt><dd>0 à 200 %, réglable par mois</dd>
+        <dt>Sauvegarde</dt><dd>Programmation permanente, horloge conservée si coupure &lt; 30 s</dd>
+      </dl>
+      <h3 class="groupe">Raccordements</h3>
+      <dl class="specs">
+        <dt>Électrovannes</dt><dd>Solénoïde 9V à impulsion</dd>
+        <dt>Distance max. vers solénoïde</dt><dd>30 m</dd>
+        <dt>Entrées</dt><dd>Sonde de pluie ou compteur d'eau</dd>
+        <dt>Vanne maîtresse</dt><dd>Oui</dd>
+      </dl>
+      <h3 class="groupe">Boîtier</h3>
+      <dl class="specs">
+        <dt>Étanchéité</dt><dd>IP68</dd>
+        <dt>Dimensions (L × H × P)</dt><dd>14 × 9 × 5,5 cm</dd>
+        <dt>Température d'utilisation</dt><dd>0 à 50 °C</dd>
+        <dt>Garantie</dt><dd>3 ans</dd>
+      </dl>
+    </div>
+
+    <div class="panneau" id="installation">
+      <ol>
+        <li>Choisissez le modèle selon le nombre de zones à arroser : une station par électrovanne.</li>
+        <li>Vérifiez que vos électrovannes ont un <strong>solénoïde 9V à impulsion</strong> (un solénoïde 24V classique ne fonctionne pas).</li>
+        <li>Insérez une pile 9V alcaline neuve, puis raccordez les solénoïdes (30 m maximum).</li>
+        <li>Installez l'app MySOLEM, approchez le téléphone du programmateur : la connexion se fait par NFC.</li>
+        <li>Créez vos programmes et activez l'Eco Mode pour prolonger l'autonomie.</li>
+      </ol>
+      <p class="encart">Besoin d'aide pour choisir ? Venez avec le nombre de zones et la marque de vos vannes : on vous conseille sur place.</p>
+    </div>
+
+    <div class="panneau" id="references">
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Modèle</th><th>Référence</th><th class="num">Prix HT</th><th class="num">Prix TTC</th><th class="num">Par station TTC</th></tr></thead>
+          <tbody id="tableau-refs"></tbody>
+        </table>
+      </div>
+      <p class="note">Prix TTC avec TVA 8,5 % (La Réunion).</p>
+    </div>
+  </section>
+</main>
+
+<footer><div class="conteneur">ARS974 · Exemple de page produit · Données techniques : fiche commerciale SOLEM BL-IP</div></footer>
+
+<script>
+  const TVA = 0.085;
+  const variantes = [
+    { stations: 1, ref: "702SOBLIP1N", ht: 112.46 },
+    { stations: 2, ref: "702SOBLIP2N", ht: 156.43 },
+    { stations: 4, ref: "702SOBLIP4N", ht: 181.22 },
+    { stations: 6, ref: "702SOBLIP6N", ht: 207.28 },
+  ];
+  const ttc = v => Math.round(v.ht * (1 + TVA) * 100) / 100;
+  const euro = n => n.toLocaleString("fr-FR", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + " €";
+  const libelle = n => n + (n > 1 ? " stations" : " station");
+  const $ = id => document.getElementById(id);
+  let choix = 1;
+
+  function rendre() {
+    $("choix-stations").innerHTML = variantes.map(v =>
+      `<button type="button" data-st="${v.stations}" class="${v.stations === choix ? "actif" : ""}"><b>${v.stations}</b><small>${v.stations > 1 ? "stations" : "station"}</small></button>`
+    ).join("");
+    const v = variantes.find(x => x.stations === choix);
+    $("ref").textContent = v.ref;
+    $("prix-ttc").textContent = euro(ttc(v));
+    $("prix-ht").textContent = euro(v.ht) + " HT";
+    $("stations-libelle").textContent = libelle(v.stations);
+  }
+
+  $("choix-stations").addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b) return;
+    choix = +b.dataset.st; rendre();
+  });
+  $("moins").onclick = () => { $("qte").value = Math.max(1, (+$("qte").value || 1) - 1); };
+  $("plus").onclick = () => { $("qte").value = (+$("qte").value || 0) + 1; };
+  $("ajouter").onclick = () => {
+    $("nb-panier").textContent = +$("nb-panier").textContent + Math.max(1, +$("qte").value || 1);
+    $("ajouter").textContent = "Ajouté ✔";
+    setTimeout(() => { $("ajouter").textContent = "Ajouter au panier"; }, 1500);
+  };
+  document.querySelectorAll(".onglets-tetes button").forEach(b => b.onclick = () => {
+    document.querySelectorAll(".onglets-tetes button, .panneau").forEach(x => x.classList.remove("actif"));
+    b.classList.add("actif"); $(b.dataset.onglet).classList.add("actif");
+  });
+  $("tableau-refs").innerHTML = variantes.map(v =>
+    `<tr><td>BL-IP ${libelle(v.stations)}</td><td><code>${v.ref}</code></td><td class="num">${euro(v.ht)}</td><td class="num">${euro(ttc(v))}</td><td class="num">${euro(ttc(v) / v.stations)}</td></tr>`
+  ).join("");
+  rendre();
+</script>
+</body>
+</html>
